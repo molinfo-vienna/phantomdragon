@@ -57,91 +57,125 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
-def load_scores(add_information = "basic"):
-    '''
-    Parameters
-    ----------
-    add_information : TYPE String
-        String containing one of the following options: 
-        basic, -w, basic -el, -w -el, basic -vdw, -w -vdw, basic -el -vdw, -w -el -vdw 
+class parametercollection:
+    def __init__(self, modeltype, add_information, scores_train, scores_test, features_train, features_test,featuretype):
+        self.modeltype = modeltype
+        self.add_information = add_information
+        self.scores_train = scores_train
+        self.features_train = features_train
+        self.scores_test = scores_test
+        self.features_test = features_test
+        self.featuretype = featuretype
+        self.mse = None
+        self.r = None
+        self.r_2 = None
+    
+    def load_trainingscores(self):
+        '''
+        Parameters
+        ----------
+        add_information : TYPE String
+            String containing one of the following options: 
+            basic, -w, basic-el, -w-el, basic-vdw, -w-vdw, basic-el-vdw, -w-el-vdw 
 
-    Raises
-    ------
-    ValueError
-        DESCRIPTION.
+        Raises
+        ------
+        ValueError
+            DESCRIPTION.
 
-    Returns
-    -------
-    scores : TYPE
-        DESCRIPTION.
-    '''
-    if add_information == "basic":
-        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
-    elif add_information == "-w":
-        drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
-    elif add_information == "basic -el":
-        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
-    elif add_information == "-w -el":
-        drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
-    elif add_information == "basic -el -vdw":
-        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
-    elif add_information == "-w -el -vdw":
-        drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
-    elif add_information == "basic -vdw":
-        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
-    elif add_information == "-w -vdw":
-        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
-    else:
-        raise ValueError("Unexpected string in add_information")
+        Returns
+        -------
+        scores : TYPE
+            DESCRIPTION.
+        '''
+        if self.add_information == "basic":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "basic-el":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w-el":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "basic-el-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
+        elif self.add_information == "-w -el -vdw":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
+        elif self.add_information == "basic-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        else:
+            raise ValueError("Unexpected string in add_information")
+            
+        scores = filter_and_sort_scores()
+        scores = scores.drop(drop, axis=1)
+        scores = scores.to_numpy()
+        self.scores_train = scores
+        self.trainingscores_type = "All+"
+
+    def load_trainingfeatures(self,experiment):
+        self.features_train =np.array(experiment[self.featuretype])
+
+
+
+    def train_and_save_model(self):
+        scaler = preprocessing.StandardScaler().fit(self.scores_train)
+        self.scores_train = scaler.transform(self.scores_train)
+        if self.modeltype == "linearRegression":
+            reg = linear_model.LinearRegression()
+        elif self.modeltype == "Ridge":
+            reg = linear_model.RidgeCV()
+        elif self.modeltype == "Lasso":
+            reg = linear_model.LassoCV()
+        elif self.modeltype == "ElasticNet":
+            reg = linear_model.ElasticNetCV()
+        elif self.modeltype == "SVR":
+            reg = svm.SVR()
+        elif self.modeltype == "DecisionTree":
+            reg = tree.DecisionTreeRegressor()
+        elif self.modeltype == "RandomForest":
+            reg = ensemble.RandomForestRegressor()
+        else:
+            raise ValueError("Unexpected string in modeltype")
+    
+        if self.modeltype == "SVR":
+            params = {'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'C': [1,2.5,5], 'gamma': ['scale','auto'], 'degree' : [2,3,4], 'epsilon': [0.001, 0.01, 0.1, 1, 10, 100]}
+            gs_reg = GridSearchCV(reg, params)
+            gs_reg.fit(self.scores_train, self.features_train)
+            reg.set_params(**gs_reg.best_params_)
+        elif self.modeltype == "DecisionTree":
+            params = {'criterion':['squared_error','friedman_mse','absolute_error','poisson'],'splitter':['best','random'],'max_features':['auto', 'sqrt','log2']}
+            gs_reg = GridSearchCV(reg, params)
+            gs_reg.fit(self.scores_train, self.features_train)
+            reg.set_params(**gs_reg.best_params_)
+        elif self.modeltype == "RandomForest":
+            params = {'n_estimators':[100,200,300],'criterion':['squared_error','friedman_mse','absolute_error','poisson'],'max_features':['auto', 'sqrt','log2']}
+            gs_reg = GridSearchCV(reg, params)
+            gs_reg.fit(self.scores_train, self.features_train)
+            reg.set_params(**gs_reg.best_params_)
         
-    scores = filter_and_sort_scores()
-    scores = scores.drop(drop, axis=1)
-    scores = scores.to_numpy()
-    return scores
-
-def train_and_save_model(scores, features, testset_size = 0.2, modeltype = "linearRegression"):
-    scaler = preprocessing.StandardScaler().fit(scores)
-    scores = scaler.transform(scores)
-    if modeltype == "linearRegression":
-        reg = linear_model.LinearRegression()
-    elif modeltype == "Ridge":
-        reg = linear_model.RidgeCV()
-    elif modeltype == "Lasso":
-        reg = linear_model.LassoCV()
-    elif modeltype == "ElasticNet":
-        reg = linear_model.ElasticNetCV()
-    elif modeltype == "SVR":
-        reg = svm.SVR()
-    elif modeltype == "DecisionTree":
-        reg = tree.DecisionTreeRegressor()
-    elif modeltype == "RandomForest":
-        reg = ensemble.RandomForestRegressor()
-    else:
-        raise ValueError("Unexpected string in modeltype")
+        reg.fit(self.scores_train, self.features_train)
+        joblib.dump(reg, f"../models/{self.modeltype}.sav")
         
-    x_train, x_test, y_train, y_test = train_test_split(scores, features, test_size = testset_size)
-    
-    if modeltype == "SVR":
-        params = {'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'C': [1,2.5,5], 'gamma': ['scale','auto'], 'degree' : [2,3,4], 'epsilon': [0.001, 0.01, 0.1, 1, 10, 100]}
-        gs_reg = GridSearchCV(reg, params)
-        gs_reg.fit(x_train, y_train)
-        reg.set_params(**gs_reg.best_params_)
-    elif modeltype == "DecisionTree":
-        params = {'criterion':['squared_error','friedman_mse','absolute_error','poisson'],'splitter':['best','random'],'max_features':['auto', 'sqrt','log2']}
-        gs_reg = GridSearchCV(reg, params)
-        gs_reg.fit(x_train, y_train)
-        reg.set_params(**gs_reg.best_params_)
-    elif modeltype == "RandomForest":
-        params = {'n_estimators':[100,200,300],'criterion':['squared_error','friedman_mse','absolute_error','poisson'],'max_features':['auto', 'sqrt','log2']}
-        gs_reg = GridSearchCV(reg, params)
-        gs_reg.fit(x_train, y_train)
-        reg.set_params(**gs_reg.best_params_)
-    
-    reg.fit(x_train, y_train)
-    joblib.dump(reg, f"../models/{modeltype}.sav")
-    
-def phantomprediction():
-    
-
-    
+    def phantomtest(self, stats = True, plot = False):
+        reg = joblib.load(f"../models/{self.modeltype}.sav")
+        features_pre = reg.predict(self.features_test)
+        
+        if stats == True:
+            self.mse = mean_squared_error(features_pre, self.features_test)
+            self.r = round(pearsonr(features_pre,self.features_test).statistic, 6)
+            self.r_2 = round(r2_score(features_pre,self.features_test), 6)
+        
+        if plot == True:
+            k, d = np.polyfit(self.features_test,features_pre,deg=1)
+            fig, ax = plt.subplots()
+            ax.plot(self.featues_test, features_pre,'o')
+            plt.axline(xy1=(0, d), slope=k, label=f'r\u00b2 = {self.r_2}', color="black",ls="--")
+            plt.title(f"{self.trainingscores_type}, {self.featuretype}, {self.modeltype}")
+            plt.legend()
+            plt.xlabel("y_real")
+            plt.ylabel("y_predicted")
+            plt.savefig(f"../plots/{self.trainingscores_type}_{self.featuretype}_{self.modeltype}_{self.add_information}")
+            plt.close(fig)
+        
     
