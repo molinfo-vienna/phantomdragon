@@ -1,0 +1,257 @@
+,Modeltype,Featuretype,Datatype,Mean squared error (mse),Pearson correlation coefficient (r),Coefficient of determination (r²),add. information
+0,linearRegression,delta G,ki,5343.90488303489,0.162727,-2.624234,basic
+1,linearRegression,Affinity Data Value,ki,870742721656.2535,0.062261,-2.272824,basic
+2,linearRegression,pKd pKi pIC50,ki,851.4873319467089,0.147665,-2.285704,basic
+3,linearRegression,1_K,ki,3169.8273108705293,0.005141,-6.639112,basic
+4,linearRegression,delta G,ki,909.3516612464003,0.07268,-3.13788,-w
+5,linearRegression,Affinity Data Value,ki,38476003974.83093,-0.000365,-16.652858,-w
+6,linearRegression,pKd pKi pIC50,ki,47.02964627950673,0.146031,-3.496839,-w
+7,linearRegression,1_K,ki,1006.390824470422,-0.02557,-11.607259,-w
+8,linearRegression,delta G,ki,10373.79925612875,0.012715,-2.199774,basic-el
+9,linearRegression,Affinity Data Value,ki,340881716230.82544,0.00049,-1.811145,basic-el
+10,linearRegression,pKd pKi pIC50,ki,551.2885963675727,0.086279,-2.393935,basic-el
+11,linearRegression,1_K,ki,11321.452688225028,-0.031802,-2.704977,basic-el
+12,linearRegression,delta G,ki,889.6928052168955,0.116398,-2.730469,-w-el
+13,linearRegression,Affinity Data Value,ki,40829402691.44527,-0.03485,-14.461166,-w-el
+14,linearRegression,pKd pKi pIC50,ki,22.349667774036337,0.200889,-4.000012,-w-el
+15,linearRegression,1_K,ki,1951.9835302370539,0.044018,-65.544539,-w-el
+16,linearRegression,delta G,ki,17650.628685423235,0.008891,-2.079091,basic-vdw
+17,linearRegression,Affinity Data Value,ki,1073686267544.4211,-0.014298,-1.929318,basic-vdw
+18,linearRegression,pKd pKi pIC50,ki,271.06496978956125,0.147533,-2.635844,basic-vdw
+19,linearRegression,1_K,ki,5624.790837878974,-0.043762,-2.952445,basic-vdw
+20,linearRegression,delta G,ki,5796.997654736415,0.087985,-2.122862,-w-vdw
+21,linearRegression,Affinity Data Value,ki,1006186967869.0469,-0.043546,-1.860135,-w-vdw
+22,linearRegression,pKd pKi pIC50,ki,504.0670086693114,0.120521,-2.166376,-w-vdw
+23,linearRegression,1_K,ki,2167.9276288041046,0.009225,-18.23942,-w-vdw
+24,linearRegression,delta G,ki,257828.7547468022,0.063381,-0.060184,basic-el-vdw
+25,linearRegression,Affinity Data Value,ki,20355474733882.13,-0.00962,-0.181832,basic-el-vdw
+26,linearRegression,pKd pKi pIC50,ki,48319.08407848704,-0.035051,-0.00112,basic-el-vdw
+27,linearRegression,1_K,ki,130475295.40822165,-0.0036,-0.000827,basic-el-vdw
+28,linearRegression,delta G,ki,18906.94866259858,0.080402,-6.068285,-w-el-vdw
+29,linearRegression,Affinity Data Value,ki,875167998815.5212,0.048516,-1.284389,-w-el-vdw
+30,linearRegression,pKd pKi pIC50,ki,18317.435241079405,0.005174,-0.000227,-w-el-vdw
+31,linearRegression,1_K,ki,3771.7828427737118,0.008263,-2.893138,-w-el-vdw
+32,Ridge,delta G,ki,1685.2809507412783,0.139731,-2.507398,basic
+33,Ridge,Affinity Data Value,ki,557414711144.9014,0.059368,-1.680039,basic
+34,Ridge,pKd pKi pIC50,ki,583.6718032773615,0.116002,-2.258425,basic
+35,Ridge,1_K,ki,2348.697510807277,0.024806,-8.827982,basic
+36,Ridge,delta G,ki,554.5173033420334,0.166383,-2.64996,-w
+37,Ridge,Affinity Data Value,ki,63359765261.039345,-0.069423,-7.789433,-w
+38,Ridge,pKd pKi pIC50,ki,28.278791476691723,0.249676,-4.851556,-w
+39,Ridge,1_K,ki,2301.538527075494,-0.062003,-4.283895,-w
+40,Ridge,delta G,ki,9215.013358962215,0.060508,-2.539401,basic-el
+41,Ridge,Affinity Data Value,ki,1448432421748.35,-0.015504,-1.770751,basic-el
+42,Ridge,pKd pKi pIC50,ki,558.7287051981685,0.091061,-2.358661,basic-el
+43,Ridge,1_K,ki,22908.424057089145,-0.03776,-2.390074,basic-el
+44,Ridge,delta G,ki,505.8994213506629,0.005293,-4.075872,-w-el
+45,Ridge,Affinity Data Value,ki,125051466994.71121,-0.071471,-41.406301,-w-el
+46,Ridge,pKd pKi pIC50,ki,19.915765007564957,0.110262,-6.857075,-w-el
+47,Ridge,1_K,ki,2624.797951143998,-0.015568,-30.325668,-w-el
+48,Ridge,delta G,ki,4967.151571076795,0.060637,-2.281402,basic-vdw
+49,Ridge,Affinity Data Value,ki,2024613037306.6304,-0.033692,-1.638771,basic-vdw
+50,Ridge,pKd pKi pIC50,ki,454.0492166899675,0.130208,-2.102786,basic-vdw
+51,Ridge,1_K,ki,11419.744159937543,0.000607,-2.213417,basic-vdw
+52,Ridge,delta G,ki,5198.290745376356,0.117355,-1.978397,-w-vdw
+53,Ridge,Affinity Data Value,ki,474616889048.40247,0.050148,-1.896333,-w-vdw
+54,Ridge,pKd pKi pIC50,ki,1040.9509897181413,0.101745,-2.17738,-w-vdw
+55,Ridge,1_K,ki,14315.886731798704,-0.027762,-2.143371,-w-vdw
+56,Ridge,delta G,ki,26883.856036463832,0.077657,-5.499833,basic-el-vdw
+57,Ridge,Affinity Data Value,ki,5873767261940.1455,-0.002234,-0.293865,basic-el-vdw
+58,Ridge,pKd pKi pIC50,ki,341353.283958128,-0.072169,-0.008894,basic-el-vdw
+59,Ridge,1_K,ki,24142.71547536221,-0.002421,-0.214342,basic-el-vdw
+60,Ridge,delta G,ki,15094.51874281949,0.108998,-5.578959,-w-el-vdw
+61,Ridge,Affinity Data Value,ki,443358838686533.94,-0.01348,-0.000855,-w-el-vdw
+62,Ridge,pKd pKi pIC50,ki,65550.16692984769,-0.037957,-0.001929,-w-el-vdw
+63,Ridge,1_K,ki,14121.635437461431,0.013721,-2.305539,-w-el-vdw
+64,Lasso,delta G,ki,3832.8923085975684,0.142867,-2.29984,basic
+65,Lasso,Affinity Data Value,ki,83208850503.06801,,0.0,basic
+66,Lasso,pKd pKi pIC50,ki,336.7144608690455,0.113707,-2.129892,basic
+67,Lasso,1_K,ki,627.6473348597921,0.069496,-1984.795955,basic
+68,Lasso,delta G,ki,121.6078355608685,0.110714,-18.063482,-w
+69,Lasso,Affinity Data Value,ki,70098864770.82742,-0.070012,-124.96358,-w
+70,Lasso,pKd pKi pIC50,ki,16.41493412185135,0.138709,-4.109651,-w
+71,Lasso,1_K,ki,107.44496472824625,,0.0,-w
+72,Lasso,delta G,ki,181.97669585847822,0.161313,-6.283309,basic-el
+73,Lasso,Affinity Data Value,ki,11251770113.937126,-0.000286,-1.470894671248627e+31,basic-el
+74,Lasso,pKd pKi pIC50,ki,438.3791842963899,0.192556,-2.021712,basic-el
+75,Lasso,1_K,ki,136.21037961893012,,0.0,basic-el
+76,Lasso,delta G,ki,135.82697414365902,0.150661,-13.072235,-w-el
+77,Lasso,Affinity Data Value,ki,105801418311.37802,0.008893,-2.985432732334439e+32,-w-el
+78,Lasso,pKd pKi pIC50,ki,7.495701493709593,0.075406,-10.442738,-w-el
+79,Lasso,1_K,ki,722.566685161896,0.077711,-695.84502,-w-el
+80,Lasso,delta G,ki,548.0462713293057,0.067642,-3.059049,basic-vdw
+81,Lasso,Affinity Data Value,ki,115902685564.97044,,0.0,basic-vdw
+82,Lasso,pKd pKi pIC50,ki,228.63477721963443,0.139248,-2.157475,basic-vdw
+83,Lasso,1_K,ki,71.33349225134504,,0.0,basic-vdw
+84,Lasso,delta G,ki,2297.861372789794,0.124722,-1.964395,-w-vdw
+85,Lasso,Affinity Data Value,ki,81423713533.95596,-0.043435,-53.187453,-w-vdw
+86,Lasso,pKd pKi pIC50,ki,288.8824453711751,0.112742,-2.251002,-w-vdw
+87,Lasso,1_K,ki,117.49558222717785,,-5.957733813377891e+32,-w-vdw
+88,Lasso,delta G,ki,9829.01052212214,0.057995,-6.580019,basic-el-vdw
+89,Lasso,Affinity Data Value,ki,575677643056.7628,0.034223,-8.202341,basic-el-vdw
+90,Lasso,pKd pKi pIC50,ki,1833.7559517300513,0.019951,-0.167207,basic-el-vdw
+91,Lasso,1_K,ki,963.3155586226502,0.023523,-288.776711,basic-el-vdw
+92,Lasso,delta G,ki,7770.0897103826865,0.070462,-7.457494,-w-el-vdw
+93,Lasso,Affinity Data Value,ki,121125602547.01689,,0.0,-w-el-vdw
+94,Lasso,pKd pKi pIC50,ki,994.8220419270274,-0.02943,-0.027821,-w-el-vdw
+95,Lasso,1_K,ki,117.40602193477045,-0.005157,-47.134298,-w-el-vdw
+96,ElasticNet,delta G,ki,2433.276991853459,0.08923,-2.253904,basic
+97,ElasticNet,Affinity Data Value,ki,53328954218.274025,,0.0,basic
+98,ElasticNet,pKd pKi pIC50,ki,313.59773752500905,0.087061,-1.921442,basic
+99,ElasticNet,1_K,ki,1704.8158547640328,,0.0,basic
+100,ElasticNet,delta G,ki,225.34014854986418,0.083939,-4.438305,-w
+101,ElasticNet,Affinity Data Value,ki,78788966554.06314,-0.044845,-402.435617,-w
+102,ElasticNet,pKd pKi pIC50,ki,11.07866310688852,0.17121,-3.885897,-w
+103,ElasticNet,1_K,ki,652.0802821117617,,0.0,-w
+104,ElasticNet,delta G,ki,5476.180263329868,0.055808,-2.360448,basic-el
+105,ElasticNet,Affinity Data Value,ki,20226962055.615284,-0.041325,-4.792661,basic-el
+106,ElasticNet,pKd pKi pIC50,ki,207.915517443534,0.043346,-2.780137,basic-el
+107,ElasticNet,1_K,ki,1013.34047641099,0.052723,-691.290926,basic-el
+108,ElasticNet,delta G,ki,182.10270831857773,0.09027,-6.676898,-w-el
+109,ElasticNet,Affinity Data Value,ki,82576432248.55634,,-1.559824703702154e+33,-w-el
+110,ElasticNet,pKd pKi pIC50,ki,14.82521775575615,0.103982,-4.166197,-w-el
+111,ElasticNet,1_K,ki,47.46915643929638,0.029244,-10.886619,-w-el
+112,ElasticNet,delta G,ki,2385.0467594244574,0.086659,-2.40144,basic-vdw
+113,ElasticNet,Affinity Data Value,ki,29050238431.915756,,0.0,basic-vdw
+114,ElasticNet,pKd pKi pIC50,ki,364.6913710104166,0.141671,-2.404001,basic-vdw
+115,ElasticNet,1_K,ki,2328.9771002572606,-0.017543,-11.892373,basic-vdw
+116,ElasticNet,delta G,ki,2348.484360348192,0.043997,-2.295958,-w-vdw
+117,ElasticNet,Affinity Data Value,ki,88044697729.35124,0.031803,-1004.631803,-w-vdw
+118,ElasticNet,pKd pKi pIC50,ki,159.25584230420864,0.167554,-2.587911,-w-vdw
+119,ElasticNet,1_K,ki,35.11814641227215,0.04329,-8.313254,-w-vdw
+120,ElasticNet,delta G,ki,3846.082357744908,0.174017,-6.079257,basic-el-vdw
+121,ElasticNet,Affinity Data Value,ki,25789421754.79564,,-1.217871009074362e+32,basic-el-vdw
+122,ElasticNet,pKd pKi pIC50,ki,45680.982592598855,-0.03629,-0.00085,basic-el-vdw
+123,ElasticNet,1_K,ki,351.9382523553062,0.036793,-172.745542,basic-el-vdw
+124,ElasticNet,delta G,ki,5439.808970776625,0.152288,-7.261062,-w-el-vdw
+125,ElasticNet,Affinity Data Value,ki,93779965584.77847,,0.0,-w-el-vdw
+126,ElasticNet,pKd pKi pIC50,ki,248.5024034630778,-0.007323,-0.053191,-w-el-vdw
+127,ElasticNet,1_K,ki,1008.0673663481912,0.038502,-455.804567,-w-el-vdw
+128,linearRegression,delta G,ki,2114.1275691545106,0.099839,-2.481612,basic
+129,linearRegression,Affinity Data Value,ki,345946483070.59863,-0.030976,-3.059578,basic
+130,linearRegression,pKd pKi pIC50,ki,445.38807325770574,0.136494,-2.680381,basic
+131,linearRegression,1_K,ki,18808.933456732015,-0.054161,-2.432851,basic
+132,linearRegression,delta G,ki,855.3450392643895,0.091866,-3.103924,-w
+133,linearRegression,Affinity Data Value,ki,86678633696.8759,-0.058486,-4.1396,-w
+134,linearRegression,pKd pKi pIC50,ki,46.317734745569176,0.149204,-3.717635,-w
+135,linearRegression,1_K,ki,2961.6533097944302,0.006408,-8.057582,-w
+136,linearRegression,delta G,ki,966.4654464791696,0.183521,-2.797818,basic-el
+137,linearRegression,Affinity Data Value,ki,1031050172365.9679,0.032435,-3.374808,basic-el
+138,linearRegression,pKd pKi pIC50,ki,498.7358665737327,0.132647,-2.377665,basic-el
+139,linearRegression,1_K,ki,15017.5768341988,-0.021511,-2.293104,basic-el
+140,linearRegression,delta G,ki,1017.0571118608699,0.146245,-2.761313,-w-el
+141,linearRegression,Affinity Data Value,ki,329833219246.06274,-0.062423,-3.795951,-w-el
+142,linearRegression,pKd pKi pIC50,ki,25.267781768939724,0.154111,-4.723534,-w-el
+143,linearRegression,1_K,ki,2262.0358838232005,-0.031228,-3.122409,-w-el
+144,linearRegression,delta G,ki,1946.195224315392,0.112029,-2.262863,basic-vdw
+145,linearRegression,Affinity Data Value,ki,161949547817.41296,-0.064592,-6.605963,basic-vdw
+146,linearRegression,pKd pKi pIC50,ki,542.9661665984544,0.225601,-2.167565,basic-vdw
+147,linearRegression,1_K,ki,18066.86960000391,-0.053018,-2.274912,basic-vdw
+148,linearRegression,delta G,ki,3351.9763805355115,0.158712,-2.153028,-w-vdw
+149,linearRegression,Affinity Data Value,ki,70930733653.42207,-0.041003,-9.871008,-w-vdw
+150,linearRegression,pKd pKi pIC50,ki,435.9148283170412,0.131115,-2.069302,-w-vdw
+151,linearRegression,1_K,ki,2065.9430589528497,0.001335,-5.427387,-w-vdw
+152,linearRegression,delta G,ki,21648.854766526074,0.080326,-4.391329,basic-el-vdw
+153,linearRegression,Affinity Data Value,ki,13673772527339.87,-0.008241,-0.373978,basic-el-vdw
+154,linearRegression,pKd pKi pIC50,ki,1776.617454714376,0.004089,-0.114358,basic-el-vdw
+155,linearRegression,1_K,ki,27667364.151737723,-0.001965,-0.000151,basic-el-vdw
+156,linearRegression,delta G,ki,224685108.02100226,-0.055424,-0.001672,-w-el-vdw
+157,linearRegression,Affinity Data Value,ki,4712226891174.395,0.004062,-0.21552,-w-el-vdw
+158,linearRegression,pKd pKi pIC50,ki,2010.0346853542922,0.024109,-0.001018,-w-el-vdw
+159,linearRegression,1_K,ki,38342.585532706136,-0.017659,-0.293211,-w-el-vdw
+160,Ridge,delta G,ki,3737.24052025366,0.114009,-2.516067,basic
+161,Ridge,Affinity Data Value,ki,1930123698026.1672,-0.048414,-1.650246,basic
+162,Ridge,pKd pKi pIC50,ki,380.9946829228115,0.082337,-2.221326,basic
+163,Ridge,1_K,ki,6259.689634392328,-0.015346,-4.116753,basic
+164,Ridge,delta G,ki,951.7494966211527,0.125041,-2.707823,-w
+165,Ridge,Affinity Data Value,ki,28619307540.976906,0.002466,-5.317554,-w
+166,Ridge,pKd pKi pIC50,ki,53.76912201841688,0.131709,-4.058457,-w
+167,Ridge,1_K,ki,1418.8840353074718,0.004964,-30.005764,-w
+168,Ridge,delta G,ki,3836.449371309589,0.12159,-2.699186,basic-el
+169,Ridge,Affinity Data Value,ki,704776293527.4211,0.010924,-2.148485,basic-el
+170,Ridge,pKd pKi pIC50,ki,523.3087115134861,0.155054,-1.870294,basic-el
+171,Ridge,1_K,ki,23552.40694992857,-0.053257,-2.314686,basic-el
+172,Ridge,delta G,ki,243.1285403977489,0.205098,-4.322991,-w-el
+173,Ridge,Affinity Data Value,ki,44851264348.175705,-0.075332,-6.371406,-w-el
+174,Ridge,pKd pKi pIC50,ki,22.844055433388515,0.141696,-6.381746,-w-el
+175,Ridge,1_K,ki,1509.3791904961581,-0.017419,-3.564285,-w-el
+176,Ridge,delta G,ki,13184.314322451697,0.048826,-2.338067,basic-vdw
+177,Ridge,Affinity Data Value,ki,99702296458.47687,-0.045667,-17.920752,basic-vdw
+178,Ridge,pKd pKi pIC50,ki,316.7645091604939,0.142494,-2.156694,basic-vdw
+179,Ridge,1_K,ki,3340.0839681903453,0.00697,-7.001852,basic-vdw
+180,Ridge,delta G,ki,1970.0553328555475,0.106421,-2.198821,-w-vdw
+181,Ridge,Affinity Data Value,ki,273635321918.43417,0.063691,-3.640662,-w-vdw
+182,Ridge,pKd pKi pIC50,ki,826.0308614128327,0.075121,-2.305142,-w-vdw
+183,Ridge,1_K,ki,12356.131939946481,-0.029392,-2.616499,-w-vdw
+184,Ridge,delta G,ki,13194.194927573388,0.127898,-5.777015,basic-el-vdw
+185,Ridge,Affinity Data Value,ki,695466278434919.4,-0.007206,-0.003945,basic-el-vdw
+186,Ridge,pKd pKi pIC50,ki,6654149.709932895,-0.082365,-0.003224,basic-el-vdw
+187,Ridge,1_K,ki,60786.33675429975,-0.003492,-0.03566,basic-el-vdw
+188,Ridge,delta G,ki,136635745.9895819,0.05182,-0.002588,-w-el-vdw
+189,Ridge,Affinity Data Value,ki,8505199849935.744,0.048408,-0.731975,-w-el-vdw
+190,Ridge,pKd pKi pIC50,ki,13133441.088046921,-0.081917,-0.00251,-w-el-vdw
+191,Ridge,1_K,ki,106747077.36139455,-0.00381,-0.000867,-w-el-vdw
+192,Lasso,delta G,ki,155.79555358438228,0.164866,-9.254422,basic
+193,Lasso,Affinity Data Value,ki,71542574922.63963,,-1.3514010316514552e+33,basic
+194,Lasso,pKd pKi pIC50,ki,210.48440574853097,0.13312,-2.372681,basic
+195,Lasso,1_K,ki,1189.4730538414974,-0.013931,-6.765247512772937e+33,basic
+196,Lasso,delta G,ki,149.5277470820006,0.113514,-9.979928,-w
+197,Lasso,Affinity Data Value,ki,65558668365.12768,-0.022806,-862.562414,-w
+198,Lasso,pKd pKi pIC50,ki,11.795581220114247,0.139882,-4.099186,-w
+199,Lasso,1_K,ki,545.6102768715854,0.059199,-6.446012864857473e+32,-w
+200,Lasso,delta G,ki,381.73115714364263,0.091672,-3.210647,basic-el
+201,Lasso,Affinity Data Value,ki,43689454293.57448,,0.0,basic-el
+202,Lasso,pKd pKi pIC50,ki,484.550283393173,0.11147,-2.209103,basic-el
+203,Lasso,1_K,ki,924.905261903061,-0.035226,-6.993359437360838e+33,basic-el
+204,Lasso,delta G,ki,110.2820524011809,0.157788,-51.946718,-w-el
+205,Lasso,Affinity Data Value,ki,17749156134.080135,-0.002406,-5.6285743249785034e+32,-w-el
+206,Lasso,pKd pKi pIC50,ki,7.776161178986258,0.132537,-8.028825,-w-el
+207,Lasso,1_K,ki,352.514583187154,0.068375,-1.018937345374251e+32,-w-el
+208,Lasso,delta G,ki,1643.0151379685215,0.102202,-2.448579,basic-vdw
+209,Lasso,Affinity Data Value,ki,21123305580.734646,0.020572,-26.940454,basic-vdw
+210,Lasso,pKd pKi pIC50,ki,379.6341885991222,0.099838,-2.426679,basic-vdw
+211,Lasso,1_K,ki,242.36175333839157,,0.0,basic-vdw
+212,Lasso,delta G,ki,432.83596189607414,0.061722,-2.786699,-w-vdw
+213,Lasso,Affinity Data Value,ki,45731141929.78068,-0.004089,-2.763187897019138e+32,-w-vdw
+214,Lasso,pKd pKi pIC50,ki,477.09730992475903,0.097307,-2.230681,-w-vdw
+215,Lasso,1_K,ki,908.0525221707715,-0.023179,-84476.920975,-w-vdw
+216,Lasso,delta G,ki,5544.10435377277,0.157761,-6.454953,basic-el-vdw
+217,Lasso,Affinity Data Value,ki,288822296479.7535,0.048784,-11.738643,basic-el-vdw
+218,Lasso,pKd pKi pIC50,ki,1523.4388985549858,0.015171,-0.111749,basic-el-vdw
+219,Lasso,1_K,ki,645.2464697150574,0.052226,-5.308149335515204e+32,basic-el-vdw
+220,Lasso,delta G,ki,7681.629721539576,0.125383,-7.905081,-w-el-vdw
+221,Lasso,Affinity Data Value,ki,46925637373.18072,0.080797,-1.024707436768497e+30,-w-el-vdw
+222,Lasso,pKd pKi pIC50,ki,3167.2056077115194,0.005795,-0.017523,-w-el-vdw
+223,Lasso,1_K,ki,1122.1394244915834,0.005614,-46628.13332,-w-el-vdw
+224,ElasticNet,delta G,ki,177.93995557293346,0.137099,-4.935878,basic
+225,ElasticNet,Affinity Data Value,ki,48944966817.48751,0.045739,-44.762884,basic
+226,ElasticNet,pKd pKi pIC50,ki,235.39629023376537,0.11285,-2.103005,basic
+227,ElasticNet,1_K,ki,38.82590289689794,0.053742,-12.224068,basic
+228,ElasticNet,delta G,ki,172.13222170240397,0.092124,-6.296403,-w
+229,ElasticNet,Affinity Data Value,ki,28185181571.099075,0.111116,-1628.241815,-w
+230,ElasticNet,pKd pKi pIC50,ki,8.486985824863849,0.130491,-6.362358,-w
+231,ElasticNet,1_K,ki,18.18961141759234,0.023385,-7.001888,-w
+232,ElasticNet,delta G,ki,3893.718858416365,0.090534,-1.938316,basic-el
+233,ElasticNet,Affinity Data Value,ki,99758921316.01646,0.010304,-57.253957,basic-el
+234,ElasticNet,pKd pKi pIC50,ki,90.9298721962954,0.149743,-2.247404,basic-el
+235,ElasticNet,1_K,ki,337.139810512328,0.009764,-661.572817,basic-el
+236,ElasticNet,delta G,ki,224.3614200865796,0.109752,-4.273488,-w-el
+237,ElasticNet,Affinity Data Value,ki,57869741360.90329,,-1.0931285079002596e+33,-w-el
+238,ElasticNet,pKd pKi pIC50,ki,10.979441500334783,0.13967,-4.069706,-w-el
+239,ElasticNet,1_K,ki,62.8722433791183,0.004384,-9.742489,-w-el
+240,ElasticNet,delta G,ki,934.8536654526367,0.127419,-2.310014,basic-vdw
+241,ElasticNet,Affinity Data Value,ki,94352546537.54805,0.017252,-122.169976,basic-vdw
+242,ElasticNet,pKd pKi pIC50,ki,372.5774081315679,0.125778,-2.251818,basic-vdw
+243,ElasticNet,1_K,ki,141.94366052581816,0.039206,-131.161563,basic-vdw
+244,ElasticNet,delta G,ki,723.9999275024846,0.092412,-2.709987,-w-vdw
+245,ElasticNet,Affinity Data Value,ki,43323943487.743866,,0.0,-w-vdw
+246,ElasticNet,pKd pKi pIC50,ki,213.20452390608992,0.205862,-2.182384,-w-vdw
+247,ElasticNet,1_K,ki,34.53532370039616,-0.145117,-8.996474,-w-vdw
+248,ElasticNet,delta G,ki,6839.493660093702,0.100082,-6.577566,basic-el-vdw
+249,ElasticNet,Affinity Data Value,ki,105993208214149.27,0.010431,-0.003265,basic-el-vdw
+250,ElasticNet,pKd pKi pIC50,ki,1311.8200011675037,0.044213,-0.184759,basic-el-vdw
+251,ElasticNet,1_K,ki,1196.6359503391643,0.051479,-895.289409,basic-el-vdw
+252,ElasticNet,delta G,ki,3672.2207539790056,0.124759,-7.095413,-w-el-vdw
+253,ElasticNet,Affinity Data Value,ki,79665093865.06375,0.077298,-10684296298.164944,-w-el-vdw
+254,ElasticNet,pKd pKi pIC50,ki,287.2652875082387,-0.013317,-0.189371,-w-el-vdw
+255,ElasticNet,1_K,ki,43.82250489000832,0.022493,-9.448589,-w-el-vdw

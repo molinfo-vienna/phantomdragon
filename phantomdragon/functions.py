@@ -58,70 +58,43 @@ def combine(list1,list2,list3):
     return combinations
 
 class parameterCollection:
-    def __init__(self, modeltype, add_information, featuretype, datatype = 0, scores_train = 0, scores_test = 0, features_train = 0, features_test = 0):
+    def __init__(self, modeltype, add_information, featuretype):
         self.modeltype = modeltype
         self.add_information = add_information
-        self.scores_train = scores_train
-        self.features_train = features_train
-        self.scores_test = scores_test
-        self.features_test = features_test
         self.featuretype = featuretype
-        self.datatype = datatype
         self.mse = None
         self.r = None
         self.r_2 = None
     
-    def load_all_data(self,datatype,score_train, experiment_train,score_test, experiment_test, path = True):
-        self.load_trainingdata(datatype,score_train,experiment_train,path)
-        self.load_testingdata(score_test,experiment_test,path)
+    def get_data(self):
+        x_train, y_train = self.get_trainingdata()
+        x_test, y_test = self.get_testingdata()
+        return x_train, x_test, y_train, y_test
+    
+    def get_trainingdata(self):
+        return self.scores_train, self.features_train
+    
+    def get_testingdata(self):
+        return self.scores_test, self.features_test
 
-    def load_trainingdata(self, datatype, scorepath, experimentpath, path = True):
+    def define_trainingdata(self, scores_train, features_train):
+        self.scores_train = scores_train
+        self.features_train = features_train
 
-        if path == False:
-            self.scores_train = scorepath
-            self.features_train = experimentpath
-            return
+    def define_testingdata(self, scores_test, features_test):
+        self.scores_test = scores_test
+        self.features_test = features_test
 
-        scores = pd.read_csv(scorepath)
-        experiment = pd.read_csv(experimentpath)
-        self.features_train =np.array(experiment[self.featuretype])
-
-        if self.add_information == "basic":
-            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
-        elif self.add_information == "-w":
-            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
-        elif self.add_information == "basic-el":
-            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
-        elif self.add_information == "-w-el":
-            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
-        elif self.add_information == "basic-el-vdw":
-            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
-        elif self.add_information == "-w -el -vdw":
-            drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
-        elif self.add_information == "basic-vdw":
-            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
-        elif self.add_information == "-w-vdw":
-            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
-        else:
-            raise ValueError("Unexpected string in add_information")
-        
-
-        scores = filter_and_sort_scores(experiment,scores)
-        scores = scores.drop(drop, axis=1)
-        scores = scores.to_numpy()
-        self.scores_train = scores
-        self.trainingscores_type = "All+"
+    def define_datatype(self, datatype):
         self.datatype = datatype
-    
-    def load_testingdata(self, scorepath, experimentpath, path = True):
-        if path == False:
-            self.scores_test = scorepath
-            self.features_test = experimentpath
-            return
-        
+
+    def define_trainingscoretype(self, trainingscores_type):
+        self.trainingscores_type = trainingscores_type
+
+    def load_data(self,scorepath,experimentpath,split=0.2):
         scores = pd.read_csv(scorepath)
         experiment = pd.read_csv(experimentpath)
-        self.features_test =np.array(experiment[self.featuretype])
+        features = np.array(experiment[self.featuretype])
 
         if self.add_information == "basic":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -133,7 +106,7 @@ class parameterCollection:
             drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
         elif self.add_information == "basic-el-vdw":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
-        elif self.add_information == "-w -el -vdw":
+        elif self.add_information == "-w-el-vdw":
             drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
         elif self.add_information == "basic-vdw":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -146,13 +119,16 @@ class parameterCollection:
         scores = filter_and_sort_scores(experiment,scores)
         scores = scores.drop(drop, axis=1)
         scores = scores.to_numpy()
-        self.scores_test = scores
+
+        x_train, x_test, y_train, y_test = train_test_split(scores, features, test_size = split)
+        
+        self.scores_train = x_train
+        self.scores_test = x_test
+        self.features_train = y_train
+        self.features_test = y_test
     
-    def train_and_save_model(self, training_scores = 0, training_features = 0):
-        if training_scores != 0:
-            self.scores_train = training_scores
-        if training_features != 0:
-            self.features_train = training_features
+    def train_and_save_model(self):
+
         self.scores_train, self.features_train = shuffle(self.scores_train, self.features_train)
         scaler = preprocessing.StandardScaler().fit(self.scores_train)
         self.scores_train = scaler.transform(self.scores_train)
@@ -190,6 +166,10 @@ class parameterCollection:
             reg.set_params(**gs_reg.best_params_)
         
         reg.fit(self.scores_train, self.features_train)
+        
+        if "/" in self.featuretype:
+            self.featuretype = self.featuretype.replace("/","_")
+
         pickle.dump(reg, open(f"models/{self.modeltype}_{self.featuretype}_{self.datatype}_{self.add_information}.sav","wb"))
 
     def phantomtest(self, testing_scores = 0, testing_features = 0, stats = True, plot = False):
@@ -198,8 +178,11 @@ class parameterCollection:
         if testing_features != 0:
             self.features_test = testing_features
 
+        if "/" in self.featuretype:
+            self.featuretype = self.featuretype.replace("/","_")
+
         reg = pickle.load(open(f"models/{self.modeltype}_{self.featuretype}_{self.datatype}_{self.add_information}.sav","rb"))
-        features_pre = reg.predict(self.features_test)
+        features_pre = reg.predict(self.scores_test)
         
         if stats == True:
             self.mse = mean_squared_error(features_pre, self.features_test)
@@ -218,6 +201,6 @@ class parameterCollection:
             plt.savefig(f"../plots/{self.trainingscores_type}_{self.featuretype}_{self.modeltype}_{self.add_information}")
             plt.close(fig)
     
-    def extract_stats(self):
+    def get_stats(self):
         return self.modeltype, self.featuretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
     

@@ -3,30 +3,42 @@ import pandas as pd
 import phantomdragon.functions as ph
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
+from sklearn import linear_model
 
 datatypes = ["ki","kd"]
 modeltypes = ["linearRegression","Ridge","Lasso","ElasticNet"]
 additional_information = ["basic", "-w", "basic-el", "-w-el", "basic-vdw", "-w-vdw", "basic-el-vdw", "-w-el-vdw"]
+featuretypes = ["delta G","Affinity Data Value","pKd pKi pIC50","1/K"]
 
-experiment = pd.read_csv(f"data/PDBbind_refined_set_ki.csv")
-experiment = ph.filter_and_sort_scores(experiment, experiment)
+modeltype_list = []
+featuretype_list = []
+datatype_list = []
+mse_list = []
+pear_list = []
+coef_list = []
+add_info_list = []
 
-scores = pd.read_csv("data/grail_scores.csv")
-scores_basic = ph.filter_and_sort_scores(experiment, scores)
-scores_basic = scores_basic.sort_values("PDB code")
-scores_basic = scores_basic.drop(["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"], axis=1)
-scores_basic = scores_basic.to_numpy()
+for k in datatypes:
+    for modeltype in modeltypes:
+        for info in additional_information:
+            for featuretype in featuretypes:
 
-experiment = np.array(experiment["pKd pKi pIC50"])
+                blub = ph.parameterCollection(add_information=info,modeltype=modeltype,featuretype=featuretype)
+                blub.load_data("data/grail_scores.csv","data/PDBbind_refined_set_ki.csv")
+                blub.define_datatype("ki")
+                blub.train_and_save_model()
+                blub.phantomtest()
+                modeltype,featuret,datatype,mse,pearsonr,r_2,add_info = blub.get_stats()
+                modeltype_list.append(modeltype)
+                featuretype_list.append(featuret)
+                datatype_list.append(datatype)
+                mse_list.append(mse)
+                pear_list.append(pearsonr)
+                coef_list.append(r_2)
+                add_info_list.append(add_info)
+                print(k,modeltype,info,featuretype,"done")
 
-scaler = preprocessing.StandardScaler().fit(scores_basic)
-scores_basic = scaler.transform(scores_basic)
-x_train, x_test, y_train, y_test = train_test_split(scores_basic, experiment, test_size = 0.2)
-        
-
-blub = ph.parameterCollection(add_information="basic",modeltype="linearRegression",featuretype="Affinity Data Value")
-blub.load_all_data("ki",score_train=x_train,score_test=x_test,experiment_train=y_train,experiment_test=y_test,path=False)
-blub.train_and_save_model()
-blub.phantomtest()
-q,w,e,r,t,z,u = blub.extract_stats()
-print(q,w,e,r,t,z,u)
+#print(len(modeltype_list),len(featuretype_list),len(datatype_list),len(mse_list),len(pear_list),len(coef_list),len(add_info_list))
+data = {'Modeltype':modeltype_list,'Featuretype':featuretype_list,'Datatype':datatype_list,'Mean squared error (mse)':mse_list,'Pearson correlation coefficient (r)':pear_list,'Coefficient of determination (r²)':coef_list,'add. information':add_info_list}
+df = pd.DataFrame(data)
+df.to_csv("results/linear_models_results.csv")
