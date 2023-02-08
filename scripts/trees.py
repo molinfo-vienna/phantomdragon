@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from sklearn import linear_model
 
 datatypes = ["ki","kd"]
-modeltypes = ["linearRegression","Ridge","Lasso","ElasticNet"]
+modeltypes = ["DecisionTrees","RandomForest"]
 additional_information = ["basic", "-w", "basic-el", "-w-el", "basic-vdw", "-w-vdw", "basic-el-vdw", "-w-el-vdw"]
 featuretypes = ["delta G","Affinity Data Value","pKd pKi pIC50","1/K"]
 
@@ -41,4 +41,4 @@ for k in datatypes:
 #print(len(modeltype_list),len(featuretype_list),len(datatype_list),len(mse_list),len(pear_list),len(coef_list),len(add_info_list))
 data = {'Modeltype':modeltype_list,'Featuretype':featuretype_list,'Datatype':datatype_list,'Mean squared error (mse)':mse_list,'Pearson correlation coefficient (r)':pear_list,'Coefficient of determination (r²)':coef_list,'add. information':add_info_list}
 df = pd.DataFrame(data)
-df.to_csv("results/linear_models_results.csv")
+df.to_csv("results/trees_results.csv")
