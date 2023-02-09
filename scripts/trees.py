@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from sklearn import linear_model
 
 datatypes = ["ki","kd"]
-modeltypes = ["DecisionTrees","RandomForest"]
+modeltypes = ["DecisionTree","RandomForest"]
 additional_information = ["basic", "-w", "basic-el", "-w-el", "basic-vdw", "-w-vdw", "basic-el-vdw", "-w-el-vdw"]
 featuretypes = ["delta G","Affinity Data Value","pKd pKi pIC50","1/K"]
 
