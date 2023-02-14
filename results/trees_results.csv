@@ -1,0 +1,129 @@
+,Modeltype,Featuretype,Datatype,Mean squared error (mse),Pearson correlation coefficient (r),Coefficient of determination (r²),add. information
+0,DecisionTree,delta G,ki,327.9795838129643,-0.124726,-1.497594,basic
+1,DecisionTree,Affinity Data Value,ki,31605490364.962357,-0.055881,-245.232959,basic
+2,DecisionTree,pKd pKi pIC50,ki,7.251624063116371,-0.014049,-3.330794,basic
+3,DecisionTree,1_K,ki,4109.071043336087,-0.036945,-4.409458,basic
+4,DecisionTree,delta G,ki,289.75695652075996,-0.073504,-3.154412,-w
+5,DecisionTree,Affinity Data Value,ki,108066106794.53726,-0.008899,-0.795058,-w
+6,DecisionTree,pKd pKi pIC50,ki,16.655984812623277,-0.02416,-11.050775,-w
+7,DecisionTree,1_K,ki,2697.6607546457444,-0.012608,-18.562101,-w
+8,DecisionTree,delta G,ki,257.4566782216899,0.058011,-0.878633,basic-el
+9,DecisionTree,Affinity Data Value,ki,79326691273.98682,0.084512,-36.401194,basic-el
+10,DecisionTree,pKd pKi pIC50,ki,19.119653057199216,-0.107961,-7.694381,basic-el
+11,DecisionTree,1_K,ki,1080.2489730998473,0.038261,-32.409328,basic-el
+12,DecisionTree,delta G,ki,198.41138306621087,-0.045845,-2.301144,-w-el
+13,DecisionTree,Affinity Data Value,ki,31668357904.600834,-0.006524,-234.847111,-w-el
+14,DecisionTree,pKd pKi pIC50,ki,8.59209033530572,0.082996,-4.318656,-w-el
+15,DecisionTree,1_K,ki,3811.33608780421,-0.00751,-0.813382,-w-el
+16,DecisionTree,delta G,ki,371.5247908068889,-0.06935,-2.124472,basic-vdw
+17,DecisionTree,Affinity Data Value,ki,51311198392.788864,-0.000352,-17.23134,basic-vdw
+18,DecisionTree,pKd pKi pIC50,ki,8.831909270216963,-0.048438,-2.580662,basic-vdw
+19,DecisionTree,1_K,ki,92.64736908251649,0.228933,-1106.571132,basic-vdw
+20,DecisionTree,delta G,ki,240.46375788882727,0.00089,-1.954133,-w-vdw
+21,DecisionTree,Affinity Data Value,ki,134943213031.93576,-0.028926,-0.704222,-w-vdw
+22,DecisionTree,pKd pKi pIC50,ki,9.947496252465484,-0.019603,-1.04789,-w-vdw
+23,DecisionTree,1_K,ki,222.5786080975943,0.124951,-0.082621,-w-vdw
+24,DecisionTree,delta G,ki,321.632694867059,0.085583,-0.385691,basic-el-vdw
+25,DecisionTree,Affinity Data Value,ki,16080608888.293463,-0.049924,-8.993104,basic-el-vdw
+26,DecisionTree,pKd pKi pIC50,ki,9.037642011834322,0.002688,-1.553944,basic-el-vdw
+27,DecisionTree,1_K,ki,1577.7598002394707,-0.011908,-18.419516,basic-el-vdw
+28,DecisionTree,delta G,ki,235.16875205175933,0.008167,-2.690194,-w-el-vdw
+29,DecisionTree,Affinity Data Value,ki,52250528042.20256,0.033486,-1.828343,-w-el-vdw
+30,DecisionTree,pKd pKi pIC50,ki,8.96172287968442,0.092279,-3.918667,-w-el-vdw
+31,DecisionTree,1_K,ki,1426.2373005229185,-0.021278,-1099.659708,-w-el-vdw
+32,RandomForest,delta G,ki,127.69675898020405,-0.156168,-42.743767,basic
+33,RandomForest,Affinity Data Value,ki,73278606396.62993,-0.001537,-120.712102,basic
+34,RandomForest,pKd pKi pIC50,ki,4.421935759243923,-0.084831,-48.902482,basic
+35,RandomForest,1_K,ki,248.37556037901106,-0.019498,-16.838702,basic
+36,RandomForest,delta G,ki,116.05303573633847,-0.053833,-174.899869,-w
+37,RandomForest,Affinity Data Value,ki,68729476956.55908,-0.01117,-107.604652,-w
+38,RandomForest,pKd pKi pIC50,ki,4.298816726854044,-0.038598,-70.612468,-w
+39,RandomForest,1_K,ki,135.02572054431573,0.026841,-5.537472,-w
+40,RandomForest,delta G,ki,118.33767107016544,-0.063774,-134.932913,basic-el
+41,RandomForest,Affinity Data Value,ki,96243690642.2923,-0.046336,-579.095481,basic-el
+42,RandomForest,pKd pKi pIC50,ki,4.490059125520492,-0.075807,-95.435205,basic-el
+43,RandomForest,1_K,ki,1057.0347123830365,-0.014469,-126.875489,basic-el
+44,RandomForest,delta G,ki,115.54034032409369,-0.040651,-135.756113,-w-el
+45,RandomForest,Affinity Data Value,ki,73335691070.90158,-0.041258,-63.853076,-w-el
+46,RandomForest,pKd pKi pIC50,ki,4.526474728544821,-0.044479,-86.486775,-w-el
+47,RandomForest,1_K,ki,2019.6960987720145,-0.051054,-213.104862,-w-el
+48,RandomForest,delta G,ki,121.29328164465937,-0.03122,-107.162742,basic-vdw
+49,RandomForest,Affinity Data Value,ki,118064514228.72014,-0.076072,-4.535488,basic-vdw
+50,RandomForest,pKd pKi pIC50,ki,4.051338725969757,0.051713,-143.660803,basic-vdw
+51,RandomForest,1_K,ki,167.2943848754879,-0.013351,-15.081068,basic-vdw
+52,RandomForest,delta G,ki,108.45953525096255,-0.050382,-59.294351,-w-vdw
+53,RandomForest,Affinity Data Value,ki,87120613834.66704,-0.080361,-5.276857,-w-vdw
+54,RandomForest,pKd pKi pIC50,ki,4.4223572224967125,-0.02288,-132.641138,-w-vdw
+55,RandomForest,1_K,ki,168.35109874729312,-0.017185,-8.47808,-w-vdw
+56,RandomForest,delta G,ki,124.90632889538264,-0.031123,-27.366668,basic-el-vdw
+57,RandomForest,Affinity Data Value,ki,37029998460.901764,0.019139,-69.651975,basic-el-vdw
+58,RandomForest,pKd pKi pIC50,ki,4.229862242121415,-0.090252,-94.91481,basic-el-vdw
+59,RandomForest,1_K,ki,1602.8407201867228,0.002202,-129.200194,basic-el-vdw
+60,RandomForest,delta G,ki,113.93370019538995,-0.091859,-44.450018,-w-el-vdw
+61,RandomForest,Affinity Data Value,ki,64016296999.026085,-0.01239,-9.485322,-w-el-vdw
+62,RandomForest,pKd pKi pIC50,ki,4.4619956091469435,-0.075921,-97.420641,-w-el-vdw
+63,RandomForest,1_K,ki,1753.4523170553148,0.016019,-144.380407,-w-el-vdw
+64,DecisionTree,delta G,ki,133.72837955969513,-0.027385,-3.194786,basic
+65,DecisionTree,Affinity Data Value,ki,159648664548.55423,-0.022337,-16.624617,basic
+66,DecisionTree,pKd pKi pIC50,ki,7.135673788150808,-0.105666,-1.073792,basic
+67,DecisionTree,1_K,ki,25.576010587170334,-0.024157,-4.641416,basic
+68,DecisionTree,delta G,ki,214.36965689069038,0.02904,-0.579167,-w
+69,DecisionTree,Affinity Data Value,ki,75581712441.83517,-0.036722,-1.176783,-w
+70,DecisionTree,pKd pKi pIC50,ki,5.361566068222621,0.030404,-1.31192,-w
+71,DecisionTree,1_K,ki,22.30346051480013,-0.007922,-0.205002,-w
+72,DecisionTree,delta G,ki,116.52129566229307,0.123478,-1.945385,basic-el
+73,DecisionTree,Affinity Data Value,ki,193205375788.01514,-0.04496,-1.154423,basic-el
+74,DecisionTree,pKd pKi pIC50,ki,8.7787684021544,-0.010085,-2.670453,basic-el
+75,DecisionTree,1_K,ki,100.90771185933627,-0.004277,-3.465269,basic-el
+76,DecisionTree,delta G,ki,216.41099309327052,-0.067688,-1.349154,-w-el
+77,DecisionTree,Affinity Data Value,ki,156577414125.34427,-0.051446,-3.548091,-w-el
+78,DecisionTree,pKd pKi pIC50,ki,11.532829802513465,-0.013131,-0.403052,-w-el
+79,DecisionTree,1_K,ki,232.93640140739848,0.002644,-3.642431,-w-el
+80,DecisionTree,delta G,ki,223.48368953926058,-0.139282,-1.313065,basic-vdw
+81,DecisionTree,Affinity Data Value,ki,165494285913.0236,0.028487,-9.307853,basic-vdw
+82,DecisionTree,pKd pKi pIC50,ki,5.086059425493716,0.042566,-1.515009,basic-vdw
+83,DecisionTree,1_K,ki,216.59189710072613,-0.024735,-248.909621,basic-vdw
+84,DecisionTree,delta G,ki,154.50748062934665,-0.083607,-1.781193,-w-vdw
+85,DecisionTree,Affinity Data Value,ki,138912181578.82626,0.073573,-4.577971,-w-vdw
+86,DecisionTree,pKd pKi pIC50,ki,9.247795691202871,-0.014002,-0.630791,-w-vdw
+87,DecisionTree,1_K,ki,100.11720866704958,-0.020891,-2111.987491,-w-vdw
+88,DecisionTree,delta G,ki,437.27390197865145,-0.042568,-279.956599,basic-el-vdw
+89,DecisionTree,Affinity Data Value,ki,1360141712310.7126,,0.0,basic-el-vdw
+90,DecisionTree,pKd pKi pIC50,ki,6.374612387791741,-0.112823,-1.779371,basic-el-vdw
+91,DecisionTree,1_K,ki,1.8262307216326068,-0.040688,-10.93377,basic-el-vdw
+92,DecisionTree,delta G,ki,449.6359380584919,-0.094937,-46.411524,-w-el-vdw
+93,DecisionTree,Affinity Data Value,ki,37039306528.83875,-0.014198,-915.494161,-w-el-vdw
+94,DecisionTree,pKd pKi pIC50,ki,4.308647576301615,-0.054879,-3.560291,-w-el-vdw
+95,DecisionTree,1_K,ki,48.42889580469641,-0.027529,-0.195614,-w-el-vdw
+96,RandomForest,delta G,ki,87.06712471831104,0.022282,-92.54671,basic
+97,RandomForest,Affinity Data Value,ki,69167907788.0006,-0.070961,-33.771412,basic
+98,RandomForest,pKd pKi pIC50,ki,3.482430391228807,0.046408,-54.551977,basic
+99,RandomForest,1_K,ki,12.810062675559704,0.041472,-5.342558,basic
+100,RandomForest,delta G,ki,91.84819115501958,0.0135,-58.250981,-w
+101,RandomForest,Affinity Data Value,ki,78551911770.44,-0.032151,-72.142095,-w
+102,RandomForest,pKd pKi pIC50,ki,3.141338887962798,-0.016113,-65.837935,-w
+103,RandomForest,1_K,ki,37.95070458670362,0.014483,-20.733751,-w
+104,RandomForest,delta G,ki,96.39822857702683,-0.0164,-113.061538,basic-el
+105,RandomForest,Affinity Data Value,ki,41582638493.19223,-0.075217,-20.847722,basic-el
+106,RandomForest,pKd pKi pIC50,ki,3.028231059771095,0.057449,-93.98073,basic-el
+107,RandomForest,1_K,ki,20.899927204035883,0.042258,-21.602254,basic-el
+108,RandomForest,delta G,ki,95.542303004676,-0.068767,-43.6281,-w-el
+109,RandomForest,Affinity Data Value,ki,41868029018.901344,-0.007706,-9.496269,-w-el
+110,RandomForest,pKd pKi pIC50,ki,3.3897435525972504,0.006785,-87.121527,-w-el
+111,RandomForest,1_K,ki,8.926386994621456,-0.032813,-5.295266,-w-el
+112,RandomForest,delta G,ki,88.29919564601562,-0.0628,-118.811582,basic-vdw
+113,RandomForest,Affinity Data Value,ki,33955964937.25711,0.009204,-103.174719,basic-vdw
+114,RandomForest,pKd pKi pIC50,ki,3.211228152387791,0.077702,-63.994477,basic-vdw
+115,RandomForest,1_K,ki,240.28207868333007,-0.038378,-337.286553,basic-vdw
+116,RandomForest,delta G,ki,86.2111413484937,-0.010545,-112.398053,-w-vdw
+117,RandomForest,Affinity Data Value,ki,80280808976.6356,-0.016695,-60.95181,-w-vdw
+118,RandomForest,pKd pKi pIC50,ki,3.3639748834470367,0.046155,-61.098575,-w-vdw
+119,RandomForest,1_K,ki,88.93156570556869,0.042594,-222.023675,-w-vdw
+120,RandomForest,delta G,ki,98.22758566474278,-0.021909,-59.077215,basic-el-vdw
+121,RandomForest,Affinity Data Value,ki,51782785863.940056,-0.038829,-59.816236,basic-el-vdw
+122,RandomForest,pKd pKi pIC50,ki,3.1887097883782163,-0.013457,-116.63977,basic-el-vdw
+123,RandomForest,1_K,ki,13.35636020476729,0.096897,-5.807272,basic-el-vdw
+124,RandomForest,delta G,ki,90.99184902747925,-0.036216,-147.70606,-w-el-vdw
+125,RandomForest,Affinity Data Value,ki,296054521234.52905,0.009723,-144.211377,-w-el-vdw
+126,RandomForest,pKd pKi pIC50,ki,3.3237933807340916,-0.002084,-112.818082,-w-el-vdw
+127,RandomForest,1_K,ki,77.25847518247193,0.01619,-88.012339,-w-el-vdw

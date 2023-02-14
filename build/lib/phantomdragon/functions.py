@@ -13,25 +13,25 @@ from sklearn.utils import shuffle
 from scipy.stats import pearsonr
 import pickle
 
-def filter_and_sort_scores(exp_data, feature_scores):
+def filter_and_sort_features(exp_data, features):
     '''
     Parameters
     ----------
     exp_data : TYPE PANDAS Dataframe
-        A pandas Dataframe of the avavible experimental values.
-    feature_scores : TYPE PANDAS Dataframe
-        A pandas Dataframe of the avaviable scores. 
-        It is assumed that exp_data is corresponding to a subset of feature_scores.
+        A pandas Dataframe of the avavible experimental scores.
+    features : TYPE PANDAS Dataframe
+        A pandas Dataframe of the avaviable features. 
+        It is assumed that exp_data is corresponding to a subset of score_features.
 
     Returns
     -------
     df : TYPE PANDAS Dataframe
-        Gives back a sorted subset of feature_scores. 
+        Gives back a sorted subset of score_features. 
         This subset corresponds to the subset of the experimental data.
         It is sorted and filtered according to the "PDB code" bracket.
 
     '''
-    df = feature_scores[feature_scores["PDB code"].isin(exp_data["PDB code"])]
+    df = features[features["PDB code"].isin(exp_data["PDB code"])]
     df = df.sort_values("PDB code")
     df = df.reset_index()
     df = df.drop("index", axis=1)
@@ -57,11 +57,11 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
-class parameterCollection:
-    def __init__(self, modeltype, add_information, featuretype):
+class parameterCollector:
+    def __init__(self, modeltype, add_information, scoretype):
         self.modeltype = modeltype
         self.add_information = add_information
-        self.featuretype = featuretype
+        self.scoretype = scoretype
         self.mse = None
         self.r = None
         self.r_2 = None
@@ -72,18 +72,18 @@ class parameterCollection:
         return x_train, x_test, y_train, y_test
     
     def get_trainingdata(self):
-        return self.scores_train, self.features_train
+        return self.features_train, self.scores_train
     
     def get_testingdata(self):
-        return self.scores_test, self.features_test
+        return self.features_test, self.scores_test
 
-    def define_trainingdata(self, scores_train, features_train):
-        self.scores_train = scores_train
+    def define_trainingdata(self, features_train, scores_train):
         self.features_train = features_train
+        self.scores_train = scores_train
 
-    def define_testingdata(self, scores_test, features_test):
-        self.scores_test = scores_test
+    def define_testingdata(self, features_test, scores_test):
         self.features_test = features_test
+        self.scores_test = scores_test
 
     def define_datatype(self, datatype):
         self.datatype = datatype
@@ -91,10 +91,13 @@ class parameterCollection:
     def define_trainingscoretype(self, trainingscores_type):
         self.trainingscores_type = trainingscores_type
 
-    def load_data(self,scorepath,experimentpath,split=0.2):
-        scores = pd.read_csv(scorepath)
+    def load_data(self,featurepath,experimentpath,split=0.2,sh=True):
+        features = pd.read_csv(featurepath)
         experiment = pd.read_csv(experimentpath)
-        features = np.array(experiment[self.featuretype])
+        experiment = experiment.sort_values("PDB code")
+        experiment = experiment.reset_index()
+        experiment = experiment.drop("index", axis=1)
+        scores = np.array(experiment[self.scoretype])
 
         if self.add_information == "basic":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -116,22 +119,24 @@ class parameterCollection:
             raise ValueError("Unexpected string in add_information")
         
 
-        scores = filter_and_sort_scores(experiment,scores)
-        scores = scores.drop(drop, axis=1)
-        scores = scores.to_numpy()
-
-        x_train, x_test, y_train, y_test = train_test_split(scores, features, test_size = split)
+        features = filter_and_sort_features(experiment,features)
+        features = features.drop(drop, axis=1)
+        features = features.to_numpy()
         
-        self.scores_train = x_train
-        self.scores_test = x_test
-        self.features_train = y_train
-        self.features_test = y_test
-    
-    def train_and_save_model(self):
+        if sh == True:
+            features, scores = shuffle(features, scores)
+        
+        scaler = preprocessing.StandardScaler().fit(features)
+        features = scaler.transform(features)
 
-        self.scores_train, self.features_train = shuffle(self.scores_train, self.features_train)
-        scaler = preprocessing.StandardScaler().fit(self.scores_train)
-        self.scores_train = scaler.transform(self.scores_train)
+        x_train, x_test, y_train, y_test = train_test_split(features, scores, test_size = split)
+        
+        self.features_train = x_train
+        self.features_test = x_test
+        self.scores_train = y_train
+        self.scores_test = y_test
+    
+    def train_and_save_model(self,savepath=""):
         if self.modeltype == "linearRegression":
             reg = linear_model.LinearRegression()
         elif self.modeltype == "Ridge":
@@ -152,55 +157,78 @@ class parameterCollection:
         if self.modeltype == "SVR":
             params = {'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'C': [1,2.5,5], 'gamma': ['scale','auto'], 'degree' : [2,3,4], 'epsilon': [0.001, 0.01, 0.1, 1, 10, 100]}
             gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.scores_train, self.features_train)
+            gs_reg.fit(self.features_train, self.scores_train)
             reg.set_params(**gs_reg.best_params_)
         elif self.modeltype == "DecisionTree":
             params = {'criterion':['squared_error','friedman_mse','absolute_error','poisson'],'splitter':['best','random'],'max_features':['auto', 'sqrt','log2']}
             gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.scores_train, self.features_train)
+            gs_reg.fit(self.features_train, self.scores_train)
             reg.set_params(**gs_reg.best_params_)
         elif self.modeltype == "RandomForest":
             params = {'n_estimators':[100,200,300],'criterion':['squared_error','friedman_mse','absolute_error','poisson'],'max_features':['auto', 'sqrt','log2']}
             gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.scores_train, self.features_train)
+            gs_reg.fit(self.features_train, self.scores_train)
             reg.set_params(**gs_reg.best_params_)
         
-        reg.fit(self.scores_train, self.features_train)
+        reg.fit(self.features_train, self.scores_train)
         
-        if "/" in self.featuretype:
-            self.featuretype = self.featuretype.replace("/","_")
+        if "/" in self.scoretype:
+            self.scoretype = self.scoretype.replace("/","div")
 
-        pickle.dump(reg, open(f"models/{self.modeltype}_{self.featuretype}_{self.datatype}_{self.add_information}.sav","wb"))
+        pickle.dump(reg, open(f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","wb"))
+        
+        if "_" in self.scoretype:
+            self.scoretype = self.scoretype.replace("div","/")
+        
 
-    def phantomtest(self, testing_scores = 0, testing_features = 0, stats = True, plot = False):
-        if testing_scores != 0:
-            self.scores_test = testing_scores
+    def phantomtest(self, testing_features = 0, testing_scores = 0,loadpath=""):
         if testing_features != 0:
             self.features_test = testing_features
+        if testing_scores != 0:
+            self.scores_test = testing_scores
 
-        if "/" in self.featuretype:
-            self.featuretype = self.featuretype.replace("/","_")
+        if "/" in self.scoretype:
+            self.scoretype = self.scoretype.replace("/","div")
 
-        reg = pickle.load(open(f"models/{self.modeltype}_{self.featuretype}_{self.datatype}_{self.add_information}.sav","rb"))
-        features_pre = reg.predict(self.scores_test)
+        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+
+        if "_" in self.scoretype:
+            self.scoretype = self.scoretype.replace("div","/")
+
+        scores_pre = reg.predict(self.features_test)
         
-        if stats == True:
-            self.mse = mean_squared_error(features_pre, self.features_test)
-            self.r = round(pearsonr(features_pre,self.features_test).statistic, 6)
-            self.r_2 = round(r2_score(features_pre,self.features_test), 6)
-        
-        if plot == True:
-            k, d = np.polyfit(self.features_test,features_pre,deg=1)
-            fig, ax = plt.subplots()
-            ax.plot(self.featues_test, features_pre,'o')
-            plt.axline(xy1=(0, d), slope=k, label=f'r\u00b2 = {self.r_2}', color="black",ls="--")
-            plt.title(f"{self.trainingscores_type}, {self.featuretype}, {self.modeltype}")
-            plt.legend()
-            plt.xlabel("y_real")
-            plt.ylabel("y_predicted")
-            plt.savefig(f"../plots/{self.trainingscores_type}_{self.featuretype}_{self.modeltype}_{self.add_information}")
-            plt.close(fig)
+        self.scores_pre = scores_pre
+
+        self.mse = mean_squared_error(self.scores_test, self.scores_pre)
+        self.r = round(pearsonr(self.scores_test,self.scores_pre).statistic, 6)
+        self.r_2 = round(r2_score(self.scores_test,self.scores_pre), 6)
     
+    def plot_phantomtest(self,savepath):
+        k, d = np.polyfit(self.scores_test,self.scores_pre,deg=1)
+        fig, ax = plt.subplots()
+        ax.plot(self.scores_test, self.scores_pre,'o')
+        plt.axline(xy1=(0, d), slope=k, label=f'r\u00b2 = {self.r_2}', color="black",ls="--")
+        plt.title(f"{self.scoretype}, {self.modeltype}")
+        plt.legend()
+        plt.xlabel("y_real")
+        plt.ylabel("y_predicted")
+        
+        if " " in self.scoretype or " " in self.modeltype or " " in self.add_information or "/" in self.scoretype:
+            self.scoretype = self.scoretype.replace(" ","_")
+            self.scoretype = self.scoretype.replace("/","div")
+            self.modeltype = self.modeltype.replace(" ","_")
+            self.add_information = self.add_information.replace(" ","_")
+
+        plt.savefig(f"{savepath}{self.scoretype}_{self.modeltype}_{self.add_information}.png")
+        
+        if "_" in self.scoretype or "_" in self.modeltype or "_" in self.add_information or "div" in self.scoretype:
+            self.scoretype = self.scoretype.replace("_"," ")
+            self.scoretype = self.scoretype.replace("div","/")
+            self.modeltype = self.modeltype.replace("_"," ")
+            self.add_information = self.add_information.replace("_"," ")
+        
+        plt.close(fig)
+
     def get_stats(self):
-        return self.modeltype, self.featuretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
+        return self.modeltype, self.scoretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
     
