@@ -21,7 +21,7 @@ for k in datatypes:
 
                 blub = ph.parameterCollector(add_information=info,modeltype=modeltype,scoretype=score)
                 blub.load_data("../data/grail_scores.csv",f"../data/PDBbind_refined_set_{k}.csv")
-                blub.define_datatype(f"{k}")
+                blub.set_datatype(f"{k}")
                 blub.train_and_save_model(savepath="../models/")
                 blub.phantomtest(loadpath="../models/")
                 blub.plot_phantomtest("../plots/")

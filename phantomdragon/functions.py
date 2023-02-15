@@ -57,6 +57,56 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
+def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_information,sh=True):
+    features = pd.read_csv(featurepath_all)
+    features_test = pd.read_csv(featurepath_test)
+    features_train = features[~features["PDB code"].isin(features_test["PDB code"])]
+
+    experiment = pd.read_csv(experimentpath)
+    experiment = experiment.sort_values("PDB code")
+    experiment = experiment.reset_index()
+    experiment = experiment.drop("index", axis=1)
+    experiment_train = experiment[~experiment["PDB code"].isin(features_test["PDB code"])]
+    experiment_test = experiment[experiment["PDB code"].isin(features_test["PDB code"])]
+    scores_test = np.array(experiment_test[scoretype])
+    scores_train = np.array(experiment_train[scoretype])
+
+    if add_information == "basic":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    elif add_information == "-w":
+        drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    elif add_information == "basic-el":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
+    elif add_information == "-w-el":
+        drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
+    elif add_information == "basic-el-vdw":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
+    elif add_information == "-w-el-vdw":
+        drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
+    elif add_information == "basic-vdw":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    elif add_information == "-w-vdw":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    else:
+        raise ValueError("Unexpected string in add_information")
+    
+
+    features = filter_and_sort_features(experiment,features)
+    features = features.drop(drop, axis=1)
+    features = features.to_numpy()
+
+    scaler = preprocessing.StandardScaler().fit(features)    
+    
+    if sh == True:
+        features_train, scores_train = shuffle(features_train, scores_train)
+        features_test,scores_test = shuffle(features_test, scores_test)
+    
+
+    features_train = scaler.transform(features_train)
+    features_test = scaler.transform(features_test)
+
+    return features_train,features_test,scores_train,scores_test
+
 class parameterCollector:
     def __init__(self, modeltype, add_information, scoretype):
         self.modeltype = modeltype
@@ -77,18 +127,18 @@ class parameterCollector:
     def get_testingdata(self):
         return self.features_test, self.scores_test
 
-    def define_trainingdata(self, features_train, scores_train):
+    def set_trainingdata(self, features_train, scores_train):
         self.features_train = features_train
         self.scores_train = scores_train
 
-    def define_testingdata(self, features_test, scores_test):
+    def set_testingdata(self, features_test, scores_test):
         self.features_test = features_test
         self.scores_test = scores_test
 
-    def define_datatype(self, datatype):
+    def set_datatype(self, datatype):
         self.datatype = datatype
 
-    def define_trainingscoretype(self, trainingscores_type):
+    def set_trainingscoretype(self, trainingscores_type):
         self.trainingscores_type = trainingscores_type
 
     def load_data(self,featurepath,experimentpath,split=0.2,sh=True):
@@ -135,7 +185,7 @@ class parameterCollector:
         self.features_test = x_test
         self.scores_train = y_train
         self.scores_test = y_test
-    
+        
     def train_and_save_model(self,savepath=""):
         if self.modeltype == "linearRegression":
             reg = linear_model.LinearRegression()
@@ -228,6 +278,9 @@ class parameterCollector:
             self.add_information = self.add_information.replace("_"," ")
         
         plt.close(fig)
+
+    def phantomscore(self):
+        print("do stuff")
 
     def get_stats(self):
         return self.modeltype, self.scoretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
