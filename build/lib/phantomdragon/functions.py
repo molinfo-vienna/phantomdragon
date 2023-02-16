@@ -12,6 +12,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
 from scipy.stats import pearsonr
 import pickle
+import copy
 
 def filter_and_sort_features(exp_data, features):
     '''
@@ -21,7 +22,7 @@ def filter_and_sort_features(exp_data, features):
         A pandas Dataframe of the avavible experimental scores.
     features : TYPE PANDAS Dataframe
         A pandas Dataframe of the avaviable features. 
-        It is assumed that exp_data is corresponding to a subset of score_features.
+        It is assumed that exp_data is corresponding to a subset of features.
 
     Returns
     -------
@@ -33,8 +34,7 @@ def filter_and_sort_features(exp_data, features):
     '''
     df = features[features["PDB code"].isin(exp_data["PDB code"])]
     df = df.sort_values("PDB code")
-    df = df.reset_index()
-    df = df.drop("index", axis=1)
+    df = df.reset_index(drop=True)
     return df
 
 def combine(list1,list2,list3):
@@ -60,14 +60,34 @@ def combine(list1,list2,list3):
 def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_information,sh=True):
     features = pd.read_csv(featurepath_all)
     features_test = pd.read_csv(featurepath_test)
-    features_train = features[~features["PDB code"].isin(features_test["PDB code"])]
-
     experiment = pd.read_csv(experimentpath)
     experiment = experiment.sort_values("PDB code")
     experiment = experiment.reset_index()
     experiment = experiment.drop("index", axis=1)
-    experiment_train = experiment[~experiment["PDB code"].isin(features_test["PDB code"])]
-    experiment_test = experiment[experiment["PDB code"].isin(features_test["PDB code"])]
+    features = filter_and_sort_features(experiment,features)
+    features_test = filter_and_sort_features(experiment,features_test)
+
+    PDB_codes = features_test["PDB code"].tolist()
+    
+    features_train = copy.copy(features)
+    features_train = features_train.set_index(features_train["PDB code"])
+    features_train = features_train.transpose()
+
+    features_train = features_train.drop(PDB_codes, axis=1)
+    features_train = features_train.transpose()
+    features_train = features_train.reset_index(drop=True)
+
+    experiment = experiment.set_index(experiment["PDB code"])
+    experiment = experiment.transpose()
+    experiment_test = copy.copy(experiment)
+    experiment_train = copy.copy(experiment)
+
+    experiment_train = experiment_train.drop(PDB_codes, axis=1)
+    experiment_test = experiment_test[PDB_codes]
+
+    experiment_test = experiment_test.transpose()
+    experiment_train = experiment_train.transpose()
+
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
@@ -89,19 +109,21 @@ def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_i
         drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
     else:
         raise ValueError("Unexpected string in add_information")
-    
 
-    features = filter_and_sort_features(experiment,features)
+
     features = features.drop(drop, axis=1)
+    features_test = features_test.drop(drop, axis=1)
     features = features.to_numpy()
+    features_test = features_test.to_numpy()
+    features_train = features_train.drop(drop, axis=1)
+    features_train = features_train.to_numpy()
 
-    scaler = preprocessing.StandardScaler().fit(features)    
-    
+    scaler = preprocessing.StandardScaler().fit(features)
+
     if sh == True:
-        features_train, scores_train = shuffle(features_train, scores_train)
+        features_train,scores_train = shuffle(features_train, scores_train)
         features_test,scores_test = shuffle(features_test, scores_test)
     
-
     features_train = scaler.transform(features_train)
     features_test = scaler.transform(features_test)
 

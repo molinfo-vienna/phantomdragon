@@ -20,11 +20,11 @@ for k in datatypes:
             for score in scoretypes:
 
                 blub = ph.parameterCollector(add_information=info,modeltype=modeltype,scoretype=score)
-                x_train,x_test,y_train,y_test = ph.prepare_data(score,"../data/grail_scores.csv","../data/CASF_grail_scores.csv",f"PDBbind_refined_set_{k}.csv",info)
+                x_train,x_test,y_train,y_test = ph.prepare_data(score,"../data/grail_scores.csv","../data/CASF_grail_scores.csv",f"../data/PDBbind_refined_set_{k}.csv",info)
                 blub.set_trainingdata(x_train,y_train)
                 blub.set_testingdata(x_test,y_test)
                 blub.set_datatype(f"{k}")
-                blub.train_and_save_model(savepath="models/")
+                blub.train_and_save_model(savepath="../models/")
                 blub.phantomtest(loadpath="../models/")
                 #blub.plot_phantomtest("../plots/")
                 modeltype,scoret,datatype,mse,pearsonr,r_2,add_info = blub.get_stats()
