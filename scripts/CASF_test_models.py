@@ -1,10 +1,17 @@
 import pandas as pd
 import phantomdragon.functions as ph
 
+#datatypes = ["all"]
+#datatypes = ["ki"]
+#datatypes = ["kd"]
 datatypes = ["all","ki","kd"]
-modeltypes = ["linearRegression","Ridge","Lasso","ElasticNet","SVR","DecisionTree","RandomForest"]
-additional_information = ["basic", "-w", "basic-el", "-w-el", "basic-vdw", "-w-vdw", "basic-el-vdw", "-w-el-vdw"]
-scoretypes = ["delta G","Affinity Data Value","pKd pKi pIC50","1/K"]
+
+#modeltypes = ["linearRegression","Ridge","Lasso","ElasticNet","SVR","DecisionTree","RandomForest"]
+modeltypes = ["SVR"]
+#additional_information = ["basic", "-w", "basic-el", "-w-el", "basic-vdw", "-w-vdw", "basic-el-vdw", "-w-el-vdw"]
+additional_information = ["basic-el-vdw"]
+#scoretypes = ["delta G","Affinity Data Value","pKd pKi pIC50","1/K"]
+scoretypes = ["delta G","pKd pKi pIC50","1/K"]
 
 modeltype_list = []
 scoretype_list = []
@@ -38,6 +45,6 @@ for k in datatypes:
                 print(k,modeltype,info,score,"done")
 
 #print(len(modeltype_list),len(featuretype_list),len(datatype_list),len(mse_list),len(pear_list),len(coef_list),len(add_info_list))
-data = {'Modeltype':modeltype_list,'Scoretype':scoretype_list,'Datatype':datatype_list,'Mean squared error (mse)':mse_list,'Pearson correlation coefficient (r)':pear_list,'Coefficient of determination (r²)':coef_list,'add. information':add_info_list}
-df = pd.DataFrame(data)
-df.to_csv("results/CASF_all_results.csv")
+# data = {'Modeltype':modeltype_list,'Scoretype':scoretype_list,'Datatype':datatype_list,'Mean squared error (mse)':mse_list,'Pearson correlation coefficient (r)':pear_list,'Coefficient of determination (r²)':coef_list,'add. information':add_info_list}
+# df = pd.DataFrame(data)
+# df.to_csv("../results/CASF_all_results.csv")

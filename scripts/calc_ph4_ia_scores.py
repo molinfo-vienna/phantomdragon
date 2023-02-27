@@ -531,6 +531,9 @@ def processComplex(pdb_code, comp_data_dir, out_file, hyd_grp_ftrs, exact):
 
     line += ', ' + str(vdw_att) + ', ' + str(vdw_rep)
     
+    if not len(pdb_code) == 4:
+        raise ValueError("UPS")
+
     out_file.write(line + '\n')
     out_file.flush()
     

@@ -57,27 +57,27 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
-def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_information,sh=True):
-    features = pd.read_csv(featurepath_all)
-    features_test = pd.read_csv(featurepath_test)
-    experiment = pd.read_csv(experimentpath)
-    experiment = experiment.sort_values("PDB code")
+def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_information,sh=True,identifier="PDB code"):
+    features = pd.read_csv(featurepath_all,dtype={identifier:str})
+    features_test = pd.read_csv(featurepath_test,dtype={identifier:str})
+    experiment = pd.read_csv(experimentpath,dtype={identifier:str})
+    experiment = experiment.sort_values(identifier)
     experiment = experiment.reset_index()
     experiment = experiment.drop("index", axis=1)
     features = filter_and_sort_features(experiment,features)
     features_test = filter_and_sort_features(experiment,features_test)
 
-    PDB_codes = features_test["PDB code"].tolist()
+    PDB_codes = features_test[identifier].tolist()
     
     features_train = copy.copy(features)
-    features_train = features_train.set_index(features_train["PDB code"])
+    features_train = features_train.set_index(features_train[identifier])
     features_train = features_train.transpose()
 
     features_train = features_train.drop(PDB_codes, axis=1)
     features_train = features_train.transpose()
     features_train = features_train.reset_index(drop=True)
 
-    experiment = experiment.set_index(experiment["PDB code"])
+    experiment = experiment.set_index(experiment[identifier])
     experiment = experiment.transpose()
     experiment_test = copy.copy(experiment)
     experiment_train = copy.copy(experiment)
@@ -163,12 +163,11 @@ class parameterCollector:
     def set_trainingscoretype(self, trainingscores_type):
         self.trainingscores_type = trainingscores_type
 
-    def load_data(self,featurepath,experimentpath,split=0.2,sh=True):
-        features = pd.read_csv(featurepath)
-        experiment = pd.read_csv(experimentpath)
-        experiment = experiment.sort_values("PDB code")
-        experiment = experiment.reset_index()
-        experiment = experiment.drop("index", axis=1)
+    def load_data(self,featurepath,experimentpath,split=0.2,sh=True,identifier="PDB code"):
+        features = pd.read_csv(featurepath,dtype={identifier:str})
+        experiment = pd.read_csv(experimentpath,dtype={identifier:str})
+        experiment = experiment.sort_values(identifier)
+        experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
         if self.add_information == "basic":
@@ -264,7 +263,7 @@ class parameterCollector:
 
         reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
 
-        if "_" in self.scoretype:
+        if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
 
         scores_pre = reg.predict(self.features_test)
@@ -301,9 +300,49 @@ class parameterCollector:
         
         plt.close(fig)
 
-    def phantomscore(self):
-        print("do stuff")
+    def phantomscore(self,features_test,loadpath,identifier="PDB code"):
+        
+        if isinstance(features_test,str):
+            self.features_test = pd.read_csv(features_test,dtype={identifier:str})
+        
+        PDB_codes = self.features_test["PDB code"]
 
+        if self.add_information == "basic":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "basic-el":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w-el":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "basic-el-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
+        elif self.add_information == "-w-el-vdw":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
+        elif self.add_information == "basic-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        else:
+            raise ValueError("Unexpected string in add_information")
+
+        self.features_test = self.features_test.drop(drop, axis=1)
+        self.features_test = self.features_test.to_numpy()
+
+        if "/" in self.scoretype:
+            self.scoretype = self.scoretype.replace("/","div")
+
+        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+
+        if "div" in self.scoretype:
+            self.scoretype = self.scoretype.replace("div","/")
+
+        scores_pre = reg.predict(self.features_test)
+        self.scores_pre = scores_pre
+
+        (PDBs,scores) = PDB_codes, self.scores_pre
+        return (PDBs,scores)
+    
     def get_stats(self):
         return self.modeltype, self.scoretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
     

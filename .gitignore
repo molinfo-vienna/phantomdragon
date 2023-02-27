@@ -1,3 +1,6 @@
 data/refined-set/*
 data/CASF-2016/*
 plots/*
+results/CASF_input
+scripts/tmp.py
+models
