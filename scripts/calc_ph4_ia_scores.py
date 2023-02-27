@@ -432,7 +432,7 @@ def checkProtein(pdb_code, protein):
             print('!! While processing complex %s: atom of unknown element encountered' % pdb_code, file=sys.stderr)
 
 def prepareMolecule(mol, hyd_grp_ftrs):
-    Chem.minimizeChargedAtomCount(mol)
+    Chem.ProtonationStateStandardizer().standardize(mol, Chem.ProtonationStateStandardizer.MIN_CHARGED_ATOM_COUNT)
     Pharm.prepareForPharmacophoreGeneration(mol)
 
     if not hyd_grp_ftrs:
@@ -510,9 +510,6 @@ def processComplex(pdb_code, comp_data_dir, out_file, hyd_grp_ftrs, exact):
 
     tot_lig_hyd = preparePharmacophore(lig_ph4)
     preparePharmacophore(env_ph4)
-
-    Pharm.FilePMLFeatureContainerWriter(comp_data_dir + '/' + pdb_code + '_lig_ph4.pml').write(lig_ph4)
-    Pharm.FilePMLFeatureContainerWriter(comp_data_dir + '/' + pdb_code + '_env_ph4.pml').write(env_ph4)
     
     line = pdb_code
 
@@ -534,6 +531,9 @@ def processComplex(pdb_code, comp_data_dir, out_file, hyd_grp_ftrs, exact):
 
     line += ', ' + str(vdw_att) + ', ' + str(vdw_rep)
     
+    if not len(pdb_code) == 4:
+        raise ValueError("UPS")
+
     out_file.write(line + '\n')
     out_file.flush()
     

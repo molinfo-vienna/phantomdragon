@@ -11,7 +11,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
 from scipy.stats import pearsonr
-import pickle
+import joblib
+import copy
 
 def filter_and_sort_features(exp_data, features):
     '''
@@ -21,7 +22,7 @@ def filter_and_sort_features(exp_data, features):
         A pandas Dataframe of the avavible experimental scores.
     features : TYPE PANDAS Dataframe
         A pandas Dataframe of the avaviable features. 
-        It is assumed that exp_data is corresponding to a subset of score_features.
+        It is assumed that exp_data is corresponding to a subset of features.
 
     Returns
     -------
@@ -33,8 +34,7 @@ def filter_and_sort_features(exp_data, features):
     '''
     df = features[features["PDB code"].isin(exp_data["PDB code"])]
     df = df.sort_values("PDB code")
-    df = df.reset_index()
-    df = df.drop("index", axis=1)
+    df = df.reset_index(drop=True)
     return df
 
 def combine(list1,list2,list3):
@@ -57,6 +57,78 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
+def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_information,sh=True,identifier="PDB code"):
+    features = pd.read_csv(featurepath_all,dtype={identifier:str})
+    features_test = pd.read_csv(featurepath_test,dtype={identifier:str})
+    experiment = pd.read_csv(experimentpath,dtype={identifier:str})
+    experiment = experiment.sort_values(identifier)
+    experiment = experiment.reset_index()
+    experiment = experiment.drop("index", axis=1)
+    features = filter_and_sort_features(experiment,features)
+    features_test = filter_and_sort_features(experiment,features_test)
+
+    PDB_codes = features_test[identifier].tolist()
+    
+    features_train = copy.copy(features)
+    features_train = features_train.set_index(features_train[identifier])
+    features_train = features_train.transpose()
+
+    features_train = features_train.drop(PDB_codes, axis=1)
+    features_train = features_train.transpose()
+    features_train = features_train.reset_index(drop=True)
+
+    experiment = experiment.set_index(experiment[identifier])
+    experiment = experiment.transpose()
+    experiment_test = copy.copy(experiment)
+    experiment_train = copy.copy(experiment)
+
+    experiment_train = experiment_train.drop(PDB_codes, axis=1)
+    experiment_test = experiment_test[PDB_codes]
+
+    experiment_test = experiment_test.transpose()
+    experiment_train = experiment_train.transpose()
+
+    scores_test = np.array(experiment_test[scoretype])
+    scores_train = np.array(experiment_train[scoretype])
+
+    if add_information == "basic":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    elif add_information == "-w":
+        drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    elif add_information == "basic-el":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
+    elif add_information == "-w-el":
+        drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
+    elif add_information == "basic-el-vdw":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
+    elif add_information == "-w-el-vdw":
+        drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
+    elif add_information == "basic-vdw":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    elif add_information == "-w-vdw":
+        drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+    else:
+        raise ValueError("Unexpected string in add_information")
+
+
+    features = features.drop(drop, axis=1)
+    features_test = features_test.drop(drop, axis=1)
+    features = features.to_numpy()
+    features_test = features_test.to_numpy()
+    features_train = features_train.drop(drop, axis=1)
+    features_train = features_train.to_numpy()
+
+    scaler = preprocessing.StandardScaler().fit(features)
+
+    if sh == True:
+        features_train,scores_train = shuffle(features_train, scores_train)
+        features_test,scores_test = shuffle(features_test, scores_test)
+    
+    features_train = scaler.transform(features_train)
+    features_test = scaler.transform(features_test)
+
+    return features_train,features_test,scores_train,scores_test
+
 class parameterCollector:
     def __init__(self, modeltype, add_information, scoretype):
         self.modeltype = modeltype
@@ -77,26 +149,25 @@ class parameterCollector:
     def get_testingdata(self):
         return self.features_test, self.scores_test
 
-    def define_trainingdata(self, features_train, scores_train):
+    def set_trainingdata(self, features_train, scores_train):
         self.features_train = features_train
         self.scores_train = scores_train
 
-    def define_testingdata(self, features_test, scores_test):
+    def set_testingdata(self, features_test, scores_test):
         self.features_test = features_test
         self.scores_test = scores_test
 
-    def define_datatype(self, datatype):
+    def set_datatype(self, datatype):
         self.datatype = datatype
 
-    def define_trainingscoretype(self, trainingscores_type):
+    def set_trainingscoretype(self, trainingscores_type):
         self.trainingscores_type = trainingscores_type
 
-    def load_data(self,featurepath,experimentpath,split=0.2,sh=True):
-        features = pd.read_csv(featurepath)
-        experiment = pd.read_csv(experimentpath)
-        experiment = experiment.sort_values("PDB code")
-        experiment = experiment.reset_index()
-        experiment = experiment.drop("index", axis=1)
+    def load_data(self,featurepath,experimentpath,split=0.2,sh=True,identifier="PDB code"):
+        features = pd.read_csv(featurepath,dtype={identifier:str})
+        experiment = pd.read_csv(experimentpath,dtype={identifier:str})
+        experiment = experiment.sort_values(identifier)
+        experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
         if self.add_information == "basic":
@@ -135,7 +206,7 @@ class parameterCollector:
         self.features_test = x_test
         self.scores_train = y_train
         self.scores_test = y_test
-    
+        
     def train_and_save_model(self,savepath=""):
         if self.modeltype == "linearRegression":
             reg = linear_model.LinearRegression()
@@ -175,7 +246,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        pickle.dump(reg, open(f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","wb"))
+        joblib.dump(reg,f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
         
         if "_" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
@@ -190,9 +261,9 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
 
-        if "_" in self.scoretype:
+        if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
 
         scores_pre = reg.predict(self.features_test)
@@ -229,6 +300,49 @@ class parameterCollector:
         
         plt.close(fig)
 
+    def phantomscore(self,features_test,loadpath,identifier="PDB code"):
+        
+        if isinstance(features_test,str):
+            self.features_test = pd.read_csv(features_test,dtype={identifier:str})
+        
+        PDB_codes = self.features_test["PDB code"]
+
+        if self.add_information == "basic":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "basic-el":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w-el":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "basic-el-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"]
+        elif self.add_information == "-w-el-vdw":
+            drop = ["PDB code"," H-H_SUM"," H-H_MAX"]
+        elif self.add_information == "basic-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        elif self.add_information == "-w-vdw":
+            drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
+        else:
+            raise ValueError("Unexpected string in add_information")
+
+        self.features_test = self.features_test.drop(drop, axis=1)
+        self.features_test = self.features_test.to_numpy()
+
+        if "/" in self.scoretype:
+            self.scoretype = self.scoretype.replace("/","div")
+
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
+
+        if "div" in self.scoretype:
+            self.scoretype = self.scoretype.replace("div","/")
+
+        scores_pre = reg.predict(self.features_test)
+        self.scores_pre = scores_pre
+
+        (PDBs,scores) = PDB_codes, self.scores_pre
+        return (PDBs,scores)
+    
     def get_stats(self):
         return self.modeltype, self.scoretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
     
