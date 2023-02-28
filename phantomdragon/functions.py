@@ -91,7 +91,9 @@ def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_i
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
-    if add_information == "basic":
+    if add_information == "final":
+        drop =["PDB code"]
+    elif add_information == "basic":
         drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
     elif add_information == "-w":
         drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -170,7 +172,9 @@ class parameterCollector:
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "basic":
+        if self.add_information == "final":
+            drop = ["PDB code"]
+        elif self.add_information == "basic":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
         elif self.add_information == "-w":
             drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]

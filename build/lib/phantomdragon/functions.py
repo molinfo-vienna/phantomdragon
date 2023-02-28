@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
 from scipy.stats import pearsonr
-import pickle
+import joblib
 import copy
 
 def filter_and_sort_features(exp_data, features):
@@ -91,7 +91,9 @@ def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_i
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
-    if add_information == "basic":
+    if add_information == "final":
+        drop =["PDB code"]
+    elif add_information == "basic":
         drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
     elif add_information == "-w":
         drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -170,7 +172,9 @@ class parameterCollector:
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "basic":
+        if self.add_information == "final":
+            drop = ["PDB code"]
+        elif self.add_information == "basic":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
         elif self.add_information == "-w":
             drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -246,7 +250,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        pickle.dump(reg, open(f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","wb"))
+        joblib.dump(reg,f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
         
         if "_" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
@@ -261,7 +265,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
@@ -332,7 +336,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
