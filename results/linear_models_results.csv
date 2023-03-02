@@ -1,37 +1,37 @@
 ,Modeltype,Scoretype,Datatype,Mean squared error (mse),Pearson correlation coefficient (r),Coefficient of determination (r²),add. information
-0,linearRegression,delta G,all,89.27877977828912,0.474788,0.210163,final
-1,linearRegression,Affinity Data Value,all,120919529303.34802,0.16106,0.023379,final
-2,linearRegression,pKd pKi pIC50,all,2.896794499843363,0.63892,0.371721,final
-3,Ridge,delta G,all,88.67783518698901,0.478088,0.215479,final
-4,Ridge,Affinity Data Value,all,120907720384.64653,0.161279,0.023474,final
-5,Ridge,pKd pKi pIC50,all,2.8813692047357833,0.641634,0.375066,final
-6,Lasso,delta G,all,87.55337570928424,0.486131,0.225427,final
-7,Lasso,Affinity Data Value,all,121026412165.82645,0.154356,0.022516,final
-8,Lasso,pKd pKi pIC50,all,2.940362679987872,0.637437,0.362271,final
-9,ElasticNet,delta G,all,88.57946965802441,0.473546,0.216349,final
-10,ElasticNet,Affinity Data Value,all,123782850022.01044,0.17502,0.000253,final
-11,ElasticNet,pKd pKi pIC50,all,2.9553737571436676,0.632882,0.359016,final
-12,linearRegression,delta G,ki,78.17881388092648,0.591113,0.34801,final
-13,linearRegression,Affinity Data Value,ki,172868971518.30203,0.12409,-0.003313,final
-14,linearRegression,pKd pKi pIC50,ki,2.4448739342728354,0.707316,0.489827,final
-15,Ridge,delta G,ki,78.04046199355513,0.592287,0.349164,final
-16,Ridge,Affinity Data Value,ki,172622275871.51065,0.123593,-0.001881,final
-17,Ridge,pKd pKi pIC50,ki,2.462470903554315,0.705292,0.486156,final
-18,Lasso,delta G,ki,76.50805225516757,0.607008,0.361944,final
-19,Lasso,Affinity Data Value,ki,172140704184.93262,0.107962,0.000914,final
-20,Lasso,pKd pKi pIC50,ki,2.4578034118679155,0.72253,0.487129,final
-21,ElasticNet,delta G,ki,76.98333121398484,0.604805,0.35798,final
-22,ElasticNet,Affinity Data Value,ki,172630408527.9697,0.172538,-0.001928,final
-23,ElasticNet,pKd pKi pIC50,ki,2.466135897575278,0.717001,0.485391,final
-24,linearRegression,delta G,kd,284.96916403562227,0.023595,-2.080343,final
-25,linearRegression,Affinity Data Value,kd,53666942242.209816,0.202751,-0.211459,final
-26,linearRegression,pKd pKi pIC50,kd,5.880925096846462,0.21221,-0.565343,final
-27,Ridge,delta G,kd,139.65857968532384,0.075968,-0.509624,final
-28,Ridge,Affinity Data Value,kd,42752344655.55572,0.267273,0.034924,final
-29,Ridge,pKd pKi pIC50,kd,3.841121692304566,0.285654,-0.022403,final
-30,Lasso,delta G,kd,94.7309883717681,0.103869,-0.023984,final
+0,linearRegression,delta G,all,90.49706813414826,0.469547,0.203383,final
+1,linearRegression,Affinity Data Value,all,120082675811.13055,0.159698,0.023025,final
+2,linearRegression,pKd pKi pIC50,all,2.93094674487938,0.634654,0.365147,final
+3,Ridge,delta G,all,89.89721012079504,0.472605,0.208663,final
+4,Ridge,Affinity Data Value,all,120075291069.30074,0.159791,0.023085,final
+5,Ridge,pKd pKi pIC50,all,2.912495038211906,0.637833,0.369144,final
+6,Lasso,delta G,all,88.79021753945429,0.478672,0.218408,final
+7,Lasso,Affinity Data Value,all,120144224888.39076,0.15404,0.022525,final
+8,Lasso,pKd pKi pIC50,all,2.9672790353046197,0.630986,0.357277,final
+9,ElasticNet,delta G,all,89.55543434674306,0.469682,0.211672,final
+10,ElasticNet,Affinity Data Value,all,122867138025.491,0.173341,0.000371,final
+11,ElasticNet,pKd pKi pIC50,all,2.9786513503507996,0.628849,0.354814,final
+12,linearRegression,delta G,ki,79.59302255870705,0.582767,0.339097,final
+13,linearRegression,Affinity Data Value,ki,170822855423.37155,0.123569,-0.003246,final
+14,linearRegression,pKd pKi pIC50,ki,2.4729917554525285,0.703116,0.483458,final
+15,Ridge,delta G,ki,79.48577923731737,0.583746,0.339988,final
+16,Ridge,Affinity Data Value,ki,170583478566.94556,0.123154,-0.00184,final
+17,Ridge,pKd pKi pIC50,ki,2.490404441344326,0.700888,0.479821,final
+18,Lasso,delta G,ki,77.87624594350906,0.601402,0.353353,final
+19,Lasso,Affinity Data Value,ki,169100354463.47205,0.099649,0.00687,final
+20,Lasso,pKd pKi pIC50,ki,2.4777151244804143,0.718309,0.482471,final
+21,ElasticNet,delta G,ki,78.37077172712127,0.596771,0.349246,final
+22,ElasticNet,Affinity Data Value,ki,170565078102.91626,0.17069,-0.001732,final
+23,ElasticNet,pKd pKi pIC50,ki,2.4888388460486,0.714376,0.480148,final
+24,linearRegression,delta G,kd,510.3507294852279,0.072679,-4.51658,final
+25,linearRegression,Affinity Data Value,kd,53666942242.21067,0.202751,-0.211459,final
+26,linearRegression,pKd pKi pIC50,kd,5.8809250968466165,0.21221,-0.565343,final
+27,Ridge,delta G,kd,139.6585796853131,0.075968,-0.509624,final
+28,Ridge,Affinity Data Value,kd,42752344655.55525,0.267273,0.034924,final
+29,Ridge,pKd pKi pIC50,kd,3.841121692306436,0.285654,-0.022403,final
+30,Lasso,delta G,kd,94.36018037279484,0.108166,-0.019976,final
 31,Lasso,Affinity Data Value,kd,39714036685.81009,0.331167,0.103509,final
-32,Lasso,pKd pKi pIC50,kd,3.1088888438579376,0.434936,0.172498,final
-33,ElasticNet,delta G,kd,96.65897831926694,0.077011,-0.044824,final
+32,Lasso,pKd pKi pIC50,kd,3.106339384628838,0.431833,0.173176,final
+33,ElasticNet,delta G,kd,97.14550680182542,0.074712,-0.050084,final
 34,ElasticNet,Affinity Data Value,kd,44122623539.42089,0.226716,0.003992,final
-35,ElasticNet,pKd pKi pIC50,kd,3.1286874847881303,0.424689,0.167228,final
+35,ElasticNet,pKd pKi pIC50,kd,3.123009823039796,0.424547,0.168739,final

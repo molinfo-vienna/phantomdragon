@@ -24,7 +24,7 @@ for k in datatypes:
             blub.set_datatype(f"{k}")
             blub.train_and_save_model(savepath="../models/")
             blub.phantomtest(loadpath="../models/")
-            #blub.plot_phantomtest("../plots/")
+            blub.plot_phantomtest("../plots/")
             modeltype,scoret,datatype,mse,pearsonr,r_2,add_info = blub.get_stats()
             modeltype_list.append(modeltype)
             scoretype_list.append(scoret)
