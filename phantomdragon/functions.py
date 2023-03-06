@@ -10,9 +10,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
-from scipy.stats import pearsonr
+from scipy import stats
 import joblib
 import copy
+import statistics
 
 def filter_and_sort_features(exp_data, features):
     '''
@@ -256,7 +257,7 @@ class parameterCollector:
             self.scoretype = self.scoretype.replace("div","/")
         
 
-    def phantomtest(self, testing_features = 0, testing_scores = 0,loadpath=""):
+    def phantomtest(self, testing_features = 0, testing_scores = 0,loadpath="",confidence_level=0.9):
         if testing_features != 0:
             self.features_test = testing_features
         if testing_scores != 0:
@@ -275,9 +276,14 @@ class parameterCollector:
         self.scores_pre = scores_pre
 
         self.mse = mean_squared_error(self.scores_test, self.scores_pre)
-        self.r = round(pearsonr(self.scores_test,self.scores_pre).statistic, 6)
+        self.sd = statistics.stdev(self.scores_pre)
+        self.r = round(stats.pearsonr(self.scores_test,self.scores_pre).statistic, 6)
+        conf_int = stats.pearsonr(self.scores_test,self.scores_pre).confidence_interval(confidence_level=confidence_level)
+        conf_int_low = round(conf_int.low,3)
+        conf_int_high = round(conf_int.high,3)
+        self.conf_int = f"[{conf_int_low}~{conf_int_high}]"
         self.r_2 = round(r2_score(self.scores_test,self.scores_pre), 6)
-    
+
     def plot_phantomtest(self,savepath):
         k, d = np.polyfit(list(self.scores_test),list(self.scores_pre),deg=1)
         fig, ax = plt.subplots()
@@ -348,5 +354,5 @@ class parameterCollector:
         return (PDBs,scores)
     
     def get_stats(self):
-        return self.modeltype, self.scoretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
+        return self.modeltype, self.scoretype, self.datatype, self.mse, self.sd, self.r, self.conf_int, self.r_2, self.add_information
     
