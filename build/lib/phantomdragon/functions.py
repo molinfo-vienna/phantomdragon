@@ -279,9 +279,9 @@ class parameterCollector:
         self.r_2 = round(r2_score(self.scores_test,self.scores_pre), 6)
     
     def plot_phantomtest(self,savepath):
-        k, d = np.polyfit(self.scores_test,self.scores_pre,deg=1)
+        k, d = np.polyfit(list(self.scores_test),list(self.scores_pre),deg=1)
         fig, ax = plt.subplots()
-        ax.plot(self.scores_test, self.scores_pre,'o')
+        ax.plot(list(self.scores_test), list(self.scores_pre),'o')
         plt.axline(xy1=(0, d), slope=k, label=f'r\u00b2 = {self.r_2}', color="black",ls="--")
         plt.title(f"{self.scoretype}, {self.modeltype}")
         plt.legend()
@@ -294,7 +294,7 @@ class parameterCollector:
             self.modeltype = self.modeltype.replace(" ","_")
             self.add_information = self.add_information.replace(" ","_")
 
-        plt.savefig(f"{savepath}{self.scoretype}_{self.modeltype}_{self.add_information}.png")
+        plt.savefig(f"{savepath}{self.datatype}_{self.scoretype}_{self.modeltype}_{self.add_information}.png")
         
         if "_" in self.scoretype or "_" in self.modeltype or "_" in self.add_information or "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("_"," ")

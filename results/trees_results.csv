@@ -1,0 +1,19 @@
+,Modeltype,Scoretype,Datatype,Mean squared error (mse),Pearson correlation coefficient (r),Coefficient of determination (r²),add. information
+0,DecisionTree,delta G,all,140.41567030464844,0.318708,-0.236035,final
+1,DecisionTree,Affinity Data Value,all,203440840319.3833,-0.004047,-0.655164,final
+2,DecisionTree,pKd pKi pIC50,all,5.444632330827067,0.333859,-0.179326,final
+3,RandomForest,delta G,all,79.34502982732367,0.56961,0.301551,final
+4,RandomForest,Affinity Data Value,all,118630740009.85548,0.192527,0.034838,final
+5,RandomForest,pKd pKi pIC50,all,2.6367799641376664,0.717169,0.428865,final
+6,DecisionTree,delta G,ki,149.92228169184392,0.388988,-0.244883,final
+7,DecisionTree,Affinity Data Value,ki,186912969337.47534,0.016286,-0.097744,final
+8,DecisionTree,pKd pKi pIC50,ki,3.877174096385543,0.516766,0.190162,final
+9,RandomForest,delta G,ki,76.3426223184594,0.633272,0.366087,final
+10,RandomForest,Affinity Data Value,ki,165646596373.56186,0.176477,0.027154,final
+11,RandomForest,pKd pKi pIC50,ki,2.519072770649265,0.752967,0.473833,final
+12,DecisionTree,delta G,kd,144.20980292335068,0.222019,-0.55882,final
+13,DecisionTree,Affinity Data Value,kd,83641671065.24019,-0.072121,-0.888097,final
+14,DecisionTree,pKd pKi pIC50,kd,4.667171,0.295761,-0.242275,final
+15,RandomForest,delta G,kd,80.93908054110666,0.354473,0.125098,final
+16,RandomForest,Affinity Data Value,kd,40350501824.32051,0.320704,0.089142,final
+17,RandomForest,pKd pKi pIC50,kd,2.4998059739954246,0.645428,0.334619,final
