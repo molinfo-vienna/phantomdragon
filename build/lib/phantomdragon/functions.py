@@ -10,9 +10,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
-from scipy.stats import pearsonr
-import pickle
+from scipy import stats
+import joblib
 import copy
+import statistics
 
 def filter_and_sort_features(exp_data, features):
     '''
@@ -91,7 +92,9 @@ def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_i
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
-    if add_information == "basic":
+    if add_information == "final":
+        drop =["PDB code"]
+    elif add_information == "basic":
         drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
     elif add_information == "-w":
         drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -170,7 +173,9 @@ class parameterCollector:
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "basic":
+        if self.add_information == "final":
+            drop = ["PDB code"]
+        elif self.add_information == "basic":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
         elif self.add_information == "-w":
             drop = ["PDB code"," H-H_SUM"," H-H_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -246,7 +251,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        pickle.dump(reg, open(f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","wb"))
+        joblib.dump(reg,f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
         
         if "_" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
@@ -261,7 +266,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
@@ -278,11 +283,11 @@ class parameterCollector:
         conf_int_high = round(conf_int.high,3)
         self.conf_int = f"[{conf_int_low} ~ {conf_int_high}]"
         self.r_2 = round(r2_score(self.scores_test,self.scores_pre), 6)
-    
+
     def plot_phantomtest(self,savepath):
-        k, d = np.polyfit(self.scores_test,self.scores_pre,deg=1)
+        k, d = np.polyfit(list(self.scores_test),list(self.scores_pre),deg=1)
         fig, ax = plt.subplots()
-        ax.plot(self.scores_test, self.scores_pre,'o')
+        ax.plot(list(self.scores_test), list(self.scores_pre),'o')
         plt.axline(xy1=(0, d), slope=k, label=f'r\u00b2 = {self.r_2}', color="black",ls="--")
         plt.title(f"{self.scoretype}, {self.modeltype}")
         plt.legend()
@@ -295,7 +300,7 @@ class parameterCollector:
             self.modeltype = self.modeltype.replace(" ","_")
             self.add_information = self.add_information.replace(" ","_")
 
-        plt.savefig(f"{savepath}{self.scoretype}_{self.modeltype}_{self.add_information}.png")
+        plt.savefig(f"{savepath}{self.datatype}_{self.scoretype}_{self.modeltype}_{self.add_information}.png")
         
         if "_" in self.scoretype or "_" in self.modeltype or "_" in self.add_information or "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("_"," ")
@@ -337,7 +342,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        reg = pickle.load(open(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav","rb"))
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
@@ -349,5 +354,5 @@ class parameterCollector:
         return (PDBs,scores)
     
     def get_stats(self):
-        return self.modeltype, self.scoretype, self.datatype, self.mse, self.r, self.r_2, self.add_information
+        return self.modeltype, self.scoretype, self.datatype, self.mse, self.sd, self.r, self.conf_int, self.r_2, self.add_information
     
