@@ -23,7 +23,7 @@ for k in datatypes:
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
-            blub.train_and_save_model(savepath="../models/")
+            #blub.train_and_save_model(savepath="../models/")
             blub.phantomtest(loadpath="../models/")
             blub.plot_phantomtest("../plots/")
             modeltype,scoret,datatype,mse, sd,pearsonr,confidence_interval,r_2,add_info = blub.get_stats()
