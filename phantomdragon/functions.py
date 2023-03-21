@@ -281,7 +281,7 @@ class parameterCollector:
         conf_int = stats.pearsonr(self.scores_test,self.scores_pre).confidence_interval(confidence_level=confidence_level)
         conf_int_low = round(conf_int.low,3)
         conf_int_high = round(conf_int.high,3)
-        self.conf_int = f"[{conf_int_low}~{conf_int_high}]"
+        self.conf_int = f"[{conf_int_low} ~ {conf_int_high}]"
         self.r_2 = round(r2_score(self.scores_test,self.scores_pre), 6)
 
     def plot_phantomtest(self,savepath):
