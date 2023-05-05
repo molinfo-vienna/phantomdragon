@@ -58,30 +58,47 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
-def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_information,sh=True,identifier="PDB code"):
-    features = pd.read_csv(featurepath_all,dtype={identifier:str})
+def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_train,experimentpath_test,add_information,sh=True,identifier="PDB code"):
+    features_train = pd.read_csv(featurepath_train,dtype={identifier:str})
     features_test = pd.read_csv(featurepath_test,dtype={identifier:str})
-    experiment = pd.read_csv(experimentpath,dtype={identifier:str})
-    experiment = experiment.sort_values(identifier)
-    experiment = experiment.reset_index()
-    experiment = experiment.drop("index", axis=1)
-    features = filter_and_sort_features(experiment,features)
-    features_test = filter_and_sort_features(experiment,features_test)
+    experiment_train = pd.read_csv(experimentpath_train,dtype={identifier:str})
+    experiment_test = pd.read_csv(experimentpath_test,dtype={identifier:str})
+    experiment_train = experiment_train.sort_values(identifier)
+    experiment_train = experiment_train.reset_index()
+    experiment_train = experiment_train.drop("index", axis=1)
+    experiment_test = experiment_test.sort_values(identifier)
+    experiment_test = experiment_test.reset_index()
+    experiment_test = experiment_test.drop("index", axis=1)
+    features_train = filter_and_sort_features(experiment_train,features_train)
+    features_test = filter_and_sort_features(experiment_test,features_test)
 
-    PDB_codes = features_test[identifier].tolist()
-    
-    features_train = copy.copy(features)
-    features_train = features_train.set_index(features_train[identifier])
+    if features_test[identifier].tolist() == experiment_test[identifier].tolist():
+        PDB_codes = features_test[identifier].tolist()
+    else:
+        raise ValueError("Testfeatures and Testlables have different Values")
+        
+    if (all(x in PDB_codes for x in features_train[identifier])):
+        pass
+    else:
+        bool_list = []
+        for i in range(len(PDB_codes)):
+            if PDB_codes[i] in list(features_train[identifier]):
+                bool_list.append(True)
+            else:
+                bool_list.append(False)
+        PDB_codes = np.array(PDB_codes)
+        PDB_codes = list(PDB_codes[bool_list])
+
+    features_train = features_train.set_index(features_train[identifier]) 
     features_train = features_train.transpose()
-
+    print(features_train.keys())
+    print(all(x in PDB_codes for x in features_train.keys()))
     features_train = features_train.drop(PDB_codes, axis=1)
     features_train = features_train.transpose()
     features_train = features_train.reset_index(drop=True)
 
-    experiment = experiment.set_index(experiment[identifier])
-    experiment = experiment.transpose()
-    experiment_test = copy.copy(experiment)
-    experiment_train = copy.copy(experiment)
+    experiment_train = experiment_train.set_index(experiment_train[identifier])
+    experiment_train = experiment_train.transpose()
 
     experiment_train = experiment_train.drop(PDB_codes, axis=1)
     experiment_test = experiment_test[PDB_codes]
@@ -114,14 +131,12 @@ def prepare_data(scoretype,featurepath_all,featurepath_test,experimentpath,add_i
         raise ValueError("Unexpected string in add_information")
 
 
-    features = features.drop(drop, axis=1)
-    features_test = features_test.drop(drop, axis=1)
-    features = features.to_numpy()
-    features_test = features_test.to_numpy()
     features_train = features_train.drop(drop, axis=1)
+    features_test = features_test.drop(drop, axis=1)
     features_train = features_train.to_numpy()
+    features_test = features_test.to_numpy()
 
-    scaler = preprocessing.StandardScaler().fit(features)
+    scaler = preprocessing.StandardScaler().fit(features_train)
 
     if sh == True:
         features_train,scores_train = shuffle(features_train, scores_train)

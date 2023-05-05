@@ -20,7 +20,7 @@ for k in datatypes:
         for score in scoretypes:
 
             blub = ph.parameterCollector(add_information="final",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"../data/grail_scores_final.csv","../data/CASF_grail_scores.csv",f"../data/PDBbind_refined_set_{k}.csv","final")
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"../data/grail_scores_final.csv","../data/CASF_grail_scores.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_{k}.csv","final")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -38,6 +38,8 @@ for k in datatypes:
             coef_list.append(r_2)
             add_info_list.append(add_info)
             print(k,modeltype,score,"done")
+            print("Training Set size",len(x_train))
+            print("Testing Set size",len(x_test))
 
 #print(len(modeltype_list),len(featuretype_list),len(datatype_list),len(mse_list),len(pear_list),len(coef_list),len(add_info_list))
 data = {'Modeltype':modeltype_list,'Scoretype':scoretype_list,'Datatype':datatype_list,'Mean squared error (mse)':mse_list,'Standard Diviation (SD)':sd_list,'Pearson correlation coefficient (r)':pear_list,'90% Confidence interval':confidence_interval_list,'Coefficient of determination (r²)':coef_list,'add. information':add_info_list}
