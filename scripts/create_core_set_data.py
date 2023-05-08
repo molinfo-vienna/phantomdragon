@@ -47,7 +47,7 @@ for line in lines:
         K_reciprocal_list.append(K_reciprocal)
 
 # print(len(PDB_code_list),len(Affinity_Data_Type_list),len(Affinity_Data_Value_list),len(pKi_pKd_IC50_list),len(Delta_G_list),len(K_reciprocal_list))
-data = {'PDB code':PDB_code_list,'Affinity Data Type':Affinity_Data_Type_list,'Affinity Data Value':Affinity_Data_Value_list,'pKi pKd IC50':pKi_pKd_IC50_list,'Delta G':Delta_G_list,'1/K':K_reciprocal_list}
+data = {'PDB code':PDB_code_list,'Affinity Data Type':Affinity_Data_Type_list,'Affinity Data Value':Affinity_Data_Value_list,'pKd pKi pIC50':pKi_pKd_IC50_list,'delta G':Delta_G_list,'1/K':K_reciprocal_list}
 df = pd.DataFrame(data)
 df.to_csv("../data/PDBbind_core_set_all.csv")
 

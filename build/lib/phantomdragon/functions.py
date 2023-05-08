@@ -91,9 +91,10 @@ def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_tra
 
     features_train = features_train.set_index(features_train[identifier]) 
     features_train = features_train.transpose()
-    print(features_train.keys())
-    print(all(x in PDB_codes for x in features_train.keys()))
-    features_train = features_train.drop(PDB_codes, axis=1)
+
+    for PDB_code in PDB_codes:
+        features_train = features_train.drop(PDB_code, axis=1)
+
     features_train = features_train.transpose()
     features_train = features_train.reset_index(drop=True)
 
@@ -101,9 +102,6 @@ def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_tra
     experiment_train = experiment_train.transpose()
 
     experiment_train = experiment_train.drop(PDB_codes, axis=1)
-    experiment_test = experiment_test[PDB_codes]
-
-    experiment_test = experiment_test.transpose()
     experiment_train = experiment_train.transpose()
 
     scores_test = np.array(experiment_test[scoretype])
