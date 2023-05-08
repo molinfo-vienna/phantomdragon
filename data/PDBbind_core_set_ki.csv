@@ -1,4 +1,4 @@
-,PDB code,Affinity Data Type,Affinity Data Value,pKi pKd IC50,Delta G,1/K
+,PDB code,Affinity Data Type,Affinity Data Value,pKd pKi pIC50,delta G,1/K
 0,4llx,Ki,1300000,2.89,2735.22,0.0
 1,5c28,Ki,2200,5.66,4467.62,0.00045
 2,3uuo,Ki,11,7.96,5346.51,0.09091
