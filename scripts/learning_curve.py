@@ -42,10 +42,10 @@ for k in datatypes:
             #
             # Plot the learning curve
             #
-            plt.plot(train_sizes, train_mean, color='blue', marker='o', markersize=5, label='Training Accuracy')
+            plt.plot(train_sizes, train_mean, color='#0070C0', marker='o', markersize=5, label='Training Accuracy')
             plt.fill_between(train_sizes, train_mean + train_std, train_mean - train_std, alpha=0.15, color='blue')
-            plt.plot(train_sizes, test_mean, color='green', marker='+', markersize=5, linestyle='--', label='Validation Accuracy')
-            plt.fill_between(train_sizes, test_mean + test_std, test_mean - test_std, alpha=0.15, color='green')
+            plt.plot(train_sizes, test_mean, color='#F6A800', marker='+', markersize=5, linestyle='--', label='Validation Accuracy')
+            plt.fill_between(train_sizes, test_mean + test_std, test_mean - test_std, alpha=0.15, color='#F6A800')
             plt.title(f'Learning Curve for {k} {score} {modeltype}')
             plt.xlabel('Training Data Size')
             plt.ylabel('Model accuracy')
