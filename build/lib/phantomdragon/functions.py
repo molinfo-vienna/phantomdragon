@@ -135,6 +135,10 @@ def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_tra
     features_test = features_test.to_numpy()
 
     if polynomial == True:
+        print("Original:")
+        print(features_test)
+        print("Squared:")
+        print(features_test**2)
         features_train = np.hstack((features_train,features_train**2))
         features_test = np.hstack((features_test,features_test**2))
 
