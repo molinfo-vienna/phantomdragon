@@ -58,11 +58,11 @@ def combine(list1,list2,list3):
                 combinations.append([lst1,lst2,lst3])
     return combinations
 
-def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_train,experimentpath_test,add_information,sh=True,identifier="PDB code"):
+def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_train,experimentpath_test,add_information,sh=True,identifier="PDB code",polynomial=False):
     features_train = pd.read_csv(featurepath_train,dtype={identifier:str})
     features_test = pd.read_csv(featurepath_test,dtype={identifier:str})
     experiment_train = pd.read_csv(experimentpath_train,dtype={identifier:str})
-    experiment_test = pd.read_csv(experimentpath_test,dtype={identifier:str})
+    experiment_test = pd.read_csv(experimentpath_test,dtype={identifier:str})    
     experiment_train = experiment_train.sort_values(identifier)
     experiment_train = experiment_train.reset_index()
     experiment_train = experiment_train.drop("index", axis=1)
@@ -97,6 +97,9 @@ def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_tra
 
     features_train = features_train.transpose()
     features_train = features_train.reset_index(drop=True)
+
+    print(len(features_train))
+    features_train.to_csv("../data/grail_scores_refined_set_reduced.csv")
 
     experiment_train = experiment_train.set_index(experiment_train[identifier])
     experiment_train = experiment_train.transpose()
@@ -133,6 +136,10 @@ def prepare_data(scoretype,featurepath_train,featurepath_test,experimentpath_tra
     features_test = features_test.drop(drop, axis=1)
     features_train = features_train.to_numpy()
     features_test = features_test.to_numpy()
+
+    if polynomial == True:
+        features_train = np.hstack((features_train,features_train**2))
+        features_test = np.hstack((features_test,features_test**2))
 
     scaler = preprocessing.StandardScaler().fit(features_train)
 
@@ -186,7 +193,7 @@ class parameterCollector:
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "final":
+        if self.add_information == "final" or self.add_information == "poly":
             drop = ["PDB code"]
         elif self.add_information == "basic":
             drop = ["PDB code"," HW-HW_SUM"," HW-HW_MAX"," ES"," VDW_ATT"," VDW_REP"]
@@ -225,7 +232,7 @@ class parameterCollector:
         self.scores_train = y_train
         self.scores_test = y_test
         
-    def train_and_save_model(self,savepath=""):
+    def train_and_save_model(self,savepath="",additional_marker=""):
         if self.modeltype == "linearRegression":
             reg = linear_model.LinearRegression()
         elif self.modeltype == "Ridge":
@@ -264,13 +271,13 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        joblib.dump(reg,f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
+        joblib.dump(reg,f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}{additional_marker}.sav")
         
         if "_" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")
         
 
-    def phantomtest(self, testing_features = 0, testing_scores = 0,loadpath="",confidence_level=0.9):
+    def phantomtest(self, testing_features = 0, testing_scores = 0,loadpath="",confidence_level=0.9,additional_marker=""):
         if testing_features != 0:
             self.features_test = testing_features
         if testing_scores != 0:
@@ -279,7 +286,7 @@ class parameterCollector:
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/","div")
 
-        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}.sav")
+        reg = joblib.load(f"{loadpath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}{additional_marker}.sav")
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div","/")

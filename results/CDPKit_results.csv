@@ -1,0 +1,4 @@
+,Modeltype,Scoretype,Datatype,Mean squared error (mse),Standard Diviation (SD),Pearson correlation coefficient (r),90% Confidence interval,Coefficient of determination (r²),add. information
+0,polynomialRegression,pKd pKi pIC50,ki,2.5266634338660747,1.4769880483041404,0.706071,[0.638 ~ 0.763],0.496179,CDPKit
+1,polynomialRegression,pKd pKi pIC50,kd,2.23063591682161,0.856391962600295,0.671154,[0.573 ~ 0.751],0.396791,CDPKit
+2,polynomialRegression,pKd pKi pIC50,all,2.5935469037684955,1.1282967241270838,0.692706,[0.638 ~ 0.74],0.449462,CDPKit
