@@ -1,4 +1,4 @@
-from lazypredict.Supervised import LazyRegressor
+import lazypredict
 from sklearn import datasets
 from sklearn.utils import shuffle
 import numpy as np
