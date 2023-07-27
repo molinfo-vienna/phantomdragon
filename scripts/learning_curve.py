@@ -24,7 +24,7 @@ for k in datatypes:
             # Load Dataset
             # Create training and test split
             #
-            X_train, X_test, y_train, y_test = ph.prepare_data(score,"../data/grail_scores_final.csv","../data/CASF_grail_scores.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_{k}.csv","final")
+            X_train, X_test, y_train, y_test = ph.prepare_data(score,"../data/PDBbind_refined_set_all_grail_scores.csv","../data/PDBbind_core_set_all_grail_scores.csv",f"../data/PDBbind_refined_set_{k}.csv","../data/PDBbind_core_set_all.csv","final")
 
             # Grid search?
             # Use learning curve to get training and test scores along with train sizes

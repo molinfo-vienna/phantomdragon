@@ -11,7 +11,7 @@ for k in datatypes:
         for score in scoretypes:
             blub = ph.parameterCollector(modeltype=modeltype,scoretype=score,add_information="final")
             blub.set_datatype(f"{k}")
-            PDBs, phantomscore = blub.phantomscore("../data/CASF_grail_scores.csv","../models/")
+            PDBs, phantomscore = blub.phantomscore("../data/PDBbind_core_set_all_grail_scores.csv","../models/")
             data = {"#code":PDBs,"score":phantomscore}
             df = pd.DataFrame(data)
             

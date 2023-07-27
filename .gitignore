@@ -4,3 +4,4 @@ plots/*
 results/CASF_input
 scripts/tmp.py
 models/*
+scripts/create_docking_power_input.py

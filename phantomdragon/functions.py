@@ -421,7 +421,9 @@ class parameterCollector:
 
         PDB_codes = self.features_test["PDB code"]
 
-        if self.add_information == "basic":
+        if self.add_information == "final":
+            drop = ["PDB code"]
+        elif self.add_information == "basic":
             drop = [
                 "PDB code",
                 " HW-HW_SUM",
