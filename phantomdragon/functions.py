@@ -16,7 +16,7 @@ import copy
 import statistics
 
 
-def filter_and_sort_features(exp_data, features):
+def filter_and_sort_features(exp_data, features,identifier="PDB code"):
     """
     Parameters
     ----------
@@ -34,8 +34,8 @@ def filter_and_sort_features(exp_data, features):
         It is sorted and filtered according to the "PDB code" bracket.
 
     """
-    df = features[features["PDB code"].isin(exp_data["PDB code"])]
-    df = df.sort_values("PDB code")
+    df = features[features[identifier].isin(exp_data[identifier])]
+    df = df.sort_values(identifier)
     df = df.reset_index(drop=True)
     return df
 
@@ -121,23 +121,23 @@ def prepare_data(
     scores_train = np.array(experiment_train[scoretype])
 
     if add_information == "final":
-        drop = ["PDB code"]
+        drop = [identifier]
     elif add_information == "basic":
-        drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
+        drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     elif add_information == "-w":
-        drop = ["PDB code", " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
+        drop = [identifier, " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
     elif add_information == "basic-el":
-        drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX", " VDW_ATT", " VDW_REP"]
+        drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " VDW_ATT", " VDW_REP"]
     elif add_information == "-w-el":
-        drop = ["PDB code", " H-H_SUM", " H-H_MAX", " VDW_ATT", " VDW_REP"]
+        drop = [identifier, " H-H_SUM", " H-H_MAX", " VDW_ATT", " VDW_REP"]
     elif add_information == "basic-el-vdw":
-        drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX"]
+        drop = [identifier, " HW-HW_SUM", " HW-HW_MAX"]
     elif add_information == "-w-el-vdw":
-        drop = ["PDB code", " H-H_SUM", " H-H_MAX"]
+        drop = [identifier, " H-H_SUM", " H-H_MAX"]
     elif add_information == "basic-vdw":
-        drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
+        drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     elif add_information == "-w-vdw":
-        drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
+        drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     else:
         raise ValueError("Unexpected string in add_information")
 
@@ -206,10 +206,10 @@ class parameterCollector:
         scores = np.array(experiment[self.scoretype])
 
         if self.add_information == "final" or self.add_information == "poly":
-            drop = ["PDB code"]
+            drop = [identifier]
         elif self.add_information == "basic":
             drop = [
-                "PDB code",
+                identifier,
                 " HW-HW_SUM",
                 " HW-HW_MAX",
                 " ES",
@@ -217,18 +217,18 @@ class parameterCollector:
                 " VDW_REP",
             ]
         elif self.add_information == "-w":
-            drop = ["PDB code", " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
+            drop = [identifier, " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
         elif self.add_information == "basic-el":
-            drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX", " VDW_ATT", " VDW_REP"]
+            drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " VDW_ATT", " VDW_REP"]
         elif self.add_information == "-w-el":
-            drop = ["PDB code", " H-H_SUM", " H-H_MAX", " VDW_ATT", " VDW_REP"]
+            drop = [identifier, " H-H_SUM", " H-H_MAX", " VDW_ATT", " VDW_REP"]
         elif self.add_information == "basic-el-vdw":
-            drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX"]
+            drop = [identifier, " HW-HW_SUM", " HW-HW_MAX"]
         elif self.add_information == "-w-el-vdw":
-            drop = ["PDB code", " H-H_SUM", " H-H_MAX"]
+            drop = [identifier, " H-H_SUM", " H-H_MAX"]
         elif self.add_information == "basic-vdw":
             drop = [
-                "PDB code",
+                identifier,
                 " HW-HW_SUM",
                 " HW-HW_MAX",
                 " ES",
@@ -237,7 +237,7 @@ class parameterCollector:
             ]
         elif self.add_information == "-w-vdw":
             drop = [
-                "PDB code",
+                identifier,
                 " HW-HW_SUM",
                 " HW-HW_MAX",
                 " ES",
@@ -419,13 +419,13 @@ class parameterCollector:
         if isinstance(features_test, str):
             self.features_test = pd.read_csv(features_test, dtype={identifier: str})
 
-        PDB_codes = self.features_test["PDB code"]
+        PDB_codes = self.features_test[identifier]
 
         if self.add_information == "final":
-            drop = ["PDB code"]
+            drop = [identifier]
         elif self.add_information == "basic":
             drop = [
-                "PDB code",
+                identifier,
                 " HW-HW_SUM",
                 " HW-HW_MAX",
                 " ES",
@@ -433,18 +433,18 @@ class parameterCollector:
                 " VDW_REP",
             ]
         elif self.add_information == "-w":
-            drop = ["PDB code", " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
+            drop = [identifier, " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
         elif self.add_information == "basic-el":
-            drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX", " VDW_ATT", " VDW_REP"]
+            drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " VDW_ATT", " VDW_REP"]
         elif self.add_information == "-w-el":
-            drop = ["PDB code", " H-H_SUM", " H-H_MAX", " VDW_ATT", " VDW_REP"]
+            drop = [identifier, " H-H_SUM", " H-H_MAX", " VDW_ATT", " VDW_REP"]
         elif self.add_information == "basic-el-vdw":
-            drop = ["PDB code", " HW-HW_SUM", " HW-HW_MAX"]
+            drop = [identifier, " HW-HW_SUM", " HW-HW_MAX"]
         elif self.add_information == "-w-el-vdw":
-            drop = ["PDB code", " H-H_SUM", " H-H_MAX"]
+            drop = [identifier, " H-H_SUM", " H-H_MAX"]
         elif self.add_information == "basic-vdw":
             drop = [
-                "PDB code",
+                identifier,
                 " HW-HW_SUM",
                 " HW-HW_MAX",
                 " ES",
@@ -453,7 +453,7 @@ class parameterCollector:
             ]
         elif self.add_information == "-w-vdw":
             drop = [
-                "PDB code",
+                identifier,
                 " HW-HW_SUM",
                 " HW-HW_MAX",
                 " ES",
