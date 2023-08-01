@@ -3,7 +3,6 @@ data/CASF-2016/coreset/*
 data/CASF-2016/decoys_screening/*
 data/CASF-2016/decoys_docking/*
 data/CASF-2016/power_screening/*
-data/CASF-2016/power_docking/*
 data/CASF-2016/power_ranking/*
 plots/*
 results/CASF_input
