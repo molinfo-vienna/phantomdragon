@@ -1,0 +1,3964 @@
+#	Name:			3twp_105
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_105
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        73.1313   81.1536   34.0756 C.2       1 SAL         0.9790 
+      2 O1'        74.0731   81.0689   33.2261 O.co2     1 SAL        -0.9000 
+      3 O2'        73.1223   81.7151   35.1954 O.co2     1 SAL        -0.9000 
+      4 C1         71.8586   80.4404   33.7710 C.ar      1 SAL        -0.1790 
+      5 C2         70.7465   80.8116   34.5093 C.ar      1 SAL         0.0825 
+      6 C3         69.5579   80.1587   34.2446 C.ar      1 SAL        -0.1500 
+      7 C4         69.5227   79.1769   33.2389 C.ar      1 SAL        -0.1500 
+      8 C5         70.6615   78.8120   32.5048 C.ar      1 SAL        -0.1500 
+      9 C6         71.8596   79.4548   32.7747 C.ar      1 SAL        -0.1500 
+     10 O2         70.8674   81.8068   35.4803 O.3       1 SAL        -0.5325 
+     11 H1         68.6628   80.4007   34.8059 H         1 SAL         0.1500 
+     12 H2         68.5818   78.6839   33.0228 H         1 SAL         0.1500 
+     13 H3         70.6055   78.0435   31.7423 H         1 SAL         0.1500 
+     14 H4         72.7652   79.2039   32.2344 H         1 SAL         0.1500 
+     15 H5         70.0655   81.8516   35.9876 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_108
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_108
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.9785   81.0892   33.8307 C.2       1 SAL         0.9790 
+      2 O1'        73.0370   81.7879   34.8910 O.co2     1 SAL        -0.9000 
+      3 O2'        73.8407   80.9344   32.9351 O.co2     1 SAL        -0.9000 
+      4 C1         71.6962   80.3908   33.5323 C.ar      1 SAL        -0.1790 
+      5 C2         70.6118   80.7151   34.3314 C.ar      1 SAL         0.0825 
+      6 C3         69.4149   80.0749   34.0732 C.ar      1 SAL        -0.1500 
+      7 C4         69.3434   79.1530   33.0142 C.ar      1 SAL        -0.1500 
+      8 C5         70.4547   78.8349   32.2186 C.ar      1 SAL        -0.1500 
+      9 C6         71.6613   79.4647   32.4811 C.ar      1 SAL        -0.1500 
+     10 O2         70.7675   81.6526   35.3535 O.3       1 SAL        -0.5325 
+     11 H1         68.5408   80.2811   34.6803 H         1 SAL         0.1500 
+     12 H2         68.3957   78.6704   32.8046 H         1 SAL         0.1500 
+     13 H3         70.3712   78.1118   31.4154 H         1 SAL         0.1500 
+     14 H4         72.5465   79.2484   31.8941 H         1 SAL         0.1500 
+     15 H5         69.9612   81.7126   35.8521 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_121
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_121
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.5844   80.7110   33.4724 C.2       1 SAL         0.9790 
+      2 O1'        72.7127   81.6268   34.3445 O.co2     1 SAL        -0.9000 
+      3 O2'        73.4206   80.2836   32.6431 O.co2     1 SAL        -0.9000 
+      4 C1         71.2453   80.0722   33.3318 C.ar      1 SAL        -0.1790 
+      5 C2         70.2920   80.4138   34.2774 C.ar      1 SAL         0.0825 
+      6 C3         69.0452   79.8286   34.1667 C.ar      1 SAL        -0.1500 
+      7 C4         68.7940   78.9428   33.1042 C.ar      1 SAL        -0.1500 
+      8 C5         69.7747   78.6063   32.1587 C.ar      1 SAL        -0.1500 
+      9 C6         71.0312   79.1805   32.2721 C.ar      1 SAL        -0.1500 
+     10 O2         70.6223   81.3130   35.2923 O.3       1 SAL        -0.5325 
+     11 H1         68.2695   80.0500   34.8908 H         1 SAL         0.1500 
+     12 H2         67.8072   78.5039   33.0121 H         1 SAL         0.1500 
+     13 H3         69.5542   77.9117   31.3562 H         1 SAL         0.1500 
+     14 H4         71.8202   78.9481   31.5661 H         1 SAL         0.1500 
+     15 H5         69.8393   81.5396   35.7803 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_126
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_126
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.7432   80.9361   33.6379 C.2       1 SAL         0.9790 
+      2 O1'        72.7538   81.6746   34.6725 O.co2     1 SAL        -0.9000 
+      3 O2'        73.6248   80.7895   32.7600 O.co2     1 SAL        -0.9000 
+      4 C1         71.4990   80.1686   33.3484 C.ar      1 SAL        -0.1790 
+      5 C2         70.4453   80.3377   34.2320 C.ar      1 SAL         0.0825 
+      6 C3         69.2843   79.6310   33.9831 C.ar      1 SAL        -0.1500 
+      7 C4         69.2148   78.8009   32.8505 C.ar      1 SAL        -0.1500 
+      8 C5         70.2950   78.6398   31.9696 C.ar      1 SAL        -0.1500 
+      9 C6         71.4667   79.3364   32.2213 C.ar      1 SAL        -0.1500 
+     10 O2         70.5952   81.1930   35.3245 O.3       1 SAL        -0.5325 
+     11 H1         68.4366   79.7158   34.6534 H         1 SAL         0.1500 
+     12 H2         68.2934   78.2660   32.6506 H         1 SAL         0.1500 
+     13 H3         70.2149   77.9841   31.1101 H         1 SAL         0.1500 
+     14 H4         72.3274   79.2409   31.5694 H         1 SAL         0.1500 
+     15 H5         69.7384   81.4549   35.6402 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_14
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_14
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.0682   78.3971   33.1353 C.2       1 SAL         0.9790 
+      2 O1'        70.3263   77.1687   32.9343 O.co2     1 SAL        -0.9000 
+      3 O2'        69.4490   78.9317   34.0841 O.co2     1 SAL        -0.9000 
+      4 C1         70.4807   79.3714   32.0858 C.ar      1 SAL        -0.1790 
+      5 C2         70.3871   78.9447   30.7709 C.ar      1 SAL         0.0825 
+      6 C3         70.7691   79.8324   29.7834 C.ar      1 SAL        -0.1500 
+      7 C4         71.2087   81.1173   30.1472 C.ar      1 SAL        -0.1500 
+      8 C5         71.3004   81.5291   31.4855 C.ar      1 SAL        -0.1500 
+      9 C6         70.9305   80.6385   32.4812 C.ar      1 SAL        -0.1500 
+     10 O2         69.9268   77.6558   30.4980 O.3       1 SAL        -0.5325 
+     11 H1         70.7304   79.5414   28.7399 H         1 SAL         0.1500 
+     12 H2         71.4869   81.8151   29.3657 H         1 SAL         0.1500 
+     13 H3         71.6531   82.5232   31.7355 H         1 SAL         0.1500 
+     14 H4         70.9871   80.9123   33.5284 H         1 SAL         0.1500 
+     15 H5         70.4633   77.0242   30.9624 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_147
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_147
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.9747   80.9571   34.1217 C.2       1 SAL         0.9790 
+      2 O1'        73.0941   81.5721   35.2278 O.co2     1 SAL        -0.9000 
+      3 O2'        73.8026   80.8350   33.1895 O.co2     1 SAL        -0.9000 
+      4 C1         71.6556   80.3351   33.8149 C.ar      1 SAL        -0.1790 
+      5 C2         70.5778   80.7571   34.5766 C.ar      1 SAL         0.0825 
+      6 C3         69.3468   80.1887   34.3102 C.ar      1 SAL        -0.1500 
+      7 C4         69.2376   79.2381   33.2802 C.ar      1 SAL        -0.1500 
+      8 C5         70.3424   78.8206   32.5226 C.ar      1 SAL        -0.1500 
+      9 C6         71.5823   79.3781   32.7938 C.ar      1 SAL        -0.1500 
+     10 O2         70.7730   81.7164   35.5711 O.3       1 SAL        -0.5325 
+     11 H1         68.4753   80.4726   34.8888 H         1 SAL         0.1500 
+     12 H2         68.2646   78.8122   33.0634 H         1 SAL         0.1500 
+     13 H3         70.2288   78.0777   31.7415 H         1 SAL         0.1500 
+     14 H4         72.4639   79.0841   32.2358 H         1 SAL         0.1500 
+     15 H5         69.9968   81.7680   36.1165 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_152
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_152
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.6912   80.8252   33.5310 C.2       1 SAL         0.9790 
+      2 O1'        73.6709   80.4568   32.8098 O.co2     1 SAL        -0.9000 
+      3 O2'        72.6468   81.7126   34.4141 O.co2     1 SAL        -0.9000 
+      4 C1         71.4094   80.0779   33.3907 C.ar      1 SAL        -0.1790 
+      5 C2         70.3516   80.5062   34.1764 C.ar      1 SAL         0.0825 
+      6 C3         69.1557   79.8232   34.0638 C.ar      1 SAL        -0.1500 
+      7 C4         69.0581   78.7542   33.1559 C.ar      1 SAL        -0.1500 
+      8 C5         70.1427   78.3329   32.3718 C.ar      1 SAL        -0.1500 
+      9 C6         71.3486   79.0062   32.4898 C.ar      1 SAL        -0.1500 
+     10 O2         70.5318   81.5860   35.0420 O.3       1 SAL        -0.5325 
+     11 H1         68.3025   80.1084   34.6686 H         1 SAL         0.1500 
+     12 H2         68.1106   78.2367   33.0582 H         1 SAL         0.1500 
+     13 H3         70.0398   77.4981   31.6879 H         1 SAL         0.1500 
+     14 H4         72.2138   78.7142   31.9058 H         1 SAL         0.1500 
+     15 H5         69.7703   81.6707   35.6036 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_157
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_157
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.6807   81.1526   33.6092 C.2       1 SAL         0.9790 
+      2 O1'        73.6379   80.8966   32.8129 O.co2     1 SAL        -0.9000 
+      3 O2'        72.6031   82.0319   34.4981 O.co2     1 SAL        -0.9000 
+      4 C1         71.4859   80.2631   33.5633 C.ar      1 SAL        -0.1790 
+      5 C2         70.3608   80.6987   34.2445 C.ar      1 SAL         0.0825 
+      6 C3         69.2439   79.8856   34.2174 C.ar      1 SAL        -0.1500 
+      7 C4         69.2885   78.6811   33.4937 C.ar      1 SAL        -0.1500 
+      8 C5         70.4395   78.2554   32.8135 C.ar      1 SAL        -0.1500 
+      9 C6         71.5671   79.0609   32.8477 C.ar      1 SAL        -0.1500 
+     10 O2         70.3989   81.9156   34.9266 O.3       1 SAL        -0.5325 
+     11 H1         68.3435   80.1732   34.7482 H         1 SAL         0.1500 
+     12 H2         68.4016   78.0588   33.4600 H         1 SAL         0.1500 
+     13 H3         70.4468   77.3160   32.2725 H         1 SAL         0.1500 
+     14 H4         72.4793   78.7712   32.3389 H         1 SAL         0.1500 
+     15 H5         69.6931   81.9435   35.5619 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_160
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_160
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.7744   81.1129   33.7686 C.2       1 SAL         0.9790 
+      2 O1'        72.7088   81.9107   34.7561 O.co2     1 SAL        -0.9000 
+      3 O2'        73.6815   80.9819   32.9146 O.co2     1 SAL        -0.9000 
+      4 C1         71.5977   80.2363   33.5082 C.ar      1 SAL        -0.1790 
+      5 C2         70.3736   80.6837   33.9787 C.ar      1 SAL         0.0825 
+      6 C3         69.2711   79.8827   33.7509 C.ar      1 SAL        -0.1500 
+      7 C4         69.4314   78.6780   33.0441 C.ar      1 SAL        -0.1500 
+      8 C5         70.6809   78.2402   32.5792 C.ar      1 SAL        -0.1500 
+      9 C6         71.7926   79.0335   32.8159 C.ar      1 SAL        -0.1500 
+     10 O2         70.3022   81.8999   34.6595 O.3       1 SAL        -0.5325 
+     11 H1         68.2935   80.1797   34.1131 H         1 SAL         0.1500 
+     12 H2         68.5583   78.0653   32.8512 H         1 SAL         0.1500 
+     13 H3         70.7747   77.3010   32.0461 H         1 SAL         0.1500 
+     14 H4         72.7780   78.7342   32.4774 H         1 SAL         0.1500 
+     15 H5         69.7319   81.8064   35.4135 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_18
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_18
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.5970   81.3585   34.0312 C.2       1 SAL         0.9790 
+      2 O1'        70.6317   80.8772   35.2072 O.co2     1 SAL        -0.9000 
+      3 O2'        70.6018   82.5565   33.6648 O.co2     1 SAL        -0.9000 
+      4 C1         70.4615   80.4024   32.8960 C.ar      1 SAL        -0.1790 
+      5 C2         70.9367   80.8275   31.6659 C.ar      1 SAL         0.0825 
+      6 C3         70.8162   79.9568   30.5998 C.ar      1 SAL        -0.1500 
+      7 C4         70.2458   78.6890   30.8095 C.ar      1 SAL        -0.1500 
+      8 C5         69.7663   78.2787   32.0627 C.ar      1 SAL        -0.1500 
+      9 C6         69.8731   79.1529   33.1332 C.ar      1 SAL        -0.1500 
+     10 O2         71.5016   82.0984   31.5494 O.3       1 SAL        -0.5325 
+     11 H1         71.1576   80.2479   29.6130 H         1 SAL         0.1500 
+     12 H2         70.1737   78.0037   29.9727 H         1 SAL         0.1500 
+     13 H3         69.3217   77.2984   32.1912 H         1 SAL         0.1500 
+     14 H4         69.5141   78.8796   34.1188 H         1 SAL         0.1500 
+     15 H5         71.4279   82.5537   32.3799 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_198
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_198
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.6091   82.3202   27.3807 C.2       1 SAL         0.9790 
+      2 O1'        71.1161   83.0927   26.4997 O.co2     1 SAL        -0.9000 
+      3 O2'        72.6796   82.4307   28.0220 O.co2     1 SAL        -0.9000 
+      4 C1         70.8798   81.0549   27.6774 C.ar      1 SAL        -0.1790 
+      5 C2         69.8302   80.7304   26.8332 C.ar      1 SAL         0.0825 
+      6 C3         69.1387   79.5630   27.0944 C.ar      1 SAL        -0.1500 
+      7 C4         69.5366   78.7560   28.1748 C.ar      1 SAL        -0.1500 
+      8 C5         70.6002   79.1044   29.0211 C.ar      1 SAL        -0.1500 
+      9 C6         71.2895   80.2809   28.7715 C.ar      1 SAL        -0.1500 
+     10 O2         69.5110   81.5825   25.7750 O.3       1 SAL        -0.5325 
+     11 H1         68.2990   79.2726   26.4735 H         1 SAL         0.1500 
+     12 H2         69.0024   77.8313   28.3607 H         1 SAL         0.1500 
+     13 H3         70.8771   78.4668   29.8529 H         1 SAL         0.1500 
+     14 H4         72.1162   80.5912   29.4003 H         1 SAL         0.1500 
+     15 H5         70.1066   82.3225   25.7751 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_22
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_22
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.2451   80.9290   28.5164 C.2       1 SAL         0.9790 
+      2 O1'        70.6421   80.7924   27.4057 O.co2     1 SAL        -0.9000 
+      3 O2'        72.1891   81.6959   28.8166 O.co2     1 SAL        -0.9000 
+      4 C1         70.8549   80.0207   29.6316 C.ar      1 SAL        -0.1790 
+      5 C2         70.2360   78.8327   29.2775 C.ar      1 SAL         0.0825 
+      6 C3         69.8626   77.9789   30.2977 C.ar      1 SAL        -0.1500 
+      7 C4         70.1414   78.3358   31.6287 C.ar      1 SAL        -0.1500 
+      8 C5         70.7656   79.5460   31.9672 C.ar      1 SAL        -0.1500 
+      9 C6         71.1310   80.4123   30.9486 C.ar      1 SAL        -0.1500 
+     10 O2         70.0096   78.5512   27.9294 O.3       1 SAL        -0.5325 
+     11 H1         69.3604   77.0446   30.0744 H         1 SAL         0.1500 
+     12 H2         69.8642   77.6512   32.4221 H         1 SAL         0.1500 
+     13 H3         70.9580   79.7984   33.0037 H         1 SAL         0.1500 
+     14 H4         71.6133   81.3591   31.1631 H         1 SAL         0.1500 
+     15 H5         70.7928   78.7497   27.4298 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_226
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_226
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        69.8418   83.3528   25.3766 C.2       1 SAL         0.9790 
+      2 O1'        69.0499   84.0647   24.6825 O.co2     1 SAL        -0.9000 
+      3 O2'        70.8631   83.6969   26.0154 O.co2     1 SAL        -0.9000 
+      4 C1         69.6018   81.8823   25.4092 C.ar      1 SAL        -0.1790 
+      5 C2         69.1703   81.2972   24.2297 C.ar      1 SAL         0.0825 
+      6 C3         68.9380   79.9352   24.2409 C.ar      1 SAL        -0.1500 
+      7 C4         69.1664   79.2091   25.4229 C.ar      1 SAL        -0.1500 
+      8 C5         69.5996   79.8211   26.6089 C.ar      1 SAL        -0.1500 
+      9 C6         69.8222   81.1893   26.6071 C.ar      1 SAL        -0.1500 
+     10 O2         68.9820   82.0913   23.0976 O.3       1 SAL        -0.5325 
+     11 H1         68.5837   79.4322   23.3484 H         1 SAL         0.1500 
+     12 H2         69.0019   78.1377   25.4179 H         1 SAL         0.1500 
+     13 H3         69.7571   79.2361   27.5078 H         1 SAL         0.1500 
+     14 H4         70.1549   81.7049   27.5007 H         1 SAL         0.1500 
+     15 H5         68.8520   81.5340   22.3393 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_321
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_321
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.6953   82.7748   25.9254 C.2       1 SAL         0.9790 
+      2 O1'        72.9622   82.8465   26.0009 O.co2     1 SAL        -0.9000 
+      3 O2'        70.8816   83.6017   25.4527 O.co2     1 SAL        -0.9000 
+      4 C1         71.0322   81.5874   26.5347 C.ar      1 SAL        -0.1790 
+      5 C2         71.5384   81.1473   27.7471 C.ar      1 SAL         0.0825 
+      6 C3         70.9396   80.0448   28.3260 C.ar      1 SAL        -0.1500 
+      7 C4         69.8463   79.4394   27.6820 C.ar      1 SAL        -0.1500 
+      8 C5         69.3509   79.8978   26.4518 C.ar      1 SAL        -0.1500 
+      9 C6         69.9557   80.9958   25.8600 C.ar      1 SAL        -0.1500 
+     10 O2         72.6189   81.8162   28.3239 O.3       1 SAL        -0.5325 
+     11 H1         71.3087   79.6511   29.2662 H         1 SAL         0.1500 
+     12 H2         69.3688   78.5878   28.1528 H         1 SAL         0.1500 
+     13 H3         68.5127   79.4036   25.9742 H         1 SAL         0.1500 
+     14 H4         69.6083   81.3831   24.9091 H         1 SAL         0.1500 
+     15 H5         73.0528   82.3432   27.6633 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_362
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_362
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.9499   82.3832   27.3034 C.2       1 SAL         0.9790 
+      2 O1'        73.1062   82.2809   27.8215 O.co2     1 SAL        -0.9000 
+      3 O2'        71.3889   83.3886   26.8098 O.co2     1 SAL        -0.9000 
+      4 C1         71.0730   81.1784   27.3256 C.ar      1 SAL        -0.1790 
+      5 C2         71.1606   80.3669   28.4452 C.ar      1 SAL         0.0825 
+      6 C3         70.3585   79.2425   28.4825 C.ar      1 SAL        -0.1500 
+      7 C4         69.4859   78.9852   27.4106 C.ar      1 SAL        -0.1500 
+      8 C5         69.4150   79.8174   26.2831 C.ar      1 SAL        -0.1500 
+      9 C6         70.2266   80.9401   26.2344 C.ar      1 SAL        -0.1500 
+     10 O2         72.0448   80.7045   29.4709 O.3       1 SAL        -0.5325 
+     11 H1         70.4014   78.5664   29.3288 H         1 SAL         0.1500 
+     12 H2         68.8448   78.1124   27.4568 H         1 SAL         0.1500 
+     13 H3         68.7395   79.5872   25.4671 H         1 SAL         0.1500 
+     14 H4         70.2072   81.6100   25.3824 H         1 SAL         0.1500 
+     15 H5         72.7711   81.1999   29.1110 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_381
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_381
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.1542   82.6250   25.1615 C.2       1 SAL         0.9790 
+      2 O1'        70.2603   83.8439   25.5060 O.co2     1 SAL        -0.9000 
+      3 O2'        69.8524   82.1400   24.0465 O.co2     1 SAL        -0.9000 
+      4 C1         70.3383   81.5892   26.2170 C.ar      1 SAL        -0.1790 
+      5 C2         71.3071   81.8435   27.1744 C.ar      1 SAL         0.0825 
+      6 C3         71.4959   80.8929   28.1592 C.ar      1 SAL        -0.1500 
+      7 C4         70.6955   79.7371   28.1608 C.ar      1 SAL        -0.1500 
+      8 C5         69.7221   79.4959   27.1794 C.ar      1 SAL        -0.1500 
+      9 C6         69.5369   80.4401   26.1816 C.ar      1 SAL        -0.1500 
+     10 O2         72.0479   83.0243   27.1055 O.3       1 SAL        -0.5325 
+     11 H1         72.2527   81.0366   28.9219 H         1 SAL         0.1500 
+     12 H2         70.8354   79.0058   28.9487 H         1 SAL         0.1500 
+     13 H3         69.1272   78.5899   27.2011 H         1 SAL         0.1500 
+     14 H4         68.7982   80.2949   25.4017 H         1 SAL         0.1500 
+     15 H5         71.6263   83.6266   26.5039 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_413
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_413
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        75.3810   84.5460   28.5630 C.2       1 SAL         0.9790 
+      2 O1'        76.3690   83.9650   29.1130 O.co2     1 SAL        -0.9000 
+      3 O2'        75.2080   84.8480   27.3600 O.co2     1 SAL        -0.9000 
+      4 C1         74.2770   85.0170   29.4470 C.ar      1 SAL        -0.1790 
+      5 C2         73.2610   84.1110   29.7070 C.ar      1 SAL         0.0825 
+      6 C3         72.2250   84.5300   30.5200 C.ar      1 SAL        -0.1500 
+      7 C4         72.2570   85.8290   31.0580 C.ar      1 SAL        -0.1500 
+      8 C5         73.2930   86.7330   30.7790 C.ar      1 SAL        -0.1500 
+      9 C6         74.3280   86.3220   29.9540 C.ar      1 SAL        -0.1500 
+     10 O2         73.3150   82.8360   29.1420 O.3       1 SAL        -0.5325 
+     11 H1         71.3980   83.8650   30.7410 H         1 SAL         0.1500 
+     12 H2         71.4520   86.1430   31.7130 H         1 SAL         0.1500 
+     13 H3         73.2850   87.7310   31.2000 H         1 SAL         0.1500 
+     14 H4         75.1490   86.9880   29.7090 H         1 SAL         0.1500 
+     15 H5         72.5500   82.3400   29.4070 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_419
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_419
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.8460   84.3570   30.5730 C.2       1 SAL         0.9790 
+      2 O1'        71.3460   85.5200   30.4640 O.co2     1 SAL        -0.9000 
+      3 O2'        71.6840   83.5060   31.4780 O.co2     1 SAL        -0.9000 
+      4 C1         72.8250   83.9250   29.5360 C.ar      1 SAL        -0.1790 
+      5 C2         72.3050   83.3080   28.4090 C.ar      1 SAL         0.0825 
+      6 C3         73.1970   82.8960   27.4380 C.ar      1 SAL        -0.1500 
+      7 C4         74.5700   83.1360   27.6200 C.ar      1 SAL        -0.1500 
+      8 C5         75.0780   83.7590   28.7710 C.ar      1 SAL        -0.1500 
+      9 C6         74.1890   84.1630   29.7540 C.ar      1 SAL        -0.1500 
+     10 O2         70.9260   83.1210   28.3030 O.3       1 SAL        -0.5325 
+     11 H1         72.8420   82.3940   26.5450 H         1 SAL         0.1500 
+     12 H2         75.2620   82.8290   26.8440 H         1 SAL         0.1500 
+     13 H3         76.1430   83.9210   28.8880 H         1 SAL         0.1500 
+     14 H4         74.5360   84.6460   30.6610 H         1 SAL         0.1500 
+     15 H5         70.7290   82.6830   27.4840 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_422
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_422
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.3280   79.1390   30.0150 C.2       1 SAL         0.9790 
+      2 O1'        69.6870   78.1540   30.4990 O.co2     1 SAL        -0.9000 
+      3 O2'        71.2350   79.8280   30.5370 O.co2     1 SAL        -0.9000 
+      4 C1         69.9320   79.6250   28.6630 C.ar      1 SAL        -0.1790 
+      5 C2         70.6630   80.6820   28.1440 C.ar      1 SAL         0.0825 
+      6 C3         70.3080   81.1500   26.8940 C.ar      1 SAL        -0.1500 
+      7 C4         69.2530   80.5300   26.2020 C.ar      1 SAL        -0.1500 
+      8 C5         68.5220   79.4630   26.7470 C.ar      1 SAL        -0.1500 
+      9 C6         68.8650   78.9980   28.0070 C.ar      1 SAL        -0.1500 
+     10 O2         71.7050   81.2300   28.8940 O.3       1 SAL        -0.5325 
+     11 H1         70.8380   81.9850   26.4500 H         1 SAL         0.1500 
+     12 H2         68.9940   80.8880   25.2120 H         1 SAL         0.1500 
+     13 H3         67.7060   79.0120   26.1940 H         1 SAL         0.1500 
+     14 H4         68.3260   78.1770   28.4680 H         1 SAL         0.1500 
+     15 H5         72.1010   81.9440   28.4080 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_440
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_440
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        73.3460   82.8560   27.1330 C.2       1 SAL         0.9790 
+      2 O1'        72.7370   83.2100   26.0750 O.co2     1 SAL        -0.9000 
+      3 O2'        73.7850   81.7280   27.4560 O.co2     1 SAL        -0.9000 
+      4 C1         73.5270   83.8790   28.2020 C.ar      1 SAL        -0.1790 
+      5 C2         74.6670   84.6630   28.1240 C.ar      1 SAL         0.0825 
+      6 C3         74.8540   85.6150   29.1090 C.ar      1 SAL        -0.1500 
+      7 C4         73.8870   85.7590   30.1180 C.ar      1 SAL        -0.1500 
+      8 C5         72.7410   84.9520   30.1820 C.ar      1 SAL        -0.1500 
+      9 C6         72.5530   83.9870   29.2040 C.ar      1 SAL        -0.1500 
+     10 O2         75.5700   84.4620   27.0800 O.3       1 SAL        -0.5325 
+     11 H1         75.7380   86.2430   29.1020 H         1 SAL         0.1500 
+     12 H2         74.0300   86.5220   30.8750 H         1 SAL         0.1500 
+     13 H3         72.0170   85.0790   30.9780 H         1 SAL         0.1500 
+     14 H4         71.6840   83.3390   29.2140 H         1 SAL         0.1500 
+     15 H5         76.2960   85.0680   27.1680 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_445
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_445
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.9040   84.5350   30.1540 C.2       1 SAL         0.9790 
+      2 O1'        71.7610   83.4340   30.7740 O.co2     1 SAL        -0.9000 
+      3 O2'        71.0590   85.4310   29.9250 O.co2     1 SAL        -0.9000 
+      4 C1         73.2310   84.8130   29.5340 C.ar      1 SAL        -0.1790 
+      5 C2         74.1690   85.4450   30.3330 C.ar      1 SAL         0.0825 
+      6 C3         75.4040   85.7160   29.7750 C.ar      1 SAL        -0.1500 
+      7 C4         75.6590   85.3250   28.4490 C.ar      1 SAL        -0.1500 
+      8 C5         74.6930   84.6890   27.6540 C.ar      1 SAL        -0.1500 
+      9 C6         73.4480   84.4260   28.2050 C.ar      1 SAL        -0.1500 
+     10 O2         73.8370   85.7860   31.6450 O.3       1 SAL        -0.5325 
+     11 H1         76.1680   86.2230   30.3540 H         1 SAL         0.1500 
+     12 H2         76.6370   85.5210   28.0250 H         1 SAL         0.1500 
+     13 H3         74.9160   84.4090   26.6320 H         1 SAL         0.1500 
+     14 H4         72.6700   83.9390   27.6270 H         1 SAL         0.1500 
+     15 H5         74.5780   86.2150   32.0570 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_454
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_454
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        75.9930   83.8060   29.0050 C.2       1 SAL         0.9790 
+      2 O1'        76.1070   83.7030   27.7430 O.co2     1 SAL        -0.9000 
+      3 O2'        76.8850   83.7990   29.8850 O.co2     1 SAL        -0.9000 
+      4 C1         74.6160   83.8810   29.5710 C.ar      1 SAL        -0.1790 
+      5 C2         74.0580   85.1440   29.6820 C.ar      1 SAL         0.0825 
+      6 C3         72.7840   85.2350   30.2090 C.ar      1 SAL        -0.1500 
+      7 C4         72.1100   84.0590   30.5840 C.ar      1 SAL        -0.1500 
+      8 C5         72.6950   82.7880   30.4680 C.ar      1 SAL        -0.1500 
+      9 C6         73.9780   82.6930   29.9520 C.ar      1 SAL        -0.1500 
+     10 O2         74.7920   86.2580   29.2730 O.3       1 SAL        -0.5325 
+     11 H1         72.3080   86.2010   30.3320 H         1 SAL         0.1500 
+     12 H2         71.1030   84.1360   30.9770 H         1 SAL         0.1500 
+     13 H3         72.1550   81.9010   30.7750 H         1 SAL         0.1500 
+     14 H4         74.4700   81.7320   29.8460 H         1 SAL         0.1500 
+     15 H5         74.2790   87.0450   29.4170 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_467
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_467
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        69.9670   79.5670   29.1740 C.2       1 SAL         0.9790 
+      2 O1'        69.0340   78.7040   29.1850 O.co2     1 SAL        -0.9000 
+      3 O2'        70.7250   79.9270   30.1050 O.co2     1 SAL        -0.9000 
+      4 C1         70.1830   80.3380   27.9170 C.ar      1 SAL        -0.1790 
+      5 C2         71.2230   81.2530   27.9200 C.ar      1 SAL         0.0825 
+      6 C3         71.4360   81.9810   26.7650 C.ar      1 SAL        -0.1500 
+      7 C4         70.6170   81.7500   25.6470 C.ar      1 SAL        -0.1500 
+      8 C5         69.5650   80.8210   25.6650 C.ar      1 SAL        -0.1500 
+      9 C6         69.3380   80.0970   26.8250 C.ar      1 SAL        -0.1500 
+     10 O2         71.9970   81.4100   29.0710 O.3       1 SAL        -0.5325 
+     11 H1         72.2270   82.7210   26.7220 H         1 SAL         0.1500 
+     12 H2         70.8040   82.3090   24.7370 H         1 SAL         0.1500 
+     13 H3         68.9430   80.6720   24.7900 H         1 SAL         0.1500 
+     14 H4         68.5360   79.3700   26.8850 H         1 SAL         0.1500 
+     15 H5         72.6600   82.0730   28.9180 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_481
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_481
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        74.4150   83.4660   27.1280 C.2       1 SAL         0.9790 
+      2 O1'        75.2520   82.5170   27.2490 O.co2     1 SAL        -0.9000 
+      3 O2'        74.3450   84.3530   26.2460 O.co2     1 SAL        -0.9000 
+      4 C1         73.3950   83.6300   28.2020 C.ar      1 SAL        -0.1790 
+      5 C2         72.2140   82.9230   28.0500 C.ar      1 SAL         0.0825 
+      6 C3         71.2540   83.0650   29.0340 C.ar      1 SAL        -0.1500 
+      7 C4         71.5200   83.8910   30.1400 C.ar      1 SAL        -0.1500 
+      8 C5         72.7220   84.6030   30.2730 C.ar      1 SAL        -0.1500 
+      9 C6         73.6840   84.4740   29.2830 C.ar      1 SAL        -0.1500 
+     10 O2         72.0370   82.1140   26.9270 O.3       1 SAL        -0.5325 
+     11 H1         70.3060   82.5450   28.9540 H         1 SAL         0.1500 
+     12 H2         70.7710   83.9810   30.9180 H         1 SAL         0.1500 
+     13 H3         72.8950   85.2400   31.1320 H         1 SAL         0.1500 
+     14 H4         74.6260   85.0070   29.3440 H         1 SAL         0.1500 
+     15 H5         71.1810   81.7030   26.9650 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_487
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_487
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        75.2560   84.0750   27.7430 C.2       1 SAL         0.9790 
+      2 O1'        74.7690   84.1460   26.5710 O.co2     1 SAL        -0.9000 
+      3 O2'        76.3360   83.5660   28.1230 O.co2     1 SAL        -0.9000 
+      4 C1         74.4290   84.5960   28.8680 C.ar      1 SAL        -0.1790 
+      5 C2         74.9910   84.5340   30.1330 C.ar      1 SAL         0.0825 
+      6 C3         74.2380   85.0080   31.1900 C.ar      1 SAL        -0.1500 
+      7 C4         72.9630   85.5450   30.9390 C.ar      1 SAL        -0.1500 
+      8 C5         72.4100   85.5950   29.6510 C.ar      1 SAL        -0.1500 
+      9 C6         73.1550   85.1090   28.5880 C.ar      1 SAL        -0.1500 
+     10 O2         76.2700   83.9970   30.2910 O.3       1 SAL        -0.5325 
+     11 H1         74.6260   84.9670   32.2010 H         1 SAL         0.1500 
+     12 H2         72.3870   85.9350   31.7700 H         1 SAL         0.1500 
+     13 H3         71.4200   86.0060   29.4900 H         1 SAL         0.1500 
+     14 H4         72.7670   85.1260   27.5750 H         1 SAL         0.1500 
+     15 H5         76.5100   84.0190   31.2100 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_490
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_490
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.7010   79.8870   29.0610 C.2       1 SAL         0.9790 
+      2 O1'        72.5750   78.9790   28.8940 O.co2     1 SAL        -0.9000 
+      3 O2'        71.2820   80.3960   30.1260 O.co2     1 SAL        -0.9000 
+      4 C1         70.9980   80.4010   27.8520 C.ar      1 SAL        -0.1790 
+      5 C2         71.5940   81.4650   27.1930 C.ar      1 SAL         0.0825 
+      6 C3         70.9540   81.9590   26.0720 C.ar      1 SAL        -0.1500 
+      7 C4         69.7580   81.3580   25.6420 C.ar      1 SAL        -0.1500 
+      8 C5         69.1690   80.2840   26.3270 C.ar      1 SAL        -0.1500 
+      9 C6         69.7990   79.7920   27.4590 C.ar      1 SAL        -0.1500 
+     10 O2         72.7900   81.9920   27.6810 O.3       1 SAL        -0.5325 
+     11 H1         71.3710   82.8000   25.5300 H         1 SAL         0.1500 
+     12 H2         69.2740   81.7370   24.7500 H         1 SAL         0.1500 
+     13 H3         68.2400   79.8480   25.9770 H         1 SAL         0.1500 
+     14 H4         69.3790   78.9650   28.0210 H         1 SAL         0.1500 
+     15 H5         73.0650   82.7140   27.1270 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_497
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_497
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.4520   82.8070   27.7370 C.2       1 SAL         0.9790 
+      2 O1'        73.6480   82.3910   27.6320 O.co2     1 SAL        -0.9000 
+      3 O2'        72.0180   83.8360   28.3030 O.co2     1 SAL        -0.9000 
+      4 C1         71.3690   81.9460   27.1820 C.ar      1 SAL        -0.1790 
+      5 C2         71.0410   82.1410   25.8500 C.ar      1 SAL         0.0825 
+      6 C3         70.0360   81.3550   25.3190 C.ar      1 SAL        -0.1500 
+      7 C4         69.4150   80.3920   26.1330 C.ar      1 SAL        -0.1500 
+      8 C5         69.7590   80.2120   27.4810 C.ar      1 SAL        -0.1500 
+      9 C6         70.7570   81.0060   28.0230 C.ar      1 SAL        -0.1500 
+     10 O2         71.7190   83.1110   25.1110 O.3       1 SAL        -0.5325 
+     11 H1         69.7310   81.4800   24.2860 H         1 SAL         0.1500 
+     12 H2         68.6420   79.7640   25.7030 H         1 SAL         0.1500 
+     13 H3         69.2540   79.4680   28.0860 H         1 SAL         0.1500 
+     14 H4         71.0540   80.9040   29.0610 H         1 SAL         0.1500 
+     15 H5         71.3780   83.1280   24.2240 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_501
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_501
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.5270   81.6520   27.7570 C.2       1 SAL         0.9790 
+      2 O1'        71.2680   81.0080   28.8220 O.co2     1 SAL        -0.9000 
+      3 O2'        72.2580   82.6570   27.5970 O.co2     1 SAL        -0.9000 
+      4 C1         70.8320   81.2330   26.5080 C.ar      1 SAL        -0.1790 
+      5 C2         71.1510   81.9310   25.3550 C.ar      1 SAL         0.0825 
+      6 C3         70.5130   81.5600   24.1860 C.ar      1 SAL        -0.1500 
+      7 C4         69.5990   80.4920   24.2120 C.ar      1 SAL        -0.1500 
+      8 C5         69.2860   79.7990   25.3920 C.ar      1 SAL        -0.1500 
+      9 C6         69.9130   80.1760   26.5690 C.ar      1 SAL        -0.1500 
+     10 O2         72.0810   82.9700   25.4160 O.3       1 SAL        -0.5325 
+     11 H1         70.7160   82.0860   23.2600 H         1 SAL         0.1500 
+     12 H2         69.1190   80.1930   23.2880 H         1 SAL         0.1500 
+     13 H3         68.5690   78.9870   25.3820 H         1 SAL         0.1500 
+     14 H4         69.7010   79.6710   27.5050 H         1 SAL         0.1500 
+     15 H5         72.1860   83.3510   24.5520 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_510
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_510
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.1950   81.0780   28.4220 C.2       1 SAL         0.9790 
+      2 O1'        70.7300   80.1930   29.2070 O.co2     1 SAL        -0.9000 
+      3 O2'        71.9500   82.0450   28.6780 O.co2     1 SAL        -0.9000 
+      4 C1         70.7540   81.0430   26.9990 C.ar      1 SAL        -0.1790 
+      5 C2         71.2960   82.0000   26.1570 C.ar      1 SAL         0.0825 
+      6 C3         70.8960   81.9860   24.8350 C.ar      1 SAL        -0.1500 
+      7 C4         69.9870   81.0050   24.4020 C.ar      1 SAL        -0.1500 
+      8 C5         69.4460   80.0460   25.2720 C.ar      1 SAL        -0.1500 
+      9 C6         69.8340   80.0630   26.6030 C.ar      1 SAL        -0.1500 
+     10 O2         72.2030   82.9290   26.6670 O.3       1 SAL        -0.5325 
+     11 H1         71.2790   82.7240   24.1390 H         1 SAL         0.1500 
+     12 H2         69.6940   80.9870   23.3590 H         1 SAL         0.1500 
+     13 H3         68.7390   79.3080   24.9120 H         1 SAL         0.1500 
+     14 H4         69.4400   79.3430   27.3120 H         1 SAL         0.1500 
+     15 H5         72.4770   83.5170   25.9730 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_511
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_511
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.6180   80.4240   27.5080 C.2       1 SAL         0.9790 
+      2 O1'        70.1700   79.3620   28.0450 O.co2     1 SAL        -0.9000 
+      3 O2'        71.2640   81.3630   28.0270 O.co2     1 SAL        -0.9000 
+      4 C1         70.2940   80.6620   26.0730 C.ar      1 SAL        -0.1790 
+      5 C2         70.8160   81.8110   25.5010 C.ar      1 SAL         0.0825 
+      6 C3         70.5230   82.0520   24.1720 C.ar      1 SAL        -0.1500 
+      7 C4         69.7390   81.1260   23.4620 C.ar      1 SAL        -0.1500 
+      8 C5         69.2160   79.9700   24.0610 C.ar      1 SAL        -0.1500 
+      9 C6         69.4950   79.7290   25.3970 C.ar      1 SAL        -0.1500 
+     10 O2         71.5970   82.6700   26.2750 O.3       1 SAL        -0.5325 
+     11 H1         70.8940   82.9450   23.6820 H         1 SAL         0.1500 
+     12 H2         69.5310   81.3110   22.4150 H         1 SAL         0.1500 
+     13 H3         68.6050   79.2790   23.4910 H         1 SAL         0.1500 
+     14 H4         69.1100   78.8500   25.9020 H         1 SAL         0.1500 
+     15 H5         71.8730   83.4090   25.7460 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_532
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_532
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        69.8840   81.6500   26.2600 C.2       1 SAL         0.9790 
+      2 O1'        70.2940   82.7210   26.8090 O.co2     1 SAL        -0.9000 
+      3 O2'        69.3440   80.6480   26.7830 O.co2     1 SAL        -0.9000 
+      4 C1         70.1210   81.4880   24.7970 C.ar      1 SAL        -0.1790 
+      5 C2         69.6410   80.3260   24.2150 C.ar      1 SAL         0.0825 
+      6 C3         69.8540   80.1560   22.8610 C.ar      1 SAL        -0.1500 
+      7 C4         70.5190   81.1620   22.1380 C.ar      1 SAL        -0.1500 
+      8 C5         71.0020   82.3300   22.7470 C.ar      1 SAL        -0.1500 
+      9 C6         70.8020   82.5010   24.1080 C.ar      1 SAL        -0.1500 
+     10 O2         68.9790   79.3850   25.0050 O.3       1 SAL        -0.5325 
+     11 H1         69.5120   79.2570   22.3610 H         1 SAL         0.1500 
+     12 H2         70.6640   81.0310   21.0720 H         1 SAL         0.1500 
+     13 H3         71.5200   83.0840   22.1660 H         1 SAL         0.1500 
+     14 H4         71.1600   83.3870   24.6210 H         1 SAL         0.1500 
+     15 H5         68.7180   78.6480   24.4660 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_533
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_533
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.3140   80.7010   28.3670 C.2       1 SAL         0.9790 
+      2 O1'        70.7420   79.7180   28.9360 O.co2     1 SAL        -0.9000 
+      3 O2'        71.7770   80.7840   27.2060 O.co2     1 SAL        -0.9000 
+      4 C1         71.5500   81.9280   29.1790 C.ar      1 SAL        -0.1790 
+      5 C2         72.1490   82.9960   28.5310 C.ar      1 SAL         0.0825 
+      6 C3         72.3810   84.1410   29.2680 C.ar      1 SAL        -0.1500 
+      7 C4         71.9870   84.1810   30.6170 C.ar      1 SAL        -0.1500 
+      8 C5         71.3860   83.0870   31.2570 C.ar      1 SAL        -0.1500 
+      9 C6         71.1620   81.9310   30.5260 C.ar      1 SAL        -0.1500 
+     10 O2         72.4960   82.8750   27.1840 O.3       1 SAL        -0.5325 
+     11 H1         72.8610   84.9990   28.8110 H         1 SAL         0.1500 
+     12 H2         72.1530   85.0910   31.1830 H         1 SAL         0.1500 
+     13 H3         71.1020   83.1440   32.3010 H         1 SAL         0.1500 
+     14 H4         70.7030   81.0590   30.9800 H         1 SAL         0.1500 
+     15 H5         72.8980   83.6830   26.8880 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_536
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_536
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.0990   81.6340   26.7980 C.2       1 SAL         0.9790 
+      2 O1'        71.3260   81.4230   28.0310 O.co2     1 SAL        -0.9000 
+      3 O2'        71.5030   82.5670   26.0660 O.co2     1 SAL        -0.9000 
+      4 C1         70.1710   80.7020   26.0960 C.ar      1 SAL        -0.1790 
+      5 C2         69.9610   80.9350   24.7460 C.ar      1 SAL         0.0825 
+      6 C3         69.1000   80.0840   24.0790 C.ar      1 SAL        -0.1500 
+      7 C4         68.5010   79.0240   24.7810 C.ar      1 SAL        -0.1500 
+      8 C5         68.7230   78.8080   26.1500 C.ar      1 SAL        -0.1500 
+      9 C6         69.5760   79.6650   26.8270 C.ar      1 SAL        -0.1500 
+     10 O2         70.6080   82.0030   24.1240 O.3       1 SAL        -0.5325 
+     11 H1         68.8900   80.2330   23.0260 H         1 SAL         0.1500 
+     12 H2         67.8430   78.3480   24.2460 H         1 SAL         0.1500 
+     13 H3         68.2390   77.9880   26.6660 H         1 SAL         0.1500 
+     14 H4         69.7760   79.5380   27.8850 H         1 SAL         0.1500 
+     15 H5         70.3580   82.0340   23.2080 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_540
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_540
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.7150   83.0140   26.4350 C.2       1 SAL         0.9790 
+      2 O1'        71.9020   82.6180   25.5430 O.co2     1 SAL        -0.9000 
+      3 O2'        72.5340   83.1560   27.6670 O.co2     1 SAL        -0.9000 
+      4 C1         74.0700   83.4480   25.9920 C.ar      1 SAL        -0.1790 
+      5 C2         75.0440   82.4650   25.9150 C.ar      1 SAL         0.0825 
+      6 C3         76.3080   82.8490   25.5110 C.ar      1 SAL        -0.1500 
+      7 C4         76.5440   84.1940   25.1780 C.ar      1 SAL        -0.1500 
+      8 C5         75.5450   85.1760   25.2660 C.ar      1 SAL        -0.1500 
+      9 C6         74.2780   84.8000   25.6840 C.ar      1 SAL        -0.1500 
+     10 O2         74.7200   81.1500   26.2510 O.3       1 SAL        -0.5325 
+     11 H1         77.1080   82.1210   25.4500 H         1 SAL         0.1500 
+     12 H2         77.5330   84.4840   24.8410 H         1 SAL         0.1500 
+     13 H3         75.7600   86.2080   25.0130 H         1 SAL         0.1500 
+     14 H4         73.4770   85.5250   25.7690 H         1 SAL         0.1500 
+     15 H5         75.4890   80.6010   26.1540 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_547
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_547
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.1380   82.9750   27.9390 C.2       1 SAL         0.9790 
+      2 O1'        71.2930   83.9180   27.8250 O.co2     1 SAL        -0.9000 
+      3 O2'        73.3290   82.9270   27.5530 O.co2     1 SAL        -0.9000 
+      4 C1         71.6720   81.6990   28.5520 C.ar      1 SAL        -0.1790 
+      5 C2         71.7710   81.5990   29.9300 C.ar      1 SAL         0.0825 
+      6 C3         71.3480   80.4220   30.5160 C.ar      1 SAL        -0.1500 
+      7 C4         70.8240   79.4000   29.7050 C.ar      1 SAL        -0.1500 
+      8 C5         70.7360   79.5190   28.3100 C.ar      1 SAL        -0.1500 
+      9 C6         71.1710   80.6930   27.7150 C.ar      1 SAL        -0.1500 
+     10 O2         72.2910   82.6680   30.6610 O.3       1 SAL        -0.5325 
+     11 H1         71.4190   80.2880   31.5900 H         1 SAL         0.1500 
+     12 H2         70.4740   78.4880   30.1740 H         1 SAL         0.1500 
+     13 H3         70.3370   78.7100   27.7100 H         1 SAL         0.1500 
+     14 H4         71.1250   80.8280   26.6400 H         1 SAL         0.1500 
+     15 H5         72.2990   82.4450   31.5840 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_560
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_560
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.2130   81.1410   26.2420 C.2       1 SAL         0.9790 
+      2 O1'        69.3260   82.0280   26.0340 O.co2     1 SAL        -0.9000 
+      3 O2'        70.8490   80.4470   25.4150 O.co2     1 SAL        -0.9000 
+      4 C1         70.5240   80.7920   27.6570 C.ar      1 SAL        -0.1790 
+      5 C2         71.5070   81.5430   28.2800 C.ar      1 SAL         0.0825 
+      6 C3         71.8140   81.2320   29.5910 C.ar      1 SAL        -0.1500 
+      7 C4         71.1100   80.1980   30.2330 C.ar      1 SAL        -0.1500 
+      8 C5         70.1200   79.4460   29.5840 C.ar      1 SAL        -0.1500 
+      9 C6         69.8180   79.7450   28.2640 C.ar      1 SAL        -0.1500 
+     10 O2         72.1460   82.5620   27.5710 O.3       1 SAL        -0.5325 
+     11 H1         72.5860   81.7790   30.1180 H         1 SAL         0.1500 
+     12 H2         71.3410   79.9740   31.2690 H         1 SAL         0.1500 
+     13 H3         69.6020   78.6480   30.1020 H         1 SAL         0.1500 
+     14 H4         69.0610   79.1890   27.7220 H         1 SAL         0.1500 
+     15 H5         72.7940   82.9760   28.1290 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_567
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_567
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        69.6430   80.4770   24.4520 C.2       1 SAL         0.9790 
+      2 O1'        68.5730   81.1380   24.2650 O.co2     1 SAL        -0.9000 
+      3 O2'        70.3900   79.9250   23.6120 O.co2     1 SAL        -0.9000 
+      4 C1         70.0720   80.2410   25.8590 C.ar      1 SAL        -0.1790 
+      5 C2         70.8820   81.2090   26.4320 C.ar      1 SAL         0.0825 
+      6 C3         71.2950   81.0060   27.7350 C.ar      1 SAL        -0.1500 
+      7 C4         70.8650   79.8560   28.4200 C.ar      1 SAL        -0.1500 
+      8 C5         70.0490   78.8850   27.8210 C.ar      1 SAL        -0.1500 
+      9 C6         69.6420   79.0770   26.5090 C.ar      1 SAL        -0.1500 
+     10 O2         71.2500   82.3280   25.6830 O.3       1 SAL        -0.5325 
+     11 H1         71.9420   81.7250   28.2230 H         1 SAL         0.1500 
+     12 H2         71.1760   79.7140   29.4490 H         1 SAL         0.1500 
+     13 H3         69.7420   78.0030   28.3710 H         1 SAL         0.1500 
+     14 H4         69.0120   78.3520   26.0050 H         1 SAL         0.1500 
+     15 H5         71.8060   82.8900   26.2090 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_569
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_569
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.0260   82.6170   27.2550 C.2       1 SAL         0.9790 
+      2 O1'        72.4620   82.6760   28.4480 O.co2     1 SAL        -0.9000 
+      3 O2'        70.9270   82.1900   26.8330 O.co2     1 SAL        -0.9000 
+      4 C1         72.9460   83.0410   26.1610 C.ar      1 SAL        -0.1790 
+      5 C2         72.4400   82.9950   24.8720 C.ar      1 SAL         0.0825 
+      6 C3         73.2780   83.3800   23.8430 C.ar      1 SAL        -0.1500 
+      7 C4         74.5810   83.8150   24.1450 C.ar      1 SAL        -0.1500 
+      8 C5         75.0760   83.8500   25.4580 C.ar      1 SAL        -0.1500 
+      9 C6         74.2430   83.4530   26.4920 C.ar      1 SAL        -0.1500 
+     10 O2         71.1290   82.5620   24.6630 O.3       1 SAL        -0.5325 
+     11 H1         72.9360   83.3470   22.8160 H         1 SAL         0.1500 
+     12 H2         75.2250   84.1360   23.3350 H         1 SAL         0.1500 
+     13 H3         76.0880   84.1810   25.6580 H         1 SAL         0.1500 
+     14 H4         74.5840   83.4620   27.5220 H         1 SAL         0.1500 
+     15 H5         70.9350   82.5810   23.7330 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_57
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_57
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.3859   81.2791   33.0903 C.2       1 SAL         0.9790 
+      2 O1'        71.6952   82.3889   32.5532 O.co2     1 SAL        -0.9000 
+      3 O2'        71.4229   80.9452   34.2972 O.co2     1 SAL        -0.9000 
+      4 C1         70.9817   80.1632   32.1890 C.ar      1 SAL        -0.1790 
+      5 C2         70.9328   80.4463   30.8335 C.ar      1 SAL         0.0825 
+      6 C3         70.5559   79.4257   29.9818 C.ar      1 SAL        -0.1500 
+      7 C4         70.2638   78.1582   30.5154 C.ar      1 SAL        -0.1500 
+      8 C5         70.3150   77.8926   31.8923 C.ar      1 SAL        -0.1500 
+      9 C6         70.6803   78.9161   32.7528 C.ar      1 SAL        -0.1500 
+     10 O2         71.2523   81.7296   30.3877 O.3       1 SAL        -0.5325 
+     11 H1         70.4862   79.6003   28.9142 H         1 SAL         0.1500 
+     12 H2         69.9891   77.3572   29.8388 H         1 SAL         0.1500 
+     13 H3         70.0740   76.9075   32.2751 H         1 SAL         0.1500 
+     14 H4         70.7310   78.7575   33.8239 H         1 SAL         0.1500 
+     15 H5         71.5038   82.2677   31.1291 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_574
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_574
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        69.4650   80.1760   27.1420 C.2       1 SAL         0.9790 
+      2 O1'        68.5230   79.6770   26.4490 O.co2     1 SAL        -0.9000 
+      3 O2'        69.7760   79.9510   28.3350 O.co2     1 SAL        -0.9000 
+      4 C1         70.3030   81.2340   26.5100 C.ar      1 SAL        -0.1790 
+      5 C2         71.3410   81.7430   27.2750 C.ar      1 SAL         0.0825 
+      6 C3         72.1270   82.7280   26.7080 C.ar      1 SAL        -0.1500 
+      7 C4         71.8590   83.1500   25.3940 C.ar      1 SAL        -0.1500 
+      8 C5         70.8000   82.6240   24.6380 C.ar      1 SAL        -0.1500 
+      9 C6         70.0000   81.6450   25.2050 C.ar      1 SAL        -0.1500 
+     10 O2         71.5450   81.2560   28.5670 O.3       1 SAL        -0.5325 
+     11 H1         72.9410   83.1700   27.2710 H         1 SAL         0.1500 
+     12 H2         72.4930   83.9080   24.9490 H         1 SAL         0.1500 
+     13 H3         70.6110   82.9770   23.6310 H         1 SAL         0.1500 
+     14 H4         69.1690   81.2120   24.6590 H         1 SAL         0.1500 
+     15 H5         72.2840   81.7060   28.9600 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_575
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_575
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.5820   80.7360   27.8790 C.2       1 SAL         0.9790 
+      2 O1'        71.5410   81.2830   28.5090 O.co2     1 SAL        -0.9000 
+      3 O2'        69.8430   79.7870   28.2280 O.co2     1 SAL        -0.9000 
+      4 C1         70.3030   81.2130   26.4940 C.ar      1 SAL        -0.1790 
+      5 C2         69.2350   80.6220   25.8380 C.ar      1 SAL         0.0825 
+      6 C3         68.9630   81.0470   24.5510 C.ar      1 SAL        -0.1500 
+      7 C4         69.7540   82.0590   23.9810 C.ar      1 SAL        -0.1500 
+      8 C5         70.8340   82.6420   24.6610 C.ar      1 SAL        -0.1500 
+      9 C6         71.1190   82.2110   25.9470 C.ar      1 SAL        -0.1500 
+     10 O2         68.4930   79.6320   26.4840 O.3       1 SAL        -0.5325 
+     11 H1         68.1490   80.6050   23.9890 H         1 SAL         0.1500 
+     12 H2         69.5210   82.4020   22.9790 H         1 SAL         0.1500 
+     13 H3         71.4320   83.4140   24.1910 H         1 SAL         0.1500 
+     14 H4         71.9460   82.6320   26.5100 H         1 SAL         0.1500 
+     15 H5         67.8060   79.3240   25.9060 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_576
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_576
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.2800   82.2860   26.5090 C.2       1 SAL         0.9790 
+      2 O1'        71.9790   81.3960   27.3650 O.co2     1 SAL        -0.9000 
+      3 O2'        71.6170   82.7020   25.5310 O.co2     1 SAL        -0.9000 
+      4 C1         73.6340   82.9020   26.5990 C.ar      1 SAL        -0.1790 
+      5 C2         73.7560   84.0180   27.4100 C.ar      1 SAL         0.0825 
+      6 C3         75.0030   84.6060   27.5040 C.ar      1 SAL        -0.1500 
+      7 C4         76.0820   84.0440   26.8000 C.ar      1 SAL        -0.1500 
+      8 C5         75.9380   82.9150   25.9790 C.ar      1 SAL        -0.1500 
+      9 C6         74.6860   82.3280   25.8720 C.ar      1 SAL        -0.1500 
+     10 O2         72.6340   84.5030   28.0850 O.3       1 SAL        -0.5325 
+     11 H1         75.1470   85.4910   28.1130 H         1 SAL         0.1500 
+     12 H2         77.0620   84.4980   26.8950 H         1 SAL         0.1500 
+     13 H3         76.7860   82.5100   25.4410 H         1 SAL         0.1500 
+     14 H4         74.5270   81.4550   25.2480 H         1 SAL         0.1500 
+     15 H5         72.8770   85.2700   28.5900 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_578
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_578
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.2960   80.8830   28.0030 C.2       1 SAL         0.9790 
+      2 O1'        70.4510   81.1610   27.0950 O.co2     1 SAL        -0.9000 
+      3 O2'        72.0070   79.8600   28.1380 O.co2     1 SAL        -0.9000 
+      4 C1         71.4480   81.8500   29.1260 C.ar      1 SAL        -0.1790 
+      5 C2         72.3700   82.8690   28.9490 C.ar      1 SAL         0.0825 
+      6 C3         72.5280   83.7740   29.9810 C.ar      1 SAL        -0.1500 
+      7 C4         71.7440   83.6370   31.1400 C.ar      1 SAL        -0.1500 
+      8 C5         70.8180   82.5960   31.3030 C.ar      1 SAL        -0.1500 
+      9 C6         70.6640   81.6780   30.2750 C.ar      1 SAL        -0.1500 
+     10 O2         73.0970   82.9380   27.7600 O.3       1 SAL        -0.5325 
+     11 H1         73.2480   84.5800   29.8980 H         1 SAL         0.1500 
+     12 H2         71.8580   84.3630   31.9370 H         1 SAL         0.1500 
+     13 H3         70.2350   82.5110   32.2120 H         1 SAL         0.1500 
+     14 H4         69.9620   80.8550   30.3580 H         1 SAL         0.1500 
+     15 H5         73.6870   83.6820   27.7930 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_596
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_596
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        74.3440   84.7050   29.9040 C.2       1 SAL         0.9790 
+      2 O1'        75.1660   84.6500   30.8720 O.co2     1 SAL        -0.9000 
+      3 O2'        73.0910   84.6900   29.9260 O.co2     1 SAL        -0.9000 
+      4 C1         74.9020   84.7210   28.5230 C.ar      1 SAL        -0.1790 
+      5 C2         75.2050   85.9630   27.9900 C.ar      1 SAL         0.0825 
+      6 C3         75.7200   85.9990   26.7080 C.ar      1 SAL        -0.1500 
+      7 C4         75.9310   84.7920   26.0180 C.ar      1 SAL        -0.1500 
+      8 C5         75.6130   83.5440   26.5740 C.ar      1 SAL        -0.1500 
+      9 C6         75.0850   83.5020   27.8550 C.ar      1 SAL        -0.1500 
+     10 O2         74.9760   87.1110   28.7490 O.3       1 SAL        -0.5325 
+     11 H1         75.9590   86.9470   26.2390 H         1 SAL         0.1500 
+     12 H2         76.3550   84.8270   25.0210 H         1 SAL         0.1500 
+     13 H3         75.7780   82.6310   26.0140 H         1 SAL         0.1500 
+     14 H4         74.8220   82.5600   28.3240 H         1 SAL         0.1500 
+     15 H5         75.2270   87.8780   28.2470 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_599
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_599
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.4580   82.1210   25.2450 C.2       1 SAL         0.9790 
+      2 O1'        70.9070   83.2480   25.6270 O.co2     1 SAL        -0.9000 
+      3 O2'        70.0740   81.1470   25.9330 O.co2     1 SAL        -0.9000 
+      4 C1         70.4300   81.8490   23.7810 C.ar      1 SAL        -0.1790 
+      5 C2         69.9100   80.6260   23.3860 C.ar      1 SAL         0.0825 
+      6 C3         69.8790   80.3530   22.0320 C.ar      1 SAL        -0.1500 
+      7 C4         70.3480   81.3200   21.1250 C.ar      1 SAL        -0.1500 
+      8 C5         70.8750   82.5510   21.5450 C.ar      1 SAL        -0.1500 
+      9 C6         70.9200   82.8250   22.9030 C.ar      1 SAL        -0.1500 
+     10 O2         69.4530   79.7300   24.3530 O.3       1 SAL        -0.5325 
+     11 H1         69.4970   79.4050   21.6730 H         1 SAL         0.1500 
+     12 H2         70.3010   81.1070   20.0640 H         1 SAL         0.1500 
+     13 H3         71.2380   83.2720   20.8230 H         1 SAL         0.1500 
+     14 H4         71.3210   83.7630   23.2730 H         1 SAL         0.1500 
+     15 H5         69.1360   78.9420   23.9280 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_600
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_600
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.8680   83.1960   27.0040 C.2       1 SAL         0.9790 
+      2 O1'        71.4600   82.0900   27.4780 O.co2     1 SAL        -0.9000 
+      3 O2'        71.6320   83.7160   25.8890 O.co2     1 SAL        -0.9000 
+      4 C1         72.8220   83.9920   27.8270 C.ar      1 SAL        -0.1790 
+      5 C2         72.2680   84.8860   28.7290 C.ar      1 SAL         0.0825 
+      6 C3         73.1360   85.6370   29.4980 C.ar      1 SAL        -0.1500 
+      7 C4         74.5220   85.4500   29.3510 C.ar      1 SAL        -0.1500 
+      8 C5         75.0630   84.5420   28.4290 C.ar      1 SAL        -0.1500 
+      9 C6         74.1980   83.7950   27.6450 C.ar      1 SAL        -0.1500 
+     10 O2         70.8800   84.9990   28.8200 O.3       1 SAL        -0.5325 
+     11 H1         72.7530   86.3610   30.2080 H         1 SAL         0.1500 
+     12 H2         75.1960   86.0270   29.9740 H         1 SAL         0.1500 
+     13 H3         76.1360   84.4270   28.3310 H         1 SAL         0.1500 
+     14 H4         74.5710   83.0830   26.9170 H         1 SAL         0.1500 
+     15 H5         70.6580   85.6520   29.4730 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_605
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_605
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.7560   83.7630   32.2770 C.2       1 SAL         0.9790 
+      2 O1'        70.7520   84.2870   32.8530 O.co2     1 SAL        -0.9000 
+      3 O2'        72.9640   84.0930   32.3340 O.co2     1 SAL        -0.9000 
+      4 C1         71.5040   82.6360   31.3350 C.ar      1 SAL        -0.1790 
+      5 C2         71.4860   81.3630   31.8810 C.ar      1 SAL         0.0825 
+      6 C3         71.2570   80.3040   31.0240 C.ar      1 SAL        -0.1500 
+      7 C4         71.0350   80.5610   29.6590 C.ar      1 SAL        -0.1500 
+      8 C5         71.0610   81.8580   29.1250 C.ar      1 SAL        -0.1500 
+      9 C6         71.3020   82.9230   29.9790 C.ar      1 SAL        -0.1500 
+     10 O2         71.7030   81.1990   33.2500 O.3       1 SAL        -0.5325 
+     11 H1         71.2490   79.2870   31.3980 H         1 SAL         0.1500 
+     12 H2         70.8350   79.7270   28.9960 H         1 SAL         0.1500 
+     13 H3         70.8960   82.0240   28.0670 H         1 SAL         0.1500 
+     14 H4         71.3340   83.9420   29.6100 H         1 SAL         0.1500 
+     15 H5         71.6660   80.2750   33.4680 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_608
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_608
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.9740   82.0420   27.9940 C.2       1 SAL         0.9790 
+      2 O1'        72.5580   81.9670   29.1200 O.co2     1 SAL        -0.9000 
+      3 O2'        72.1720   82.8410   27.0500 O.co2     1 SAL        -0.9000 
+      4 C1         70.8370   81.1120   27.7410 C.ar      1 SAL        -0.1790 
+      5 C2         70.2340   81.1930   26.4970 C.ar      1 SAL         0.0825 
+      6 C3         69.1750   80.3410   26.2450 C.ar      1 SAL        -0.1500 
+      7 C4         68.7750   79.4290   27.2380 C.ar      1 SAL        -0.1500 
+      8 C5         69.3970   79.3660   28.4940 C.ar      1 SAL        -0.1500 
+      9 C6         70.4520   80.2270   28.7570 C.ar      1 SAL        -0.1500 
+     10 O2         70.7030   82.1190   25.5640 O.3       1 SAL        -0.5325 
+     11 H1         68.6580   80.3760   25.2920 H         1 SAL         0.1500 
+     12 H2         67.9580   78.7500   27.0250 H         1 SAL         0.1500 
+     13 H3         69.0600   78.6600   29.2430 H         1 SAL         0.1500 
+     14 H4         70.9600   80.2150   29.7150 H         1 SAL         0.1500 
+     15 H5         70.1860   82.0560   24.7690 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_613
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_613
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.1760   80.4820   28.2770 C.2       1 SAL         0.9790 
+      2 O1'        70.6640   79.3780   28.6440 O.co2     1 SAL        -0.9000 
+      3 O2'        71.8510   81.3030   28.9410 O.co2     1 SAL        -0.9000 
+      4 C1         70.9030   80.9430   26.8860 C.ar      1 SAL        -0.1790 
+      5 C2         71.4940   82.1350   26.4990 C.ar      1 SAL         0.0825 
+      6 C3         71.2500   82.5810   25.2150 C.ar      1 SAL        -0.1500 
+      7 C4         70.4430   81.8080   24.3610 C.ar      1 SAL        -0.1500 
+      8 C5         69.8500   80.6050   24.7730 C.ar      1 SAL        -0.1500 
+      9 C6         70.0820   80.1590   26.0650 C.ar      1 SAL        -0.1500 
+     10 O2         72.2920   82.8320   27.4070 O.3       1 SAL        -0.5325 
+     11 H1         71.6750   83.5160   24.8690 H         1 SAL         0.1500 
+     12 H2         70.2740   82.1540   23.3480 H         1 SAL         0.1500 
+     13 H3         69.2250   80.0360   24.0950 H         1 SAL         0.1500 
+     14 H4         69.6420   79.2360   26.4270 H         1 SAL         0.1500 
+     15 H5         72.6170   83.6260   26.9980 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_619
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_619
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.3000   85.7910   30.1390 C.2       1 SAL         0.9790 
+      2 O1'        70.6750   85.5320   29.0640 O.co2     1 SAL        -0.9000 
+      3 O2'        70.9340   86.4710   31.1260 O.co2     1 SAL        -0.9000 
+      4 C1         72.7000   85.2940   30.2620 C.ar      1 SAL        -0.1790 
+      5 C2         72.8640   84.0210   30.7850 C.ar      1 SAL         0.0825 
+      6 C3         74.1540   83.5440   30.9100 C.ar      1 SAL        -0.1500 
+      7 C4         75.2280   84.3490   30.4900 C.ar      1 SAL        -0.1500 
+      8 C5         75.0420   85.6370   29.9670 C.ar      1 SAL        -0.1500 
+      9 C6         73.7500   86.1260   29.8500 C.ar      1 SAL        -0.1500 
+     10 O2         71.7410   83.2850   31.1650 O.3       1 SAL        -0.5325 
+     11 H1         74.3370   82.5610   31.3280 H         1 SAL         0.1500 
+     12 H2         76.2360   83.9590   30.5720 H         1 SAL         0.1500 
+     13 H3         75.8900   86.2380   29.6610 H         1 SAL         0.1500 
+     14 H4         73.5580   87.1170   29.4540 H         1 SAL         0.1500 
+     15 H5         72.0160   82.4420   31.5060 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_627
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_627
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.3380   82.9470   25.6720 C.2       1 SAL         0.9790 
+      2 O1'        69.4850   83.8830   25.7800 O.co2     1 SAL        -0.9000 
+      3 O2'        71.5780   82.9800   25.8470 O.co2     1 SAL        -0.9000 
+      4 C1         69.8510   81.6180   25.2050 C.ar      1 SAL        -0.1790 
+      5 C2         69.4050   80.7420   26.1820 C.ar      1 SAL         0.0825 
+      6 C3         68.9530   79.5030   25.7700 C.ar      1 SAL        -0.1500 
+      7 C4         68.9440   79.1960   24.3980 C.ar      1 SAL        -0.1500 
+      8 C5         69.4040   80.0960   23.4240 C.ar      1 SAL        -0.1500 
+      9 C6         69.8700   81.3360   23.8330 C.ar      1 SAL        -0.1500 
+     10 O2         69.4360   81.1330   27.5220 O.3       1 SAL        -0.5325 
+     11 H1         68.6090   78.7760   26.4960 H         1 SAL         0.1500 
+     12 H2         68.5680   78.2300   24.0810 H         1 SAL         0.1500 
+     13 H3         69.3940   79.8270   22.3750 H         1 SAL         0.1500 
+     14 H4         70.2370   82.0620   23.1160 H         1 SAL         0.1500 
+     15 H5         69.1060   80.4260   28.0650 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_633
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_633
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.5180   80.9370   30.3350 C.2       1 SAL         0.9790 
+      2 O1'        71.1180   82.0550   30.7890 O.co2     1 SAL        -0.9000 
+      3 O2'        72.2110   80.6960   29.3190 O.co2     1 SAL        -0.9000 
+      4 C1         71.0670   79.7040   31.0390 C.ar      1 SAL        -0.1790 
+      5 C2         71.8580   79.2620   32.0870 C.ar      1 SAL         0.0825 
+      6 C3         71.4580   78.1170   32.7500 C.ar      1 SAL        -0.1500 
+      7 C4         70.2740   77.4720   32.3530 C.ar      1 SAL        -0.1500 
+      8 C5         69.4880   77.9330   31.2860 C.ar      1 SAL        -0.1500 
+      9 C6         69.8910   79.0740   30.6090 C.ar      1 SAL        -0.1500 
+     10 O2         73.0120   79.9720   32.4240 O.3       1 SAL        -0.5325 
+     11 H1         72.0510   77.7210   33.5670 H         1 SAL         0.1500 
+     12 H2         69.9560   76.5860   32.8920 H         1 SAL         0.1500 
+     13 H3         68.5860   77.4080   30.9970 H         1 SAL         0.1500 
+     14 H4         69.3170   79.4650   29.7770 H         1 SAL         0.1500 
+     15 H5         73.4450   79.5430   33.1520 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_643
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_643
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.7940   81.7570   28.9250 C.2       1 SAL         0.9790 
+      2 O1'        70.0300   81.9180   29.9280 O.co2     1 SAL        -0.9000 
+      3 O2'        71.9820   82.1230   28.7670 O.co2     1 SAL        -0.9000 
+      4 C1         70.2180   81.1060   27.7140 C.ar      1 SAL        -0.1790 
+      5 C2         70.2920   79.7230   27.6590 C.ar      1 SAL         0.0825 
+      6 C3         69.7670   79.1010   26.5420 C.ar      1 SAL        -0.1500 
+      7 C4         69.1720   79.8820   25.5370 C.ar      1 SAL        -0.1500 
+      8 C5         69.1110   81.2820   25.6090 C.ar      1 SAL        -0.1500 
+      9 C6         69.6470   81.9130   26.7210 C.ar      1 SAL        -0.1500 
+     10 O2         70.8880   79.0240   28.7090 O.3       1 SAL        -0.5325 
+     11 H1         69.8140   78.0220   26.4430 H         1 SAL         0.1500 
+     12 H2         68.7430   79.3850   24.6740 H         1 SAL         0.1500 
+     13 H3         68.6550   81.8580   24.8130 H         1 SAL         0.1500 
+     14 H4         69.6250   82.9930   26.8200 H         1 SAL         0.1500 
+     15 H5         70.8660   78.0930   28.5210 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_645
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_645
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        72.2150   82.4060   27.8810 C.2       1 SAL         0.9790 
+      2 O1'        71.6480   83.2810   28.6090 O.co2     1 SAL        -0.9000 
+      3 O2'        73.4370   82.1710   27.7310 O.co2     1 SAL        -0.9000 
+      4 C1         71.3480   81.5600   27.0130 C.ar      1 SAL        -0.1790 
+      5 C2         70.8570   80.3920   27.5750 C.ar      1 SAL         0.0825 
+      6 C3         70.0540   79.5930   26.7840 C.ar      1 SAL        -0.1500 
+      7 C4         69.7570   80.0010   25.4720 C.ar      1 SAL        -0.1500 
+      8 C5         70.2680   81.1860   24.9200 C.ar      1 SAL        -0.1500 
+      9 C6         71.0840   81.9860   25.7040 C.ar      1 SAL        -0.1500 
+     10 O2         71.1910   80.0700   28.8910 O.3       1 SAL        -0.5325 
+     11 H1         69.6580   78.6610   27.1710 H         1 SAL         0.1500 
+     12 H2         69.1100   79.3790   24.8650 H         1 SAL         0.1500 
+     13 H3         70.0300   81.4690   23.9020 H         1 SAL         0.1500 
+     14 H4         71.5030   82.9090   25.3190 H         1 SAL         0.1500 
+     15 H5         70.7850   79.2430   29.1260 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_646
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_646
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.5430   83.2380   31.2570 C.2       1 SAL         0.9790 
+      2 O1'        70.5300   83.8080   31.7720 O.co2     1 SAL        -0.9000 
+      3 O2'        72.7430   83.5980   31.2630 O.co2     1 SAL        -0.9000 
+      4 C1         71.3100   81.9970   30.4660 C.ar      1 SAL        -0.1790 
+      5 C2         71.3230   80.8020   31.1660 C.ar      1 SAL         0.0825 
+      6 C3         71.1140   79.6400   30.4490 C.ar      1 SAL        -0.1500 
+      7 C4         70.8790   79.7190   29.0650 C.ar      1 SAL        -0.1500 
+      8 C5         70.8740   80.9400   28.3730 C.ar      1 SAL        -0.1500 
+      9 C6         71.0960   82.1080   29.0850 C.ar      1 SAL        -0.1500 
+     10 O2         71.5510   80.8150   32.5430 O.3       1 SAL        -0.5325 
+     11 H1         71.1300   78.6770   30.9480 H         1 SAL         0.1500 
+     12 H2         70.6940   78.8050   28.5130 H         1 SAL         0.1500 
+     13 H3         70.7000   80.9690   27.3040 H         1 SAL         0.1500 
+     14 H4         71.1030   83.0740   28.5920 H         1 SAL         0.1500 
+     15 H5         71.5360   79.9250   32.8740 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_665
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_665
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        69.7580   77.8780   30.9250 C.2       1 SAL         0.9790 
+      2 O1'        70.2030   76.6910   31.0200 O.co2     1 SAL        -0.9000 
+      3 O2'        68.9340   78.3520   30.1090 O.co2     1 SAL        -0.9000 
+      4 C1         70.3170   78.9030   31.8510 C.ar      1 SAL        -0.1790 
+      5 C2         69.6840   79.0460   33.0750 C.ar      1 SAL         0.0825 
+      6 C3         70.1860   79.9940   33.9460 C.ar      1 SAL        -0.1500 
+      7 C4         71.3110   80.7470   33.5680 C.ar      1 SAL        -0.1500 
+      8 C5         71.9360   80.5910   32.3210 C.ar      1 SAL        -0.1500 
+      9 C6         71.4290   79.6500   31.4380 C.ar      1 SAL        -0.1500 
+     10 O2         68.5800   78.2470   33.3750 O.3       1 SAL        -0.5325 
+     11 H1         69.7170   80.1560   34.9100 H         1 SAL         0.1500 
+     12 H2         71.7120   81.4740   34.2650 H         1 SAL         0.1500 
+     13 H3         72.7960   81.1930   32.0530 H         1 SAL         0.1500 
+     14 H4         71.8780   79.4960   30.4630 H         1 SAL         0.1500 
+     15 H5         68.2580   78.4660   34.2410 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_676
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_676
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        73.2400   83.3460   27.9110 C.2       1 SAL         0.9790 
+      2 O1'        74.2080   84.1080   27.5980 O.co2     1 SAL        -0.9000 
+      3 O2'        72.9760   82.8120   29.0140 O.co2     1 SAL        -0.9000 
+      4 C1         72.2970   82.9450   26.8290 C.ar      1 SAL        -0.1790 
+      5 C2         71.2340   82.1370   27.2000 C.ar      1 SAL         0.0825 
+      6 C3         70.3500   81.7510   26.2100 C.ar      1 SAL        -0.1500 
+      7 C4         70.5510   82.2050   24.8950 C.ar      1 SAL        -0.1500 
+      8 C5         71.6360   83.0200   24.5390 C.ar      1 SAL        -0.1500 
+      9 C6         72.5330   83.4000   25.5250 C.ar      1 SAL        -0.1500 
+     10 O2         71.1020   81.7430   28.5320 O.3       1 SAL        -0.5325 
+     11 H1         69.5110   81.1060   26.4450 H         1 SAL         0.1500 
+     12 H2         69.8410   81.9160   24.1280 H         1 SAL         0.1500 
+     13 H3         71.7700   83.3460   23.5140 H         1 SAL         0.1500 
+     14 H4         73.3880   84.0270   25.2960 H         1 SAL         0.1500 
+     15 H5         70.3340   81.1910   28.6240 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_686
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_686
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.8310   80.9190   27.7400 C.2       1 SAL         0.9790 
+      2 O1'        71.4160   82.0100   28.0300 O.co2     1 SAL        -0.9000 
+      3 O2'        70.7780   79.8510   28.3920 O.co2     1 SAL        -0.9000 
+      4 C1         70.1570   80.8270   26.4140 C.ar      1 SAL        -0.1790 
+      5 C2         69.5020   79.6400   26.1310 C.ar      1 SAL         0.0825 
+      6 C3         68.8750   79.5330   24.9040 C.ar      1 SAL        -0.1500 
+      7 C4         68.9080   80.6250   24.0190 C.ar      1 SAL        -0.1500 
+      8 C5         69.5810   81.8180   24.3220 C.ar      1 SAL        -0.1500 
+      9 C6         70.2230   81.9260   25.5460 C.ar      1 SAL        -0.1500 
+     10 O2         69.5070   78.6110   27.0740 O.3       1 SAL        -0.5325 
+     11 H1         68.3620   78.6190   24.6280 H         1 SAL         0.1500 
+     12 H2         68.3950   80.5420   23.0670 H         1 SAL         0.1500 
+     13 H3         69.5980   82.6390   23.6150 H         1 SAL         0.1500 
+     14 H4         70.7570   82.8280   25.8220 H         1 SAL         0.1500 
+     15 H5         69.0250   77.8670   26.7320 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_692
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_692
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        70.3270   82.7120   26.2490 C.2       1 SAL         0.9790 
+      2 O1'        71.2520   82.9130   25.4000 O.co2     1 SAL        -0.9000 
+      3 O2'        69.2100   83.2710   26.3510 O.co2     1 SAL        -0.9000 
+      4 C1         70.5890   81.7310   27.3390 C.ar      1 SAL        -0.1790 
+      5 C2         70.2710   80.4080   27.0740 C.ar      1 SAL         0.0825 
+      6 C3         70.5030   79.4830   28.0740 C.ar      1 SAL        -0.1500 
+      7 C4         71.0630   79.9120   29.2900 C.ar      1 SAL        -0.1500 
+      8 C5         71.3750   81.2570   29.5410 C.ar      1 SAL        -0.1500 
+      9 C6         71.1320   82.1920   28.5460 C.ar      1 SAL        -0.1500 
+     10 O2         69.7310   80.0670   25.8330 O.3       1 SAL        -0.5325 
+     11 H1         70.2570   78.4390   27.9220 H         1 SAL         0.1500 
+     12 H2         71.2620   79.1780   30.0620 H         1 SAL         0.1500 
+     13 H3         71.7960   81.5590   30.4920 H         1 SAL         0.1500 
+     14 H4         71.3550   83.2420   28.6960 H         1 SAL         0.1500 
+     15 H5         69.5630   79.1320   25.8080 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    6   11 1    
+    10    7    8 ar   
+    11    7   12 1    
+    12    8    9 ar   
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_741
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_741
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          69.1468   82.6882   21.6783 C.2       1 SAL         0.9790 
+      2 O          67.8933   83.0536   21.3321 O.co2     1 SAL        -0.9000 
+      3 O          70.0922   82.7828   20.7197 O.co2     1 SAL        -0.9000 
+      4 C          69.3921   81.9986   22.8897 C.ar      1 SAL        -0.1790 
+      5 C          69.3926   82.6616   24.1483 C.ar      1 SAL         0.0825 
+      6 C          69.6263   81.9299   25.3307 C.ar      1 SAL        -0.1500 
+      7 C          69.8521   80.5440   25.2797 C.ar      1 SAL        -0.1500 
+      8 C          69.8548   79.8802   24.0419 C.ar      1 SAL        -0.1500 
+      9 C          69.6365   80.6032   22.8566 C.ar      1 SAL        -0.1500 
+     10 O          69.2297   84.0075   24.2886 O.3       1 SAL        -0.5325 
+     11 H          69.6388   82.4078   26.2356 H         1 SAL         0.1500 
+     12 H          70.0227   80.0195   26.1407 H         1 SAL         0.1500 
+     13 H          70.0195   78.8713   24.0022 H         1 SAL         0.1500 
+     14 H          69.6369   80.0912   21.9700 H         1 SAL         0.1500 
+     15 H          68.9694   84.3555   23.4140 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_742
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_742
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          68.1123   84.4195   21.0044 C.2       1 SAL         0.9790 
+      2 O          67.9442   83.1223   21.3412 O.co2     1 SAL        -0.9000 
+      3 O          67.0468   85.0039   20.4101 O.co2     1 SAL        -0.9000 
+      4 C          69.3357   85.1130   21.2134 C.ar      1 SAL        -0.1790 
+      5 C          69.9821   85.1572   22.4810 C.ar      1 SAL         0.0825 
+      6 C          71.1838   85.8764   22.6458 C.ar      1 SAL        -0.1500 
+      7 C          71.7698   86.5473   21.5587 C.ar      1 SAL        -0.1500 
+      8 C          71.1485   86.5096   20.3007 C.ar      1 SAL        -0.1500 
+      9 C          69.9424   85.8037   20.1317 C.ar      1 SAL        -0.1500 
+     10 O          69.4765   84.5705   23.5981 O.3       1 SAL        -0.5325 
+     11 H          71.6390   85.9136   23.5614 H         1 SAL         0.1500 
+     12 H          72.6435   87.0645   21.6838 H         1 SAL         0.1500 
+     13 H          71.5726   86.9986   19.5081 H         1 SAL         0.1500 
+     14 H          69.5183   85.7964   19.2004 H         1 SAL         0.1500 
+     15 H          69.2123   83.6644   23.3292 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_745
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_745
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          70.2611   82.7235   24.9363 C.2       1 SAL         0.9790 
+      2 O          70.2791   83.9501   25.5020 O.co2     1 SAL        -0.9000 
+      3 O          70.9027   81.7706   25.6413 O.co2     1 SAL        -0.9000 
+      4 C          69.6344   82.4680   23.6885 C.ar      1 SAL        -0.1790 
+      5 C          69.4706   81.1489   23.1789 C.ar      1 SAL         0.0825 
+      6 C          68.8733   80.9369   21.9229 C.ar      1 SAL        -0.1500 
+      7 C          68.4023   82.0192   21.1681 C.ar      1 SAL        -0.1500 
+      8 C          68.5391   83.3243   21.6626 C.ar      1 SAL        -0.1500 
+      9 C          69.1566   83.5419   22.9065 C.ar      1 SAL        -0.1500 
+     10 O          69.8463   80.0396   23.8710 O.3       1 SAL        -0.5325 
+     11 H          68.7603   79.9805   21.5607 H         1 SAL         0.1500 
+     12 H          67.9511   81.8577   20.2622 H         1 SAL         0.1500 
+     13 H          68.1892   84.1184   21.1162 H         1 SAL         0.1500 
+     14 H          69.2361   84.5093   23.2299 H         1 SAL         0.1500 
+     15 H          69.1285   79.9107   24.5171 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_749
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_749
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          68.6471   84.3463   21.8956 C.2       1 SAL         0.9790 
+      2 O          67.5935   85.0653   22.3532 O.co2     1 SAL        -0.9000 
+      3 O          69.2406   84.7486   20.7483 O.co2     1 SAL        -0.9000 
+      4 C          69.0543   83.1576   22.5466 C.ar      1 SAL        -0.1790 
+      5 C          69.0507   83.0613   23.9614 C.ar      1 SAL         0.0825 
+      6 C          69.4079   81.8538   24.5937 C.ar      1 SAL        -0.1500 
+      7 C          69.7650   80.7320   23.8241 C.ar      1 SAL        -0.1500 
+      8 C          69.7854   80.8204   22.4214 C.ar      1 SAL        -0.1500 
+      9 C          69.4494   82.0316   21.7837 C.ar      1 SAL        -0.1500 
+     10 O          68.7818   84.1373   24.7430 O.3       1 SAL        -0.5325 
+     11 H          69.4045   81.7904   25.6147 H         1 SAL         0.1500 
+     12 H          70.0114   79.8514   24.2858 H         1 SAL         0.1500 
+     13 H          70.0612   80.0106   21.8619 H         1 SAL         0.1500 
+     14 H          69.4662   82.0743   20.7579 H         1 SAL         0.1500 
+     15 H          67.8062   84.1460   24.8275 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_754
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_754
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          69.5694   81.4281   24.7608 C.2       1 SAL         0.9790 
+      2 O          69.2551   80.1080   24.9199 O.co2     1 SAL        -0.9000 
+      3 O          70.2081   82.0520   25.7880 O.co2     1 SAL        -0.9000 
+      4 C          69.2622   82.1081   23.5548 C.ar      1 SAL        -0.1790 
+      5 C          68.9538   83.4967   23.5375 C.ar      1 SAL         0.0825 
+      6 C          68.6832   84.1624   22.3212 C.ar      1 SAL        -0.1500 
+      7 C          68.7154   83.4518   21.1077 C.ar      1 SAL        -0.1500 
+      8 C          68.9996   82.0752   21.1034 C.ar      1 SAL        -0.1500 
+      9 C          69.2727   81.4122   22.3184 C.ar      1 SAL        -0.1500 
+     10 O          68.8805   84.2292   24.6787 O.3       1 SAL        -0.5325 
+     11 H          68.4795   85.1602   22.3142 H         1 SAL         0.1500 
+     12 H          68.5553   83.9382   20.2241 H         1 SAL         0.1500 
+     13 H          69.0329   81.5592   20.2308 H         1 SAL         0.1500 
+     14 H          69.5193   80.4207   22.2858 H         1 SAL         0.1500 
+     15 H          67.9313   84.1722   24.9588 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_763
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:05 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_763
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          67.8979   85.4924   22.1962 C.2       1 SAL         0.9790 
+      2 O          67.3533   86.7340   22.1668 O.co2     1 SAL        -0.9000 
+      3 O          67.1828   84.5167   21.5898 O.co2     1 SAL        -0.9000 
+      4 C          69.2113   85.2635   22.6885 C.ar      1 SAL        -0.1790 
+      5 C          69.5137   84.1716   23.5473 C.ar      1 SAL         0.0825 
+      6 C          70.8361   83.9464   23.9835 C.ar      1 SAL        -0.1500 
+      7 C          71.8679   84.8153   23.5956 C.ar      1 SAL        -0.1500 
+      8 C          71.5817   85.9135   22.7690 C.ar      1 SAL        -0.1500 
+      9 C          70.2657   86.1354   22.3208 C.ar      1 SAL        -0.1500 
+     10 O          68.5536   83.3508   24.0461 O.3       1 SAL        -0.5325 
+     11 H          71.0469   83.1636   24.6072 H         1 SAL         0.1500 
+     12 H          72.8244   84.6529   23.9210 H         1 SAL         0.1500 
+     13 H          72.3315   86.5489   22.4880 H         1 SAL         0.1500 
+     14 H          70.0930   86.9372   21.7083 H         1 SAL         0.1500 
+     15 H          67.9853   83.9301   24.6043 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_769
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_769
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          68.1864   84.0031   21.9062 C.2       1 SAL         0.9790 
+      2 O          68.0983   82.9016   21.1314 O.co2     1 SAL        -0.9000 
+      3 O          67.1776   84.9006   21.8542 O.co2     1 SAL        -0.9000 
+      4 C          69.3905   84.2979   22.5677 C.ar      1 SAL        -0.1790 
+      5 C          69.8658   83.4655   23.6098 C.ar      1 SAL         0.0825 
+      6 C          71.0665   83.7805   24.2734 C.ar      1 SAL        -0.1500 
+      7 C          71.8128   84.9092   23.8937 C.ar      1 SAL        -0.1500 
+      8 C          71.3421   85.7416   22.8655 C.ar      1 SAL        -0.1500 
+      9 C          70.1309   85.4467   22.2103 C.ar      1 SAL        -0.1500 
+     10 O          69.1638   82.3927   24.0552 O.3       1 SAL        -0.5325 
+     11 H          71.4066   83.1872   25.0311 H         1 SAL         0.1500 
+     12 H          72.6902   85.1284   24.3732 H         1 SAL         0.1500 
+     13 H          71.8854   86.5617   22.5926 H         1 SAL         0.1500 
+     14 H          69.8098   86.0554   21.4529 H         1 SAL         0.1500 
+     15 H          69.0174   81.8287   23.2653 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_778
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:05 2018
+
+@<TRIPOS>MOLECULE
+3twp_778
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          67.8540   85.7918   20.7922 C.2       1 SAL         0.9790 
+      2 O          66.9287   84.8163   20.6514 O.co2     1 SAL        -0.9000 
+      3 O          67.6210   86.9179   20.0794 O.co2     1 SAL        -0.9000 
+      4 C          69.0094   85.6154   21.6059 C.ar      1 SAL        -0.1790 
+      5 C          69.9556   86.6574   21.8262 C.ar      1 SAL         0.0825 
+      6 C          71.1105   86.4243   22.6005 C.ar      1 SAL        -0.1500 
+      7 C          71.3385   85.1660   23.1782 C.ar      1 SAL        -0.1500 
+      8 C          70.4050   84.1325   22.9929 C.ar      1 SAL        -0.1500 
+      9 C          69.2563   84.3556   22.2106 C.ar      1 SAL        -0.1500 
+     10 O          69.8091   87.9124   21.3296 O.3       1 SAL        -0.5325 
+     11 H          71.7905   87.1751   22.7506 H         1 SAL         0.1500 
+     12 H          72.1729   85.0048   23.7468 H         1 SAL         0.1500 
+     13 H          70.5675   83.2159   23.4170 H         1 SAL         0.1500 
+     14 H          68.6037   83.5751   22.0879 H         1 SAL         0.1500 
+     15 H          68.8911   88.1743   21.5508 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_779
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_779
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          68.5110   82.6013   21.5189 C.2       1 SAL         0.9790 
+      2 O          68.0592   81.6608   20.6537 O.co2     1 SAL        -0.9000 
+      3 O          67.8137   83.7569   21.5469 O.co2     1 SAL        -0.9000 
+      4 C          69.7105   82.4181   22.2568 C.ar      1 SAL        -0.1790 
+      5 C          70.0175   83.1876   23.4138 C.ar      1 SAL         0.0825 
+      6 C          71.1987   82.9410   24.1457 C.ar      1 SAL        -0.1500 
+      7 C          72.0963   81.9432   23.7277 C.ar      1 SAL        -0.1500 
+      8 C          71.8211   81.1936   22.5734 C.ar      1 SAL        -0.1500 
+      9 C          70.6371   81.4235   21.8523 C.ar      1 SAL        -0.1500 
+     10 O          69.1977   84.1565   23.8989 O.3       1 SAL        -0.5325 
+     11 H          71.4041   83.4852   24.9840 H         1 SAL         0.1500 
+     12 H          72.9484   81.7628   24.2665 H         1 SAL         0.1500 
+     13 H          72.4783   80.4713   22.2650 H         1 SAL         0.1500 
+     14 H          70.4680   80.8565   21.0173 H         1 SAL         0.1500 
+     15 H          68.5683   84.3577   23.1765 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_785
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_785
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          71.4587   84.5119   23.2815 C.2       1 SAL         0.9790 
+      2 O          70.4937   84.6040   22.3353 O.co2     1 SAL        -0.9000 
+      3 O          72.6191   85.1502   23.0042 O.co2     1 SAL        -0.9000 
+      4 C          71.3056   83.7118   24.4466 C.ar      1 SAL        -0.1790 
+      5 C          70.0310   83.2748   24.9030 C.ar      1 SAL         0.0825 
+      6 C          69.9277   82.4712   26.0578 C.ar      1 SAL        -0.1500 
+      7 C          71.0748   82.1092   26.7811 C.ar      1 SAL        -0.1500 
+      8 C          72.3372   82.5473   26.3523 C.ar      1 SAL        -0.1500 
+      9 C          72.4511   83.3380   25.1955 C.ar      1 SAL        -0.1500 
+     10 O          68.8839   83.6307   24.2593 O.3       1 SAL        -0.5325 
+     11 H          69.0137   82.1476   26.3801 H         1 SAL         0.1500 
+     12 H          70.9923   81.5295   27.6183 H         1 SAL         0.1500 
+     13 H          73.1742   82.2883   26.8798 H         1 SAL         0.1500 
+     14 H          73.3871   83.6311   24.9046 H         1 SAL         0.1500 
+     15 H          68.1890   83.7361   24.9464 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_8
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:03 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:03 2018
+
+@<TRIPOS>MOLECULE
+3twp_8
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.3230   80.8354   32.6377 C.2       1 SAL         0.9790 
+      2 O1'        71.9983   81.8712   32.3430 O.co2     1 SAL        -0.9000 
+      3 O2'        70.9891   80.4012   33.7643 O.co2     1 SAL        -0.9000 
+      4 C1         70.9054   79.9411   31.5211 C.ar      1 SAL        -0.1790 
+      5 C2         71.0621   80.4365   30.2367 C.ar      1 SAL         0.0825 
+      6 C3         70.6764   79.6239   29.1878 C.ar      1 SAL        -0.1500 
+      7 C4         70.1701   78.3415   29.4627 C.ar      1 SAL        -0.1500 
+      8 C5         70.0150   77.8594   30.7714 C.ar      1 SAL        -0.1500 
+      9 C6         70.3885   78.6752   31.8281 C.ar      1 SAL        -0.1500 
+     10 O2         71.5863   81.7169   30.0534 O.3       1 SAL        -0.5325 
+     11 H1         70.7634   79.9712   28.1647 H         1 SAL         0.1500 
+     12 H2         69.8892   77.7020   28.6338 H         1 SAL         0.1500 
+     13 H3         69.6117   76.8697   30.9522 H         1 SAL         0.1500 
+     14 H4         70.2843   78.3456   32.8554 H         1 SAL         0.1500 
+     15 H5         71.6216   82.1661   30.8897 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_827
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_827
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          67.8700   84.8325   21.5242 C.2       1 SAL         0.9790 
+      2 O          66.9456   84.8295   20.5287 O.co2     1 SAL        -0.9000 
+      3 O          68.3875   86.0301   21.9199 O.co2     1 SAL        -0.9000 
+      4 C          68.4227   83.6211   22.0092 C.ar      1 SAL        -0.1790 
+      5 C          68.8501   83.4931   23.3571 C.ar      1 SAL         0.0825 
+      6 C          69.3834   82.2755   23.8311 C.ar      1 SAL        -0.1500 
+      7 C          69.5071   81.1706   22.9729 C.ar      1 SAL        -0.1500 
+      8 C          69.0689   81.2759   21.6387 C.ar      1 SAL        -0.1500 
+      9 C          68.5155   82.4821   21.1703 C.ar      1 SAL        -0.1500 
+     10 O          68.6984   84.5013   24.2582 O.3       1 SAL        -0.5325 
+     11 H          69.6945   82.1913   24.8064 H         1 SAL         0.1500 
+     12 H          69.8994   80.2858   23.3157 H         1 SAL         0.1500 
+     13 H          69.1502   80.4677   21.0116 H         1 SAL         0.1500 
+     14 H          68.2220   82.5368   20.1878 H         1 SAL         0.1500 
+     15 H          67.8932   84.2579   24.7725 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_912
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_912
+   15    15     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          69.9084   82.2324   26.1698 C.2       1 SAL         0.9790 
+      2 O          69.4522   81.4334   27.1484 O.co2     1 SAL        -0.9000 
+      3 O          70.7212   83.2462   26.5321 O.co2     1 SAL        -0.9000 
+      4 C          69.6342   81.9763   24.8117 C.ar      1 SAL        -0.1790 
+      5 C          69.1207   82.9895   23.9613 C.ar      1 SAL         0.0825 
+      6 C          68.8791   82.7193   22.6023 C.ar      1 SAL        -0.1500 
+      7 C          69.1168   81.4395   22.0760 C.ar      1 SAL        -0.1500 
+      8 C          69.6006   80.4202   22.9167 C.ar      1 SAL        -0.1500 
+      9 C          69.8605   80.6882   24.2770 C.ar      1 SAL        -0.1500 
+     10 O          68.8029   84.2225   24.4301 O.3       1 SAL        -0.5325 
+     11 H          68.4987   83.4486   21.9941 H         1 SAL         0.1500 
+     12 H          68.9188   81.2406   21.0928 H         1 SAL         0.1500 
+     13 H          69.7843   79.4890   22.5346 H         1 SAL         0.1500 
+     14 H          70.2205   79.9301   24.8570 H         1 SAL         0.1500 
+     15 H          67.8702   84.1365   24.7354 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 
+#	Name:			3twp_92
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:19:04 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:19:04 2018
+
+@<TRIPOS>MOLECULE
+3twp_92
+   15    15     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        71.4115   79.8939   31.4289 C.2       1 SAL         0.9790 
+      2 O1'        71.1183   78.8685   32.1206 O.co2     1 SAL        -0.9000 
+      3 O2'        71.9700   80.9570   31.7853 O.co2     1 SAL        -0.9000 
+      4 C1         70.9886   79.9084   29.9999 C.ar      1 SAL        -0.1790 
+      5 C2         70.3464   78.7738   29.5307 C.ar      1 SAL         0.0825 
+      6 C3         69.9504   78.7662   28.2069 C.ar      1 SAL        -0.1500 
+      7 C4         70.1922   79.8997   27.4111 C.ar      1 SAL        -0.1500 
+      8 C5         70.8482   81.0379   27.9041 C.ar      1 SAL        -0.1500 
+      9 C6         71.2591   81.0463   29.2279 C.ar      1 SAL        -0.1500 
+     10 O2         70.1344   77.6978   30.3938 O.3       1 SAL        -0.5325 
+     11 H1         69.4588   77.8962   27.7869 H         1 SAL         0.1500 
+     12 H2         69.8600   79.8941   26.3793 H         1 SAL         0.1500 
+     13 H3         71.0299   81.8929   27.2629 H         1 SAL         0.1500 
+     14 H4         71.7716   81.9026   29.6510 H         1 SAL         0.1500 
+     15 H5         69.2842   77.7882   30.8079 H         1 SAL         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    3 ar   
+     3    1    4 1    
+     4    4    5 ar   
+     5    4    9 ar   
+     6    5    6 ar   
+     7    5   10 1    
+     8    6    7 ar   
+     9    7    8 ar   
+    10    8    9 ar   
+    11    6   11 1    
+    12    7   12 1    
+    13    8   13 1    
+    14    9   14 1    
+    15   10   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SAL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+1 15
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 9 CB 1 CO2M 11 HC 12 HC 13 HC 14 HC \
+15 HOCC 2 O2CM 3 O2CM 10 OC=C 

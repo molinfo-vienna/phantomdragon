@@ -1,0 +1,3205 @@
+#	Name:			3f3d_211
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_211
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.8032   32.3491   19.0783 N.4       1 MET        -0.8530 
+      2 CA         26.0837   31.6040   19.2479 C.3       1 MET         0.3970 
+      3 C          26.0665   30.2861   18.4813 C.2       1 MET         0.9060 
+      4 O          27.0149   29.9193   17.7709 O.co2     1 MET        -0.9000 
+      5 CB         26.3430   31.3392   20.7331 C.3       1 MET         0.0000 
+      6 CG         27.4039   32.2233   21.3595 C.3       1 MET         0.2300 
+      7 SD         26.8046   33.9081   21.5429 S.3       1 MET        -0.4600 
+      8 CE         27.9687   34.8387   20.5693 C.3       1 MET         0.2300 
+      9 OXT        25.0900   29.5449   18.5774 O.co2     1 MET        -0.9000 
+     10 H1         24.8873   33.2616   19.4981 H         1 MET         0.4500 
+     11 H2         24.0568   31.8407   19.5261 H         1 MET         0.4500 
+     12 H3         24.5998   32.4486   18.0961 H         1 MET         0.4500 
+     13 H4         26.9012   32.2250   18.8529 H         1 MET         0.0000 
+     14 H5         26.6608   30.2920   20.8439 H         1 MET         0.0000 
+     15 H6         25.4007   31.4961   21.2786 H         1 MET         0.0000 
+     16 H7         28.2965   32.2261   20.7166 H         1 MET         0.0000 
+     17 H8         27.6669   31.8243   22.3503 H         1 MET         0.0000 
+     18 H9         27.8311   35.9130   20.7613 H         1 MET         0.0000 
+     19 H10        27.8013   34.6327   19.5018 H         1 MET         0.0000 
+     20 H11        28.9929   34.5455   20.8432 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_251
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_251
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.4304   32.3054   18.8748 N.4       1 MET        -0.8530 
+      2 CA         25.7266   31.6812   19.2673 C.3       1 MET         0.3970 
+      3 C          25.9652   30.3754   18.5170 C.2       1 MET         0.9060 
+      4 O          27.0436   30.1170   17.9615 O.co2     1 MET        -0.9000 
+      5 CB         25.7496   31.4264   20.7765 C.3       1 MET         0.0000 
+      6 CG         27.1332   31.2331   21.3664 C.3       1 MET         0.2300 
+      7 SD         28.0520   32.7782   21.3593 S.3       1 MET        -0.4600 
+      8 CE         29.7262   32.2290   21.1050 C.3       1 MET         0.2300 
+      9 OXT        25.0692   29.5344   18.4697 O.co2     1 MET        -0.9000 
+     10 H1         23.6694   31.7796   19.2753 H         1 MET         0.4500 
+     11 H2         24.3476   32.3045   17.8703 H         1 MET         0.4500 
+     12 H3         24.3981   33.2542   19.2137 H         1 MET         0.4500 
+     13 H4         26.5382   32.3797   19.0157 H         1 MET         0.0000 
+     14 H5         25.1610   30.5195   20.9797 H         1 MET         0.0000 
+     15 H6         25.2814   32.2871   21.2764 H         1 MET         0.0000 
+     16 H7         27.6784   30.4867   20.7700 H         1 MET         0.0000 
+     17 H8         27.0369   30.8756   22.4021 H         1 MET         0.0000 
+     18 H9         29.9988   31.5082   21.8898 H         1 MET         0.0000 
+     19 H10        30.4060   33.0927   21.1484 H         1 MET         0.0000 
+     20 H11        29.8082   31.7468   20.1197 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_255
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_255
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.7216   32.3325   19.0273 N.4       1 MET        -0.8530 
+      2 CA         26.0106   31.6011   19.1931 C.3       1 MET         0.3970 
+      3 C          26.0034   30.2809   18.4301 C.2       1 MET         0.9060 
+      4 O          27.0252   29.8120   17.9061 O.co2     1 MET        -0.9000 
+      5 CB         26.2793   31.3432   20.6778 C.3       1 MET         0.0000 
+      6 CG         27.6070   31.8732   21.1837 C.3       1 MET         0.2300 
+      7 SD         27.7054   33.6556   20.9722 S.3       1 MET        -0.4600 
+      8 CE         26.6858   34.2577   22.3015 C.3       1 MET         0.2300 
+      9 OXT        24.9567   29.6418   18.3401 O.co2     1 MET        -0.9000 
+     10 H1         23.9883   31.8335   19.5061 H         1 MET         0.4500 
+     11 H2         24.4974   32.4000   18.0469 H         1 MET         0.4500 
+     12 H3         24.8079   33.2581   19.4168 H         1 MET         0.4500 
+     13 H4         26.8198   32.2294   18.7926 H         1 MET         0.0000 
+     14 H5         26.2581   30.2563   20.8459 H         1 MET         0.0000 
+     15 H6         25.4763   31.8199   21.2590 H         1 MET         0.0000 
+     16 H7         28.4234   31.3977   20.6204 H         1 MET         0.0000 
+     17 H8         27.7086   31.6307   22.2518 H         1 MET         0.0000 
+     18 H9         27.0595   33.8631   23.2578 H         1 MET         0.0000 
+     19 H10        25.6487   33.9250   22.1478 H         1 MET         0.0000 
+     20 H11        26.7193   35.3571   22.3203 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_287
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_287
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.4081   32.3764   18.6258 N.4       1 MET        -0.8530 
+      2 CA         25.8023   31.8630   18.4979 C.3       1 MET         0.3970 
+      3 C          25.8196   30.3662   18.2072 C.2       1 MET         0.9060 
+      4 O          24.8379   29.6380   18.4180 O.co2     1 MET        -0.9000 
+      5 CB         26.5872   32.1537   19.7794 C.3       1 MET         0.0000 
+      6 CG         25.9930   31.5514   21.0379 C.3       1 MET         0.2300 
+      7 SD         27.0187   31.9187   22.4677 S.3       1 MET        -0.4600 
+      8 CE         28.4132   30.8383   22.2286 C.3       1 MET         0.2300 
+      9 OXT        26.8318   29.8559   17.7303 O.co2     1 MET        -0.9000 
+     10 H1         23.9552   32.3464   17.7258 H         1 MET         0.4500 
+     11 H2         24.4295   33.3272   18.9597 H         1 MET         0.4500 
+     12 H3         23.8972   31.8025   19.2782 H         1 MET         0.4500 
+     13 H4         26.2887   32.3851   17.6608 H         1 MET         0.0000 
+     14 H5         26.6352   33.2447   19.9116 H         1 MET         0.0000 
+     15 H6         27.6046   31.7542   19.6560 H         1 MET         0.0000 
+     16 H7         25.9211   30.4605   20.9164 H         1 MET         0.0000 
+     17 H8         24.9882   31.9695   21.1980 H         1 MET         0.0000 
+     18 H9         29.0377   30.8398   23.1341 H         1 MET         0.0000 
+     19 H10        29.0076   31.1907   21.3727 H         1 MET         0.0000 
+     20 H11        28.0560   29.8168   22.0313 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_295
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_295
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.8086   32.3197   19.0564 N.4       1 MET        -0.8530 
+      2 CA         26.1152   31.6129   19.1864 C.3       1 MET         0.3970 
+      3 C          26.0896   30.2616   18.4805 C.2       1 MET         0.9060 
+      4 O          27.0761   29.8073   17.8813 O.co2     1 MET        -0.9000 
+      5 CB         26.4625   31.4217   20.6649 C.3       1 MET         0.0000 
+      6 CG         27.5093   32.3797   21.1998 C.3       1 MET         0.2300 
+      7 SD         26.8503   34.0485   21.3112 S.3       1 MET        -0.4600 
+      8 CE         28.1018   35.0119   20.4898 C.3       1 MET         0.2300 
+      9 OXT        25.0652   29.5821   18.5152 O.co2     1 MET        -0.9000 
+     10 H1         24.5863   32.4379   18.0803 H         1 MET         0.4500 
+     11 H2         24.8698   33.2232   19.4989 H         1 MET         0.4500 
+     12 H3         24.0864   31.7755   19.5019 H         1 MET         0.4500 
+     13 H4         26.8935   32.2341   18.7192 H         1 MET         0.0000 
+     14 H5         26.8368   30.3960   20.7989 H         1 MET         0.0000 
+     15 H6         25.5428   31.5563   21.2529 H         1 MET         0.0000 
+     16 H7         28.3774   32.3792   20.5242 H         1 MET         0.0000 
+     17 H8         27.8233   32.0485   22.2006 H         1 MET         0.0000 
+     18 H9         28.0385   36.0576   20.8252 H         1 MET         0.0000 
+     19 H10        27.9450   34.9657   19.4019 H         1 MET         0.0000 
+     20 H11        29.0952   34.6079   20.7346 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_319
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_319
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.6180   32.4561   19.0499 N.4       1 MET        -0.8530 
+      2 CA         25.9700   31.9641   19.4418 C.3       1 MET         0.3970 
+      3 C          26.4402   30.8395   18.5256 C.2       1 MET         0.9060 
+      4 O          25.8051   29.7823   18.3933 O.co2     1 MET        -0.9000 
+      5 CB         25.9506   31.4793   20.8936 C.3       1 MET         0.0000 
+      6 CG         27.3190   31.2293   21.4975 C.3       1 MET         0.2300 
+      7 SD         28.4105   32.6277   21.2068 S.3       1 MET        -0.4600 
+      8 CE         27.3894   34.0136   21.6606 C.3       1 MET         0.2300 
+      9 OXT        27.4752   30.9825   17.8771 O.co2     1 MET        -0.9000 
+     10 H1         24.4879   33.3933   19.3972 H         1 MET         0.4500 
+     11 H2         23.9136   31.8514   19.4425 H         1 MET         0.4500 
+     12 H3         24.5387   32.4561   18.0450 H         1 MET         0.4500 
+     13 H4         26.6806   32.7996   19.3589 H         1 MET         0.0000 
+     14 H5         25.3819   30.5385   20.9330 H         1 MET         0.0000 
+     15 H6         25.4417   32.2412   21.5023 H         1 MET         0.0000 
+     16 H7         27.7561   30.3296   21.0399 H         1 MET         0.0000 
+     17 H8         27.2120   31.0746   22.5812 H         1 MET         0.0000 
+     18 H9         27.9557   34.9466   21.5238 H         1 MET         0.0000 
+     19 H10        27.0890   33.9183   22.7145 H         1 MET         0.0000 
+     20 H11        26.4926   34.0323   21.0239 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_33
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_33
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.8544   32.0082   18.9085 N.4       1 MET        -0.8530 
+      2 CA         26.1876   31.3738   19.1180 C.3       1 MET         0.3970 
+      3 C          26.3815   30.1708   18.2014 C.2       1 MET         0.9060 
+      4 O          25.5129   29.8038   17.3955 O.co2     1 MET        -0.9000 
+      5 CB         26.3399   30.9449   20.5795 C.3       1 MET         0.0000 
+      6 CG         26.2594   32.0775   21.5847 C.3       1 MET         0.2300 
+      7 SD         27.3094   33.4491   21.0870 S.3       1 MET        -0.4600 
+      8 CE         28.9428   32.7575   21.2377 C.3       1 MET         0.2300 
+      9 OXT        27.4398   29.5457   18.2421 O.co2     1 MET        -0.9000 
+     10 H1         24.7795   32.3254   17.9547 H         1 MET         0.4500 
+     11 H2         24.7542   32.7933   19.5326 H         1 MET         0.4500 
+     12 H3         24.1285   31.3346   19.0966 H         1 MET         0.4500 
+     13 H4         26.9653   32.1163   18.8858 H         1 MET         0.0000 
+     14 H5         27.3186   30.4556   20.6926 H         1 MET         0.0000 
+     15 H6         25.5410   30.2249   20.8101 H         1 MET         0.0000 
+     16 H7         26.5877   31.7105   22.5684 H         1 MET         0.0000 
+     17 H8         25.2184   32.4263   21.6522 H         1 MET         0.0000 
+     18 H9         29.6890   33.5147   20.9552 H         1 MET         0.0000 
+     19 H10        29.0349   31.8861   20.5726 H         1 MET         0.0000 
+     20 H11        29.1139   32.4444   22.2782 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_363
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_363
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.7517   32.3120   19.1307 N.4       1 MET        -0.8530 
+      2 CA         26.0666   31.6135   19.2128 C.3       1 MET         0.3970 
+      3 C          26.1024   30.3866   18.3082 C.2       1 MET         0.9060 
+      4 O          27.0999   29.6543   18.2224 O.co2     1 MET        -0.9000 
+      5 CB         26.3520   31.2023   20.6595 C.3       1 MET         0.0000 
+      6 CG         26.5675   32.3584   21.6169 C.3       1 MET         0.2300 
+      7 SD         28.0486   33.2799   21.1824 S.3       1 MET        -0.4600 
+      8 CE         27.6158   34.9438   21.6442 C.3       1 MET         0.2300 
+      9 OXT        25.1062   30.0936   17.6492 O.co2     1 MET        -0.9000 
+     10 H1         24.4617   32.3701   18.1671 H         1 MET         0.4500 
+     11 H2         24.8404   33.2411   19.5115 H         1 MET         0.4500 
+     12 H3         24.0641   31.7971   19.6580 H         1 MET         0.4500 
+     13 H4         26.8509   32.3108   18.8836 H         1 MET         0.0000 
+     14 H5         27.2582   30.5789   20.6659 H         1 MET         0.0000 
+     15 H6         25.4979   30.6118   21.0225 H         1 MET         0.0000 
+     16 H7         26.6742   31.9653   22.6387 H         1 MET         0.0000 
+     17 H8         25.6982   33.0309   21.5716 H         1 MET         0.0000 
+     18 H9         28.4577   35.6164   21.4230 H         1 MET         0.0000 
+     19 H10        27.3914   34.9790   22.7205 H         1 MET         0.0000 
+     20 H11        26.7311   35.2641   21.0744 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_377
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_377
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.8795   32.3689   19.1071 N.4       1 MET        -0.8530 
+      2 CA         26.1259   31.5686   19.2796 C.3       1 MET         0.3970 
+      3 C          26.1097   30.3184   18.4069 C.2       1 MET         0.9060 
+      4 O          25.1375   30.0165   17.6981 O.co2     1 MET        -0.9000 
+      5 CB         26.2969   31.1756   20.7492 C.3       1 MET         0.0000 
+      6 CG         26.3199   32.3411   21.7190 C.3       1 MET         0.2300 
+      7 SD         27.6377   33.4913   21.3043 S.3       1 MET        -0.4600 
+      8 CE         29.0952   32.4826   21.4706 C.3       1 MET         0.2300 
+      9 OXT        27.0971   29.5857   18.3839 O.co2     1 MET        -0.9000 
+     10 H1         24.7488   32.5806   18.1304 H         1 MET         0.4500 
+     11 H2         24.9565   33.2274   19.6297 H         1 MET         0.4500 
+     12 H3         24.0909   31.8396   19.4446 H         1 MET         0.4500 
+     13 H4         26.9819   32.1907   18.9794 H         1 MET         0.0000 
+     14 H5         27.2458   30.6282   20.8491 H         1 MET         0.0000 
+     15 H6         25.4618   30.5157   21.0266 H         1 MET         0.0000 
+     16 H7         26.4820   31.9593   22.7379 H         1 MET         0.0000 
+     17 H8         25.3549   32.8670   21.6737 H         1 MET         0.0000 
+     18 H9         29.9861   33.0846   21.2384 H         1 MET         0.0000 
+     19 H10        29.0348   31.6333   20.7742 H         1 MET         0.0000 
+     20 H11        29.1653   32.1069   22.5021 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_401
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_401
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.4200   32.9850   19.8400 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.8140   33.8080   21.0190 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.8790   34.8350   20.6500 C.2       1 MET1        0.9060 BACKBONE
+      4 O          27.7560   36.0410   20.9120 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         27.3290   32.9030   22.1410 C.3       1 MET1        0.0000 
+      6 CG         28.2730   31.8060   21.6880 C.3       1 MET1        0.2300 
+      7 SD         27.3960   30.5640   20.7290 S.3       1 MET1       -0.4600 
+      8 CE         26.4940   31.5510   19.5540 C.3       1 MET1        0.2300 
+      9 OXT        28.9080   34.4620   20.0890 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.2280   32.4960   19.4870 H         1 MET1        0.4500 
+     11 H2         26.0490   33.5850   19.1200 H         1 MET1        0.4500 
+     12 H3         25.7160   32.3180   20.1160 H         1 MET1        0.4500 
+     13 H4         25.9240   34.3450   21.3800 H         1 MET1        0.0000 
+     14 H5         26.4610   32.4310   22.6250 H         1 MET1        0.0000 
+     15 H6         27.8580   33.5320   22.8710 H         1 MET1        0.0000 
+     16 H7         28.7220   31.3290   22.5720 H         1 MET1        0.0000 
+     17 H8         29.0660   32.2480   21.0670 H         1 MET1        0.0000 
+     18 H9         27.2010   32.1380   18.9490 H         1 MET1        0.0000 
+     19 H10        25.8170   32.2330   20.0910 H         1 MET1        0.0000 
+     20 H11        25.9060   30.8940   18.8970 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_424
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_424
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.8460   31.3850   18.7320 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.7290   32.0110   19.7580 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.0680   32.0160   21.1320 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.6330   31.5670   22.1420 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         27.0800   33.4430   19.3440 C.3       1 MET1        0.0000 
+      6 CG         27.6420   34.3050   20.4580 C.3       1 MET1        0.2300 
+      7 SD         28.9890   33.4630   21.3000 S.3       1 MET1       -0.4600 
+      8 CE         28.2740   31.8760   21.6770 C.3       1 MET1        0.2300 
+      9 OXT        24.9430   32.4950   21.2590 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.9830   31.9030   18.6710 H         1 MET1        0.4500 
+     11 H2         25.6490   30.4330   18.9950 H         1 MET1        0.4500 
+     12 H3         26.3100   31.3980   17.8370 H         1 MET1        0.4500 
+     13 H4         27.6580   31.4260   19.8210 H         1 MET1        0.0000 
+     14 H5         26.1650   33.9240   18.9670 H         1 MET1        0.0000 
+     15 H6         27.8270   33.3930   18.5390 H         1 MET1        0.0000 
+     16 H7         26.8440   34.5240   21.1820 H         1 MET1        0.0000 
+     17 H8         28.0180   35.2460   20.0290 H         1 MET1        0.0000 
+     18 H9         27.9760   31.3780   20.7430 H         1 MET1        0.0000 
+     19 H10        27.3910   32.0150   22.3170 H         1 MET1        0.0000 
+     20 H11        29.0140   31.2570   22.2030 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_433
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_433
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.4560   33.0150   21.9060 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.4430   32.0050   21.4270 C.3       1 MET1        0.3970 BACKBONE
+      3 C          28.8010   32.6420   21.1500 C.2       1 MET1        0.9060 BACKBONE
+      4 O          29.0550   33.8180   21.4500 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.9210   31.3230   20.1600 C.3       1 MET1        0.0000 
+      6 CG         26.3070   32.2620   19.1400 C.3       1 MET1        0.2300 
+      7 SD         25.9870   31.4040   17.5930 S.3       1 MET1       -0.4600 
+      8 CE         25.1300   29.9410   18.1350 C.3       1 MET1        0.2300 
+      9 OXT        29.6880   31.9690   20.6280 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         26.3380   33.7290   21.2040 H         1 MET1        0.4500 
+     11 H2         26.7920   33.4340   22.7590 H         1 MET1        0.4500 
+     12 H3         25.5720   32.5640   22.0790 H         1 MET1        0.4500 
+     13 H4         27.5700   31.2440   22.2100 H         1 MET1        0.0000 
+     14 H5         26.1540   30.5910   20.4570 H         1 MET1        0.0000 
+     15 H6         27.7610   30.7990   19.6820 H         1 MET1        0.0000 
+     16 H7         27.0010   33.0950   18.9540 H         1 MET1        0.0000 
+     17 H8         25.3590   32.6550   19.5370 H         1 MET1        0.0000 
+     18 H9         24.2100   30.2290   18.6620 H         1 MET1        0.0000 
+     19 H10        25.7780   29.3680   18.8140 H         1 MET1        0.0000 
+     20 H11        24.8750   29.3210   17.2630 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_435
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_435
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.7760   31.7690   22.4790 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.3690   32.4430   21.2880 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.1220   33.9470   21.3190 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.2000   34.4550   21.9760 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.7850   31.8470   20.0040 C.3       1 MET1        0.0000 
+      6 CG         25.2840   31.6310   20.0300 C.3       1 MET1        0.2300 
+      7 SD         24.6730   31.1980   18.3950 S.3       1 MET1       -0.4600 
+      8 CE         25.7860   29.8990   17.9010 C.3       1 MET1        0.2300 
+      9 OXT        27.8690   34.6940   20.6890 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         25.7810   31.9300   22.4950 H         1 MET1        0.4500 
+     11 H2         27.1910   32.1430   23.3170 H         1 MET1        0.4500 
+     12 H3         26.9550   30.7780   22.4280 H         1 MET1        0.4500 
+     13 H4         28.4550   32.2680   21.2950 H         1 MET1        0.0000 
+     14 H5         27.2680   30.8740   19.8280 H         1 MET1        0.0000 
+     15 H6         27.0200   32.5270   19.1730 H         1 MET1        0.0000 
+     16 H7         24.7930   32.5570   20.3650 H         1 MET1        0.0000 
+     17 H8         25.0490   30.8160   20.7300 H         1 MET1        0.0000 
+     18 H9         25.7180   29.0670   18.6170 H         1 MET1        0.0000 
+     19 H10        26.8150   30.2850   17.8830 H         1 MET1        0.0000 
+     20 H11        25.5100   29.5430   16.8980 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_444
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_444
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.9360   34.4710   20.5560 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         28.1790   33.2640   21.3970 C.3       1 MET1        0.3970 BACKBONE
+      3 C          29.0900   32.2670   20.6890 C.2       1 MET1        0.9060 BACKBONE
+      4 O          29.6610   32.5320   19.6210 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.8490   32.5950   21.7510 C.3       1 MET1        0.0000 
+      6 CG         25.8720   32.4760   20.5970 C.3       1 MET1        0.2300 
+      7 SD         26.6690   31.7500   19.1580 S.3       1 MET1       -0.4600 
+      8 CE         25.3260   30.8870   18.3690 C.3       1 MET1        0.2300 
+      9 OXT        29.2860   31.1630   21.1960 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.4970   34.1950   19.6910 H         1 MET1        0.4500 
+     11 H2         28.8130   34.9250   20.3580 H         1 MET1        0.4500 
+     12 H3         27.3320   35.1090   21.0510 H         1 MET1        0.4500 
+     13 H4         28.6710   33.5830   22.3280 H         1 MET1        0.0000 
+     14 H5         26.3690   33.1850   22.5460 H         1 MET1        0.0000 
+     15 H6         27.0630   31.5830   22.1240 H         1 MET1        0.0000 
+     16 H7         25.4990   33.4770   20.3350 H         1 MET1        0.0000 
+     17 H8         25.0290   31.8390   20.9020 H         1 MET1        0.0000 
+     18 H9         24.5360   31.6040   18.1040 H         1 MET1        0.0000 
+     19 H10        24.9200   30.1320   19.0590 H         1 MET1        0.0000 
+     20 H11        25.6930   30.3920   17.4590 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_450
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_450
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.5310   33.3370   22.9010 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.9280   32.8980   21.6100 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.3140   34.0720   20.8550 C.2       1 MET1        0.9060 BACKBONE
+      4 O          27.5920   34.3170   19.6710 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.8620   31.8290   21.8660 C.3       1 MET1        0.0000 
+      6 CG         25.9220   31.5800   20.7030 C.3       1 MET1        0.2300 
+      7 SD         26.8430   31.3090   19.1840 S.3       1 MET1       -0.4600 
+      8 CE         25.7810   30.2000   18.2820 C.3       1 MET1        0.2300 
+      9 OXT        26.5000   34.7970   21.4250 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.8180   33.7530   23.4810 H         1 MET1        0.4500 
+     11 H2         29.2540   34.0140   22.7210 H         1 MET1        0.4500 
+     12 H3         28.9260   32.5410   23.3750 H         1 MET1        0.4500 
+     13 H4         28.7220   32.4610   20.9870 H         1 MET1        0.0000 
+     14 H5         26.2600   32.1460   22.7310 H         1 MET1        0.0000 
+     15 H6         27.3740   30.8850   22.1030 H         1 MET1        0.0000 
+     16 H7         25.2650   32.4530   20.5760 H         1 MET1        0.0000 
+     17 H8         25.3110   30.6900   20.9180 H         1 MET1        0.0000 
+     18 H9         24.8080   30.6830   18.1120 H         1 MET1        0.0000 
+     19 H10        25.6370   29.2780   18.8640 H         1 MET1        0.0000 
+     20 H11        26.2440   29.9550   17.3150 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_454
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_454
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.6200   29.5900   20.6820 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.6760   30.7130   20.4130 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.4920   30.9390   18.9160 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.9200   30.1150   18.1870 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         27.1860   31.9960   21.0740 C.3       1 MET1        0.0000 
+      6 CG         28.6700   32.2530   20.8990 C.3       1 MET1        0.2300 
+      7 SD         29.1040   33.9040   21.4650 S.3       1 MET1       -0.4600 
+      8 CE         27.9170   34.9250   20.6170 C.3       1 MET1        0.2300 
+      9 OXT        26.9070   31.9790   18.4070 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         28.5190   29.8030   20.2770 H         1 MET1        0.4500 
+     11 H2         27.2590   28.7430   20.2730 H         1 MET1        0.4500 
+     12 H3         27.7200   29.4670   21.6770 H         1 MET1        0.4500 
+     13 H4         25.6990   30.4570   20.8490 H         1 MET1        0.0000 
+     14 H5         26.9740   31.9330   22.1520 H         1 MET1        0.0000 
+     15 H6         26.6380   32.8450   20.6420 H         1 MET1        0.0000 
+     16 H7         28.9300   32.1570   19.8350 H         1 MET1        0.0000 
+     17 H8         29.2360   31.5120   21.4840 H         1 MET1        0.0000 
+     18 H9         26.9000   34.6250   20.9100 H         1 MET1        0.0000 
+     19 H10        28.0370   34.8000   19.5310 H         1 MET1        0.0000 
+     20 H11        28.0820   35.9780   20.8860 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_457
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_457
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.4110   31.8260   20.7210 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.6510   32.0120   19.9140 C.3       1 MET1        0.3970 BACKBONE
+      3 C          25.7370   30.9930   18.7830 C.2       1 MET1        0.9060 BACKBONE
+      4 O          24.8010   30.2280   18.5060 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.8840   31.8970   20.8140 C.3       1 MET1        0.0000 
+      6 CG         27.1510   33.1120   21.6820 C.3       1 MET1        0.2300 
+      7 SD         27.6850   34.5070   20.6810 S.3       1 MET1       -0.4600 
+      8 CE         27.0660   35.8990   21.6020 C.3       1 MET1        0.2300 
+      9 OXT        26.7600   30.9310   18.1030 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.4080   30.9010   21.1220 H         1 MET1        0.4500 
+     11 H2         23.6040   31.9380   20.1280 H         1 MET1        0.4500 
+     12 H3         24.3840   32.5120   21.4580 H         1 MET1        0.4500 
+     13 H4         25.6300   33.0200   19.4730 H         1 MET1        0.0000 
+     14 H5         27.7620   31.7350   20.1710 H         1 MET1        0.0000 
+     15 H6         26.7460   31.0280   21.4730 H         1 MET1        0.0000 
+     16 H7         27.9390   32.8680   22.4100 H         1 MET1        0.0000 
+     17 H8         26.2290   33.3830   22.2160 H         1 MET1        0.0000 
+     18 H9         27.5100   35.9000   22.6080 H         1 MET1        0.0000 
+     19 H10        25.9710   35.8260   21.6840 H         1 MET1        0.0000 
+     20 H11        27.3330   36.8300   21.0820 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_464
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_464
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          29.9440   33.5250   21.7040 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         28.7920   33.0980   20.8590 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.7950   34.2350   20.6630 C.2       1 MET1        0.9060 BACKBONE
+      4 O          28.0270   35.3940   21.0390 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         28.0910   31.8960   21.4980 C.3       1 MET1        0.0000 
+      6 CG         26.7040   31.6080   20.9560 C.3       1 MET1        0.2300 
+      7 SD         26.7210   31.5440   19.1590 S.3       1 MET1       -0.4600 
+      8 CE         25.4270   30.3750   18.8040 C.3       1 MET1        0.2300 
+      9 OXT        26.7270   34.0100   20.0960 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         29.6080   33.8160   22.6090 H         1 MET1        0.4500 
+     11 H2         30.4200   34.2930   21.2590 H         1 MET1        0.4500 
+     12 H3         30.5830   32.7530   21.8150 H         1 MET1        0.4500 
+     13 H4         29.1760   32.7980   19.8730 H         1 MET1        0.0000 
+     14 H5         28.0050   32.0840   22.5780 H         1 MET1        0.0000 
+     15 H6         28.7160   31.0070   21.3300 H         1 MET1        0.0000 
+     16 H7         26.0170   32.4030   21.2820 H         1 MET1        0.0000 
+     17 H8         26.3580   30.6410   21.3480 H         1 MET1        0.0000 
+     18 H9         24.4750   30.7480   19.2100 H         1 MET1        0.0000 
+     19 H10        25.6690   29.4080   19.2670 H         1 MET1        0.0000 
+     20 H11        25.3370   30.2480   17.7150 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_469
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_469
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          29.1950   32.3370   21.9750 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         28.0510   32.6530   21.0720 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.7680   32.8890   21.8610 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.6170   33.8700   22.6050 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         27.8440   31.5150   20.0700 C.3       1 MET1        0.0000 
+      6 CG         26.5040   31.5300   19.3590 C.3       1 MET1        0.2300 
+      7 SD         26.4780   30.3330   18.0190 S.3       1 MET1       -0.4600 
+      8 CE         24.7650   29.8510   17.9680 C.3       1 MET1        0.2300 
+      9 OXT        25.8360   32.0930   21.7500 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         28.9860   31.5030   22.5020 H         1 MET1        0.4500 
+     11 H2         29.3460   33.1050   22.6080 H         1 MET1        0.4500 
+     12 H3         30.0260   32.1860   21.4240 H         1 MET1        0.4500 
+     13 H4         28.2910   33.5720   20.5160 H         1 MET1        0.0000 
+     14 H5         27.9340   30.5610   20.6110 H         1 MET1        0.0000 
+     15 H6         28.6360   31.5800   19.3090 H         1 MET1        0.0000 
+     16 H7         26.3250   32.5350   18.9490 H         1 MET1        0.0000 
+     17 H8         25.7110   31.2820   20.0810 H         1 MET1        0.0000 
+     18 H9         24.1420   30.7340   17.7640 H         1 MET1        0.0000 
+     19 H10        24.4780   29.4140   18.9350 H         1 MET1        0.0000 
+     20 H11        24.6170   29.1060   17.1720 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_477
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_477
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.1790   31.9660   22.0590 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.1160   32.4740   21.0160 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.2670   33.9890   21.0940 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.7810   34.6580   22.0190 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.6210   32.0710   19.6250 C.3       1 MET1        0.0000 
+      6 CG         26.8560   30.6170   19.2650 C.3       1 MET1        0.2300 
+      7 SD         25.9960   30.1880   17.7460 S.3       1 MET1       -0.4600 
+      8 CE         24.3440   30.7710   18.0610 C.3       1 MET1        0.2300 
+      9 OXT        27.9070   34.5780   20.2240 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         25.2710   32.3850   21.9270 H         1 MET1        0.4500 
+     11 H2         26.5300   32.2060   22.9720 H         1 MET1        0.4500 
+     12 H3         26.1010   30.9640   21.9810 H         1 MET1        0.4500 
+     13 H4         28.1030   32.0180   21.1850 H         1 MET1        0.0000 
+     14 H5         27.1390   32.6960   18.8830 H         1 MET1        0.0000 
+     15 H6         25.5400   32.2660   19.5770 H         1 MET1        0.0000 
+     16 H7         26.4870   29.9790   20.0810 H         1 MET1        0.0000 
+     17 H8         27.9350   30.4500   19.1280 H         1 MET1        0.0000 
+     18 H9         24.3680   31.8550   18.2480 H         1 MET1        0.0000 
+     19 H10        23.9360   30.2560   18.9430 H         1 MET1        0.0000 
+     20 H11        23.7090   30.5630   17.1880 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_482
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_482
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.6370   31.8410   21.8950 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.6570   32.7730   21.2660 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.8190   34.1930   21.7960 C.2       1 MET1        0.9060 BACKBONE
+      4 O          28.3560   34.4360   22.8870 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.2300   32.2820   21.5210 C.3       1 MET1        0.0000 
+      6 CG         25.8020   31.1030   20.6680 C.3       1 MET1        0.2300 
+      7 SD         25.6090   31.5950   18.9500 S.3       1 MET1       -0.4600 
+      8 CE         26.0320   30.1040   18.0730 C.3       1 MET1        0.2300 
+      9 OXT        27.4230   35.1390   21.1180 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         28.4950   31.8290   22.8930 H         1 MET1        0.4500 
+     11 H2         29.5740   32.1530   21.6930 H         1 MET1        0.4500 
+     12 H3         28.5040   30.9140   21.5250 H         1 MET1        0.4500 
+     13 H4         27.8360   32.7840   20.1810 H         1 MET1        0.0000 
+     14 H5         25.5400   33.1160   21.3230 H         1 MET1        0.0000 
+     15 H6         26.1530   31.9860   22.5770 H         1 MET1        0.0000 
+     16 H7         24.8430   30.7150   21.0420 H         1 MET1        0.0000 
+     17 H8         26.5670   30.3150   20.7330 H         1 MET1        0.0000 
+     18 H9         25.3430   29.2980   18.3670 H         1 MET1        0.0000 
+     19 H10        27.0630   29.8140   18.3200 H         1 MET1        0.0000 
+     20 H11        25.9500   30.2800   16.9900 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_484
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_484
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.9080   33.1680   23.5530 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         28.3210   32.8980   22.2090 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.8120   34.1790   21.5570 C.2       1 MET1        0.9060 BACKBONE
+      4 O          27.5180   35.1880   22.2160 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         27.1800   31.8850   22.3290 C.3       1 MET1        0.0000 
+      6 CG         26.2650   31.8140   21.1220 C.3       1 MET1        0.2300 
+      7 SD         27.2170   31.6290   19.6090 S.3       1 MET1       -0.4600 
+      8 CE         26.1160   30.6880   18.5740 C.3       1 MET1        0.2300 
+      9 OXT        27.7010   34.2300   20.3330 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         28.2040   33.5740   24.1510 H         1 MET1        0.4500 
+     11 H2         29.6800   33.8080   23.4600 H         1 MET1        0.4500 
+     12 H3         29.2340   32.3040   23.9570 H         1 MET1        0.4500 
+     13 H4         29.1050   32.4700   21.5670 H         1 MET1        0.0000 
+     14 H5         26.5710   32.1580   23.2040 H         1 MET1        0.0000 
+     15 H6         27.6200   30.8900   22.4850 H         1 MET1        0.0000 
+     16 H7         25.6710   32.7390   21.0640 H         1 MET1        0.0000 
+     17 H8         25.5900   30.9520   21.2320 H         1 MET1        0.0000 
+     18 H9         25.1830   31.2510   18.4250 H         1 MET1        0.0000 
+     19 H10        25.8920   29.7260   19.0570 H         1 MET1        0.0000 
+     20 H11        26.5940   30.5060   17.6000 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_500
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_500
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.6300   33.3290   22.4130 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.4170   32.3140   21.6570 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.7070   32.9090   21.1040 C.2       1 MET1        0.9060 BACKBONE
+      4 O          27.8510   34.1280   20.9220 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.5750   31.7430   20.5130 C.3       1 MET1        0.0000 
+      6 CG         26.3650   31.0000   19.4530 C.3       1 MET1        0.2300 
+      7 SD         25.2640   30.1400   18.3210 S.3       1 MET1       -0.4600 
+      8 CE         26.1840   30.1640   16.7970 C.3       1 MET1        0.2300 
+      9 OXT        28.6520   32.1660   20.8430 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         25.3920   34.0940   21.8010 H         1 MET1        0.4500 
+     11 H2         26.1780   33.6740   23.1840 H         1 MET1        0.4500 
+     12 H3         24.7850   32.9050   22.7640 H         1 MET1        0.4500 
+     13 H4         26.6790   31.4950   22.3430 H         1 MET1        0.0000 
+     14 H5         25.0490   32.5770   20.0260 H         1 MET1        0.0000 
+     15 H6         24.8400   31.0480   20.9430 H         1 MET1        0.0000 
+     16 H7         27.0240   30.2660   19.9420 H         1 MET1        0.0000 
+     17 H8         26.9750   31.7190   18.8870 H         1 MET1        0.0000 
+     18 H9         27.1420   29.6430   16.9400 H         1 MET1        0.0000 
+     19 H10        26.3740   31.2060   16.5000 H         1 MET1        0.0000 
+     20 H11        25.6050   29.6580   16.0120 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_516
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_516
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.6310   31.9130   19.3170 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.1050   31.8860   19.0950 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.5230   30.6700   18.2760 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.6970   29.9100   17.7470 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.8380   31.8860   20.4390 C.3       1 MET1        0.0000 
+      6 CG         26.8710   33.2290   21.1430 C.3       1 MET1        0.2300 
+      7 SD         27.5000   33.0550   22.8180 S.3       1 MET1       -0.4600 
+      8 CE         28.9830   32.1010   22.5760 C.3       1 MET1        0.2300 
+      9 OXT        27.7190   30.4340   18.1130 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.3520   31.0810   19.8140 H         1 MET1        0.4500 
+     11 H2         24.1580   31.9480   18.4280 H         1 MET1        0.4500 
+     12 H3         24.3870   32.7260   19.8600 H         1 MET1        0.4500 
+     13 H4         26.3890   32.7930   18.5400 H         1 MET1        0.0000 
+     14 H5         27.8750   31.5660   20.2630 H         1 MET1        0.0000 
+     15 H6         26.3380   31.1640   21.1000 H         1 MET1        0.0000 
+     16 H7         25.8520   33.6420   21.1810 H         1 MET1        0.0000 
+     17 H8         27.5240   33.9140   20.5820 H         1 MET1        0.0000 
+     18 H9         29.6690   32.6530   21.9160 H         1 MET1        0.0000 
+     19 H10        28.7270   31.1370   22.1140 H         1 MET1        0.0000 
+     20 H11        29.4690   31.9260   23.5460 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_526
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_526
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          23.7540   31.9330   19.4570 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.0700   31.2890   19.1780 C.3       1 MET1        0.3970 BACKBONE
+      3 C          24.9050   30.0280   18.3370 C.2       1 MET1        0.9060 BACKBONE
+      4 O          23.8190   29.7020   17.8350 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.7750   30.9490   20.4940 C.3       1 MET1        0.0000 
+      6 CG         26.3970   32.1350   21.2050 C.3       1 MET1        0.2300 
+      7 SD         27.8200   32.7510   20.2940 S.3       1 MET1       -0.4600 
+      8 CE         27.8010   34.4890   20.6810 C.3       1 MET1        0.2300 
+      9 OXT        25.8830   29.3110   18.1270 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         23.1640   31.2870   19.9590 H         1 MET1        0.4500 
+     11 H2         23.3120   32.1840   18.5870 H         1 MET1        0.4500 
+     12 H3         23.8960   32.7610   20.0130 H         1 MET1        0.4500 
+     13 H4         25.6930   32.0010   18.6190 H         1 MET1        0.0000 
+     14 H5         26.5720   30.2230   20.2770 H         1 MET1        0.0000 
+     15 H6         25.0370   30.4920   21.1690 H         1 MET1        0.0000 
+     16 H7         26.7190   31.8250   22.2100 H         1 MET1        0.0000 
+     17 H8         25.6490   32.9370   21.2900 H         1 MET1        0.0000 
+     18 H9         27.8980   34.6230   21.7680 H         1 MET1        0.0000 
+     19 H10        26.8530   34.9290   20.3400 H         1 MET1        0.0000 
+     20 H11        28.6400   34.9860   20.1730 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_529
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_529
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          23.6960   31.9010   18.6770 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.0640   31.3630   18.4300 C.3       1 MET1        0.3970 BACKBONE
+      3 C          25.0200   29.8940   18.0220 C.2       1 MET1        0.9060 BACKBONE
+      4 O          23.9550   29.3040   17.7840 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.9270   31.5290   19.6840 C.3       1 MET1        0.0000 
+      6 CG         26.4220   32.9410   19.9300 C.3       1 MET1        0.2300 
+      7 SD         27.1780   33.0780   21.5560 S.3       1 MET1       -0.4600 
+      8 CE         28.2910   31.6890   21.5810 C.3       1 MET1        0.2300 
+      9 OXT        26.0720   29.2680   17.9060 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         23.2570   31.3760   19.4180 H         1 MET1        0.4500 
+     11 H2         23.1460   31.8190   17.8360 H         1 MET1        0.4500 
+     12 H3         23.7590   32.8710   18.9440 H         1 MET1        0.4500 
+     13 H4         25.5210   31.9370   17.6110 H         1 MET1        0.0000 
+     14 H5         26.8020   30.8700   19.5870 H         1 MET1        0.0000 
+     15 H6         25.3290   31.2190   20.5530 H         1 MET1        0.0000 
+     16 H7         25.5730   33.6380   19.8670 H         1 MET1        0.0000 
+     17 H8         27.1670   33.2000   19.1630 H         1 MET1        0.0000 
+     18 H9         29.0190   31.7880   20.7610 H         1 MET1        0.0000 
+     19 H10        27.7200   30.7590   21.4530 H         1 MET1        0.0000 
+     20 H11        28.8240   31.6640   22.5430 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_554
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_554
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.0870   33.9600   20.9470 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.2690   32.5250   21.3060 C.3       1 MET1        0.3970 BACKBONE
+      3 C          28.5920   32.2950   22.0280 C.2       1 MET1        0.9060 BACKBONE
+      4 O          28.6610   31.7030   23.1160 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         27.2050   31.6570   20.0470 C.3       1 MET1        0.0000 
+      6 CG         25.8090   31.4420   19.4950 C.3       1 MET1        0.2300 
+      7 SD         25.8760   30.6560   17.8790 S.3       1 MET1       -0.4600 
+      8 CE         24.3690   29.7090   17.8500 C.3       1 MET1        0.2300 
+      9 OXT        29.6370   32.6910   21.5140 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.8380   34.2520   20.3400 H         1 MET1        0.4500 
+     11 H2         27.0960   34.5200   21.7850 H         1 MET1        0.4500 
+     12 H3         26.2060   34.0790   20.4730 H         1 MET1        0.4500 
+     13 H4         26.4510   32.2290   21.9790 H         1 MET1        0.0000 
+     14 H5         27.6350   30.6730   20.2870 H         1 MET1        0.0000 
+     15 H6         27.8110   32.1410   19.2670 H         1 MET1        0.0000 
+     16 H7         25.3040   32.4140   19.4030 H         1 MET1        0.0000 
+     17 H8         25.2440   30.7980   20.1860 H         1 MET1        0.0000 
+     18 H9         23.5090   30.3850   17.9620 H         1 MET1        0.0000 
+     19 H10        24.3750   28.9840   18.6770 H         1 MET1        0.0000 
+     20 H11        24.2920   29.1720   16.8930 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_574
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_574
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          23.8340   32.7330   18.1060 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         24.7610   31.8150   18.8280 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.2050   32.2970   18.7360 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.5950   33.3350   19.2920 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         24.6470   30.3990   18.2580 C.3       1 MET1        0.0000 
+      6 CG         25.7860   29.4710   18.6320 C.3       1 MET1        0.2300 
+      7 SD         26.0740   29.4970   20.4060 S.3       1 MET1       -0.4600 
+      8 CE         26.1960   31.2390   20.7510 C.3       1 MET1        0.2300 
+      9 OXT        27.0240   31.6320   18.1040 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.0950   32.7760   17.1330 H         1 MET1        0.4500 
+     11 H2         23.8900   33.6540   18.5110 H         1 MET1        0.4500 
+     12 H3         22.8900   32.3880   18.1850 H         1 MET1        0.4500 
+     13 H4         24.4700   31.7920   19.8890 H         1 MET1        0.0000 
+     14 H5         24.6130   30.4740   17.1610 H         1 MET1        0.0000 
+     15 H6         23.7090   29.9570   18.6240 H         1 MET1        0.0000 
+     16 H7         26.7000   29.7940   18.1130 H         1 MET1        0.0000 
+     17 H8         25.5320   28.4460   18.3230 H         1 MET1        0.0000 
+     18 H9         25.2570   31.7350   20.4630 H         1 MET1        0.0000 
+     19 H10        27.0290   31.6690   20.1770 H         1 MET1        0.0000 
+     20 H11        26.3750   31.3880   21.8260 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_588
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_588
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.2350   32.0410   21.6960 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.6540   32.2680   21.2980 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.2760   33.4160   22.0860 C.2       1 MET1        0.9060 BACKBONE
+      4 O          27.4960   33.3420   23.3040 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.7380   32.5600   19.7980 C.3       1 MET1        0.0000 
+      6 CG         26.5820   31.3440   18.9050 C.3       1 MET1        0.2300 
+      7 SD         25.1210   30.4010   19.3610 S.3       1 MET1       -0.4600 
+      8 CE         24.6170   29.6960   17.8060 C.3       1 MET1        0.2300 
+      9 OXT        27.5900   34.4500   21.4990 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.6990   32.8780   21.5190 H         1 MET1        0.4500 
+     11 H2         25.1930   31.8160   22.6760 H         1 MET1        0.4500 
+     12 H3         24.8530   31.2790   21.1580 H         1 MET1        0.4500 
+     13 H4         27.2250   31.3520   21.5100 H         1 MET1        0.0000 
+     14 H5         27.7190   33.0130   19.5920 H         1 MET1        0.0000 
+     15 H6         25.9430   33.2760   19.5440 H         1 MET1        0.0000 
+     16 H7         27.4710   30.7050   19.0080 H         1 MET1        0.0000 
+     17 H8         26.4860   31.6750   17.8600 H         1 MET1        0.0000 
+     18 H9         25.4270   29.0660   17.4100 H         1 MET1        0.0000 
+     19 H10        24.3980   30.5030   17.0920 H         1 MET1        0.0000 
+     20 H11        23.7160   29.0840   17.9550 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_591
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_591
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.1100   33.1150   19.3540 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.4810   32.9890   20.7930 C.3       1 MET1        0.3970 BACKBONE
+      3 C          28.8100   32.2630   20.9640 C.2       1 MET1        0.9060 BACKBONE
+      4 O          29.5360   31.9710   20.0010 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.3800   32.2470   21.5540 C.3       1 MET1        0.0000 
+      6 CG         25.8360   31.0210   20.8470 C.3       1 MET1        0.2300 
+      7 SD         24.8830   31.4900   19.3970 S.3       1 MET1       -0.4600 
+      8 CE         25.1430   30.1110   18.3020 C.3       1 MET1        0.2300 
+      9 OXT        29.1950   31.9660   22.0940 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.0280   32.1960   18.9470 H         1 MET1        0.4500 
+     11 H2         27.8230   33.6350   18.8680 H         1 MET1        0.4500 
+     12 H3         26.2290   33.5980   19.2750 H         1 MET1        0.4500 
+     13 H4         27.5800   34.0000   21.2160 H         1 MET1        0.0000 
+     14 H5         25.5460   32.9460   21.7190 H         1 MET1        0.0000 
+     15 H6         26.7890   31.9300   22.5250 H         1 MET1        0.0000 
+     16 H7         25.1880   30.4620   21.5400 H         1 MET1        0.0000 
+     17 H8         26.6760   30.3820   20.5360 H         1 MET1        0.0000 
+     18 H9         24.7720   29.1910   18.7780 H         1 MET1        0.0000 
+     19 H10        26.2170   30.0080   18.0920 H         1 MET1        0.0000 
+     20 H11        24.6000   30.2820   17.3620 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_596
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_596
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.9440   32.4520   18.9420 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.6070   31.2590   19.5420 C.3       1 MET1        0.3970 BACKBONE
+      3 C          25.9170   29.9670   19.1200 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.9440   29.5520   17.9510 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.6090   31.3730   21.0690 C.3       1 MET1        0.0000 
+      6 CG         27.6300   32.3430   21.6310 C.3       1 MET1        0.2300 
+      7 SD         27.5220   33.9360   20.8040 S.3       1 MET1       -0.4600 
+      8 CE         28.0160   35.0690   22.0840 C.3       1 MET1        0.2300 
+      9 OXT        25.3240   29.2960   19.9630 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.9820   32.4890   19.2450 H         1 MET1        0.4500 
+     11 H2         25.9780   32.3860   17.9380 H         1 MET1        0.4500 
+     12 H3         26.4220   33.2880   19.2400 H         1 MET1        0.4500 
+     13 H4         27.6490   31.2280   19.1910 H         1 MET1        0.0000 
+     14 H5         26.8170   30.3770   21.4860 H         1 MET1        0.0000 
+     15 H6         25.6100   31.7030   21.3890 H         1 MET1        0.0000 
+     16 H7         28.6390   31.9290   21.4860 H         1 MET1        0.0000 
+     17 H8         27.4420   32.4820   22.7060 H         1 MET1        0.0000 
+     18 H9         29.0370   34.8270   22.4140 H         1 MET1        0.0000 
+     19 H10        27.3260   34.9830   22.9360 H         1 MET1        0.0000 
+     20 H11        27.9910   36.0970   21.6940 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_601
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_601
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.6580   31.8040   18.0700 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.2780   32.5540   19.3010 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.3840   33.5100   19.7340 C.2       1 MET1        0.9060 BACKBONE
+      4 O          28.5670   33.3550   19.3930 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.9630   31.5750   20.4350 C.3       1 MET1        0.0000 
+      6 CG         25.9360   32.1950   21.8190 C.3       1 MET1        0.2300 
+      7 SD         27.5900   32.6720   22.3360 S.3       1 MET1       -0.4600 
+      8 CE         28.5290   31.1890   22.0410 C.3       1 MET1        0.2300 
+      9 OXT        27.1020   34.4830   20.4310 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.4930   31.2680   18.2480 H         1 MET1        0.4500 
+     11 H2         26.8300   32.4540   17.3190 H         1 MET1        0.4500 
+     12 H3         25.9080   31.1820   17.8100 H         1 MET1        0.4500 
+     13 H4         25.3750   33.1440   19.0830 H         1 MET1        0.0000 
+     14 H5         26.7280   30.7850   20.4270 H         1 MET1        0.0000 
+     15 H6         24.9760   31.1320   20.2390 H         1 MET1        0.0000 
+     16 H7         25.5320   31.4630   22.5340 H         1 MET1        0.0000 
+     17 H8         25.2920   33.0860   21.8020 H         1 MET1        0.0000 
+     18 H9         28.4740   30.9260   20.9750 H         1 MET1        0.0000 
+     19 H10        28.1140   30.3670   22.6440 H         1 MET1        0.0000 
+     20 H11        29.5780   31.3570   22.3240 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_614
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_614
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.5580   33.2350   20.7410 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         27.2110   32.5800   19.5720 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.3690   31.4260   19.0390 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.2220   31.1960   19.4510 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         28.6010   32.0720   19.9640 C.3       1 MET1        0.0000 
+      6 CG         28.6630   31.3670   21.3050 C.3       1 MET1        0.2300 
+      7 SD         28.4180   32.5320   22.6520 S.3       1 MET1       -0.4600 
+      8 CE         26.9590   33.4130   22.1380 C.3       1 MET1        0.2300 
+      9 OXT        26.8270   30.7030   18.1560 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         26.4360   32.5590   21.4800 H         1 MET1        0.4500 
+     11 H2         25.6590   33.5970   20.4650 H         1 MET1        0.4500 
+     12 H3         27.1380   33.9910   21.0700 H         1 MET1        0.4500 
+     13 H4         27.3220   33.3270   18.7730 H         1 MET1        0.0000 
+     14 H5         29.2830   32.9350   19.9990 H         1 MET1        0.0000 
+     15 H6         28.9390   31.3690   19.1900 H         1 MET1        0.0000 
+     16 H7         29.6480   30.8890   21.4160 H         1 MET1        0.0000 
+     17 H8         27.8770   30.5990   21.3450 H         1 MET1        0.0000 
+     18 H9         26.1240   32.7050   22.0270 H         1 MET1        0.0000 
+     19 H10        27.1510   33.9080   21.1750 H         1 MET1        0.0000 
+     20 H11        26.7020   34.1690   22.8940 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_62
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_62
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.6756   32.0322   19.0221 N.4       1 MET        -0.8530 
+      2 CA         26.0304   31.4477   19.2377 C.3       1 MET         0.3970 
+      3 C          26.2435   30.2054   18.3796 C.2       1 MET         0.9060 
+      4 O          27.2805   29.5275   18.4396 O.co2     1 MET        -0.9000 
+      5 CB         26.2213   31.0986   20.7158 C.3       1 MET         0.0000 
+      6 CG         27.6557   31.1650   21.2033 C.3       1 MET         0.2300 
+      7 SD         28.2423   32.8639   21.2331 S.3       1 MET        -0.4600 
+      8 CE         27.0538   33.6628   22.2907 C.3       1 MET         0.2300 
+      9 OXT        25.3549   29.8439   17.6101 O.co2     1 MET        -0.9000 
+     10 H1         24.0299   31.6383   19.6885 H         1 MET         0.4500 
+     11 H2         24.3637   31.8215   18.0871 H         1 MET         0.4500 
+     12 H3         24.7173   33.0317   19.1452 H         1 MET         0.4500 
+     13 H4         26.7816   32.1993   18.9534 H         1 MET         0.0000 
+     14 H5         25.8521   30.0750   20.8764 H         1 MET         0.0000 
+     15 H6         25.6236   31.8022   21.3138 H         1 MET         0.0000 
+     16 H7         28.2935   30.5751   20.5285 H         1 MET         0.0000 
+     17 H8         27.7111   30.7465   22.2191 H         1 MET         0.0000 
+     18 H9         27.3089   34.7282   22.3897 H         1 MET         0.0000 
+     19 H10        27.0688   33.1884   23.2830 H         1 MET         0.0000 
+     20 H11        26.0494   33.5654   21.8528 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_629
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_629
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.6020   31.4110   18.1390 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.6490   30.8720   19.1510 C.3       1 MET1        0.3970 BACKBONE
+      3 C          25.7580   29.7880   18.5540 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.9410   29.3310   17.4160 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.7850   32.0040   19.7130 C.3       1 MET1        0.0000 
+      6 CG         26.4880   32.9010   20.7130 C.3       1 MET1        0.2300 
+      7 SD         28.0640   33.4710   20.0630 S.3       1 MET1       -0.4600 
+      8 CE         28.2420   35.0680   20.8290 C.3       1 MET1        0.2300 
+      9 OXT        24.8330   29.3300   19.2230 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.0860   31.8090   17.3700 H         1 MET1        0.4500 
+     11 H2         28.1890   30.6660   17.8010 H         1 MET1        0.4500 
+     12 H3         28.1750   32.1240   18.5640 H         1 MET1        0.4500 
+     13 H4         27.2290   30.4300   19.9750 H         1 MET1        0.0000 
+     14 H5         24.9130   31.5550   20.2100 H         1 MET1        0.0000 
+     15 H6         25.4480   32.6260   18.8720 H         1 MET1        0.0000 
+     16 H7         26.6630   32.3390   21.6420 H         1 MET1        0.0000 
+     17 H8         25.8500   33.7720   20.9270 H         1 MET1        0.0000 
+     18 H9         28.2480   34.9510   21.9220 H         1 MET1        0.0000 
+     19 H10        27.4010   35.7120   20.5330 H         1 MET1        0.0000 
+     20 H11        29.1870   35.5270   20.5040 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_634
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_634
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.6840   31.2330   18.2950 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.8400   30.2140   18.9820 C.3       1 MET1        0.3970 BACKBONE
+      3 C          24.5950   29.8810   18.1670 C.2       1 MET1        0.9060 BACKBONE
+      4 O          24.6530   29.2860   17.0800 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.4340   30.7180   20.3690 C.3       1 MET1        0.0000 
+      6 CG         26.5310   30.6520   21.4140 C.3       1 MET1        0.2300 
+      7 SD         28.0430   31.4080   20.8010 S.3       1 MET1       -0.4600 
+      8 CE         28.7830   32.0480   22.2880 C.3       1 MET1        0.2300 
+      9 OXT        23.4880   30.1950   18.6010 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         26.1510   32.0790   18.1660 H         1 MET1        0.4500 
+     11 H2         26.9750   30.8790   17.3980 H         1 MET1        0.4500 
+     12 H3         27.4970   31.4300   18.8580 H         1 MET1        0.4500 
+     13 H4         26.4320   29.2950   19.1010 H         1 MET1        0.0000 
+     14 H5         24.5890   30.1080   20.7220 H         1 MET1        0.0000 
+     15 H6         25.1150   31.7660   20.2730 H         1 MET1        0.0000 
+     16 H7         26.7300   29.5990   21.6630 H         1 MET1        0.0000 
+     17 H8         26.2010   31.1870   22.3170 H         1 MET1        0.0000 
+     18 H9         28.9720   31.2210   22.9880 H         1 MET1        0.0000 
+     19 H10        28.1010   32.7740   22.7540 H         1 MET1        0.0000 
+     20 H11        29.7330   32.5440   22.0410 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_644
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_644
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.6020   32.9270   20.0010 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.9930   32.4720   19.7190 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.0400   31.5360   18.5170 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.7980   31.9240   17.3640 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.5740   31.7690   20.9490 C.3       1 MET1        0.0000 
+      6 CG         27.0020   32.6990   22.0680 C.3       1 MET1        0.2300 
+      7 SD         28.4560   33.6430   21.5920 S.3       1 MET1       -0.4600 
+      8 CE         29.5650   32.3760   21.0140 C.3       1 MET1        0.2300 
+      9 OXT        26.3440   30.3560   18.6820 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         24.0200   32.1270   20.1960 H         1 MET1        0.4500 
+     11 H2         24.2400   33.4180   19.1990 H         1 MET1        0.4500 
+     12 H3         24.6050   33.5420   20.7990 H         1 MET1        0.4500 
+     13 H4         26.6090   33.3560   19.4960 H         1 MET1        0.0000 
+     14 H5         27.4530   31.1910   20.6290 H         1 MET1        0.0000 
+     15 H6         25.8100   31.0860   21.3450 H         1 MET1        0.0000 
+     16 H7         27.2350   32.1030   22.9630 H         1 MET1        0.0000 
+     17 H8         26.1790   33.3940   22.2940 H         1 MET1        0.0000 
+     18 H9         29.1050   31.8450   20.1680 H         1 MET1        0.0000 
+     19 H10        29.7660   31.6650   21.8280 H         1 MET1        0.0000 
+     20 H11        30.5090   32.8360   20.6880 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_653
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_653
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.7630   31.4930   18.2040 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.5260   32.2780   19.4500 C.3       1 MET1        0.3970 BACKBONE
+      3 C          27.7790   33.0310   19.8810 C.2       1 MET1        0.9060 BACKBONE
+      4 O          27.7730   34.2480   20.1200 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.0640   31.3480   20.5740 C.3       1 MET1        0.0000 
+      6 CG         26.1550   31.9420   21.9670 C.3       1 MET1        0.2300 
+      7 SD         27.8700   32.1310   22.4690 S.3       1 MET1       -0.4600 
+      8 CE         27.8040   33.5550   23.5350 C.3       1 MET1        0.2300 
+      9 OXT        28.8350   32.4160   20.0180 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         27.5000   30.8230   18.3650 H         1 MET1        0.4500 
+     11 H2         27.0330   32.1170   17.4600 H         1 MET1        0.4500 
+     12 H3         25.9180   31.0080   17.9460 H         1 MET1        0.4500 
+     13 H4         25.7310   33.0120   19.2510 H         1 MET1        0.0000 
+     14 H5         26.6870   30.4420   20.5470 H         1 MET1        0.0000 
+     15 H6         25.0150   31.0760   20.3850 H         1 MET1        0.0000 
+     16 H7         25.6420   31.2760   22.6770 H         1 MET1        0.0000 
+     17 H8         25.6670   32.9270   21.9700 H         1 MET1        0.0000 
+     18 H9         27.1310   33.3490   24.3800 H         1 MET1        0.0000 
+     19 H10        27.4270   34.4200   22.9690 H         1 MET1        0.0000 
+     20 H11        28.8120   33.7770   23.9140 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_663
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_663
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.6030   29.9740   20.3930 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         26.2820   30.6650   20.3590 C.3       1 MET1        0.3970 BACKBONE
+      3 C          25.6640   30.6180   18.9660 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.3450   30.4420   17.9440 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.4400   32.1200   20.8090 C.3       1 MET1        0.0000 
+      6 CG         27.6380   32.8390   20.2200 C.3       1 MET1        0.2300 
+      7 SD         29.1710   32.1870   20.8950 S.3       1 MET1       -0.4600 
+      8 CE         28.8730   32.2420   22.6490 C.3       1 MET1        0.2300 
+      9 OXT        24.4470   30.7390   18.8410 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         28.2330   30.4240   19.7470 H         1 MET1        0.4500 
+     11 H2         27.4840   29.0090   20.1290 H         1 MET1        0.4500 
+     12 H3         27.9840   30.0230   21.3240 H         1 MET1        0.4500 
+     13 H4         25.6040   30.1530   21.0570 H         1 MET1        0.0000 
+     14 H5         26.5390   32.1300   21.9050 H         1 MET1        0.0000 
+     15 H6         25.5330   32.6690   20.5180 H         1 MET1        0.0000 
+     16 H7         27.5670   33.9120   20.4570 H         1 MET1        0.0000 
+     17 H8         27.6380   32.7040   19.1280 H         1 MET1        0.0000 
+     18 H9         27.9990   31.6190   22.8920 H         1 MET1        0.0000 
+     19 H10        28.6800   33.2800   22.9550 H         1 MET1        0.0000 
+     20 H11        29.7550   31.8600   23.1830 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_666
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_666
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.8950   30.0000   18.8320 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.6150   31.3020   18.7390 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.6550   31.2850   17.6240 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.7000   32.1600   16.7460 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         26.2910   31.6230   20.0750 C.3       1 MET1        0.0000 
+      6 CG         27.0090   30.4530   20.7200 C.3       1 MET1        0.2300 
+      7 SD         27.9910   31.0020   22.1230 S.3       1 MET1       -0.4600 
+      8 CE         28.9260   32.3500   21.4330 C.3       1 MET1        0.2300 
+      9 OXT        27.4930   30.3860   17.5940 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         25.5560   29.2630   19.0220 H         1 MET1        0.4500 
+     11 H2         24.4250   29.8140   17.9600 H         1 MET1        0.4500 
+     12 H3         24.2170   30.0440   19.5760 H         1 MET1        0.4500 
+     13 H4         24.8810   32.0900   18.5180 H         1 MET1        0.0000 
+     14 H5         25.5180   31.9780   20.7730 H         1 MET1        0.0000 
+     15 H6         27.0250   32.4240   19.9040 H         1 MET1        0.0000 
+     16 H7         27.6700   29.9830   19.9780 H         1 MET1        0.0000 
+     17 H8         26.2650   29.7200   21.0650 H         1 MET1        0.0000 
+     18 H9         28.2370   33.1240   21.0660 H         1 MET1        0.0000 
+     19 H10        29.5410   31.9810   20.6000 H         1 MET1        0.0000 
+     20 H11        29.5780   32.7780   22.2090 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_682
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_682
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          23.8650   32.5730   19.7820 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.2570   32.1520   20.1130 C.3       1 MET1        0.3970 BACKBONE
+      3 C          25.7990   31.1660   19.0850 C.2       1 MET1        0.9060 BACKBONE
+      4 O          26.8870   31.3350   18.5130 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.2960   31.5240   21.5080 C.3       1 MET1        0.0000 
+      6 CG         26.5470   30.7220   21.8080 C.3       1 MET1        0.2300 
+      7 SD         28.0230   31.6720   21.4190 S.3       1 MET1       -0.4600 
+      8 CE         29.2010   31.0540   22.6030 C.3       1 MET1        0.2300 
+      9 OXT        25.1520   30.1550   18.8180 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         23.2640   31.7640   19.7660 H         1 MET1        0.4500 
+     11 H2         23.8540   33.0170   18.8770 H         1 MET1        0.4500 
+     12 H3         23.5360   33.2230   20.4780 H         1 MET1        0.4500 
+     13 H4         25.8990   33.0450   20.1110 H         1 MET1        0.0000 
+     14 H5         24.4280   30.8550   21.6070 H         1 MET1        0.0000 
+     15 H6         25.2210   32.3330   22.2500 H         1 MET1        0.0000 
+     16 H7         26.5400   29.8030   21.2040 H         1 MET1        0.0000 
+     17 H8         26.5590   30.4580   22.8760 H         1 MET1        0.0000 
+     18 H9         29.3370   29.9730   22.4550 H         1 MET1        0.0000 
+     19 H10        28.8290   31.2410   23.6210 H         1 MET1        0.0000 
+     20 H11        30.1630   31.5680   22.4640 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_692
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_692
+   20    19     1     1     0
+BIOPOLYMER
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.0210   31.9410   18.8620 N.4       1 MET1       -0.8530 BACKBONE
+      2 CA         25.4840   32.0130   19.1430 C.3       1 MET1        0.3970 BACKBONE
+      3 C          26.2180   30.7950   18.5920 C.2       1 MET1        0.9060 BACKBONE
+      4 O          25.6590   29.9550   17.8710 O.co2     1 MET1       -0.9000 BACKBONE
+      5 CB         25.7230   32.1260   20.6510 C.3       1 MET1        0.0000 
+      6 CG         27.1420   31.8260   21.0930 C.3       1 MET1        0.2300 
+      7 SD         28.3260   32.7640   20.1180 S.3       1 MET1       -0.4600 
+      8 CE         27.6640   34.4150   20.1920 C.3       1 MET1        0.2300 
+      9 OXT        27.4100   30.6410   18.8510 O.co2     1 MET1       -0.9000 BACKBONE
+     10 H1         23.6370   31.1140   19.2920 H         1 MET1        0.4500 
+     11 H2         23.8720   31.9020   17.8660 H         1 MET1        0.4500 
+     12 H3         23.5660   32.7580   19.2380 H         1 MET1        0.4500 
+     13 H4         25.8880   32.9120   18.6550 H         1 MET1        0.0000 
+     14 H5         25.0490   31.4190   21.1580 H         1 MET1        0.0000 
+     15 H6         25.4760   33.1520   20.9610 H         1 MET1        0.0000 
+     16 H7         27.3400   30.7510   20.9660 H         1 MET1        0.0000 
+     17 H8         27.2530   32.0960   22.1540 H         1 MET1        0.0000 
+     18 H9         27.6170   34.7440   21.2410 H         1 MET1        0.0000 
+     19 H10        26.6530   34.4230   19.7600 H         1 MET1        0.0000 
+     20 H11        28.3120   35.0960   19.6230 H         1 MET1        0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE
+     2    1   10 1    
+     3    1   11 1    
+     4    1   12 1    
+     5    2    3 1    BACKBONE
+     6    2    5 1    
+     7    2   13 1    
+     8    3    4 ar   BACKBONE
+     9    3    9 ar   BACKBONE
+    10    5    6 1    
+    11    5   14 1    
+    12    5   15 1    
+    13    6    7 1    
+    14    6   16 1    
+    15    6   17 1    
+    16    7    8 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET1        2 RESIDUE           4 ****  MET     0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_771
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_771
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.7667   34.7737   19.9914 N.4       1 MET        -0.8530 
+      2 C          27.0142   33.6860   20.6550 C.3       1 MET         0.3970 
+      3 C          26.9686   34.0004   22.0955 C.2       1 MET         0.9060 
+      4 O          27.4576   33.1639   23.0349 O.co2     1 MET        -0.9000 
+      5 C          27.5883   32.2925   20.2370 C.3       1 MET         0.0000 
+      6 C          26.6586   31.0609   20.4371 C.3       1 MET         0.2300 
+      7 S          26.1604   30.7105   22.1453 S.3       1 MET        -0.4600 
+      8 C          27.7189   30.0691   22.8025 C.3       1 MET         0.2300 
+      9 O          26.5816   35.2375   22.4992 O.co2     1 MET        -0.9000 
+     10 H          27.7113   34.6422   18.9825 H         1 MET         0.4500 
+     11 H          28.7486   34.7754   20.2881 H         1 MET         0.4500 
+     12 H          27.3324   35.6706   20.2224 H         1 MET         0.4500 
+     13 H          25.9835   33.7317   20.2905 H         1 MET         0.0000 
+     14 H          28.5528   32.1192   20.7203 H         1 MET         0.0000 
+     15 H          27.7731   32.3367   19.1593 H         1 MET         0.0000 
+     16 H          27.1450   30.1739   20.0196 H         1 MET         0.0000 
+     17 H          25.7405   31.2220   19.8683 H         1 MET         0.0000 
+     18 H          27.5649   29.7734   23.8447 H         1 MET         0.0000 
+     19 H          28.4990   30.8344   22.7678 H         1 MET         0.0000 
+     20 H          28.0498   29.1947   22.2368 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_774
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_774
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.6781   31.1602   21.9872 N.4       1 MET        -0.8530 
+      2 C          26.8984   31.2578   21.1634 C.3       1 MET         0.3970 
+      3 C          28.0655   31.6888   21.9654 C.2       1 MET         0.9060 
+      4 O          27.9180   32.5710   22.9785 O.co2     1 MET        -0.9000 
+      5 C          26.6769   32.1943   19.9389 C.3       1 MET         0.0000 
+      6 C          25.4648   31.8888   19.0239 C.3       1 MET         0.2300 
+      7 S          25.1751   30.1125   18.7853 S.3       1 MET        -0.4600 
+      8 C          24.6997   30.1017   17.0440 C.3       1 MET         0.2300 
+      9 O          29.3136   31.5302   21.4585 O.co2     1 MET        -0.9000 
+     10 H          24.8721   30.9126   21.4012 H         1 MET         0.4500 
+     11 H          25.4901   32.0588   22.4402 H         1 MET         0.4500 
+     12 H          25.8049   30.4301   22.6917 H         1 MET         0.4500 
+     13 H          27.1236   30.2443   20.8133 H         1 MET         0.0000 
+     14 H          27.5751   32.1656   19.3164 H         1 MET         0.0000 
+     15 H          26.5639   33.2190   20.2979 H         1 MET         0.0000 
+     16 H          25.6418   32.3771   18.0668 H         1 MET         0.0000 
+     17 H          24.5605   32.3248   19.4484 H         1 MET         0.0000 
+     18 H          24.4458   29.0842   16.7382 H         1 MET         0.0000 
+     19 H          25.5509   30.4413   16.4538 H         1 MET         0.0000 
+     20 H          23.8369   30.7540   16.8769 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_775
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_775
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.4179   33.0717   19.4027 N.4       1 MET        -0.8530 
+      2 C          27.1416   33.3472   20.6513 C.3       1 MET         0.3970 
+      3 C          27.5260   34.7765   20.7028 C.2       1 MET         0.9060 
+      4 O          28.2139   35.3340   19.6837 O.co2     1 MET        -0.9000 
+      5 C          28.3421   32.3610   20.8466 C.3       1 MET         0.0000 
+      6 C          28.4273   31.7102   22.2600 C.3       1 MET         0.2300 
+      7 S          27.3566   30.2726   22.5521 S.3       1 MET        -0.4600 
+      8 C          25.7190   30.8539   22.0570 C.3       1 MET         0.2300 
+      9 O          27.0033   35.6048   21.6393 O.co2     1 MET        -0.9000 
+     10 H          26.2509   32.0664   19.3090 H         1 MET         0.4500 
+     11 H          26.9467   33.4204   18.5987 H         1 MET         0.4500 
+     12 H          25.5161   33.5569   19.4328 H         1 MET         0.4500 
+     13 H          26.4139   33.1708   21.4502 H         1 MET         0.0000 
+     14 H          29.2796   32.8962   20.6690 H         1 MET         0.0000 
+     15 H          28.3008   31.5615   20.0983 H         1 MET         0.0000 
+     16 H          28.2477   32.4544   23.0412 H         1 MET         0.0000 
+     17 H          29.4413   31.3333   22.3973 H         1 MET         0.0000 
+     18 H          24.9942   30.0748   22.2819 H         1 MET         0.0000 
+     19 H          25.6865   31.0438   20.9841 H         1 MET         0.0000 
+     20 H          25.4416   31.7517   22.6088 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_787
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_787
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.1493   30.8544   20.4939 N.4       1 MET        -0.8530 
+      2 C          25.3267   31.1834   19.0731 C.3       1 MET         0.3970 
+      3 C          26.1687   30.1422   18.4288 C.2       1 MET         0.9060 
+      4 O          27.2306   29.6054   19.0602 O.co2     1 MET        -0.9000 
+      5 C          25.8623   32.6299   18.8380 C.3       1 MET         0.0000 
+      6 C          27.0187   33.1145   19.7542 C.3       1 MET         0.2300 
+      7 S          26.5438   33.3709   21.4866 S.3       1 MET        -0.4600 
+      8 C          27.8771   32.4624   22.3037 C.3       1 MET         0.2300 
+      9 O          25.9288   29.7592   17.1565 O.co2     1 MET        -0.9000 
+     10 H          24.6418   31.6154   20.9597 H         1 MET         0.4500 
+     11 H          26.0691   30.7381   20.9344 H         1 MET         0.4500 
+     12 H          24.6188   29.9939   20.5878 H         1 MET         0.4500 
+     13 H          24.3364   31.1185   18.6174 H         1 MET         0.0000 
+     14 H          25.0318   33.3312   18.9346 H         1 MET         0.0000 
+     15 H          26.2097   32.7130   17.8052 H         1 MET         0.0000 
+     16 H          27.3692   34.0807   19.3964 H         1 MET         0.0000 
+     17 H          27.8426   32.4141   19.6723 H         1 MET         0.0000 
+     18 H          27.6804   32.4222   23.3733 H         1 MET         0.0000 
+     19 H          28.8277   32.9685   22.1264 H         1 MET         0.0000 
+     20 H          27.9286   31.4415   21.9193 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_791
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_791
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.0829   33.0897   18.6841 N.4       1 MET        -0.8530 
+      2 C          25.4932   32.3210   19.8714 C.3       1 MET         0.3970 
+      3 C          26.2829   33.2089   20.7640 C.2       1 MET         0.9060 
+      4 O          27.5300   33.6204   20.4021 O.co2     1 MET        -0.9000 
+      5 C          26.2690   31.0436   19.4297 C.3       1 MET         0.0000 
+      6 C          27.1544   30.3596   20.4984 C.3       1 MET         0.2300 
+      7 S          26.4941   30.4710   22.1751 S.3       1 MET        -0.4600 
+      8 C          27.9397   29.8187   23.0445 C.3       1 MET         0.2300 
+      9 O          25.7646   33.6260   21.9496 O.co2     1 MET        -0.9000 
+     10 H          24.6853   32.4914   17.9578 H         1 MET         0.4500 
+     11 H          25.8886   33.5901   18.3017 H         1 MET         0.4500 
+     12 H          24.3891   33.7709   18.9813 H         1 MET         0.4500 
+     13 H          24.5735   32.0150   20.3905 H         1 MET         0.0000 
+     14 H          26.9376   31.3102   18.5967 H         1 MET         0.0000 
+     15 H          25.5351   30.3132   19.0609 H         1 MET         0.0000 
+     16 H          28.1550   30.8118   20.4807 H         1 MET         0.0000 
+     17 H          27.2363   29.3075   20.2371 H         1 MET         0.0000 
+     18 H          27.7126   29.7699   24.1157 H         1 MET         0.0000 
+     19 H          28.8003   30.4707   22.8791 H         1 MET         0.0000 
+     20 H          28.1867   28.8152   22.6898 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_797
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:34 2018
+
+@<TRIPOS>MOLECULE
+3f3d_797
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.1883   31.6375   22.0910 N.4       1 MET        -0.8530 
+      2 C          26.3337   32.3131   21.4647 C.3       1 MET         0.3970 
+      3 C          27.3147   31.3208   20.9863 C.2       1 MET         0.9060 
+      4 O          27.9692   31.5209   19.8176 O.co2     1 MET        -0.9000 
+      5 C          26.9901   33.3380   22.4399 C.3       1 MET         0.0000 
+      6 C          26.1011   34.5437   22.8465 C.3       1 MET         0.2300 
+      7 S          25.5000   35.5654   21.4742 S.3       1 MET        -0.4600 
+      8 C          27.0559   36.4155   21.1225 C.3       1 MET         0.2300 
+      9 O          27.6188   30.2082   21.7009 O.co2     1 MET        -0.9000 
+     10 H          24.5335   32.3385   22.4349 H         1 MET         0.4500 
+     11 H          25.5053   31.0531   22.8676 H         1 MET         0.4500 
+     12 H          24.6954   31.0607   21.4118 H         1 MET         0.4500 
+     13 H          25.9486   32.8406   20.5915 H         1 MET         0.0000 
+     14 H          27.8943   33.7269   21.9732 H         1 MET         0.0000 
+     15 H          27.3053   32.8245   23.3518 H         1 MET         0.0000 
+     16 H          26.6460   35.1829   23.5446 H         1 MET         0.0000 
+     17 H          25.2203   34.1821   23.3711 H         1 MET         0.0000 
+     18 H          26.9090   37.1048   20.2977 H         1 MET         0.0000 
+     19 H          27.8366   35.7169   20.8410 H         1 MET         0.0000 
+     20 H          27.3769   36.9746   21.9954 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_798
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_798
+   20    19     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.5566   30.6623   22.0075 N.4       1 MET        -0.8530 
+      2 C          26.6463   30.8469   21.0344 C.3       1 MET         0.3970 
+      3 C          26.6623   29.7306   20.0691 C.2       1 MET         0.9060 
+      4 O          27.0521   29.9080   18.7867 O.co2     1 MET        -0.9000 
+      5 C          28.0092   31.0190   21.7689 C.3       1 MET         0.0000 
+      6 C          28.1927   32.3760   22.4903 C.3       1 MET         0.2300 
+      7 S          28.3494   33.7549   21.3209 S.3       1 MET        -0.4600 
+      8 C          26.7700   34.5827   21.6124 C.3       1 MET         0.2300 
+      9 O          26.4996   28.4621   20.5001 O.co2     1 MET        -0.9000 
+     10 H          25.4869   31.4912   22.5990 H         1 MET         0.4500 
+     11 H          25.7491   29.8497   22.5955 H         1 MET         0.4500 
+     12 H          24.6682   30.5268   21.5211 H         1 MET         0.4500 
+     13 H          26.4181   31.7441   20.4611 H         1 MET         0.0000 
+     14 H          28.8302   30.9243   21.0546 H         1 MET         0.0000 
+     15 H          28.1250   30.2182   22.5077 H         1 MET         0.0000 
+     16 H          29.1301   32.3242   23.0422 H         1 MET         0.0000 
+     17 H          27.3983   32.5473   23.2193 H         1 MET         0.0000 
+     18 H          26.7010   35.4381   20.9416 H         1 MET         0.0000 
+     19 H          26.7005   34.9375   22.6416 H         1 MET         0.0000 
+     20 H          25.9461   33.8994   21.4111 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S
+#	Name:			3f3d_99
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:35 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:35 2018
+
+@<TRIPOS>MOLECULE
+3f3d_99
+   20    19     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          24.6913   32.1254   18.8939 N.4       1 MET        -0.8530 
+      2 CA         26.0196   31.4832   19.1105 C.3       1 MET         0.3970 
+      3 C          26.1380   30.1748   18.3365 C.2       1 MET         0.9060 
+      4 O          27.1927   29.5235   18.2916 O.co2     1 MET        -0.9000 
+      5 CB         26.2404   31.2269   20.6034 C.3       1 MET         0.0000 
+      6 CG         27.6947   31.1809   21.0309 C.3       1 MET         0.2300 
+      7 SD         28.0358   32.4365   22.2712 S.3       1 MET        -0.4600 
+      8 CE         27.6242   33.9431   21.4168 C.3       1 MET         0.2300 
+      9 OXT        25.1540   29.7315   17.7467 O.co2     1 MET        -0.9000 
+     10 H1         24.7702   33.1190   19.0434 H         1 MET         0.4500 
+     11 H2         24.0222   31.7401   19.5419 H         1 MET         0.4500 
+     12 H3         24.3837   31.9510   17.9500 H         1 MET         0.4500 
+     13 H4         26.7998   32.1707   18.7519 H         1 MET         0.0000 
+     14 H5         25.7782   30.2616   20.8572 H         1 MET         0.0000 
+     15 H6         25.7434   32.0308   21.1660 H         1 MET         0.0000 
+     16 H7         28.3342   31.3575   20.1535 H         1 MET         0.0000 
+     17 H8         27.9155   30.1889   21.4518 H         1 MET         0.0000 
+     18 H9         27.7941   34.8010   22.0839 H         1 MET         0.0000 
+     19 H10        26.5665   33.9166   21.1157 H         1 MET         0.0000 
+     20 H11        28.2576   34.0425   20.5230 H         1 MET         0.0000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    5 1    
+     4    3    4 ar   
+     5    3    9 ar   
+     6    5    6 1    
+     7    6    7 1    
+     8    7    8 1    
+     9    1   10 1    
+    10    1   11 1    
+    11    1   12 1    
+    12    2   13 1    
+    13    5   14 1    
+    14    5   15 1    
+    15    6   16 1    
+    16    6   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19    8   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MET         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 10 11 12
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 5 CR 6 CR 8 CR 3 CO2M 13 HC 14 HC 15 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 10 HNR+ 11 HNR+ 12 HNR+ 4 O2CM 9 O2CM 1 NR+ \
+7 S

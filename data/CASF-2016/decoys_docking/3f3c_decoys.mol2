@@ -1,0 +1,3950 @@
+#	Name:			3f3c_223
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_223
+   23    23     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.7396   32.2149   19.1978 N.4       1 PFF        -0.8530 
+      2 CA         27.0645   31.6183   19.2070 C.3       1 PFF         0.3970 
+      3 C          27.0332   30.2022   18.7050 C.2       1 PFF         0.9060 
+      4 O          28.0683   29.7319   18.1653 O.co2     1 PFF        -0.9000 
+      5 OXT        25.9829   29.5498   18.8537 O.co2     1 PFF        -0.9000 
+      6 CB         27.6062   31.6134   20.6329 C.3       1 PFF         0.1435 
+      7 CG         27.8781   33.0422   21.0258 C.ar      1 PFF        -0.1435 
+      8 CD1        28.9118   33.7196   20.3945 C.ar      1 PFF        -0.1500 
+      9 CD2        27.1015   33.6771   21.9953 C.ar      1 PFF        -0.1500 
+     10 CE1        29.1813   35.0357   20.7279 C.ar      1 PFF        -0.1500 
+     11 CE2        27.3691   35.0039   22.3325 C.ar      1 PFF        -0.1500 
+     12 CZ         28.4076   35.6723   21.6937 C.ar      1 PFF         0.1900 
+     13 F          28.6853   36.9453   22.0057 F         1 PFF        -0.1900 
+     14 H1         25.4012   32.2668   18.2497 H         1 PFF         0.4500 
+     15 H2         25.7861   33.1426   19.5893 H         1 PFF         0.4500 
+     16 H3         25.1125   31.6490   19.7478 H         1 PFF         0.4500 
+     17 H4         27.7286   32.2139   18.5634 H         1 PFF         0.0000 
+     18 H5         28.5371   31.0291   20.6778 H         1 PFF         0.0000 
+     19 H6         26.8634   31.1728   21.3142 H         1 PFF         0.0000 
+     20 H7         29.5079   33.2182   19.6406 H         1 PFF         0.1500 
+     21 H8         26.2950   33.1425   22.4838 H         1 PFF         0.1500 
+     22 H9         29.9900   35.5673   20.2396 H         1 PFF         0.1500 
+     23 H10        26.7736   35.5086   23.0847 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 14 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 14 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_256
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_256
+   23    23     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.8071   32.2536   19.1317 N.4       1 PFF        -0.8530 
+      2 CA         27.1166   31.6297   19.0459 C.3       1 PFF         0.3970 
+      3 C          27.0298   30.2480   18.4613 C.2       1 PFF         0.9060 
+      4 O          25.8985   29.7053   18.3646 O.co2     1 PFF        -0.9000 
+      5 OXT        28.0846   29.7014   18.0877 O.co2     1 PFF        -0.9000 
+      6 CB         27.7191   31.5260   20.4434 C.3       1 PFF         0.1435 
+      7 CG         27.8156   32.9200   21.0064 C.ar      1 PFF        -0.1435 
+      8 CD1        28.6539   33.8324   20.3816 C.ar      1 PFF        -0.1500 
+      9 CD2        27.0705   33.2919   22.1257 C.ar      1 PFF        -0.1500 
+     10 CE1        28.7582   35.1232   20.8704 C.ar      1 PFF        -0.1500 
+     11 CE2        27.1717   34.5923   22.6199 C.ar      1 PFF        -0.1500 
+     12 CZ         28.0152   35.4977   21.9859 C.ar      1 PFF         0.1900 
+     13 F          28.1315   36.7503   22.4467 F         1 PFF        -0.1900 
+     14 H1         25.9026   33.1849   19.5052 H         1 PFF         0.4500 
+     15 H2         25.2139   31.7079   19.7371 H         1 PFF         0.4500 
+     16 H3         25.3965   32.3008   18.2124 H         1 PFF         0.4500 
+     17 H4         27.7662   32.2494   18.4104 H         1 PFF         0.0000 
+     18 H5         28.7208   31.0749   20.3867 H         1 PFF         0.0000 
+     19 H6         27.0740   30.9071   21.0843 H         1 PFF         0.0000 
+     20 H7         29.2269   33.5344   19.5110 H         1 PFF         0.1500 
+     21 H8         26.4168   32.5746   22.6084 H         1 PFF         0.1500 
+     22 H9         29.4145   35.8380   20.3872 H         1 PFF         0.1500 
+     23 H10        26.5986   34.8940   23.4893 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 14 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 14 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_258
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_258
+   23    23     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.7239   32.1335   19.1364 N.4       1 PFF        -0.8530 
+      2 CA         27.0463   31.5648   18.9387 C.3       1 PFF         0.3970 
+      3 C          26.9731   30.2264   18.2592 C.2       1 PFF         0.9060 
+      4 O          25.8412   29.7133   18.0605 O.co2     1 PFF        -0.9000 
+      5 OXT        28.0396   29.6850   17.9124 O.co2     1 PFF        -0.9000 
+      6 CB         27.7253   31.3827   20.2925 C.3       1 PFF         0.1435 
+      7 CG         27.7753   32.7295   20.9659 C.ar      1 PFF        -0.1435 
+      8 CD1        28.6431   33.6902   20.4664 C.ar      1 PFF        -0.1500 
+      9 CD2        26.9594   33.0114   22.0618 C.ar      1 PFF        -0.1500 
+     10 CE1        28.7063   34.9398   21.0584 C.ar      1 PFF        -0.1500 
+     11 CE2        27.0191   34.2701   22.6598 C.ar      1 PFF        -0.1500 
+     12 CZ         27.8928   35.2246   22.1509 C.ar      1 PFF         0.1900 
+     13 F          27.9701   36.4383   22.7130 F         1 PFF        -0.1900 
+     14 H1         25.2000   31.5527   19.7722 H         1 PFF         0.4500 
+     15 H2         25.2432   32.1817   18.2516 H         1 PFF         0.4500 
+     16 H3         25.8111   33.0605   19.5224 H         1 PFF         0.4500 
+     17 H4         27.6411   32.2514   18.3185 H         1 PFF         0.0000 
+     18 H5         28.7456   30.9968   20.1508 H         1 PFF         0.0000 
+     19 H6         27.1486   30.6772   20.9087 H         1 PFF         0.0000 
+     20 H7         29.2712   33.4622   19.6128 H         1 PFF         0.1500 
+     21 H8         26.2830   32.2567   22.4463 H         1 PFF         0.1500 
+     22 H9         29.3854   35.6920   20.6734 H         1 PFF         0.1500 
+     23 H10        26.3909   34.5018   23.5124 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 14 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 14 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_29
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_29
+   23    23     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.7279   31.5418   19.1508 N.4       1 PFF        -0.8530 
+      2 CA         26.7584   32.0095   20.0622 C.3       1 PFF         0.3970 
+      3 C          28.1213   31.9407   19.4328 C.2       1 PFF         0.9060 
+      4 O          29.0072   32.7433   19.8263 O.co2     1 PFF        -0.9000 
+      5 OXT        28.3184   31.0828   18.5520 O.co2     1 PFF        -0.9000 
+      6 CB         26.7596   31.1372   21.3135 C.3       1 PFF         0.1435 
+      7 CG         27.8373   31.6526   22.2315 C.ar      1 PFF        -0.1435 
+      8 CD1        27.5635   32.7600   23.0217 C.ar      1 PFF        -0.1500 
+      9 CD2        29.0816   31.0250   22.2961 C.ar      1 PFF        -0.1500 
+     10 CE1        28.5304   33.2525   23.8810 C.ar      1 PFF        -0.1500 
+     11 CE2        30.0577   31.5175   23.1623 C.ar      1 PFF        -0.1500 
+     12 CZ         29.7721   32.6279   23.9488 C.ar      1 PFF         0.1900 
+     13 F          30.6966   33.1207   24.7839 F         1 PFF        -0.1900 
+     14 H1         25.8254   32.0112   18.2641 H         1 PFF         0.4500 
+     15 H2         24.8196   31.7424   19.5391 H         1 PFF         0.4500 
+     16 H3         25.8240   30.5474   19.0168 H         1 PFF         0.4500 
+     17 H4         26.5425   33.0515   20.3406 H         1 PFF         0.0000 
+     18 H5         26.9681   30.0920   21.0412 H         1 PFF         0.0000 
+     19 H6         25.7816   31.1979   21.8133 H         1 PFF         0.0000 
+     20 H7         26.5927   33.2390   22.9660 H         1 PFF         0.1500 
+     21 H8         29.2886   30.1598   21.6769 H         1 PFF         0.1500 
+     22 H9         28.3216   34.1194   24.4975 H         1 PFF         0.1500 
+     23 H10        31.0289   31.0395   23.2216 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 14 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 14 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_326
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_326
+   23    23     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.0372   32.3468   19.2793 N.4       1 PFF        -0.8530 
+      2 CA         27.2778   31.6067   19.1228 C.3       1 PFF         0.3970 
+      3 C          27.0528   30.3000   18.4155 C.2       1 PFF         0.9060 
+      4 O          28.0541   29.6052   18.1016 O.co2     1 PFF        -0.9000 
+      5 OXT        25.8799   29.9554   18.1781 O.co2     1 PFF        -0.9000 
+      6 CB         27.8694   31.3158   20.4984 C.3       1 PFF         0.1435 
+      7 CG         27.9755   32.6238   21.2385 C.ar      1 PFF        -0.1435 
+      8 CD1        27.1527   32.8349   22.3358 C.ar      1 PFF        -0.1500 
+      9 CD2        28.8887   33.5995   20.8382 C.ar      1 PFF        -0.1500 
+     10 CE1        27.2321   34.0232   23.0412 C.ar      1 PFF        -0.1500 
+     11 CE2        28.9728   34.7973   21.5478 C.ar      1 PFF        -0.1500 
+     12 CZ         28.1429   34.9979   22.6453 C.ar      1 PFF         0.1900 
+     13 F          28.2033   36.1430   23.3382 F         1 PFF        -0.1900 
+     14 H1         25.4415   31.8686   19.9370 H         1 PFF         0.4500 
+     15 H2         25.5700   32.4118   18.3885 H         1 PFF         0.4500 
+     16 H3         26.2394   33.2732   19.6212 H         1 PFF         0.4500 
+     17 H4         27.9849   32.2147   18.5395 H         1 PFF         0.0000 
+     18 H5         28.8670   30.8654   20.3893 H         1 PFF         0.0000 
+     19 H6         27.2136   30.6258   21.0497 H         1 PFF         0.0000 
+     20 H7         26.4480   32.0695   22.6404 H         1 PFF         0.1500 
+     21 H8         29.5293   33.4277   19.9808 H         1 PFF         0.1500 
+     22 H9         26.5887   34.1934   23.8969 H         1 PFF         0.1500 
+     23 H10        29.6777   35.5640   21.2469 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 14 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 14 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_38
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_38
+   23    23     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.9804   32.6935   19.0488 N.4       1 PFF        -0.8530 
+      2 CA         27.3713   32.3142   19.2295 C.3       1 PFF         0.3970 
+      3 C          27.6091   30.8871   18.8231 C.2       1 PFF         0.9060 
+      4 O          26.6604   30.0663   18.9245 O.co2     1 PFF        -0.9000 
+      5 OXT        28.7365   30.5792   18.3932 O.co2     1 PFF        -0.9000 
+      6 CB         27.7497   32.4674   20.6992 C.3       1 PFF         0.1435 
+      7 CG         27.5894   33.9199   21.0656 C.ar      1 PFF        -0.1435 
+      8 CD1        26.7648   34.2490   22.1322 C.ar      1 PFF        -0.1500 
+      9 CD2        28.2633   34.9145   20.3566 C.ar      1 PFF        -0.1500 
+     10 CE1        26.6033   35.5740   22.4982 C.ar      1 PFF        -0.1500 
+     11 CE2        28.1043   36.2507   20.7238 C.ar      1 PFF        -0.1500 
+     12 CZ         27.2752   36.5685   21.7938 C.ar      1 PFF         0.1900 
+     13 F          27.1040   37.8456   22.1604 F         1 PFF        -0.1900 
+     14 H1         25.7299   32.5988   18.0770 H         1 PFF         0.4500 
+     15 H2         25.8530   33.6511   19.3368 H         1 PFF         0.4500 
+     16 H3         25.3933   32.0938   19.6070 H         1 PFF         0.4500 
+     17 H4         28.0036   32.9732   18.6164 H         1 PFF         0.0000 
+     18 H5         28.7936   32.1559   20.8516 H         1 PFF         0.0000 
+     19 H6         27.0876   31.8487   21.3228 H         1 PFF         0.0000 
+     20 H7         26.2474   33.4686   22.6784 H         1 PFF         0.1500 
+     21 H8         28.9068   34.6505   19.5252 H         1 PFF         0.1500 
+     22 H9         25.9573   35.8356   23.3286 H         1 PFF         0.1500 
+     23 H10        28.6218   37.0333   20.1808 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 14 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 14 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_401
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_401
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.8170   31.4440   19.7380 N.4       1 PFF        -0.8530 
+      2 CA         27.0680   31.3250   19.0090 C.3       1 PFF         0.3970 
+      3 C          27.0540   30.1420   18.0830 C.2       1 PFF         0.9060 
+      4 O          25.9440   29.6590   17.7400 O.co2     1 PFF        -0.9000 
+      5 OXT        28.1470   29.6960   17.6840 O.co2     1 PFF        -0.9000 
+      6 CB         28.2140   31.1500   20.0000 C.3       1 PFF         0.1435 
+      7 CG         28.2130   32.3430   20.9200 C.ar      1 PFF        -0.1435 
+      8 CD1        28.2550   32.1260   22.2900 C.ar      1 PFF        -0.1500 
+      9 CD2        28.1820   33.6400   20.4080 C.ar      1 PFF        -0.1500 
+     10 CE1        28.2630   33.2020   23.1600 C.ar      1 PFF        -0.1500 
+     11 CE2        28.1920   34.7270   21.2820 C.ar      1 PFF        -0.1500 
+     12 CZ         28.2330   34.4970   22.6530 C.ar      1 PFF         0.1900 
+     13 F          28.2380   35.5260   23.5110 F         1 PFF        -0.1900 
+     14 H1         25.6660   30.6120   20.2860 H         1 PFF         0.4500 
+     15 H2         25.0570   31.5580   19.0840 H         1 PFF         0.4500 
+     16 H3         25.8580   32.2460   20.3480 H         1 PFF         0.4500 
+     17 H4         27.2270   32.2420   18.4210 H         1 PFF         0.0000 
+     18 H5         29.1710   31.0940   19.4600 H         1 PFF         0.0000 
+     19 H6         28.0680   30.2280   20.5820 H         1 PFF         0.0000 
+     20 H7         28.2820   31.1140   22.6780 H         1 PFF         0.1500 
+     21 H8         28.1510   33.8030   19.3360 H         1 PFF         0.1500 
+     22 H9         28.2920   33.0360   24.2320 H         1 PFF         0.1500 
+     23 H10        28.1670   35.7400   20.8970 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_407
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_407
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.9100   31.7930   19.3800 N.4       1 PFF        -0.8530 
+      2 CA         27.2360   31.3580   18.9770 C.3       1 PFF         0.3970 
+      3 C          27.1680   30.2030   18.0180 C.2       1 PFF         0.9060 
+      4 O          26.0580   29.6410   17.8310 O.co2     1 PFF        -0.9000 
+      5 OXT        28.2160   29.8560   17.4420 O.co2     1 PFF        -0.9000 
+      6 CB         28.0200   30.9180   20.2090 C.3       1 PFF         0.1435 
+      7 CG         28.0780   32.0870   21.1580 C.ar      1 PFF        -0.1435 
+      8 CD1        27.7220   31.8850   22.4840 C.ar      1 PFF        -0.1500 
+      9 CD2        28.4920   33.3450   20.7180 C.ar      1 PFF        -0.1500 
+     10 CE1        27.7730   32.9370   23.3820 C.ar      1 PFF        -0.1500 
+     11 CE2        28.5460   34.4070   21.6200 C.ar      1 PFF        -0.1500 
+     12 CZ         28.1860   34.1930   22.9460 C.ar      1 PFF         0.1900 
+     13 F          28.2250   35.2000   23.8290 F         1 PFF        -0.1900 
+     14 H1         25.4300   31.0310   19.8330 H         1 PFF         0.4500 
+     15 H2         25.3890   32.0820   18.5670 H         1 PFF         0.4500 
+     16 H3         25.9910   32.5670   20.0210 H         1 PFF         0.4500 
+     17 H4         27.7550   32.1980   18.4920 H         1 PFF         0.0000 
+     18 H5         29.0380   30.6200   19.9180 H         1 PFF         0.0000 
+     19 H6         27.5140   30.0690   20.6910 H         1 PFF         0.0000 
+     20 H7         27.4040   30.9030   22.8170 H         1 PFF         0.1500 
+     21 H8         28.7700   33.4950   19.6820 H         1 PFF         0.1500 
+     22 H9         27.4920   32.7850   24.4180 H         1 PFF         0.1500 
+     23 H10        28.8640   35.3900   21.2910 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_411
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_411
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.5630   33.7430   23.9140 N.4       1 PFF        -0.8530 
+      2 CA         28.0510   32.8240   22.9130 C.3       1 PFF         0.3970 
+      3 C          28.6450   31.4520   23.0710 C.2       1 PFF         0.9060 
+      4 O          28.1680   30.6880   23.9510 O.co2     1 PFF        -0.9000 
+      5 OXT        29.5800   31.1260   22.3170 O.co2     1 PFF        -0.9000 
+      6 CB         28.4030   33.3440   21.5230 C.3       1 PFF         0.1435 
+      7 CG         27.8200   32.3890   20.5140 C.ar      1 PFF        -0.1435 
+      8 CD1        26.9470   31.4050   20.9570 C.ar      1 PFF        -0.1500 
+      9 CD2        28.1410   32.4960   19.1600 C.ar      1 PFF        -0.1500 
+     10 CE1        26.3890   30.5180   20.0530 C.ar      1 PFF        -0.1500 
+     11 CE2        27.5790   31.6040   18.2470 C.ar      1 PFF        -0.1500 
+     12 CZ         26.7060   30.6220   18.7020 C.ar      1 PFF         0.1900 
+     13 F          26.1590   29.7520   17.8430 F         1 PFF        -0.1900 
+     14 H1         29.5640   33.8170   23.8230 H         1 PFF         0.4500 
+     15 H2         28.3340   33.4000   24.8340 H         1 PFF         0.4500 
+     16 H3         28.1460   34.6510   23.7800 H         1 PFF         0.4500 
+     17 H4         26.9580   32.7570   23.0150 H         1 PFF         0.0000 
+     18 H5         29.4960   33.3920   21.4060 H         1 PFF         0.0000 
+     19 H6         27.9750   34.3480   21.3790 H         1 PFF         0.0000 
+     20 H7         26.7020   31.3320   22.0110 H         1 PFF         0.1500 
+     21 H8         28.8220   33.2670   18.8210 H         1 PFF         0.1500 
+     22 H9         25.7100   29.7460   20.3960 H         1 PFF         0.1500 
+     23 H10        27.8200   31.6750   17.1920 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_413
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_413
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.4750   30.1770   18.2970 N.4       1 PFF        -0.8530 
+      2 CA         27.3380   31.3020   19.2060 C.3       1 PFF         0.3970 
+      3 C          27.1150   32.5870   18.4600 C.2       1 PFF         0.9060 
+      4 O          26.2900   33.4170   18.9240 O.co2     1 PFF        -0.9000 
+      5 OXT        27.7650   32.7800   17.4160 O.co2     1 PFF        -0.9000 
+      6 CB         28.6110   31.4390   20.0360 C.3       1 PFF         0.1435 
+      7 CG         28.4140   32.5860   20.9920 C.ar      1 PFF        -0.1435 
+      8 CD1        28.0690   32.3030   22.3070 C.ar      1 PFF        -0.1500 
+      9 CD2        28.5850   33.9050   20.5720 C.ar      1 PFF        -0.1500 
+     10 CE1        27.8890   33.3350   23.2120 C.ar      1 PFF        -0.1500 
+     11 CE2        28.4060   34.9470   21.4810 C.ar      1 PFF        -0.1500 
+     12 CZ         28.0600   34.6520   22.7950 C.ar      1 PFF         0.1900 
+     13 F          27.8790   35.6380   23.6850 F         1 PFF        -0.1900 
+     14 H1         28.2610   30.3310   17.6870 H         1 PFF         0.4500 
+     15 H2         26.6350   30.0850   17.7470 H         1 PFF         0.4500 
+     16 H3         27.6220   29.3320   18.8280 H         1 PFF         0.4500 
+     17 H4         26.4820   31.1200   19.8740 H         1 PFF         0.0000 
+     18 H5         29.4670   31.6440   19.3760 H         1 PFF         0.0000 
+     19 H6         28.7940   30.5110   20.5960 H         1 PFF         0.0000 
+     20 H7         27.9410   31.2750   22.6250 H         1 PFF         0.1500 
+     21 H8         28.8550   34.1190   19.5440 H         1 PFF         0.1500 
+     22 H9         27.6170   33.1190   24.2390 H         1 PFF         0.1500 
+     23 H10        28.5340   35.9770   21.1670 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_419
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_419
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.9020   32.8930   19.1410 N.4       1 PFF        -0.8530 
+      2 CA         27.7730   31.8460   19.6450 C.3       1 PFF         0.3970 
+      3 C          27.5460   30.5470   18.9240 C.2       1 PFF         0.9060 
+      4 O          26.9900   30.5750   17.7950 O.co2     1 PFF        -0.9000 
+      5 OXT        27.9270   29.4960   19.4730 O.co2     1 PFF        -0.9000 
+      6 CB         27.4950   31.6290   21.1300 C.3       1 PFF         0.1435 
+      7 CG         27.7270   32.9390   21.8360 C.ar      1 PFF        -0.1435 
+      8 CD1        27.1520   33.1320   23.0850 C.ar      1 PFF        -0.1500 
+      9 CD2        28.5120   33.9350   21.2550 C.ar      1 PFF        -0.1500 
+     10 CE1        27.3540   34.3210   23.7630 C.ar      1 PFF        -0.1500 
+     11 CE2        28.7190   35.1350   21.9360 C.ar      1 PFF        -0.1500 
+     12 CZ         28.1380   35.3160   23.1860 C.ar      1 PFF         0.1900 
+     13 F          28.3190   36.4630   23.8560 F         1 PFF        -0.1900 
+     14 H1         25.9400   32.6220   19.2690 H         1 PFF         0.4500 
+     15 H2         27.0830   33.0370   18.1590 H         1 PFF         0.4500 
+     16 H3         27.0800   33.7490   19.6440 H         1 PFF         0.4500 
+     17 H4         28.8200   32.1550   19.5090 H         1 PFF         0.0000 
+     18 H5         28.1740   30.8620   21.5290 H         1 PFF         0.0000 
+     19 H6         26.4530   31.3060   21.2720 H         1 PFF         0.0000 
+     20 H7         26.5460   32.3500   23.5290 H         1 PFF         0.1500 
+     21 H8         28.9600   33.7770   20.2810 H         1 PFF         0.1500 
+     22 H9         26.9040   34.4770   24.7370 H         1 PFF         0.1500 
+     23 H10        29.3270   35.9170   21.4960 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_430
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:28 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_430
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.2090   34.2700   20.4330 N.4       1 PFF        -0.8530 
+      2 CA         27.4650   33.9930   21.6500 C.3       1 PFF         0.3970 
+      3 C          27.9880   34.7940   22.8090 C.2       1 PFF         0.9060 
+      4 O          29.0660   35.4270   22.6650 O.co2     1 PFF        -0.9000 
+      5 OXT        27.3250   34.8040   23.8630 O.co2     1 PFF        -0.9000 
+      6 CB         27.5880   32.5120   21.9920 C.3       1 PFF         0.1435 
+      7 CG         27.0590   31.7250   20.8210 C.ar      1 PFF        -0.1435 
+      8 CD1        27.7900   31.7170   19.6410 C.ar      1 PFF        -0.1500 
+      9 CD2        25.8660   31.0100   20.9210 C.ar      1 PFF        -0.1500 
+     10 CE1        27.3350   30.9970   18.5500 C.ar      1 PFF        -0.1500 
+     11 CE2        25.4040   30.2820   19.8240 C.ar      1 PFF        -0.1500 
+     12 CZ         26.1450   30.2810   18.6470 C.ar      1 PFF         0.1900 
+     13 F          25.7180   29.5930   17.5800 F         1 PFF        -0.1900 
+     14 H1         29.1790   34.0340   20.5710 H         1 PFF         0.4500 
+     15 H2         28.1300   35.2490   20.2070 H         1 PFF         0.4500 
+     16 H3         27.8330   33.7190   19.6770 H         1 PFF         0.4500 
+     17 H4         26.4060   34.2460   21.4870 H         1 PFF         0.0000 
+     18 H5         26.9990   32.2850   22.8920 H         1 PFF         0.0000 
+     19 H6         28.6430   32.2550   22.1700 H         1 PFF         0.0000 
+     20 H7         28.7190   32.2730   19.5740 H         1 PFF         0.1500 
+     21 H8         25.3000   31.0200   21.8450 H         1 PFF         0.1500 
+     22 H9         27.9010   30.9900   17.6260 H         1 PFF         0.1500 
+     23 H10        24.4780   29.7230   19.8880 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_442
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_442
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.8290   34.4300   21.0830 N.4       1 PFF        -0.8530 
+      2 CA         27.7180   34.4340   22.0200 C.3       1 PFF         0.3970 
+      3 C          28.0260   35.2640   23.2340 C.2       1 PFF         0.9060 
+      4 O          28.9390   36.1270   23.1580 O.co2     1 PFF        -0.9000 
+      5 OXT        27.3540   35.0690   24.2640 O.co2     1 PFF        -0.9000 
+      6 CB         27.4340   33.0050   22.4720 C.3       1 PFF         0.1435 
+      7 CG         27.1280   32.1870   21.2440 C.ar      1 PFF        -0.1435 
+      8 CD1        28.1580   31.9110   20.3560 C.ar      1 PFF        -0.1500 
+      9 CD2        25.8400   31.7070   21.0070 C.ar      1 PFF        -0.1500 
+     10 CE1        27.9100   31.1560   19.2230 C.ar      1 PFF        -0.1500 
+     11 CE2        25.5870   30.9440   19.8670 C.ar      1 PFF        -0.1500 
+     12 CZ         26.6270   30.6740   18.9850 C.ar      1 PFF         0.1900 
+     13 F          26.4050   29.9480   17.8810 F         1 PFF        -0.1900 
+     14 H1         29.6460   34.0470   21.5330 H         1 PFF         0.4500 
+     15 H2         29.0200   35.3740   20.7850 H         1 PFF         0.4500 
+     16 H3         28.5910   33.8650   20.2820 H         1 PFF         0.4500 
+     17 H4         26.8300   34.8440   21.5180 H         1 PFF         0.0000 
+     18 H5         26.5710   32.9930   23.1540 H         1 PFF         0.0000 
+     19 H6         28.3140   32.5920   22.9870 H         1 PFF         0.0000 
+     20 H7         29.1570   32.2870   20.5500 H         1 PFF         0.1500 
+     21 H8         25.0400   31.9250   21.7060 H         1 PFF         0.1500 
+     22 H9         28.7120   30.9410   18.5250 H         1 PFF         0.1500 
+     23 H10        24.5900   30.5650   19.6710 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_453
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_453
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.1050   32.4250   22.6070 N.4       1 PFF        -0.8530 
+      2 CA         27.5390   32.6290   22.7180 C.3       1 PFF         0.3970 
+      3 C          27.9690   33.8970   22.0370 C.2       1 PFF         0.9060 
+      4 O          27.8130   34.9890   22.6440 O.co2     1 PFF        -0.9000 
+      5 OXT        28.4710   33.8120   20.9000 O.co2     1 PFF        -0.9000 
+      6 CB         28.2670   31.4590   22.0640 C.3       1 PFF         0.1435 
+      7 CG         27.8870   31.4380   20.6060 C.ar      1 PFF        -0.1435 
+      8 CD1        28.7690   31.9800   19.6820 C.ar      1 PFF        -0.1500 
+      9 CD2        26.6790   30.8770   20.1900 C.ar      1 PFF        -0.1500 
+     10 CE1        28.4510   31.9700   18.3350 C.ar      1 PFF        -0.1500 
+     11 CE2        26.3570   30.8630   18.8330 C.ar      1 PFF        -0.1500 
+     12 CZ         27.2480   31.4090   17.9170 C.ar      1 PFF         0.1900 
+     13 F          26.9570   31.4110   16.6090 F         1 PFF        -0.1900 
+     14 H1         25.8480   32.3670   21.6350 H         1 PFF         0.4500 
+     15 H2         25.6220   33.1990   23.0380 H         1 PFF         0.4500 
+     16 H3         25.8500   31.5680   23.0740 H         1 PFF         0.4500 
+     17 H4         27.8110   32.6820   23.7830 H         1 PFF         0.0000 
+     18 H5         27.9660   30.5150   22.5430 H         1 PFF         0.0000 
+     19 H6         29.3550   31.5900   22.1660 H         1 PFF         0.0000 
+     20 H7         29.7060   32.4120   20.0150 H         1 PFF         0.1500 
+     21 H8         25.9960   30.4540   20.9180 H         1 PFF         0.1500 
+     22 H9         29.1360   32.3950   17.6100 H         1 PFF         0.1500 
+     23 H10        25.4210   30.4310   18.4970 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_456
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_456
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.0720   34.8410   22.8750 N.4       1 PFF        -0.8530 
+      2 CA         28.0590   33.4710   22.3910 C.3       1 PFF         0.3970 
+      3 C          29.0390   32.6140   23.1410 C.2       1 PFF         0.9060 
+      4 O          29.4370   33.0010   24.2700 O.co2     1 PFF        -0.9000 
+      5 OXT        29.4100   31.5480   22.6140 O.co2     1 PFF        -0.9000 
+      6 CB         28.4340   33.4540   20.9130 C.3       1 PFF         0.1435 
+      7 CG         28.3670   32.0260   20.4380 C.ar      1 PFF        -0.1435 
+      8 CD1        27.6520   31.7410   19.2840 C.ar      1 PFF        -0.1500 
+      9 CD2        29.0190   31.0100   21.1370 C.ar      1 PFF        -0.1500 
+     10 CE1        27.5790   30.4400   18.8190 C.ar      1 PFF        -0.1500 
+     11 CE2        28.9490   29.6970   20.6700 C.ar      1 PFF        -0.1500 
+     12 CZ         28.2290   29.4240   19.5130 C.ar      1 PFF         0.1900 
+     13 F          28.1440   28.1700   19.0490 F         1 PFF        -0.1900 
+     14 H1         28.9940   35.2310   22.7540 H         1 PFF         0.4500 
+     15 H2         27.8270   34.8550   23.8520 H         1 PFF         0.4500 
+     16 H3         27.4050   35.3880   22.3530 H         1 PFF         0.4500 
+     17 H4         27.0470   33.0580   22.5190 H         1 PFF         0.0000 
+     18 H5         29.4530   33.8460   20.7800 H         1 PFF         0.0000 
+     19 H6         27.7270   34.0720   20.3400 H         1 PFF         0.0000 
+     20 H7         27.1500   32.5390   18.7460 H         1 PFF         0.1500 
+     21 H8         29.5780   31.2390   22.0370 H         1 PFF         0.1500 
+     22 H9         27.0180   30.2130   17.9190 H         1 PFF         0.1500 
+     23 H10        29.4510   28.8980   21.2040 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_458
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_458
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          29.2710   31.6550   22.0810 N.4       1 PFF        -0.8530 
+      2 CA         28.4860   32.8420   21.7920 C.3       1 PFF         0.3970 
+      3 C          28.4110   33.7560   22.9840 C.2       1 PFF         0.9060 
+      4 O          29.2790   33.6380   23.8870 O.co2     1 PFF        -0.9000 
+      5 OXT        27.4960   34.5990   23.0210 O.co2     1 PFF        -0.9000 
+      6 CB         27.0680   32.4300   21.4110 C.3       1 PFF         0.1435 
+      7 CG         27.1610   31.5160   20.2170 C.ar      1 PFF        -0.1435 
+      8 CD1        26.0900   30.6790   19.9350 C.ar      1 PFF        -0.1500 
+      9 CD2        28.2940   31.5170   19.4020 C.ar      1 PFF        -0.1500 
+     10 CE1        26.1430   29.8330   18.8410 C.ar      1 PFF        -0.1500 
+     11 CE2        28.3490   30.6680   18.2970 C.ar      1 PFF        -0.1500 
+     12 CZ         27.2710   29.8330   18.0260 C.ar      1 PFF         0.1900 
+     13 F          27.3050   29.0060   16.9720 F         1 PFF        -0.1900 
+     14 H1         28.8490   31.1500   22.8440 H         1 PFF         0.4500 
+     15 H2         30.2080   31.9260   22.3350 H         1 PFF         0.4500 
+     16 H3         29.3010   31.0650   21.2640 H         1 PFF         0.4500 
+     17 H4         28.9500   33.3820   20.9530 H         1 PFF         0.0000 
+     18 H5         26.4740   33.3200   21.1560 H         1 PFF         0.0000 
+     19 H6         26.5930   31.9010   22.2510 H         1 PFF         0.0000 
+     20 H7         25.2130   30.6870   20.5730 H         1 PFF         0.1500 
+     21 H8         29.1260   32.1750   19.6270 H         1 PFF         0.1500 
+     22 H9         25.3100   29.1750   18.6190 H         1 PFF         0.1500 
+     23 H10        29.2240   30.6580   17.6570 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_459
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_459
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.6190   34.6680   21.0620 N.4       1 PFF        -0.8530 
+      2 CA         27.8830   33.7120   22.1240 C.3       1 PFF         0.3970 
+      3 C          28.4240   34.3900   23.3520 C.2       1 PFF         0.9060 
+      4 O          28.2290   35.6260   23.4930 O.co2     1 PFF        -0.9000 
+      5 OXT        29.0360   33.6960   24.1850 O.co2     1 PFF        -0.9000 
+      6 CB         28.9120   32.6940   21.6430 C.3       1 PFF         0.1435 
+      7 CG         28.3540   32.0250   20.4140 C.ar      1 PFF        -0.1435 
+      8 CD1        28.7910   32.4530   19.1680 C.ar      1 PFF        -0.1500 
+      9 CD2        27.4270   30.9880   20.5220 C.ar      1 PFF        -0.1500 
+     10 CE1        28.3030   31.8530   18.0200 C.ar      1 PFF        -0.1500 
+     11 CE2        26.9340   30.3800   19.3680 C.ar      1 PFF        -0.1500 
+     12 CZ         27.3790   30.8180   18.1250 C.ar      1 PFF         0.1900 
+     13 F          26.9150   30.2510   17.0030 F         1 PFF        -0.1900 
+     14 H1         28.4740   35.1410   20.8150 H         1 PFF         0.4500 
+     15 H2         26.9410   35.3430   21.3800 H         1 PFF         0.4500 
+     16 H3         27.2580   34.1820   20.2560 H         1 PFF         0.4500 
+     17 H4         26.9470   33.1960   22.3810 H         1 PFF         0.0000 
+     18 H5         29.0930   31.9450   22.4280 H         1 PFF         0.0000 
+     19 H6         29.8560   33.2020   21.3970 H         1 PFF         0.0000 
+     20 H7         29.5140   33.2580   19.0940 H         1 PFF         0.1500 
+     21 H8         27.0910   30.6570   21.4980 H         1 PFF         0.1500 
+     22 H9         28.6390   32.1870   17.0450 H         1 PFF         0.1500 
+     23 H10        26.2120   29.5740   19.4380 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_463
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_463
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.4710   34.8220   23.4850 N.4       1 PFF        -0.8530 
+      2 CA         28.6350   33.8540   22.4140 C.3       1 PFF         0.3970 
+      3 C          28.9040   34.5290   21.0990 C.2       1 PFF         0.9060 
+      4 O          28.7720   35.7780   21.0250 O.co2     1 PFF        -0.9000 
+      5 OXT        29.2570   33.8210   20.1370 O.co2     1 PFF        -0.9000 
+      6 CB         27.3600   33.0270   22.2800 C.3       1 PFF         0.1435 
+      7 CG         27.5840   32.0100   21.1920 C.ar      1 PFF        -0.1435 
+      8 CD1        27.9080   30.7100   21.5550 C.ar      1 PFF        -0.1500 
+      9 CD2        27.4580   32.3610   19.8480 C.ar      1 PFF        -0.1500 
+     10 CE1        28.1120   29.7500   20.5780 C.ar      1 PFF        -0.1500 
+     11 CE2        27.6610   31.3960   18.8620 C.ar      1 PFF        -0.1500 
+     12 CZ         27.9860   30.0970   19.2370 C.ar      1 PFF         0.1900 
+     13 F          28.1910   29.1560   18.3060 F         1 PFF        -0.1900 
+     14 H1         27.6940   35.4290   23.2730 H         1 PFF         0.4500 
+     15 H2         29.3120   35.3700   23.5730 H         1 PFF         0.4500 
+     16 H3         28.2920   34.3380   24.3510 H         1 PFF         0.4500 
+     17 H4         29.4790   33.1910   22.6580 H         1 PFF         0.0000 
+     18 H5         26.5160   33.6810   22.0140 H         1 PFF         0.0000 
+     19 H6         27.1420   32.5180   23.2310 H         1 PFF         0.0000 
+     20 H7         28.0010   30.4460   22.6020 H         1 PFF         0.1500 
+     21 H8         27.2030   33.3780   19.5720 H         1 PFF         0.1500 
+     22 H9         28.3690   28.7340   20.8570 H         1 PFF         0.1500 
+     23 H10        27.5670   31.6560   17.8130 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_466
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_466
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.9640   32.4350   19.2840 N.4       1 PFF        -0.8530 
+      2 CA         27.9620   31.4950   19.7590 C.3       1 PFF         0.3970 
+      3 C          27.4910   30.5900   18.6560 C.2       1 PFF         0.9060 
+      4 O          27.8400   30.8490   17.4740 O.co2     1 PFF        -0.9000 
+      5 OXT        26.7810   29.6140   18.9600 O.co2     1 PFF        -0.9000 
+      6 CB         26.7610   32.2670   20.2970 C.3       1 PFF         0.1435 
+      7 CG         27.2510   33.1680   21.4000 C.ar      1 PFF        -0.1435 
+      8 CD1        26.8970   34.5100   21.3690 C.ar      1 PFF        -0.1500 
+      9 CD2        28.0350   32.6650   22.4390 C.ar      1 PFF        -0.1500 
+     10 CE1        27.3250   35.3610   22.3730 C.ar      1 PFF        -0.1500 
+     11 CE2        28.4660   33.5200   23.4530 C.ar      1 PFF        -0.1500 
+     12 CZ         28.1050   34.8620   23.4110 C.ar      1 PFF         0.1900 
+     13 F          28.5130   35.7020   24.3720 F         1 PFF        -0.1900 
+     14 H1         28.5710   33.0040   18.5510 H         1 PFF         0.4500 
+     15 H2         29.7580   31.9260   18.9270 H         1 PFF         0.4500 
+     16 H3         29.2580   33.0250   20.0470 H         1 PFF         0.4500 
+     17 H4         28.3970   30.8850   20.5640 H         1 PFF         0.0000 
+     18 H5         26.0110   31.5650   20.6900 H         1 PFF         0.0000 
+     19 H6         26.3120   32.8690   19.4920 H         1 PFF         0.0000 
+     20 H7         26.2850   34.8910   20.5590 H         1 PFF         0.1500 
+     21 H8         28.3060   31.6160   22.4580 H         1 PFF         0.1500 
+     22 H9         27.0530   36.4110   22.3510 H         1 PFF         0.1500 
+     23 H10        29.0770   33.1420   24.2650 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_469
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_469
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.8840   34.4460   22.2730 N.4       1 PFF        -0.8530 
+      2 CA         28.0840   33.9270   22.9060 C.3       1 PFF         0.3970 
+      3 C          28.6690   34.9180   23.8730 C.2       1 PFF         0.9060 
+      4 O          28.2070   36.0880   23.8870 O.co2     1 PFF        -0.9000 
+      5 OXT        29.5820   34.5330   24.6270 O.co2     1 PFF        -0.9000 
+      6 CB         29.1280   33.6220   21.8360 C.3       1 PFF         0.1435 
+      7 CG         28.5270   32.6280   20.8770 C.ar      1 PFF        -0.1435 
+      8 CD1        28.5930   32.8940   19.5170 C.ar      1 PFF        -0.1500 
+      9 CD2        27.9240   31.4590   21.3430 C.ar      1 PFF        -0.1500 
+     10 CE1        28.0560   31.9970   18.6100 C.ar      1 PFF        -0.1500 
+     11 CE2        27.3840   30.5520   20.4320 C.ar      1 PFF        -0.1500 
+     12 CZ         27.4560   30.8290   19.0710 C.ar      1 PFF         0.1900 
+     13 F          26.9390   29.9740   18.1790 F         1 PFF        -0.1900 
+     14 H1         27.1080   35.2890   21.7680 H         1 PFF         0.4500 
+     15 H2         26.1940   34.6500   22.9790 H         1 PFF         0.4500 
+     16 H3         26.5180   33.7590   21.6330 H         1 PFF         0.4500 
+     17 H4         27.8310   33.0020   23.4470 H         1 PFF         0.0000 
+     18 H5         30.0280   33.1950   22.3030 H         1 PFF         0.0000 
+     19 H6         29.3960   34.5450   21.3010 H         1 PFF         0.0000 
+     20 H7         29.0650   33.8040   19.1640 H         1 PFF         0.1500 
+     21 H8         27.8770   31.2570   22.4070 H         1 PFF         0.1500 
+     22 H9         28.1030   32.2020   17.5460 H         1 PFF         0.1500 
+     23 H10        26.9120   29.6400   20.7810 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_471
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_471
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.3380   32.7350   23.4930 N.4       1 PFF        -0.8530 
+      2 CA         27.6920   33.1360   23.1500 C.3       1 PFF         0.3970 
+      3 C          27.6970   34.3090   22.2100 C.2       1 PFF         0.9060 
+      4 O          27.5250   35.4610   22.6850 O.co2     1 PFF        -0.9000 
+      5 OXT        27.8810   34.0890   20.9980 O.co2     1 PFF        -0.9000 
+      6 CB         28.4070   31.9710   22.4720 C.3       1 PFF         0.1435 
+      7 CG         27.6570   31.6460   21.2070 C.ar      1 PFF        -0.1435 
+      8 CD1        28.3710   31.5340   20.0220 C.ar      1 PFF        -0.1500 
+      9 CD2        26.2760   31.4500   21.2250 C.ar      1 PFF        -0.1500 
+     10 CE1        27.7110   31.2280   18.8440 C.ar      1 PFF        -0.1500 
+     11 CE2        25.6090   31.1400   20.0400 C.ar      1 PFF        -0.1500 
+     12 CZ         26.3340   31.0300   18.8590 C.ar      1 PFF         0.1900 
+     13 F          25.7130   30.7380   17.7080 F         1 PFF        -0.1900 
+     14 H1         25.8420   32.4740   22.6560 H         1 PFF         0.4500 
+     15 H2         25.8630   33.5050   23.9390 H         1 PFF         0.4500 
+     16 H3         26.3710   31.9490   24.1230 H         1 PFF         0.4500 
+     17 H4         28.2280   33.4100   24.0710 H         1 PFF         0.0000 
+     18 H5         28.4130   31.0970   23.1400 H         1 PFF         0.0000 
+     19 H6         29.4420   32.2560   22.2320 H         1 PFF         0.0000 
+     20 H7         29.4450   31.6850   20.0190 H         1 PFF         0.1500 
+     21 H8         25.7250   31.5370   22.1540 H         1 PFF         0.1500 
+     22 H9         28.2650   31.1430   17.9150 H         1 PFF         0.1500 
+     23 H10        24.5350   30.9860   20.0390 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_472
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_472
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.3670   34.4130   22.6000 N.4       1 PFF        -0.8530 
+      2 CA         27.5600   33.8210   23.1810 C.3       1 PFF         0.3970 
+      3 C          28.3130   34.8130   24.0210 C.2       1 PFF         0.9060 
+      4 O          28.8230   34.4210   25.1030 O.co2     1 PFF        -0.9000 
+      5 OXT        28.4090   35.9820   23.6030 O.co2     1 PFF        -0.9000 
+      6 CB         28.4790   33.3370   22.0630 C.3       1 PFF         0.1435 
+      7 CG         27.7080   32.3440   21.2320 C.ar      1 PFF        -0.1435 
+      8 CD1        28.1430   32.0780   19.9420 C.ar      1 PFF        -0.1500 
+      9 CD2        26.5860   31.6960   21.7500 C.ar      1 PFF        -0.1500 
+     10 CE1        27.4610   31.1650   19.1560 C.ar      1 PFF        -0.1500 
+     11 CE2        25.8970   30.7750   20.9620 C.ar      1 PFF        -0.1500 
+     12 CZ         26.3430   30.5160   19.6710 C.ar      1 PFF         0.1900 
+     13 F          25.6930   29.6380   18.8940 F         1 PFF        -0.1900 
+     14 H1         26.6290   35.1910   22.0160 H         1 PFF         0.4500 
+     15 H2         25.7590   34.7350   23.3370 H         1 PFF         0.4500 
+     16 H3         25.8860   33.7230   22.0440 H         1 PFF         0.4500 
+     17 H4         27.2640   32.9670   23.8090 H         1 PFF         0.0000 
+     18 H5         29.3690   32.8550   22.4930 H         1 PFF         0.0000 
+     19 H6         28.7890   34.1880   21.4390 H         1 PFF         0.0000 
+     20 H7         29.0180   32.5850   19.5490 H         1 PFF         0.1500 
+     21 H8         26.2520   31.9080   22.7600 H         1 PFF         0.1500 
+     22 H9         27.7960   30.9570   18.1460 H         1 PFF         0.1500 
+     23 H10        25.0230   30.2650   21.3520 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_474
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_474
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.7490   32.9300   18.6670 N.4       1 PFF        -0.8530 
+      2 CA         27.4940   31.5150   18.8820 C.3       1 PFF         0.3970 
+      3 C          26.6490   30.9360   17.7820 C.2       1 PFF         0.9060 
+      4 O          26.5920   31.5450   16.6820 O.co2     1 PFF        -0.9000 
+      5 OXT        26.0470   29.8690   18.0050 O.co2     1 PFF        -0.9000 
+      6 CB         26.7590   31.3300   20.2050 C.3       1 PFF         0.1435 
+      7 CG         27.6200   31.9150   21.2940 C.ar      1 PFF        -0.1435 
+      8 CD1        27.3190   33.1840   21.7680 C.ar      1 PFF        -0.1500 
+      9 CD2        28.6900   31.1940   21.8250 C.ar      1 PFF        -0.1500 
+     10 CE1        28.0860   33.7460   22.7740 C.ar      1 PFF        -0.1500 
+     11 CE2        29.4640   31.7570   22.8400 C.ar      1 PFF        -0.1500 
+     12 CZ         29.1540   33.0290   23.3070 C.ar      1 PFF         0.1900 
+     13 F          29.8870   33.5910   24.2770 F         1 PFF        -0.1900 
+     14 H1         26.8740   33.4290   18.6410 H         1 PFF         0.4500 
+     15 H2         28.2330   33.0540   17.7920 H         1 PFF         0.4500 
+     16 H3         28.3170   33.2860   19.4200 H         1 PFF         0.4500 
+     17 H4         28.4550   30.9810   18.9170 H         1 PFF         0.0000 
+     18 H5         26.5930   30.2590   20.3940 H         1 PFF         0.0000 
+     19 H6         25.7910   31.8510   20.1720 H         1 PFF         0.0000 
+     20 H7         26.4840   33.7360   21.3510 H         1 PFF         0.1500 
+     21 H8         28.9180   30.2030   21.4520 H         1 PFF         0.1500 
+     22 H9         27.8570   34.7390   23.1450 H         1 PFF         0.1500 
+     23 H10        30.2990   31.2080   23.2610 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_475
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_475
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.7620   31.6650   22.8680 N.4       1 PFF        -0.8530 
+      2 CA         28.0300   32.8700   22.5170 C.3       1 PFF         0.3970 
+      3 C          26.5550   32.6060   22.4070 C.2       1 PFF         0.9060 
+      4 O          26.1540   31.4130   22.4320 O.co2     1 PFF        -0.9000 
+      5 OXT        25.7900   33.5830   22.3040 O.co2     1 PFF        -0.9000 
+      6 CB         28.5290   33.3900   21.1730 C.3       1 PFF         0.1435 
+      7 CG         28.2520   32.3310   20.1380 C.ar      1 PFF        -0.1435 
+      8 CD1        27.0520   31.6360   20.2050 C.ar      1 PFF        -0.1500 
+      9 CD2        29.1740   32.0590   19.1270 C.ar      1 PFF        -0.1500 
+     10 CE1        26.7640   30.6620   19.2650 C.ar      1 PFF        -0.1500 
+     11 CE2        28.8860   31.0800   18.1770 C.ar      1 PFF        -0.1500 
+     12 CZ         27.6810   30.3900   18.2540 C.ar      1 PFF         0.1900 
+     13 F          27.3870   29.4410   17.3550 F         1 PFF        -0.1900 
+     14 H1         28.6160   30.9640   22.1590 H         1 PFF         0.4500 
+     15 H2         28.4320   31.3190   23.7560 H         1 PFF         0.4500 
+     16 H3         29.7450   31.8760   22.9340 H         1 PFF         0.4500 
+     17 H4         28.2030   33.6310   23.2930 H         1 PFF         0.0000 
+     18 H5         29.6100   33.5880   21.2260 H         1 PFF         0.0000 
+     19 H6         28.0000   34.3180   20.9100 H         1 PFF         0.0000 
+     20 H7         26.3410   31.8560   20.9930 H         1 PFF         0.1500 
+     21 H8         30.1080   32.6070   19.0800 H         1 PFF         0.1500 
+     22 H9         25.8300   30.1140   19.3150 H         1 PFF         0.1500 
+     23 H10        29.5950   30.8580   17.3870 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         8 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_480
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_480
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.2110   32.5920   21.6940 N.4       1 PFF        -0.8530 
+      2 CA         27.6130   32.6490   22.0690 C.3       1 PFF         0.3970 
+      3 C          27.8990   33.8340   22.9480 C.2       1 PFF         0.9060 
+      4 O          28.6950   33.6890   23.9130 O.co2     1 PFF        -0.9000 
+      5 OXT        27.3420   34.9140   22.6780 O.co2     1 PFF        -0.9000 
+      6 CB         28.4680   32.7640   20.8110 C.3       1 PFF         0.1435 
+      7 CG         28.1690   31.5700   19.9420 C.ar      1 PFF        -0.1435 
+      8 CD1        27.2940   31.7270   18.8760 C.ar      1 PFF        -0.1500 
+      9 CD2        28.7650   30.3350   20.1950 C.ar      1 PFF        -0.1500 
+     10 CE1        27.0050   30.6510   18.0540 C.ar      1 PFF        -0.1500 
+     11 CE2        28.4780   29.2490   19.3680 C.ar      1 PFF        -0.1500 
+     12 CZ         27.6000   29.4180   18.3030 C.ar      1 PFF         0.1900 
+     13 F          27.3060   28.3870   17.4990 F         1 PFF        -0.1900 
+     14 H1         25.9620   33.4300   21.1920 H         1 PFF         0.4500 
+     15 H2         25.6440   32.5180   22.5250 H         1 PFF         0.4500 
+     16 H3         26.0530   31.7880   21.1070 H         1 PFF         0.4500 
+     17 H4         27.8760   31.7280   22.6090 H         1 PFF         0.0000 
+     18 H5         29.5340   32.7730   21.0820 H         1 PFF         0.0000 
+     19 H6         28.2190   33.6910   20.2730 H         1 PFF         0.0000 
+     20 H7         26.8380   32.6920   18.6860 H         1 PFF         0.1500 
+     21 H8         29.4480   30.2200   21.0280 H         1 PFF         0.1500 
+     22 H9         26.3200   30.7680   17.2220 H         1 PFF         0.1500 
+     23 H10        28.9340   28.2830   19.5540 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_485
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_485
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.2390   33.6760   21.2890 N.4       1 PFF        -0.8530 
+      2 CA         27.3930   33.0600   21.9210 C.3       1 PFF         0.3970 
+      3 C          28.0740   34.0110   22.8650 C.2       1 PFF         0.9060 
+      4 O          27.4250   34.9980   23.2980 O.co2     1 PFF        -0.9000 
+      5 OXT        29.2540   33.7750   23.1860 O.co2     1 PFF        -0.9000 
+      6 CB         28.3940   32.6430   20.8490 C.3       1 PFF         0.1435 
+      7 CG         27.6950   31.6920   19.9130 C.ar      1 PFF        -0.1435 
+      8 CD1        26.3790   31.9540   19.5610 C.ar      1 PFF        -0.1500 
+      9 CD2        28.3590   30.5760   19.4010 C.ar      1 PFF        -0.1500 
+     10 CE1        25.7120   31.1020   18.6970 C.ar      1 PFF        -0.1500 
+     11 CE2        27.6900   29.7180   18.5290 C.ar      1 PFF        -0.1500 
+     12 CZ         26.3710   29.9900   18.1830 C.ar      1 PFF         0.1900 
+     13 F          25.7090   29.1750   17.3510 F         1 PFF        -0.1900 
+     14 H1         26.5330   34.4860   20.7670 H         1 PFF         0.4500 
+     15 H2         25.5760   33.9540   21.9960 H         1 PFF         0.4500 
+     16 H3         25.8050   33.0130   20.6640 H         1 PFF         0.4500 
+     17 H4         27.0620   32.1730   22.4810 H         1 PFF         0.0000 
+     18 H5         29.2560   32.1450   21.3160 H         1 PFF         0.0000 
+     19 H6         28.7400   33.5290   20.2940 H         1 PFF         0.0000 
+     20 H7         25.8730   32.8250   19.9620 H         1 PFF         0.1500 
+     21 H8         29.3870   30.3790   19.6790 H         1 PFF         0.1500 
+     22 H9         24.6820   31.3020   18.4210 H         1 PFF         0.1500 
+     23 H10        28.1940   28.8470   18.1240 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_491
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_491
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.4320   32.2230   22.9070 N.4       1 PFF        -0.8530 
+      2 CA         27.8470   32.4300   22.6490 C.3       1 PFF         0.3970 
+      3 C          28.0690   33.5460   21.6670 C.2       1 PFF         0.9060 
+      4 O          27.0740   34.0210   21.0600 O.co2     1 PFF        -0.9000 
+      5 OXT        29.2320   33.9610   21.5020 O.co2     1 PFF        -0.9000 
+      6 CB         28.4470   31.1530   22.0710 C.3       1 PFF         0.1435 
+      7 CG         27.7490   30.8650   20.7680 C.ar      1 PFF        -0.1435 
+      8 CD1        27.9890   31.7020   19.6870 C.ar      1 PFF        -0.1500 
+      9 CD2        26.8860   29.7760   20.6440 C.ar      1 PFF        -0.1500 
+     10 CE1        27.3680   31.4590   18.4730 C.ar      1 PFF        -0.1500 
+     11 CE2        26.2600   29.5270   19.4220 C.ar      1 PFF        -0.1500 
+     12 CZ         26.5090   30.3720   18.3460 C.ar      1 PFF         0.1900 
+     13 F          25.9140   30.1550   17.1650 F         1 PFF        -0.1900 
+     14 H1         25.9640   31.9880   22.0460 H         1 PFF         0.4500 
+     15 H2         26.0330   33.0680   23.2870 H         1 PFF         0.4500 
+     16 H3         26.3180   31.4710   23.5680 H         1 PFF         0.4500 
+     17 H4         28.3500   32.6780   23.5950 H         1 PFF         0.0000 
+     18 H5         28.2940   30.3180   22.7710 H         1 PFF         0.0000 
+     19 H6         29.5240   31.2910   21.8970 H         1 PFF         0.0000 
+     20 H7         28.6630   32.5450   19.7920 H         1 PFF         0.1500 
+     21 H8         26.7040   29.1260   21.4920 H         1 PFF         0.1500 
+     22 H9         27.5510   32.1120   17.6270 H         1 PFF         0.1500 
+     23 H10        25.5870   28.6850   19.3130 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_496
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_496
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.8140   32.3600   19.6220 N.4       1 PFF        -0.8530 
+      2 CA         26.9640   32.2410   18.7420 C.3       1 PFF         0.3970 
+      3 C          26.8000   31.1040   17.7740 C.2       1 PFF         0.9060 
+      4 O          27.1840   31.2640   16.5860 O.co2     1 PFF        -0.9000 
+      5 OXT        26.2970   30.0440   18.1930 O.co2     1 PFF        -0.9000 
+      6 CB         28.2150   31.9890   19.5770 C.3       1 PFF         0.1435 
+      7 CG         28.3640   33.1370   20.5400 C.ar      1 PFF        -0.1435 
+      8 CD1        27.9440   32.9630   21.8510 C.ar      1 PFF        -0.1500 
+      9 CD2        28.9230   34.3470   20.1290 C.ar      1 PFF        -0.1500 
+     10 CE1        28.0740   33.9970   22.7620 C.ar      1 PFF        -0.1500 
+     11 CE2        29.0580   35.3910   21.0450 C.ar      1 PFF        -0.1500 
+     12 CZ         28.6330   35.2050   22.3560 C.ar      1 PFF         0.1900 
+     13 F          28.7480   36.1950   23.2500 F         1 PFF        -0.1900 
+     14 H1         25.7040   31.5080   20.1480 H         1 PFF         0.4500 
+     15 H2         24.9860   32.5250   19.0720 H         1 PFF         0.4500 
+     16 H3         25.9560   33.1310   20.2570 H         1 PFF         0.4500 
+     17 H4         27.0810   33.1790   18.1790 H         1 PFF         0.0000 
+     18 H5         29.0970   31.9320   18.9220 H         1 PFF         0.0000 
+     19 H6         28.1110   31.0450   20.1320 H         1 PFF         0.0000 
+     20 H7         27.5130   32.0180   22.1620 H         1 PFF         0.1500 
+     21 H8         29.2510   34.4760   19.1040 H         1 PFF         0.1500 
+     22 H9         27.7440   33.8660   23.7870 H         1 PFF         0.1500 
+     23 H10        29.4890   36.3370   20.7380 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_499
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_499
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.7510   34.3780   21.1620 N.4       1 PFF        -0.8530 
+      2 CA         28.1760   33.9540   22.4280 C.3       1 PFF         0.3970 
+      3 C          28.7820   34.6990   23.5840 C.2       1 PFF         0.9060 
+      4 O          28.3670   35.8600   23.8360 O.co2     1 PFF        -0.9000 
+      5 OXT        29.6660   34.1290   24.2510 O.co2     1 PFF        -0.9000 
+      6 CB         28.4330   32.4640   22.6250 C.3       1 PFF         0.1435 
+      7 CG         27.8190   31.7340   21.4590 C.ar      1 PFF        -0.1435 
+      8 CD1        28.6450   31.3280   20.4200 C.ar      1 PFF        -0.1500 
+      9 CD2        26.4520   31.4600   21.4260 C.ar      1 PFF        -0.1500 
+     10 CE1        28.1130   30.6480   19.3380 C.ar      1 PFF        -0.1500 
+     11 CE2        25.9120   30.7740   20.3380 C.ar      1 PFF        -0.1500 
+     12 CZ         26.7490   30.3730   19.3030 C.ar      1 PFF         0.1900 
+     13 F          26.2520   29.7170   18.2460 F         1 PFF        -0.1900 
+     14 H1         29.7430   34.2030   21.1690 H         1 PFF         0.4500 
+     15 H2         28.5840   35.3640   21.0310 H         1 PFF         0.4500 
+     16 H3         28.3240   33.8610   20.4100 H         1 PFF         0.4500 
+     17 H4         27.0920   34.1410   22.4070 H         1 PFF         0.0000 
+     18 H5         27.9700   32.1260   23.5640 H         1 PFF         0.0000 
+     19 H6         29.5150   32.2720   22.6600 H         1 PFF         0.0000 
+     20 H7         29.7080   31.5430   20.4560 H         1 PFF         0.1500 
+     21 H8         25.8130   31.7790   22.2410 H         1 PFF         0.1500 
+     22 H9         28.7540   30.3320   18.5230 H         1 PFF         0.1500 
+     23 H10        24.8510   30.5560   20.2990 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_507
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_507
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.4460   31.9030   20.2360 N.4       1 PFF        -0.8530 
+      2 CA         27.6180   32.0370   19.3870 C.3       1 PFF         0.3970 
+      3 C          27.6800   30.9420   18.3590 C.2       1 PFF         0.9060 
+      4 O          28.0550   31.2310   17.1930 O.co2     1 PFF        -0.9000 
+      5 OXT        27.3650   29.7890   18.7100 O.co2     1 PFF        -0.9000 
+      6 CB         28.8760   31.9640   20.2460 C.3       1 PFF         0.1435 
+      7 CG         28.7970   33.0670   21.2700 C.ar      1 PFF        -0.1435 
+      8 CD1        27.8580   32.9640   22.2860 C.ar      1 PFF        -0.1500 
+      9 CD2        29.6560   34.1640   21.2060 C.ar      1 PFF        -0.1500 
+     10 CE1        27.7660   33.9580   23.2460 C.ar      1 PFF        -0.1500 
+     11 CE2        29.5680   35.1660   22.1720 C.ar      1 PFF        -0.1500 
+     12 CZ         28.6230   35.0530   23.1860 C.ar      1 PFF         0.1900 
+     13 F          28.5180   36.0060   24.1210 F         1 PFF        -0.1900 
+     14 H1         26.4780   31.0170   20.7160 H         1 PFF         0.4500 
+     15 H2         25.6140   31.9490   19.6690 H         1 PFF         0.4500 
+     16 H3         26.4350   32.6510   20.9120 H         1 PFF         0.4500 
+     17 H4         27.5780   33.0100   18.8750 H         1 PFF         0.0000 
+     18 H5         29.7670   32.1000   19.6170 H         1 PFF         0.0000 
+     19 H6         28.9290   30.9880   20.7510 H         1 PFF         0.0000 
+     20 H7         27.1960   32.1060   22.3290 H         1 PFF         0.1500 
+     21 H8         30.3880   34.2370   20.4100 H         1 PFF         0.1500 
+     22 H9         27.0320   33.8830   24.0400 H         1 PFF         0.1500 
+     23 H10        30.2290   36.0240   22.1330 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_508
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_508
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.4130   32.6140   19.2250 N.4       1 PFF        -0.8530 
+      2 CA         27.7850   32.2020   18.9830 C.3       1 PFF         0.3970 
+      3 C          27.8520   31.0690   17.9980 C.2       1 PFF         0.9060 
+      4 O          26.8700   30.8740   17.2360 O.co2     1 PFF        -0.9000 
+      5 OXT        28.8860   30.3740   17.9730 O.co2     1 PFF        -0.9000 
+      6 CB         28.4130   31.7410   20.2940 C.3       1 PFF         0.1435 
+      7 CG         28.3370   32.8880   21.2680 C.ar      1 PFF        -0.1435 
+      8 CD1        27.3260   32.8870   22.2180 C.ar      1 PFF        -0.1500 
+      9 CD2        29.2680   33.9260   21.2240 C.ar      1 PFF        -0.1500 
+     10 CE1        27.2350   33.9230   23.1320 C.ar      1 PFF        -0.1500 
+     11 CE2        29.1800   34.9710   22.1440 C.ar      1 PFF        -0.1500 
+     12 CZ         28.1630   34.9590   23.0920 C.ar      1 PFF         0.1900 
+     13 F          28.0560   35.9540   23.9820 F         1 PFF        -0.1900 
+     14 H1         25.8900   31.8380   19.5970 H         1 PFF         0.4500 
+     15 H2         25.9950   32.9170   18.3590 H         1 PFF         0.4500 
+     16 H3         26.4030   33.3740   19.8880 H         1 PFF         0.4500 
+     17 H4         28.3500   33.0580   18.5850 H         1 PFF         0.0000 
+     18 H5         29.4640   31.4600   20.1270 H         1 PFF         0.0000 
+     19 H6         27.8610   30.8760   20.6900 H         1 PFF         0.0000 
+     20 H7         26.6090   32.0740   22.2460 H         1 PFF         0.1500 
+     21 H8         30.0560   33.9210   20.4800 H         1 PFF         0.1500 
+     22 H9         26.4440   33.9270   23.8740 H         1 PFF         0.1500 
+     23 H10        29.8970   35.7840   22.1200 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_510
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_510
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.8440   35.7870   23.1020 N.4       1 PFF        -0.8530 
+      2 CA         28.2350   35.6100   23.4820 C.3       1 PFF         0.3970 
+      3 C          29.1640   36.0820   22.3990 C.2       1 PFF         0.9060 
+      4 O          30.2080   36.7030   22.7300 O.co2     1 PFF        -0.9000 
+      5 OXT        28.8650   35.8300   21.2170 O.co2     1 PFF        -0.9000 
+      6 CB         28.5050   34.1310   23.7390 C.3       1 PFF         0.1435 
+      7 CG         28.2510   33.3880   22.4540 C.ar      1 PFF        -0.1435 
+      8 CD1        29.1310   33.5670   21.3970 C.ar      1 PFF        -0.1500 
+      9 CD2        27.1600   32.5270   22.3300 C.ar      1 PFF        -0.1500 
+     10 CE1        28.9290   32.8920   20.2060 C.ar      1 PFF        -0.1500 
+     11 CE2        26.9530   31.8440   21.1320 C.ar      1 PFF        -0.1500 
+     12 CZ         27.8420   32.0320   20.0790 C.ar      1 PFF         0.1900 
+     13 F          27.6600   31.3890   18.9180 F         1 PFF        -0.1900 
+     14 H1         26.6540   35.2570   22.2660 H         1 PFF         0.4500 
+     15 H2         26.6640   36.7630   22.9300 H         1 PFF         0.4500 
+     16 H3         26.2490   35.4620   23.8490 H         1 PFF         0.4500 
+     17 H4         28.4310   36.1850   24.4000 H         1 PFF         0.0000 
+     18 H5         27.8330   33.7600   24.5270 H         1 PFF         0.0000 
+     19 H6         29.5500   33.9910   24.0530 H         1 PFF         0.0000 
+     20 H7         29.9780   34.2360   21.5030 H         1 PFF         0.1500 
+     21 H8         26.4770   32.3900   23.1610 H         1 PFF         0.1500 
+     22 H9         29.6130   33.0320   19.3760 H         1 PFF         0.1500 
+     23 H10        26.1090   31.1730   21.0220 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_523
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_523
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.0300   31.5660   19.8720 N.4       1 PFF        -0.8530 
+      2 CA         27.3830   31.3920   19.3720 C.3       1 PFF         0.3970 
+      3 C          27.4990   30.1610   18.5180 C.2       1 PFF         0.9060 
+      4 O          26.5320   29.3560   18.4880 O.co2     1 PFF        -0.9000 
+      5 OXT        28.5480   29.9950   17.8670 O.co2     1 PFF        -0.9000 
+      6 CB         28.3430   31.2560   20.5490 C.3       1 PFF         0.1435 
+      7 CG         28.2130   32.4970   21.3930 C.ar      1 PFF        -0.1435 
+      8 CD1        27.0440   32.6910   22.1150 C.ar      1 PFF        -0.1500 
+      9 CD2        29.2500   33.4280   21.4590 C.ar      1 PFF        -0.1500 
+     10 CE1        26.8980   33.8170   22.9060 C.ar      1 PFF        -0.1500 
+     11 CE2        29.1070   34.5640   22.2560 C.ar      1 PFF        -0.1500 
+     12 CZ         27.9300   34.7470   22.9750 C.ar      1 PFF         0.1900 
+     13 F          27.7700   35.8330   23.7430 F         1 PFF        -0.1900 
+     14 H1         25.7720   30.7660   20.4290 H         1 PFF         0.4500 
+     15 H2         25.3930   31.6540   19.0960 H         1 PFF         0.4500 
+     16 H3         25.9860   32.3980   20.4390 H         1 PFF         0.4500 
+     17 H4         27.6570   32.2730   18.7730 H         1 PFF         0.0000 
+     18 H5         29.3750   31.1590   20.1810 H         1 PFF         0.0000 
+     19 H6         28.0820   30.3690   21.1450 H         1 PFF         0.0000 
+     20 H7         26.2450   31.9600   22.0590 H         1 PFF         0.1500 
+     21 H8         30.1610   33.2700   20.8940 H         1 PFF         0.1500 
+     22 H9         25.9840   33.9740   23.4690 H         1 PFF         0.1500 
+     23 H10        29.9040   35.2960   22.3160 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_542
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_542
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.8640   34.0380   22.0440 N.4       1 PFF        -0.8530 
+      2 CA         28.2480   33.5960   22.0810 C.3       1 PFF         0.3970 
+      3 C          28.9570   33.9000   20.7920 C.2       1 PFF         0.9060 
+      4 O          30.1470   34.3080   20.8410 O.co2     1 PFF        -0.9000 
+      5 OXT        28.3370   33.7270   19.7260 O.co2     1 PFF        -0.9000 
+      6 CB         28.2910   32.0890   22.3120 C.3       1 PFF         0.1435 
+      7 CG         27.5970   31.4260   21.1510 C.ar      1 PFF        -0.1435 
+      8 CD1        28.3720   30.8860   20.1340 C.ar      1 PFF        -0.1500 
+      9 CD2        26.2050   31.3460   21.1010 C.ar      1 PFF        -0.1500 
+     10 CE1        27.7640   30.2640   19.0570 C.ar      1 PFF        -0.1500 
+     11 CE2        25.5890   30.7180   20.0190 C.ar      1 PFF        -0.1500 
+     12 CZ         26.3760   30.1810   19.0060 C.ar      1 PFF         0.1900 
+     13 F          25.8050   29.5780   17.9540 F         1 PFF        -0.1900 
+     14 H1         26.3810   33.5660   21.2960 H         1 PFF         0.4500 
+     15 H2         26.8330   35.0330   21.8890 H         1 PFF         0.4500 
+     16 H3         26.4180   33.8200   22.9220 H         1 PFF         0.4500 
+     17 H4         28.7640   34.1090   22.9060 H         1 PFF         0.0000 
+     18 H5         27.7740   31.8390   23.2500 H         1 PFF         0.0000 
+     19 H6         29.3360   31.7490   22.3690 H         1 PFF         0.0000 
+     20 H7         29.4530   30.9520   20.1830 H         1 PFF         0.1500 
+     21 H8         25.6060   31.7680   21.8990 H         1 PFF         0.1500 
+     22 H9         28.3660   29.8440   18.2590 H         1 PFF         0.1500 
+     23 H10        24.5080   30.6490   19.9670 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_544
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_544
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.1440   30.8820   17.9580 N.4       1 PFF        -0.8530 
+      2 CA         26.3130   31.3260   18.6980 C.3       1 PFF         0.3970 
+      3 C          27.5430   30.5640   18.2910 C.2       1 PFF         0.9060 
+      4 O          28.6300   31.1890   18.1840 O.co2     1 PFF        -0.9000 
+      5 OXT        27.4350   29.3400   18.0870 O.co2     1 PFF        -0.9000 
+      6 CB         26.0800   31.1070   20.1890 C.3       1 PFF         0.1435 
+      7 CG         27.2930   31.6170   20.9230 C.ar      1 PFF        -0.1435 
+      8 CD1        27.5210   32.9860   20.9590 C.ar      1 PFF        -0.1500 
+      9 CD2        28.1640   30.7360   21.5650 C.ar      1 PFF        -0.1500 
+     10 CE1        28.6220   33.4860   21.6320 C.ar      1 PFF        -0.1500 
+     11 CE2        29.2730   31.2370   22.2450 C.ar      1 PFF        -0.1500 
+     12 CZ         29.4920   32.6100   22.2730 C.ar      1 PFF         0.1900 
+     13 F          30.5540   33.1120   22.9170 F         1 PFF        -0.1900 
+     14 H1         24.9860   29.9030   18.1360 H         1 PFF         0.4500 
+     15 H2         25.2970   31.0240   16.9720 H         1 PFF         0.4500 
+     16 H3         24.3390   31.4120   18.2530 H         1 PFF         0.4500 
+     17 H4         26.4730   32.3970   18.5040 H         1 PFF         0.0000 
+     18 H5         25.9420   30.0350   20.3930 H         1 PFF         0.0000 
+     19 H6         25.1860   31.6600   20.5140 H         1 PFF         0.0000 
+     20 H7         26.8370   33.6630   20.4590 H         1 PFF         0.1500 
+     21 H8         27.9780   29.6690   21.5340 H         1 PFF         0.1500 
+     22 H9         28.8060   34.5540   21.6590 H         1 PFF         0.1500 
+     23 H10        29.9580   30.5630   22.7470 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_545
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_545
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          29.3500   32.7310   19.6800 N.4       1 PFF        -0.8530 
+      2 CA         28.8380   31.4460   20.1270 C.3       1 PFF         0.3970 
+      3 C          28.4420   30.5790   18.9650 C.2       1 PFF         0.9060 
+      4 O          28.7040   29.3490   19.0160 O.co2     1 PFF        -0.9000 
+      5 OXT        27.8620   31.1150   18.0030 O.co2     1 PFF        -0.9000 
+      6 CB         27.6090   31.6700   21.0030 C.3       1 PFF         0.1435 
+      7 CG         28.0230   32.5400   22.1610 C.ar      1 PFF        -0.1435 
+      8 CD1        27.7340   33.8970   22.1090 C.ar      1 PFF        -0.1500 
+      9 CD2        28.6740   31.9950   23.2680 C.ar      1 PFF        -0.1500 
+     10 CE1        28.0950   34.7210   23.1600 C.ar      1 PFF        -0.1500 
+     11 CE2        29.0370   32.8230   24.3300 C.ar      1 PFF        -0.1500 
+     12 CZ         28.7430   34.1810   24.2670 C.ar      1 PFF         0.1900 
+     13 F          29.0870   34.9950   25.2740 F         1 PFF        -0.1900 
+     14 H1         28.6390   33.2110   19.1510 H         1 PFF         0.4500 
+     15 H2         30.1610   32.5850   19.0990 H         1 PFF         0.4500 
+     16 H3         29.6060   33.2870   20.4810 H         1 PFF         0.4500 
+     17 H4         29.6170   30.9340   20.7100 H         1 PFF         0.0000 
+     18 H5         27.2350   30.7050   21.3750 H         1 PFF         0.0000 
+     19 H6         26.8200   32.1690   20.4220 H         1 PFF         0.0000 
+     20 H7         27.2260   34.3100   21.2450 H         1 PFF         0.1500 
+     21 H8         28.8950   30.9350   23.3030 H         1 PFF         0.1500 
+     22 H9         27.8740   35.7820   23.1220 H         1 PFF         0.1500 
+     23 H10        29.5440   32.4130   25.1960 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_555
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_555
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          29.3840   31.1930   22.1060 N.4       1 PFF        -0.8530 
+      2 CA         28.2280   31.2500   21.2270 C.3       1 PFF         0.3970 
+      3 C          28.5840   31.8330   19.8890 C.2       1 PFF         0.9060 
+      4 O          28.0740   31.3250   18.8560 O.co2     1 PFF        -0.9000 
+      5 OXT        29.3650   32.8030   19.8600 O.co2     1 PFF        -0.9000 
+      6 CB         27.1520   32.1230   21.8640 C.3       1 PFF         0.1435 
+      7 CG         27.7180   33.5110   22.0180 C.ar      1 PFF        -0.1435 
+      8 CD1        28.5060   34.0240   20.9980 C.ar      1 PFF        -0.1500 
+      9 CD2        27.4490   34.2700   23.1570 C.ar      1 PFF        -0.1500 
+     10 CE1        29.0340   35.2990   21.1060 C.ar      1 PFF        -0.1500 
+     11 CE2        27.9780   35.5560   23.2690 C.ar      1 PFF        -0.1500 
+     12 CZ         28.7660   36.0590   22.2400 C.ar      1 PFF         0.1900 
+     13 F          29.2890   37.2900   22.3290 F         1 PFF        -0.1900 
+     14 H1         29.7430   32.1230   22.2500 H         1 PFF         0.4500 
+     15 H2         30.0970   30.6170   21.6870 H         1 PFF         0.4500 
+     16 H3         29.1120   30.7980   22.9930 H         1 PFF         0.4500 
+     17 H4         27.8380   30.2310   21.0840 H         1 PFF         0.0000 
+     18 H5         26.8760   31.7190   22.8490 H         1 PFF         0.0000 
+     19 H6         26.2620   32.1510   21.2180 H         1 PFF         0.0000 
+     20 H7         28.7080   33.4270   20.1150 H         1 PFF         0.1500 
+     21 H8         26.8310   33.8640   23.9490 H         1 PFF         0.1500 
+     22 H9         29.6530   35.7020   20.3130 H         1 PFF         0.1500 
+     23 H10        27.7770   36.1560   24.1490 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         8 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_572
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_572
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.3940   31.3170   23.2780 N.4       1 PFF        -0.8530 
+      2 CA         28.4270   32.2720   22.9150 C.3       1 PFF         0.3970 
+      3 C          27.8620   33.4160   22.1200 C.2       1 PFF         0.9060 
+      4 O          26.6260   33.6440   22.1880 O.co2     1 PFF        -0.9000 
+      5 OXT        28.6460   34.0970   21.4330 O.co2     1 PFF        -0.9000 
+      6 CB         29.4870   31.5730   22.0690 C.3       1 PFF         0.1435 
+      7 CG         28.8180   31.0740   20.8150 C.ar      1 PFF        -0.1435 
+      8 CD1        27.8710   31.8820   20.2010 C.ar      1 PFF        -0.1500 
+      9 CD2        29.1500   29.8320   20.2730 C.ar      1 PFF        -0.1500 
+     10 CE1        27.2450   31.4550   19.0430 C.ar      1 PFF        -0.1500 
+     11 CE2        28.5230   29.4000   19.1050 C.ar      1 PFF        -0.1500 
+     12 CZ         27.5750   30.2170   18.4990 C.ar      1 PFF         0.1900 
+     13 F          26.9560   29.8190   17.3790 F         1 PFF        -0.1900 
+     14 H1         26.9700   30.9460   22.4430 H         1 PFF         0.4500 
+     15 H2         26.6910   31.7770   23.8350 H         1 PFF         0.4500 
+     16 H3         27.8050   30.5640   23.8090 H         1 PFF         0.4500 
+     17 H4         28.8890   32.6650   23.8330 H         1 PFF         0.0000 
+     18 H5         29.9130   30.7270   22.6280 H         1 PFF         0.0000 
+     19 H6         30.2870   32.2820   21.8110 H         1 PFF         0.0000 
+     20 H7         27.6210   32.8460   20.6280 H         1 PFF         0.1500 
+     21 H8         29.8920   29.2080   20.7570 H         1 PFF         0.1500 
+     22 H9         26.5010   32.0810   18.5620 H         1 PFF         0.1500 
+     23 H10        28.7710   28.4370   18.6740 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         8 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_585
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_585
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.8890   32.1380   17.5210 N.4       1 PFF        -0.8530 
+      2 CA         27.8470   31.0880   17.8220 C.3       1 PFF         0.3970 
+      3 C          27.2320   30.0090   18.6670 C.2       1 PFF         0.9060 
+      4 O          26.0910   30.2080   19.1600 O.co2     1 PFF        -0.9000 
+      5 OXT        27.8760   28.9570   18.8370 O.co2     1 PFF        -0.9000 
+      6 CB         29.0280   31.6830   18.5820 C.3       1 PFF         0.1435 
+      7 CG         28.5020   32.2510   19.8750 C.ar      1 PFF        -0.1435 
+      8 CD1        28.6490   31.5060   21.0360 C.ar      1 PFF        -0.1500 
+      9 CD2        27.8900   33.5050   19.9080 C.ar      1 PFF        -0.1500 
+     10 CE1        28.1830   32.0040   22.2410 C.ar      1 PFF        -0.1500 
+     11 CE2        27.4220   34.0100   21.1210 C.ar      1 PFF        -0.1500 
+     12 CZ         27.5740   33.2540   22.2780 C.ar      1 PFF         0.1900 
+     13 F          27.1270   33.7190   23.4520 F         1 PFF        -0.1900 
+     14 H1         26.5650   32.5530   18.3800 H         1 PFF         0.4500 
+     15 H2         26.1070   31.7460   17.0200 H         1 PFF         0.4500 
+     16 H3         27.3330   32.8440   16.9530 H         1 PFF         0.4500 
+     17 H4         28.2020   30.6470   16.8780 H         1 PFF         0.0000 
+     18 H5         29.4940   32.4800   17.9840 H         1 PFF         0.0000 
+     19 H6         29.7710   30.9000   18.7910 H         1 PFF         0.0000 
+     20 H7         29.1280   30.5340   21.0000 H         1 PFF         0.1500 
+     21 H8         27.7810   34.0820   18.9980 H         1 PFF         0.1500 
+     22 H9         28.2930   31.4230   23.1500 H         1 PFF         0.1500 
+     23 H10        26.9440   34.9830   21.1610 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_586
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_586
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.5210   29.3380   19.3860 N.4       1 PFF        -0.8530 
+      2 CA         28.0870   30.4810   20.1720 C.3       1 PFF         0.3970 
+      3 C          26.8900   31.1490   19.5570 C.2       1 PFF         0.9060 
+      4 O          26.1870   30.4940   18.7430 O.co2     1 PFF        -0.9000 
+      5 OXT        26.6380   32.3230   19.8870 O.co2     1 PFF        -0.9000 
+      6 CB         29.2200   31.4980   20.2510 C.3       1 PFF         0.1435 
+      7 CG         28.7490   32.6450   21.1070 C.ar      1 PFF        -0.1435 
+      8 CD1        27.9960   32.3640   22.2390 C.ar      1 PFF        -0.1500 
+      9 CD2        29.0700   33.9620   20.7780 C.ar      1 PFF        -0.1500 
+     10 CE1        27.5550   33.3950   23.0490 C.ar      1 PFF        -0.1500 
+     11 CE2        28.6280   35.0040   21.5940 C.ar      1 PFF        -0.1500 
+     12 CZ         27.8740   34.7100   22.7240 C.ar      1 PFF         0.1900 
+     13 F          27.4360   35.6950   23.5190 F         1 PFF        -0.1900 
+     14 H1         28.7680   29.6430   18.4580 H         1 PFF         0.4500 
+     15 H2         27.7720   28.6650   19.3310 H         1 PFF         0.4500 
+     16 H3         29.3230   28.9140   19.8250 H         1 PFF         0.4500 
+     17 H4         27.8280   30.1390   21.1850 H         1 PFF         0.0000 
+     18 H5         29.4690   31.8610   19.2430 H         1 PFF         0.0000 
+     19 H6         30.1100   31.0340   20.7030 H         1 PFF         0.0000 
+     20 H7         27.7540   31.3370   22.4880 H         1 PFF         0.1500 
+     21 H8         29.6600   34.1740   19.8940 H         1 PFF         0.1500 
+     22 H9         26.9630   33.1800   23.9320 H         1 PFF         0.1500 
+     23 H10        28.8700   36.0320   21.3490 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_587
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_587
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.4080   32.2060   18.8280 N.4       1 PFF        -0.8530 
+      2 CA         28.0970   31.1620   19.5680 C.3       1 PFF         0.3970 
+      3 C          27.9410   29.8230   18.9030 C.2       1 PFF         0.9060 
+      4 O          27.1230   29.7150   17.9530 O.co2     1 PFF        -0.9000 
+      5 OXT        28.6370   28.8780   19.3180 O.co2     1 PFF        -0.9000 
+      6 CB         27.5180   31.0740   20.9760 C.3       1 PFF         0.1435 
+      7 CG         27.6830   32.4230   21.6260 C.ar      1 PFF        -0.1435 
+      8 CD1        26.5810   33.0070   22.2340 C.ar      1 PFF        -0.1500 
+      9 CD2        28.9200   33.0690   21.6280 C.ar      1 PFF        -0.1500 
+     10 CE1        26.7030   34.2420   22.8470 C.ar      1 PFF        -0.1500 
+     11 CE2        29.0460   34.3120   22.2460 C.ar      1 PFF        -0.1500 
+     12 CZ         27.9350   34.8880   22.8520 C.ar      1 PFF         0.1900 
+     13 F          28.0330   36.0840   23.4470 F         1 PFF        -0.1900 
+     14 H1         26.4250   31.9890   18.7770 H         1 PFF         0.4500 
+     15 H2         27.7880   32.2650   17.8970 H         1 PFF         0.4500 
+     16 H3         27.5330   33.0890   19.2990 H         1 PFF         0.4500 
+     17 H4         29.1670   31.4130   19.6250 H         1 PFF         0.0000 
+     18 H5         28.0570   30.3100   21.5550 H         1 PFF         0.0000 
+     19 H6         26.4510   30.8100   20.9260 H         1 PFF         0.0000 
+     20 H7         25.6240   32.4950   22.2300 H         1 PFF         0.1500 
+     21 H8         29.7770   32.6060   21.1520 H         1 PFF         0.1500 
+     22 H9         25.8430   34.7030   23.3200 H         1 PFF         0.1500 
+     23 H10        30.0020   34.8260   22.2540 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_599
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_599
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.6770   28.7860   19.3980 N.4       1 PFF        -0.8530 
+      2 CA         26.7660   30.1240   19.9580 C.3       1 PFF         0.3970 
+      3 C          27.0020   31.1530   18.8890 C.2       1 PFF         0.9060 
+      4 O          26.4020   32.2560   18.9710 O.co2     1 PFF        -0.9000 
+      5 OXT        27.7930   30.8720   17.9690 O.co2     1 PFF        -0.9000 
+      6 CB         27.9240   30.1810   20.9490 C.3       1 PFF         0.1435 
+      7 CG         27.9570   31.5670   21.5380 C.ar      1 PFF        -0.1435 
+      8 CD1        26.9400   31.9460   22.4030 C.ar      1 PFF        -0.1500 
+      9 CD2        28.9920   32.4500   21.2310 C.ar      1 PFF        -0.1500 
+     10 CE1        26.9460   33.2100   22.9660 C.ar      1 PFF        -0.1500 
+     11 CE2        29.0030   33.7240   21.7990 C.ar      1 PFF        -0.1500 
+     12 CZ         27.9780   34.0920   22.6630 C.ar      1 PFF         0.1900 
+     13 F          27.9660   35.3130   23.2160 F         1 PFF        -0.1900 
+     14 H1         27.5380   28.5620   18.9250 H         1 PFF         0.4500 
+     15 H2         25.9130   28.7470   18.7420 H         1 PFF         0.4500 
+     16 H3         26.5180   28.1220   20.1400 H         1 PFF         0.4500 
+     17 H4         25.8250   30.3560   20.4790 H         1 PFF         0.0000 
+     18 H5         28.8710   29.9720   20.4290 H         1 PFF         0.0000 
+     19 H6         27.7720   29.4380   21.7460 H         1 PFF         0.0000 
+     20 H7         26.1400   31.2510   22.6370 H         1 PFF         0.1500 
+     21 H8         29.7840   32.1480   20.5560 H         1 PFF         0.1500 
+     22 H9         26.1510   33.5110   23.6400 H         1 PFF         0.1500 
+     23 H10        29.8010   34.4210   21.5680 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_628
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_628
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.5520   29.7820   19.6060 N.4       1 PFF        -0.8530 
+      2 CA         26.4500   31.1650   19.1740 C.3       1 PFF         0.3970 
+      3 C          27.7200   31.6310   18.5200 C.2       1 PFF         0.9060 
+      4 O          28.7370   30.8940   18.5870 O.co2     1 PFF        -0.9000 
+      5 OXT        27.7080   32.7280   17.9300 O.co2     1 PFF        -0.9000 
+      6 CB         26.1750   32.0540   20.3830 C.3       1 PFF         0.1435 
+      7 CG         27.3430   31.9200   21.3260 C.ar      1 PFF        -0.1435 
+      8 CD1        27.9430   33.0750   21.8080 C.ar      1 PFF        -0.1500 
+      9 CD2        27.8060   30.6630   21.7170 C.ar      1 PFF        -0.1500 
+     10 CE1        29.0120   32.9850   22.6820 C.ar      1 PFF        -0.1500 
+     11 CE2        28.8820   30.5690   22.5980 C.ar      1 PFF        -0.1500 
+     12 CZ         29.4760   31.7330   23.0750 C.ar      1 PFF         0.1900 
+     13 F          30.5140   31.6660   23.9180 F         1 PFF        -0.1900 
+     14 H1         27.3040   29.6920   20.2710 H         1 PFF         0.4500 
+     15 H2         26.7350   29.1930   18.8090 H         1 PFF         0.4500 
+     16 H3         25.6850   29.5010   20.0390 H         1 PFF         0.4500 
+     17 H4         25.6210   31.2550   18.4560 H         1 PFF         0.0000 
+     18 H5         25.2510   31.7290   20.8830 H         1 PFF         0.0000 
+     19 H6         26.0700   33.1010   20.0630 H         1 PFF         0.0000 
+     20 H7         27.5740   34.0470   21.5010 H         1 PFF         0.1500 
+     21 H8         27.3310   29.7660   21.3370 H         1 PFF         0.1500 
+     22 H9         29.4860   33.8850   23.0580 H         1 PFF         0.1500 
+     23 H10        29.2530   29.5990   22.9090 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_635
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_635
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.8970   29.6510   18.5520 N.4       1 PFF        -0.8530 
+      2 CA         27.8250   30.7870   19.4550 C.3       1 PFF         0.3970 
+      3 C          28.2890   32.0510   18.7860 C.2       1 PFF         0.9060 
+      4 O          28.8410   31.9670   17.6580 O.co2     1 PFF        -0.9000 
+      5 OXT        28.0990   33.1310   19.3760 O.co2     1 PFF        -0.9000 
+      6 CB         28.7140   30.5270   20.6660 C.3       1 PFF         0.1435 
+      7 CG         28.5800   31.7050   21.5960 C.ar      1 PFF        -0.1435 
+      8 CD1        27.3800   31.8870   22.2680 C.ar      1 PFF        -0.1500 
+      9 CD2        29.6420   32.5890   21.7880 C.ar      1 PFF        -0.1500 
+     10 CE1        27.2290   32.9560   23.1350 C.ar      1 PFF        -0.1500 
+     11 CE2        29.4940   33.6650   22.6620 C.ar      1 PFF        -0.1500 
+     12 CZ         28.2870   33.8380   23.3300 C.ar      1 PFF         0.1900 
+     13 F          28.1210   34.8690   24.1700 F         1 PFF        -0.1900 
+     14 H1         28.8490   29.5200   18.2510 H         1 PFF         0.4500 
+     15 H2         27.3110   29.8220   17.7500 H         1 PFF         0.4500 
+     16 H3         27.5780   28.8220   19.0300 H         1 PFF         0.4500 
+     17 H4         26.7830   30.9170   19.7840 H         1 PFF         0.0000 
+     18 H5         29.7610   30.4190   20.3460 H         1 PFF         0.0000 
+     19 H6         28.3910   29.6080   21.1770 H         1 PFF         0.0000 
+     20 H7         26.5610   31.1930   22.1150 H         1 PFF         0.1500 
+     21 H8         30.5770   32.4390   21.2600 H         1 PFF         0.1500 
+     22 H9         26.2910   33.1040   23.6600 H         1 PFF         0.1500 
+     23 H10        30.3110   34.3600   22.8190 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_665
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_665
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          28.0280   31.4610   19.7250 N.4       1 PFF        -0.8530 
+      2 CA         28.5080   32.3740   20.7480 C.3       1 PFF         0.3970 
+      3 C          29.7010   31.8130   21.4700 C.2       1 PFF         0.9060 
+      4 O          30.8310   31.9020   20.9240 O.co2     1 PFF        -0.9000 
+      5 OXT        29.5190   31.2890   22.5850 O.co2     1 PFF        -0.9000 
+      6 CB         27.3990   32.6200   21.7670 C.3       1 PFF         0.1435 
+      7 CG         27.9190   33.6010   22.7850 C.ar      1 PFF        -0.1435 
+      8 CD1        27.5550   34.9350   22.6680 C.ar      1 PFF        -0.1500 
+      9 CD2        28.7400   33.1780   23.8300 C.ar      1 PFF        -0.1500 
+     10 CE1        28.0110   35.8590   23.5930 C.ar      1 PFF        -0.1500 
+     11 CE2        29.2000   34.1060   24.7640 C.ar      1 PFF        -0.1500 
+     12 CZ         28.8290   35.4400   24.6370 C.ar      1 PFF         0.1900 
+     13 F          29.2630   36.3500   25.5200 F         1 PFF        -0.1900 
+     14 H1         27.7610   30.5890   20.1510 H         1 PFF         0.4500 
+     15 H2         28.7610   31.2970   19.0520 H         1 PFF         0.4500 
+     16 H3         27.2300   31.8670   19.2610 H         1 PFF         0.4500 
+     17 H4         28.7890   33.3260   20.2740 H         1 PFF         0.0000 
+     18 H5         27.1290   31.6750   22.2600 H         1 PFF         0.0000 
+     19 H6         26.5140   33.0360   21.2630 H         1 PFF         0.0000 
+     20 H7         26.9140   35.2530   21.8530 H         1 PFF         0.1500 
+     21 H8         29.0200   32.1340   23.9160 H         1 PFF         0.1500 
+     22 H9         27.7310   36.9030   23.5030 H         1 PFF         0.1500 
+     23 H10        29.8390   33.7910   25.5810 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_686
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_686
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.5730   33.0520   17.8380 N.4       1 PFF        -0.8530 
+      2 CA         28.1360   32.3330   18.9670 C.3       1 PFF         0.3970 
+      3 C          27.4050   31.0440   19.2180 C.2       1 PFF         0.9060 
+      4 O          28.0720   30.0250   19.5370 O.co2     1 PFF        -0.9000 
+      5 OXT        26.1640   31.0420   19.1080 O.co2     1 PFF        -0.9000 
+      6 CB         28.0330   33.1980   20.2190 C.3       1 PFF         0.1435 
+      7 CG         28.6640   32.4370   21.3570 C.ar      1 PFF        -0.1435 
+      8 CD1        30.0400   32.2580   21.3540 C.ar      1 PFF        -0.1500 
+      9 CD2        27.8840   31.9320   22.3980 C.ar      1 PFF        -0.1500 
+     10 CE1        30.6500   31.5710   22.3890 C.ar      1 PFF        -0.1500 
+     11 CE2        28.4960   31.2400   23.4430 C.ar      1 PFF        -0.1500 
+     12 CZ         29.8760   31.0670   23.4290 C.ar      1 PFF         0.1900 
+     13 F          30.4830   30.4010   24.4210 F         1 PFF        -0.1900 
+     14 H1         26.6050   33.2650   18.0230 H         1 PFF         0.4500 
+     15 H2         27.6380   32.4810   17.0100 H         1 PFF         0.4500 
+     16 H3         28.0850   33.9090   17.6970 H         1 PFF         0.4500 
+     17 H4         29.1930   32.1120   18.7590 H         1 PFF         0.0000 
+     18 H5         26.9760   33.4030   20.4460 H         1 PFF         0.0000 
+     19 H6         28.5650   34.1480   20.0630 H         1 PFF         0.0000 
+     20 H7         30.6370   32.6570   20.5410 H         1 PFF         0.1500 
+     21 H8         26.8100   32.0760   22.3940 H         1 PFF         0.1500 
+     22 H9         31.7240   31.4260   22.3890 H         1 PFF         0.1500 
+     23 H10        27.9020   30.8410   24.2580 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_696
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_696
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          27.6640   33.0260   18.8800 N.4       1 PFF        -0.8530 
+      2 CA         27.6240   31.9150   19.8150 C.3       1 PFF         0.3970 
+      3 C          26.3660   31.9330   20.6370 C.2       1 PFF         0.9060 
+      4 O          25.3770   32.5820   20.2090 O.co2     1 PFF        -0.9000 
+      5 OXT        26.3550   31.2940   21.7060 O.co2     1 PFF        -0.9000 
+      6 CB         28.8190   32.0070   20.7590 C.3       1 PFF         0.1435 
+      7 CG         28.7000   33.2980   21.5270 C.ar      1 PFF        -0.1435 
+      8 CD1        28.1950   33.2580   22.8190 C.ar      1 PFF        -0.1500 
+      9 CD2        29.0980   34.5080   20.9580 C.ar      1 PFF        -0.1500 
+     10 CE1        28.0800   34.4260   23.5530 C.ar      1 PFF        -0.1500 
+     11 CE2        28.9850   35.6860   21.6950 C.ar      1 PFF        -0.1500 
+     12 CZ         28.4780   35.6340   22.9880 C.ar      1 PFF         0.1900 
+     13 F          28.3560   36.7550   23.7120 F         1 PFF        -0.1900 
+     14 H1         27.6280   33.8950   19.3880 H         1 PFF         0.4500 
+     15 H2         26.8740   32.9680   18.2560 H         1 PFF         0.4500 
+     16 H3         28.5180   32.9850   18.3450 H         1 PFF         0.4500 
+     17 H4         27.6730   30.9720   19.2520 H         1 PFF         0.0000 
+     18 H5         29.7550   32.0000   20.1810 H         1 PFF         0.0000 
+     19 H6         28.8130   31.1550   21.4550 H         1 PFF         0.0000 
+     20 H7         27.8900   32.3120   23.2540 H         1 PFF         0.1500 
+     21 H8         29.4930   34.5310   19.9490 H         1 PFF         0.1500 
+     22 H9         27.6830   34.4000   24.5610 H         1 PFF         0.1500 
+     23 H10        29.2900   36.6330   21.2640 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1   14 1    
+     3    1   15 1    
+     4    1   16 1    
+     5    2    3 1    
+     6    2    6 1    
+     7    2   17 1    
+     8    3    4 ar   
+     9    3    5 ar   
+    10    6    7 1    
+    11    6   18 1    
+    12    6   19 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   10 ar   
+    16    8   20 1    
+    17    9   11 ar   
+    18    9   21 1    
+    19   10   12 ar   
+    20   10   22 1    
+    21   11   12 ar   
+    22   11   23 1    
+    23   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         7 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_735
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_735
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.2206   32.4186   19.5942 N.4       1 PFF        -0.8530 
+      2 C          27.4028   32.4751   20.4826 C.3       1 PFF         0.3970 
+      3 C          28.4169   31.4680   20.1076 C.2       1 PFF         0.9060 
+      4 O          28.1138   30.3813   19.3647 O.co2     1 PFF        -0.9000 
+      5 O          29.6730   31.5730   20.5941 O.co2     1 PFF        -0.9000 
+      6 C          26.9495   32.3332   21.9748 C.3       1 PFF         0.1435 
+      7 C          27.8118   33.0752   22.9397 C.ar      1 PFF        -0.1435 
+      8 C          27.5435   34.4323   23.2314 C.ar      1 PFF        -0.1500 
+      9 C          28.9021   32.4468   23.5872 C.ar      1 PFF        -0.1500 
+     10 C          28.3378   35.1398   24.1535 C.ar      1 PFF        -0.1500 
+     11 C          29.6910   33.1495   24.5131 C.ar      1 PFF        -0.1500 
+     12 C          29.4042   34.4971   24.8069 C.ar      1 PFF         0.1900 
+     13 F          30.1392   35.1533   25.6593 F         1 PFF        -0.1900 
+     14 H          25.6876   33.2825   19.7182 H         1 PFF         0.4500 
+     15 H          25.6156   31.6324   19.8487 H         1 PFF         0.4500 
+     16 H          26.4942   32.3583   18.6093 H         1 PFF         0.4500 
+     17 H          27.8385   33.4683   20.3194 H         1 PFF         0.0000 
+     18 H          26.8891   31.2753   22.2583 H         1 PFF         0.0000 
+     19 H          25.9317   32.7160   22.0850 H         1 PFF         0.0000 
+     20 H          26.7655   34.9140   22.7754 H         1 PFF         0.1500 
+     21 H          29.1259   31.4691   23.3787 H         1 PFF         0.1500 
+     22 H          28.1315   36.1179   24.3537 H         1 PFF         0.1500 
+     23 H          30.4797   32.6870   24.9708 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_775
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_775
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          25.8798   32.2669   19.5092 N.4       1 PFF        -0.8530 
+      2 C          26.9710   31.7574   20.3595 C.3       1 PFF         0.3970 
+      3 C          26.4095   31.3142   21.6579 C.2       1 PFF         0.9060 
+      4 O          25.6814   32.1656   22.4128 O.co2     1 PFF        -0.9000 
+      5 O          26.9732   30.2772   22.3166 O.co2     1 PFF        -0.9000 
+      6 C          28.1702   32.7742   20.4362 C.3       1 PFF         0.1435 
+      7 C          28.4751   33.3396   21.7844 C.ar      1 PFF        -0.1435 
+      8 C          29.2145   32.5770   22.7208 C.ar      1 PFF        -0.1500 
+      9 C          28.0113   34.6199   22.1687 C.ar      1 PFF        -0.1500 
+     10 C          29.4521   33.0684   24.0190 C.ar      1 PFF        -0.1500 
+     11 C          28.2455   35.1103   23.4681 C.ar      1 PFF        -0.1500 
+     12 C          28.9802   34.3393   24.3896 C.ar      1 PFF         0.1900 
+     13 F          29.2385   34.8044   25.5834 F         1 PFF        -0.1900 
+     14 H          26.1775   32.3402   18.5318 H         1 PFF         0.4500 
+     15 H          25.5787   33.1842   19.8358 H         1 PFF         0.4500 
+     16 H          25.0937   31.6198   19.5683 H         1 PFF         0.4500 
+     17 H          27.3337   30.8583   19.8545 H         1 PFF         0.0000 
+     18 H          28.0008   33.5985   19.7361 H         1 PFF         0.0000 
+     19 H          29.0749   32.2748   20.0631 H         1 PFF         0.0000 
+     20 H          29.5853   31.6579   22.4630 H         1 PFF         0.1500 
+     21 H          27.4964   35.2022   21.5093 H         1 PFF         0.1500 
+     22 H          29.9858   32.5060   24.6848 H         1 PFF         0.1500 
+     23 H          27.8886   36.0254   23.7416 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_779
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_779
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.0470   32.3468   20.1216 N.4       1 PFF        -0.8530 
+      2 C          27.2689   32.4497   19.3103 C.3       1 PFF         0.3970 
+      3 C          27.8995   31.1302   19.1048 C.2       1 PFF         0.9060 
+      4 O          27.6930   30.1050   19.9624 O.co2     1 PFF        -0.9000 
+      5 O          28.8471   30.9857   18.1536 O.co2     1 PFF        -0.9000 
+      6 C          28.2355   33.5182   19.9026 C.3       1 PFF         0.1435 
+      7 C          28.5734   33.3401   21.3429 C.ar      1 PFF        -0.1435 
+      8 C          28.0430   34.2088   22.3300 C.ar      1 PFF        -0.1500 
+      9 C          29.4352   32.2975   21.7587 C.ar      1 PFF        -0.1500 
+     10 C          28.3591   34.0333   23.6892 C.ar      1 PFF        -0.1500 
+     11 C          29.7380   32.1088   23.1198 C.ar      1 PFF        -0.1500 
+     12 C          29.2042   32.9796   24.0879 C.ar      1 PFF         0.1900 
+     13 F          29.5201   32.8378   25.3460 F         1 PFF        -0.1900 
+     14 H          25.5868   33.2564   20.1215 H         1 PFF         0.4500 
+     15 H          26.2861   32.0844   21.0802 H         1 PFF         0.4500 
+     16 H          25.4143   31.6461   19.7304 H         1 PFF         0.4500 
+     17 H          26.9464   32.8043   18.3274 H         1 PFF         0.0000 
+     18 H          27.7680   34.4941   19.7567 H         1 PFF         0.0000 
+     19 H          29.1604   33.5431   19.3237 H         1 PFF         0.0000 
+     20 H          27.4247   34.9801   22.0636 H         1 PFF         0.1500 
+     21 H          29.8592   31.6687   21.0733 H         1 PFF         0.1500 
+     22 H          27.9793   34.6806   24.3851 H         1 PFF         0.1500 
+     23 H          30.3551   31.3409   23.3990 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_788
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_788
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.1916   31.2177   22.0866 N.4       1 PFF        -0.8530 
+      2 C          27.6060   30.9184   21.8132 C.3       1 PFF         0.3970 
+      3 C          28.2191   30.1536   22.9220 C.2       1 PFF         0.9060 
+      4 O          27.6144   30.0410   24.1306 O.co2     1 PFF        -0.9000 
+      5 O          29.4971   29.7325   22.8227 O.co2     1 PFF        -0.9000 
+      6 C          28.3899   32.2276   21.5004 C.3       1 PFF         0.1435 
+      7 C          28.6559   33.0717   22.7038 C.ar      1 PFF        -0.1435 
+      8 C          29.5825   32.6359   23.6831 C.ar      1 PFF        -0.1500 
+      9 C          28.0292   34.3290   22.8675 C.ar      1 PFF        -0.1500 
+     10 C          29.8893   33.4525   24.7901 C.ar      1 PFF        -0.1500 
+     11 C          28.3409   35.1507   23.9677 C.ar      1 PFF        -0.1500 
+     12 C          29.2856   34.7178   24.9208 C.ar      1 PFF         0.1900 
+     13 F          29.6205   35.5001   25.9128 F         1 PFF        -0.1900 
+     14 H          25.7477   31.5756   21.2408 H         1 PFF         0.4500 
+     15 H          26.1223   31.9192   22.8287 H         1 PFF         0.4500 
+     16 H          25.7147   30.3634   22.3836 H         1 PFF         0.4500 
+     17 H          27.6327   30.2874   20.9250 H         1 PFF         0.0000 
+     18 H          27.8187   32.7985   20.7623 H         1 PFF         0.0000 
+     19 H          29.3442   31.9810   21.0281 H         1 PFF         0.0000 
+     20 H          30.0599   31.7409   23.5822 H         1 PFF         0.1500 
+     21 H          27.3465   34.6636   22.1890 H         1 PFF         0.1500 
+     22 H          30.5865   33.1436   25.4796 H         1 PFF         0.1500 
+     23 H          27.8962   36.0660   24.0653 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_789
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:29 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:29 2018
+
+@<TRIPOS>MOLECULE
+3f3c_789
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.2249   31.1248   22.0569 N.4       1 PFF        -0.8530 
+      2 C          27.6664   30.9147   21.8290 C.3       1 PFF         0.3970 
+      3 C          28.2605   30.1394   22.9368 C.2       1 PFF         0.9060 
+      4 O          27.6642   30.0735   24.1435 O.co2     1 PFF        -0.9000 
+      5 O          29.5647   29.7696   22.8760 O.co2     1 PFF        -0.9000 
+      6 C          28.3799   32.2666   21.5459 C.3       1 PFF         0.1435 
+      7 C          28.6407   33.1118   22.7555 C.ar      1 PFF        -0.1435 
+      8 C          28.0213   34.3830   22.9043 C.ar      1 PFF        -0.1500 
+      9 C          29.5690   32.6945   23.7446 C.ar      1 PFF        -0.1500 
+     10 C          28.3315   35.2059   23.9900 C.ar      1 PFF        -0.1500 
+     11 C          29.8704   33.5130   24.8430 C.ar      1 PFF        -0.1500 
+     12 C          29.2681   34.7564   24.9774 C.ar      1 PFF         0.1900 
+     13 F          29.5941   35.5295   25.9748 F         1 PFF        -0.1900 
+     14 H          25.7828   31.4416   21.1933 H         1 PFF         0.4500 
+     15 H          26.0776   31.8250   22.7861 H         1 PFF         0.4500 
+     16 H          25.7970   30.2435   22.3466 H         1 PFF         0.4500 
+     17 H          27.7483   30.2910   20.9332 H         1 PFF         0.0000 
+     18 H          27.7792   32.8080   20.8112 H         1 PFF         0.0000 
+     19 H          29.3352   32.0784   21.0587 H         1 PFF         0.0000 
+     20 H          27.3487   34.7206   22.1947 H         1 PFF         0.1500 
+     21 H          30.0715   31.8113   23.6573 H         1 PFF         0.1500 
+     22 H          27.9003   36.1270   24.0839 H         1 PFF         0.1500 
+     23 H          30.5685   33.1978   25.5230 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_790
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_790
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.1894   31.1118   22.2468 N.4       1 PFF        -0.8530 
+      2 C          27.6086   30.9370   21.9479 C.3       1 PFF         0.3970 
+      3 C          28.2822   30.1921   23.0279 C.2       1 PFF         0.9060 
+      4 O          27.7199   30.0574   24.2580 O.co2     1 PFF        -0.9000 
+      5 O          29.5325   29.7011   22.8563 O.co2     1 PFF        -0.9000 
+      6 C          28.2682   32.3006   21.5993 C.3       1 PFF         0.1435 
+      7 C          28.5803   33.1771   22.7808 C.ar      1 PFF        -0.1435 
+      8 C          27.9593   34.4536   22.9125 C.ar      1 PFF        -0.1500 
+      9 C          29.5395   32.7921   23.7366 C.ar      1 PFF        -0.1500 
+     10 C          28.2878   35.2955   23.9846 C.ar      1 PFF        -0.1500 
+     11 C          29.8241   33.6111   24.8479 C.ar      1 PFF        -0.1500 
+     12 C          29.2123   34.8807   24.9515 C.ar      1 PFF         0.1900 
+     13 F          29.5492   35.6705   25.9385 F         1 PFF        -0.1900 
+     14 H          25.6826   31.3685   21.3902 H         1 PFF         0.4500 
+     15 H          26.0688   31.8469   22.9407 H         1 PFF         0.4500 
+     16 H          25.7925   30.2374   22.6050 H         1 PFF         0.4500 
+     17 H          27.6584   30.2984   21.0509 H         1 PFF         0.0000 
+     18 H          27.6073   32.8210   20.9096 H         1 PFF         0.0000 
+     19 H          29.2071   32.1203   21.0552 H         1 PFF         0.0000 
+     20 H          27.2826   34.7881   22.2169 H         1 PFF         0.1500 
+     21 H          30.0663   31.9394   23.6105 H         1 PFF         0.1500 
+     22 H          27.8718   36.2216   24.0601 H         1 PFF         0.1500 
+     23 H          30.5133   33.2995   25.5354 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_791
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_791
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.2056   31.1827   22.0512 N.4       1 PFF        -0.8530 
+      2 C          27.6380   30.9286   21.8281 C.3       1 PFF         0.3970 
+      3 C          28.2330   30.1796   22.9509 C.2       1 PFF         0.9060 
+      4 O          29.5006   29.7283   22.8562 O.co2     1 PFF        -0.9000 
+      5 O          27.6101   30.0602   24.1451 O.co2     1 PFF        -0.9000 
+      6 C          28.4019   32.2487   21.5302 C.3       1 PFF         0.1435 
+      7 C          28.6537   33.0965   22.7297 C.ar      1 PFF        -0.1435 
+      8 C          29.5751   32.6783   23.7204 C.ar      1 PFF        -0.1500 
+      9 C          28.0238   34.3507   22.8900 C.ar      1 PFF        -0.1500 
+     10 C          29.8767   33.5007   24.8241 C.ar      1 PFF        -0.1500 
+     11 C          28.3208   35.1778   23.9889 C.ar      1 PFF        -0.1500 
+     12 C          29.2539   34.7503   24.9532 C.ar      1 PFF         0.1900 
+     13 F          29.5485   35.5201   25.9582 F         1 PFF        -0.1900 
+     14 H          25.7793   31.5367   21.1937 H         1 PFF         0.4500 
+     15 H          26.0808   31.8683   22.7980 H         1 PFF         0.4500 
+     16 H          25.7435   30.3098   22.3154 H         1 PFF         0.4500 
+     17 H          27.7031   30.2964   20.9432 H         1 PFF         0.0000 
+     18 H          27.8320   32.8178   20.7888 H         1 PFF         0.0000 
+     19 H          29.3646   32.0215   21.0641 H         1 PFF         0.0000 
+     20 H          30.0601   31.7829   23.6219 H         1 PFF         0.1500 
+     21 H          27.3494   34.6861   22.2001 H         1 PFF         0.1500 
+     22 H          30.5822   33.2002   25.5070 H         1 PFF         0.1500 
+     23 H          27.8751   36.0918   24.0785 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_792
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_792
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.2691   31.3666   22.0170 N.4       1 PFF        -0.8530 
+      2 C          27.6532   30.9401   21.7606 C.3       1 PFF         0.3970 
+      3 C          28.1646   30.0841   22.8532 C.2       1 PFF         0.9060 
+      4 O          29.3853   29.5231   22.7424 O.co2     1 PFF        -0.9000 
+      5 O          27.5577   30.0376   24.0634 O.co2     1 PFF        -0.9000 
+      6 C          28.5560   32.1787   21.4927 C.3       1 PFF         0.1435 
+      7 C          28.7298   33.0520   22.6879 C.ar      1 PFF        -0.1435 
+      8 C          27.9880   34.2512   22.8195 C.ar      1 PFF        -0.1500 
+      9 C          29.6562   32.7081   23.7039 C.ar      1 PFF        -0.1500 
+     10 C          28.2078   35.1141   23.9098 C.ar      1 PFF        -0.1500 
+     11 C          29.8531   33.5536   24.8080 C.ar      1 PFF        -0.1500 
+     12 C          29.1493   34.7692   24.8983 C.ar      1 PFF         0.1900 
+     13 F          29.3881   35.5891   25.8799 F         1 PFF        -0.1900 
+     14 H          25.8943   31.8341   21.1885 H         1 PFF         0.4500 
+     15 H          26.2416   32.0133   22.8084 H         1 PFF         0.4500 
+     16 H          25.6929   30.5485   22.2307 H         1 PFF         0.4500 
+     17 H          27.6332   30.3289   20.8536 H         1 PFF         0.0000 
+     18 H          28.1224   32.7489   20.6624 H         1 PFF         0.0000 
+     19 H          29.5418   31.8450   21.1513 H         1 PFF         0.0000 
+     20 H          27.2951   34.5160   22.1121 H         1 PFF         0.1500 
+     21 H          30.2218   31.8598   23.6257 H         1 PFF         0.1500 
+     22 H          27.6899   35.9896   23.9734 H         1 PFF         0.1500 
+     23 H          30.5413   33.3028   25.5248 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
+#	Name:			3f3c_799
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:13:30 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:13:30 2018
+
+@<TRIPOS>MOLECULE
+3f3c_799
+   23    23     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          26.6838   34.0877   22.9427 N.4       1 PFF        -0.8530 
+      2 C          28.0882   34.0795   23.3670 C.3       1 PFF         0.3970 
+      3 C          28.7931   35.1851   22.6764 C.2       1 PFF         0.9060 
+      4 O          29.0652   36.3256   23.3528 O.co2     1 PFF        -0.9000 
+      5 O          28.9975   35.1640   21.3399 O.co2     1 PFF        -0.9000 
+      6 C          28.7233   32.6610   23.2054 C.3       1 PFF         0.1435 
+      7 C          28.4099   31.9680   21.9168 C.ar      1 PFF        -0.1435 
+      8 C          29.2765   32.0820   20.8055 C.ar      1 PFF        -0.1500 
+      9 C          27.2096   31.2344   21.7671 C.ar      1 PFF        -0.1500 
+     10 C          28.9357   31.5025   19.5709 C.ar      1 PFF        -0.1500 
+     11 C          26.8774   30.6422   20.5294 C.ar      1 PFF        -0.1500 
+     12 C          27.7372   30.7795   19.4265 C.ar      1 PFF         0.1900 
+     13 F          27.4258   30.2467   18.2771 F         1 PFF        -0.1900 
+     14 H          26.1838   33.3554   23.4516 H         1 PFF         0.4500 
+     15 H          26.6266   33.8954   21.9409 H         1 PFF         0.4500 
+     16 H          26.2611   34.9996   23.1395 H         1 PFF         0.4500 
+     17 H          28.0908   34.3128   24.4358 H         1 PFF         0.0000 
+     18 H          28.3631   32.0274   24.0208 H         1 PFF         0.0000 
+     19 H          29.8101   32.7337   23.3374 H         1 PFF         0.0000 
+     20 H          30.1644   32.5884   20.8904 H         1 PFF         0.1500 
+     21 H          26.5502   31.1425   22.5445 H         1 PFF         0.1500 
+     22 H          29.5504   31.6241   18.7672 H         1 PFF         0.1500 
+     23 H          26.0062   30.1159   20.4301 H         1 PFF         0.1500 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 1    
+     3    2    6 1    
+     4    3    4 ar   
+     5    3    5 ar   
+     6    6    7 1    
+     7    7    8 ar   
+     8    7    9 ar   
+     9    8   10 ar   
+    10    9   11 ar   
+    11   10   12 ar   
+    12   11   12 ar   
+    13   12   13 1    
+    14    1   14 1    
+    15    1   15 1    
+    16    1   16 1    
+    17    2   17 1    
+    18    6   18 1    
+    19    6   19 1    
+    20    8   20 1    
+    21    9   21 1    
+    22   10   22 1    
+    23   11   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PFF         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 2 CR 6 CR 7 CB 8 CB 9 CB 10 CB 11 CB 12 CB 3 CO2M 17 HC 18 HC \
+19 HC 20 HC 21 HC 22 HC 23 HC 14 HNR+ 15 HNR+ 16 HNR+ \
+4 O2CM 5 O2CM 1 NR+ 13 F 
