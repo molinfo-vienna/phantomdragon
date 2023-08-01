@@ -1,0 +1,87 @@
+##############################################################
+Download and install the Anaconda package
+##############################################################
+
+The Anaconda package includes the standard libraries needed by the Python scripts provided in the CASF-2016 package. The user is supposed to install Anaconda first if it is not installed in your system already. 
+
+(1)Download the Anaconda installer from https://www.anaconda.com/download/. Here, choose the 64-Bit version of Python 2.7.
+
+(2)Go to the directory of the Anaconda installer package and run the following command to install:
+
+   bash Anaconda2-5.3.0-Linux-x86_64.sh
+
+(3)The installer prompts you to click 'Enter' to accept the default install location, CTRL-C to cancel the installation, or specify an alternate installation directory. If you accept the default install location, the installer displays "PREFIX=/home/<user>/anaconda <2 or 3>" and continues the installation. Here we accept the default install location. It may take a few minutes to complete.
+
+(4)When the installer prompts "Do you wish the installer to prepend the Anaconda2 install location to PATH in your /home/<user>/.bashrc ?", enter "yes".
+
+(5)When the installer prompts if you want to install VS Code, enter "no".
+
+(6)If you are a C-Shell user, add the path to '.cshrc': e.g. setenv PATH "/home/user/Anaconda2/bin:${PATH}"
+
+(7)Open a new terminal window to enable the configuration, or you can enter the command: 'source ~/.bashrc' or 'source ~/.cshrc'.
+
+
+##############################################################
+Assesement of scoring function with the  CASF-2016 benchmark
+##############################################################
+
+(1) Evaluation of scoring power
+
+e.g. python scoring_power.py -c CoreSet.dat -s ./examples/X-Score.dat -p 'positive' -o 'X-Score' > MyScoringPower.out
+
+Parameters:
+-c or --coreset: specify the location of 'CoreSet.dat' (or a subset data file) in the CASF-2016 package. 
+-s or --score: input your scoring file name. Remember the 1st column name is #code and the 2nd column name is score. Supported file separators are comma(,), tabs(\t) and space character( ).
+-p or --prefer: input 'negative' or 'positive' string, depend on your scoring funtion preference.
+-o or --output: input the prefix of the output processed scoring files. Default name is 'My_Scoring_Power'.
+-h or --help: print help message.
+
+
+(2) Evaluation of ranking power
+
+e.g. python ranking_power.py -c CoreSet.dat -s ./examples/X-Score.dat -p 'positive' -o 'X-Score' > MyRankingPower.out
+
+Parameters:
+-c or --coreset: specify the location of 'CoreSet.dat' (or a subset data file) in the CASF-2016 package.
+-s or --score: input your scoring file name. Remember the 1st column name is #code and the 2nd column name is score. Supported file separators are comma(,), tabs(\t) and space character( ).
+-p or --prefer: input 'negative' or 'positive' string, depend on your scoring funtion preference.
+-o or --output: input the prefix of output result files. Default is 'My_Ranking_Power'.
+-h or --help: print help message.
+
+(3) Evaluation of docking power
+
+e.g. python docking_power.py -c CoreSet.dat -s ./examples/X-Score -r ../decoys_docking/ -p 'positive' -l 2 -o 'X-Score' > MyDockingPower.out
+
+Parameters:
+-c or --coreset: specify the location of 'CoreSet.dat' (or a subset data file) in the CASF-2016 package.
+-s or --score: input your scoring file name. Remember the 1st column name is #code and the 2nd column name is score. Supported file separators are comma(,), tabs(\t) and space character( ).
+-p or --prefer: input 'negative' or 'positive' string, depend on your scoring funtion preference.
+-r or --rmsd: specify the directory containing the RMSD data files (e.g. 'XXXX_rmsd.dat').
+-o or --output: input the prefix of output result files. Default is 'My_Docking_Power'.
+-l or --limit: set the RMSD cutoff (in angstrom) to define near-native docking pose.
+-h or --help: print help message.
+
+(4) Evaluation of forward screening power
+
+e.g. python forward_screening_power.py -c CoreSet.dat -s ./examples/X-Score -t ./TargetInfo.dat -p 'positive' -o 'X-Score' > MyForwardScreeningPower.out
+
+Parameters:
+-c or --coreset: specify the location of 'CoreSet.dat' (or a subset data file) in the CASF-2016 package.
+-s or --score: input your scoring file name. Remember the 1st column name is #code_ligand_num and the 2nd column name is score. Supported file separators are comma(,), tabs(\t) and space character( ).
+-p or --prefer: input 'negative' or 'positive' string, depend on your scoring funtion preference.
+-o or --output: input the prefix of output result files. Default is 'My_Forward_Screening_Power'.
+-t or --target: specify the location of 'TargetInfo.dat' in the CASF-2016 package.
+-h or --help: print help message.
+
+(5) Evaluation of reverse screening power
+
+e.g. python reverse_screening_power.py -c CoreSet.dat -s ./examples/X-Score -l ./LigandInfo.dat -p 'positive' -o 'X-Score' > MyReverseScreeningPower.out
+
+Parameters:
+-c or --coreset: specify the location of "CoreSet.dat" (or a subset data file) in the CASF-2016 package.
+-s or --score: input your scoring file name. Remember the 1st column name is #code_ligand_num and the 2nd column name is score. Supported file separators are comma(,), tabs(\t) and space character( ).
+-p or --prefer: input 'negative' or 'positive' string, depend on your scoring funtion preference.
+-l or --ligandinfo: specify the location of 'LigandInfo.dat' in the CASF-2016 package.
+-o or --output: input the prefix of output result files. Default is 'My_Reverse_Screening_Power'.
+-h or --help: print help message.
+
