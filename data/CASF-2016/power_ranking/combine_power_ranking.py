@@ -21,6 +21,8 @@ start = False
 SP_list = []
 tau_list =[]
 PI_list = []
+SPscipy_list = []
+conf_list = []
 
 for data in datatypes:
     for model in modeltypes:
@@ -46,8 +48,16 @@ for data in datatypes:
                         if i == tmp + 2:
                             tmp_line = str(line).split(sep="=")
                             blub = tmp_line[-1]
-                            tau_list.append(blub)
+                            SPscipy_list.append(blub)
                         if i == tmp + 3:
+                            tmp_line = str(line).split(sep="=")
+                            blub = tmp_line[-1]
+                            conf_list.append(blub)
+                        if i == tmp + 4:
+                            tmp_line = str(line).split(sep="=")
+                            blub = tmp_line[-1]
+                            tau_list.append(blub)
+                        if i == tmp + 5:
                             tmp_line = str(line).split(sep="=")
                             blub = tmp_line[-1]
                             PI_list.append(blub)
@@ -61,6 +71,8 @@ data = {
     "Featuretype": add_info_list,
     "Scoretype": score_list,
     "Spearman correlation coefficient (SP)": SP_list,
+    "Scipy Spearman correlation coefficent (SP)": SPscipy_list,
+    "Confidence interval of 90% Spearman SP": conf_list,
     "Kendall correlation coefficient (tau)": tau_list,
     "Predictive index (PI)": PI_list,
 }

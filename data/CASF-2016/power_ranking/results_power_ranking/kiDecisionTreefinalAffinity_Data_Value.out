@@ -59,6 +59,8 @@
 
 Summary of the ranking power: ===========================================
 The Spearman correlation coefficient (SP) = 0.012
+Spearman Scipy = -0.06649301285316046 
+Confidence interval of 90% Spearman Scipy = [-0.166 ~ 0.034] 
 The Kendall correlation coefficient (tau) = 0.009
 The Predictive index (PI) = 0.012
 =========================================================================

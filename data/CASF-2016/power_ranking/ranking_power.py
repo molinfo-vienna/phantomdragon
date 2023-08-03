@@ -4,9 +4,11 @@ import sys,os
 import pandas as pd
 import scipy
 import getopt
+import math
 from sklearn import linear_model
 from sklearn.metrics import mean_squared_error
 from decimal import *
+
 if len(sys.argv) < 2:
 	print ("Please input parameter files or use -h for help")
 	sys.exit()
@@ -143,11 +145,25 @@ if os.path.exists('cstemp'):
 #Output results
 rankresults.dropna(axis=0,inplace=True)
 rankresults.style.set_properties(align="right")
+
+spearman_r = scipy.stats.spearmanr(
+	testdf1['logKa'].values,testdf1['score'].values
+).correlation
+
+count = len(testdf1['logKa'].values)
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(spearman_r) - delta),3)
+upper = round(math.tanh(math.atanh(spearman_r) + delta),3)
+conf_int = f"[{lower} ~ {upper}]"
+
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
 print(rankresults)
 print ("\nSummary of the ranking power: ===========================================")
 print(("The Spearman correlation coefficient (SP) = %0.3f"%(dec(spearmanmean,3))))
+print(f"Spearman Scipy = {spearman_r} ")
+print(f"Confidence interval of 90% Spearman Scipy = {conf_int} ")
 print(("The Kendall correlation coefficient (tau) = %0.3f"%(dec(kendallmean,3))))
 print(("The Predictive index (PI) = %0.3f"%(dec(PImean,3))))
 print ("=========================================================================\n")
