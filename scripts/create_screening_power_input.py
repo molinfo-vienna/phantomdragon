@@ -17,7 +17,7 @@ modeltypes = [
 scoretypes = ["delta G", "Affinity Data Value", "pKd pKi pIC50"]
 
 for PDBcode1 in next(os.walk("../data/CASF-2016/decoys_screening"))[1]:
-    data = pd.DataFrame(columns=df.columns)
+    data = pd.DataFrame()
     for PDBcode2 in df["PDB code"]:
         if PDBcode1 == PDBcode2:
             continue
@@ -41,6 +41,7 @@ for PDBcode1 in next(os.walk("../data/CASF-2016/decoys_screening"))[1]:
             data1 = pd.read_csv(
                 f"../data/CASF-2016/power_screening/GAP_descriptors/{PDBcode1}_{PDBcode2}_grail_scores.csv"
             )
+
             data = pd.concat([data, data1])
     data.to_csv(
         f"../data/CASF-2016/power_screening/GAP_descriptors/{PDBcode1}_grail_scores.csv",
@@ -55,6 +56,7 @@ for PDBcode1 in next(os.walk("../data/CASF-2016/decoys_screening"))[1]:
     for k in datatypes:
         for modeltype in modeltypes:
             for score in scoretypes:
+                print(PDBcode1,k, modeltype, score, "Start")
                 blub = ph.parameterCollector(
                     modeltype=modeltype, scoretype=score, add_information="final"
                 )
@@ -64,7 +66,7 @@ for PDBcode1 in next(os.walk("../data/CASF-2016/decoys_screening"))[1]:
                     "../models/",
                     identifier="Ligand",
                 )
-                data = {"#code": PDBs, "score": phantomscore}
+                data = {"#code_ligand_num": PDBs, "score": phantomscore}
                 df = pd.DataFrame(data)
 
                 if "/" in score:
