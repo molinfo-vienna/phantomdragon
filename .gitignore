@@ -1,8 +1,10 @@
 data/refined-set/*
 data/CASF-2016/coreset/*
 data/CASF-2016/decoys_screening/*
-data/CASF-2016/power_screening/*
+data/CASF-2016/power_screening/GAP_descriptors/*
+data/CASF-2016/power_screening/GAP_Scores/*
+data/CASF-2016/power_screening/examples/*
+data/CASF-2016/decoys_screening/*
 plots/*
-results/CASF_input
 scripts/tmp.py
 models/*
