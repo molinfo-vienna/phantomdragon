@@ -1,0 +1,3985 @@
+#	Name:			1uto_10
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_10
+   21    21     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        46.0049   18.4678   52.4875 C.ar      1 PEA        -0.1435 
+      2 C6'        46.2781   19.5114   51.6209 C.ar      1 PEA        -0.1500 
+      3 C5'        45.4734   19.8240   50.5373 C.ar      1 PEA        -0.1500 
+      4 C4'        44.3408   19.0706   50.2667 C.ar      1 PEA        -0.1500 
+      5 C3'        44.0642   18.0139   51.1145 C.ar      1 PEA        -0.1500 
+      6 C2'        44.8728   17.7255   52.1881 C.ar      1 PEA        -0.1500 
+      7 C2         46.8379   18.2007   53.5950 C.3       1 PEA         0.1435 
+      8 C1         46.1100   18.4908   54.9427 C.3       1 PEA         0.5030 
+      9 N          46.9881   18.1971   56.1161 N.4       1 PEA        -0.8530 
+     10 H1         47.1627   20.1123   51.7981 H         1 PEA         0.1500 
+     11 H2         45.7302   20.6610   49.8982 H         1 PEA         0.1500 
+     12 H3         43.6983   19.3009   49.4246 H         1 PEA         0.1500 
+     13 H4         43.1907   17.3995   50.9285 H         1 PEA         0.1500 
+     14 H5         44.6157   16.8864   52.8244 H         1 PEA         0.1500 
+     15 H6         47.7338   18.8355   53.5292 H         1 PEA         0.0000 
+     16 H7         47.1359   17.1421   53.5708 H         1 PEA         0.0000 
+     17 H8         45.2093   17.8623   55.0047 H         1 PEA         0.0000 
+     18 H9         45.8196   19.5514   54.9707 H         1 PEA         0.0000 
+     19 H10        46.4196   18.0786   56.9399 H         1 PEA         0.4500 
+     20 H11        47.6282   18.9630   56.2569 H         1 PEA         0.4500 
+     21 H12        47.5089   17.3516   55.9428 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 19 20 21
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 19 20 21
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_203
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_203
+   21    21     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.4075   19.9135   51.7317 C.ar      1 PEA        -0.1435 
+      2 C6'        44.5634   19.4221   50.7515 C.ar      1 PEA        -0.1500 
+      3 C5'        44.6514   19.7975   49.4208 C.ar      1 PEA        -0.1500 
+      4 C4'        45.6072   20.7172   49.0153 C.ar      1 PEA        -0.1500 
+      5 C3'        46.4471   21.2296   49.9868 C.ar      1 PEA        -0.1500 
+      6 C2'        46.3466   20.8380   51.3006 C.ar      1 PEA        -0.1500 
+      7 C2         45.2995   19.4836   53.0715 C.3       1 PEA         0.1435 
+      8 C1         46.1630   18.2130   53.3371 C.3       1 PEA         0.5030 
+      9 N          46.4180   18.0170   54.7968 N.4       1 PEA        -0.8530 
+     10 H1         43.7977   18.7102   51.0381 H         1 PEA         0.1500 
+     11 H2         43.9704   19.3707   48.6935 H         1 PEA         0.1500 
+     12 H3         45.6923   21.0218   47.9784 H         1 PEA         0.1500 
+     13 H4         47.2012   21.9560   49.7062 H         1 PEA         0.1500 
+     14 H5         47.0269   21.2681   52.0268 H         1 PEA         0.1500 
+     15 H6         44.2464   19.2513   53.2883 H         1 PEA         0.0000 
+     16 H7         45.6407   20.2922   53.7347 H         1 PEA         0.0000 
+     17 H8         47.1266   18.3211   52.8177 H         1 PEA         0.0000 
+     18 H9         45.6323   17.3325   52.9459 H         1 PEA         0.0000 
+     19 H10        47.0155   17.2159   54.9289 H         1 PEA         0.4500 
+     20 H11        45.5428   17.8656   55.2735 H         1 PEA         0.4500 
+     21 H12        46.8678   18.8371   55.1724 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 19 20 21
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 19 20 21
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_24
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:41 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:41 2018
+
+@<TRIPOS>MOLECULE
+1uto_24
+   21    21     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.8068   19.8622   50.4918 C.ar      1 PEA        -0.1435 
+      2 C6'        46.2717   20.8225   51.3730 C.ar      1 PEA        -0.1500 
+      3 C5'        46.5060   22.1370   51.0033 C.ar      1 PEA        -0.1500 
+      4 C4'        46.2903   22.5448   49.6953 C.ar      1 PEA        -0.1500 
+      5 C3'        45.8416   21.5920   48.7994 C.ar      1 PEA        -0.1500 
+      6 C2'        45.6092   20.2945   49.1893 C.ar      1 PEA        -0.1500 
+      7 C2         45.5565   18.5401   50.9174 C.3       1 PEA         0.1435 
+      8 C1         44.0439   18.3113   51.2173 C.3       1 PEA         0.5030 
+      9 N          43.8220   17.0559   51.9977 N.4       1 PEA        -0.8530 
+     10 H1         46.4614   20.5328   52.4002 H         1 PEA         0.1500 
+     11 H2         46.8593   22.8498   51.7395 H         1 PEA         0.1500 
+     12 H3         46.4665   23.5693   49.3877 H         1 PEA         0.1500 
+     13 H4         45.6693   21.8744   47.7671 H         1 PEA         0.1500 
+     14 H5         45.2585   19.5826   48.4508 H         1 PEA         0.1500 
+     15 H6         46.1355   18.3437   51.8318 H         1 PEA         0.0000 
+     16 H7         45.8729   17.8443   50.1264 H         1 PEA         0.0000 
+     17 H8         43.4976   18.2409   50.2651 H         1 PEA         0.0000 
+     18 H9         43.6617   19.1643   51.7972 H         1 PEA         0.0000 
+     19 H10        44.0618   17.2141   52.9639 H         1 PEA         0.4500 
+     20 H11        44.4016   16.3208   51.6237 H         1 PEA         0.4500 
+     21 H12        42.8530   16.7861   51.9319 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 19 20 21
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 19 20 21
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_290
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_290
+   21    21     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.2963   19.5059   51.6675 C.ar      1 PEA        -0.1435 
+      2 C6'        44.0370   19.1321   51.2325 C.ar      1 PEA        -0.1500 
+      3 C5'        43.6603   19.1556   49.8995 C.ar      1 PEA        -0.1500 
+      4 C4'        44.5536   19.5810   48.9276 C.ar      1 PEA        -0.1500 
+      5 C3'        45.8106   19.9736   49.3493 C.ar      1 PEA        -0.1500 
+      6 C2'        46.1656   19.9360   50.6767 C.ar      1 PEA        -0.1500 
+      7 C2         45.6464   19.4415   53.0331 C.3       1 PEA         0.1435 
+      8 C1         46.1209   18.0123   53.4363 C.3       1 PEA         0.5030 
+      9 N          46.4060   17.9204   54.9007 N.4       1 PEA        -0.8530 
+     10 H1         43.3115   18.8057   51.9689 H         1 PEA         0.1500 
+     11 H2         42.6631   18.8401   49.6149 H         1 PEA         0.1500 
+     12 H3         44.2776   19.6047   47.8795 H         1 PEA         0.1500 
+     13 H4         46.5317   20.3185   48.6171 H         1 PEA         0.1500 
+     14 H5         47.1625   20.2544   50.9594 H         1 PEA         0.1500 
+     15 H6         44.7693   19.7109   53.6398 H         1 PEA         0.0000 
+     16 H7         46.4600   20.1558   53.2273 H         1 PEA         0.0000 
+     17 H8         47.0372   17.7695   52.8783 H         1 PEA         0.0000 
+     18 H9         45.3329   17.2888   53.1800 H         1 PEA         0.0000 
+     19 H10        46.9803   17.1119   55.0812 H         1 PEA         0.4500 
+     20 H11        45.5386   17.8364   55.4073 H         1 PEA         0.4500 
+     21 H12        46.8915   18.7511   55.2013 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 19 20 21
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 19 20 21
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_36
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:45 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:45 2018
+
+@<TRIPOS>MOLECULE
+1uto_36
+   21    21     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.7258   19.3793   51.5386 C.ar      1 PEA        -0.1435 
+      2 C6'        46.0197   18.3561   52.4227 C.ar      1 PEA        -0.1500 
+      3 C5'        45.2387   17.2188   52.5485 C.ar      1 PEA        -0.1500 
+      4 C4'        44.0934   17.0682   51.7807 C.ar      1 PEA        -0.1500 
+      5 C3'        43.7779   18.0904   50.9047 C.ar      1 PEA        -0.1500 
+      6 C2'        44.5708   19.2076   50.7911 C.ar      1 PEA        -0.1500 
+      7 C2         46.5639   20.5090   51.4240 C.3       1 PEA         0.1435 
+      8 C1         45.9985   21.7250   52.2191 C.3       1 PEA         0.5030 
+      9 N          45.5808   21.3329   53.5996 N.4       1 PEA        -0.8530 
+     10 H1         46.9020   18.4488   53.0457 H         1 PEA         0.1500 
+     11 H2         45.5240   16.4432   53.2499 H         1 PEA         0.1500 
+     12 H3         43.4708   16.1848   51.8641 H         1 PEA         0.1500 
+     13 H4         42.8859   18.0091   50.2942 H         1 PEA         0.1500 
+     14 H5         44.2823   19.9832   50.0909 H         1 PEA         0.1500 
+     15 H6         46.6486   20.7847   50.3626 H         1 PEA         0.0000 
+     16 H7         47.5594   20.2566   51.8180 H         1 PEA         0.0000 
+     17 H8         45.1264   22.1278   51.6831 H         1 PEA         0.0000 
+     18 H9         46.7765   22.4996   52.2879 H         1 PEA         0.0000 
+     19 H10        44.8915   20.5993   53.5465 H         1 PEA         0.4500 
+     20 H11        45.1858   22.1317   54.0708 H         1 PEA         0.4500 
+     21 H12        46.3834   21.0032   54.1126 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+3 19 20 21
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+3 19 20 21
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_414
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:45 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:45 2018
+
+@<TRIPOS>MOLECULE
+1uto_414
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.7320   20.2760   52.0630 C.ar      1 PEA        -0.1435 
+      2 C6'        45.4430   18.9250   51.9820 C.ar      1 PEA        -0.1500 
+      3 C5'        45.5040   18.0730   53.0730 C.ar      1 PEA        -0.1500 
+      4 C4'        45.8810   18.5550   54.3170 C.ar      1 PEA        -0.1500 
+      5 C3'        46.1890   19.9000   54.4100 C.ar      1 PEA        -0.1500 
+      6 C2'        46.1160   20.7290   53.3160 C.ar      1 PEA        -0.1500 
+      7 C2         45.6310   21.1140   50.9320 C.3       1 PEA         0.1435 
+      8 C1         46.0070   22.5880   51.2750 C.3       1 PEA         0.5030 
+      9 N          45.7300   23.5070   50.1290 N.4       1 PEA        -0.8530 
+     10 H1         45.1560   18.5150   51.0200 H         1 PEA         0.1500 
+     11 H2         45.2550   17.0250   52.9530 H         1 PEA         0.1500 
+     12 H3         45.9330   17.9030   55.1820 H         1 PEA         0.1500 
+     13 H4         46.4950   20.3090   55.3660 H         1 PEA         0.1500 
+     14 H5         46.3680   21.7770   53.4370 H         1 PEA         0.1500 
+     15 H6         44.5970   21.0870   50.5580 H         1 PEA         0.0000 
+     16 H7         46.3140   20.7440   50.1520 H         1 PEA         0.0000 
+     17 H8         47.0780   22.6360   51.5200 H         1 PEA         0.0000 
+     18 H9         45.4170   22.9130   52.1450 H         1 PEA         0.0000 
+     19 H10        44.7490   23.4720   49.9010 H         1 PEA         0.4500 
+     20 H11        46.2700   23.2180   49.3290 H         1 PEA         0.4500 
+     21 H12        45.9820   24.4480   50.3850 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_428
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_428
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.2750   20.7390   50.8610 C.ar      1 PEA        -0.1435 
+      2 C6'        44.3600   21.2180   49.9410 C.ar      1 PEA        -0.1500 
+      3 C5'        44.2710   22.5550   49.5880 C.ar      1 PEA        -0.1500 
+      4 C4'        45.1120   23.4900   50.1730 C.ar      1 PEA        -0.1500 
+      5 C3'        46.0210   23.0280   51.1080 C.ar      1 PEA        -0.1500 
+      6 C2'        46.0960   21.6960   51.4380 C.ar      1 PEA        -0.1500 
+      7 C2         45.3490   19.3640   51.1720 C.3       1 PEA         0.1435 
+      8 C1         45.0770   19.1030   52.6840 C.3       1 PEA         0.5030 
+      9 N          45.3300   17.6760   53.0500 N.4       1 PEA        -0.8530 
+     10 H1         43.6800   20.5140   49.4740 H         1 PEA         0.1500 
+     11 H2         43.5420   22.8720   48.8520 H         1 PEA         0.1500 
+     12 H3         45.0590   24.5400   49.9090 H         1 PEA         0.1500 
+     13 H4         46.6890   23.7330   51.5900 H         1 PEA         0.1500 
+     14 H5         46.8250   21.3820   52.1770 H         1 PEA         0.1500 
+     15 H6         46.3540   18.9950   50.9200 H         1 PEA         0.0000 
+     16 H7         44.5980   18.8230   50.5760 H         1 PEA         0.0000 
+     17 H8         44.0280   19.3480   52.9070 H         1 PEA         0.0000 
+     18 H9         45.7380   19.7480   53.2830 H         1 PEA         0.0000 
+     19 H10        46.2910   17.4450   52.8540 H         1 PEA         0.4500 
+     20 H11        44.7240   17.0790   52.5100 H         1 PEA         0.4500 
+     21 H12        45.1460   17.5430   54.0320 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_451
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_451
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.9110   20.7520   51.8810 C.ar      1 PEA        -0.1435 
+      2 C6'        44.7600   21.5110   51.7610 C.ar      1 PEA        -0.1500 
+      3 C5'        44.7400   22.8850   51.9340 C.ar      1 PEA        -0.1500 
+      4 C4'        45.9040   23.5660   52.2580 C.ar      1 PEA        -0.1500 
+      5 C3'        47.0590   22.8190   52.3980 C.ar      1 PEA        -0.1500 
+      6 C2'        47.0570   21.4570   52.2150 C.ar      1 PEA        -0.1500 
+      7 C2         45.8910   19.3570   51.6700 C.3       1 PEA         0.1435 
+      8 C1         45.5990   18.5810   52.9910 C.3       1 PEA         0.5030 
+      9 N          46.5270   18.9940   54.0870 N.4       1 PEA        -0.8530 
+     10 H1         43.8310   21.0060   51.5200 H         1 PEA         0.1500 
+     11 H2         43.8110   23.4310   51.8160 H         1 PEA         0.1500 
+     12 H3         45.9080   24.6420   52.3970 H         1 PEA         0.1500 
+     13 H4         47.9850   23.3180   52.6580 H         1 PEA         0.1500 
+     14 H5         47.9870   20.9130   52.3370 H         1 PEA         0.1500 
+     15 H6         46.8710   19.0410   51.2790 H         1 PEA         0.0000 
+     16 H7         45.1080   19.1170   50.9350 H         1 PEA         0.0000 
+     17 H8         45.7210   17.5030   52.8070 H         1 PEA         0.0000 
+     18 H9         44.5640   18.7850   53.3030 H         1 PEA         0.0000 
+     19 H10        46.4190   19.9790   54.2660 H         1 PEA         0.4500 
+     20 H11        47.4780   18.8050   53.8110 H         1 PEA         0.4500 
+     21 H12        46.3110   18.4750   54.9240 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_494
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_494
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.5290   18.7740   52.9040 C.ar      1 PEA        -0.1435 
+      2 C6'        45.4400   19.3290   51.6400 C.ar      1 PEA        -0.1500 
+      3 C5'        45.5370   20.6910   51.4040 C.ar      1 PEA        -0.1500 
+      4 C4'        45.7190   21.5720   52.4600 C.ar      1 PEA        -0.1500 
+      5 C3'        45.7940   21.0330   53.7310 C.ar      1 PEA        -0.1500 
+      6 C2'        45.7010   19.6780   53.9410 C.ar      1 PEA        -0.1500 
+      7 C2         45.4510   17.3780   53.0960 C.3       1 PEA         0.1435 
+      8 C1         45.5780   16.9990   54.6030 C.3       1 PEA         0.5030 
+      9 N          44.3970   17.4700   55.3900 N.4       1 PEA        -0.8530 
+     10 H1         45.2850   18.6680   50.7950 H         1 PEA         0.1500 
+     11 H2         45.4710   21.0700   50.3910 H         1 PEA         0.1500 
+     12 H3         45.7990   22.6410   52.2950 H         1 PEA         0.1500 
+     13 H4         45.9290   21.6940   54.5800 H         1 PEA         0.1500 
+     14 H5         45.7640   19.3020   54.9560 H         1 PEA         0.1500 
+     15 H6         46.2650   16.8940   52.5360 H         1 PEA         0.0000 
+     16 H7         44.4810   17.0200   52.7180 H         1 PEA         0.0000 
+     17 H8         46.4870   17.4620   55.0130 H         1 PEA         0.0000 
+     18 H9         45.6520   15.9050   54.6910 H         1 PEA         0.0000 
+     19 H10        43.5590   17.0460   55.0240 H         1 PEA         0.4500 
+     20 H11        44.3250   18.4720   55.3190 H         1 PEA         0.4500 
+     21 H12        44.5110   17.2080   56.3560 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_495
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_495
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        46.0920   19.2720   51.9690 C.ar      1 PEA        -0.1435 
+      2 C6'        45.7560   18.5330   50.8480 C.ar      1 PEA        -0.1500 
+      3 C5'        45.1650   19.0890   49.7250 C.ar      1 PEA        -0.1500 
+      4 C4'        44.8670   20.4440   49.6900 C.ar      1 PEA        -0.1500 
+      5 C3'        45.1810   21.1920   50.8100 C.ar      1 PEA        -0.1500 
+      6 C2'        45.7730   20.6200   51.9110 C.ar      1 PEA        -0.1500 
+      7 C2         46.7170   18.6690   53.0810 C.3       1 PEA         0.1435 
+      8 C1         45.6710   18.1400   54.1090 C.3       1 PEA         0.5030 
+      9 N          46.3270   17.6650   55.3650 N.4       1 PEA        -0.8530 
+     10 H1         45.9660   17.4690   50.8490 H         1 PEA         0.1500 
+     11 H2         44.9350   18.4640   48.8700 H         1 PEA         0.1500 
+     12 H3         44.4060   20.8970   48.8200 H         1 PEA         0.1500 
+     13 H4         44.9550   22.2520   50.8190 H         1 PEA         0.1500 
+     14 H5         46.0000   21.2470   52.7660 H         1 PEA         0.1500 
+     15 H6         47.3600   19.4130   53.5760 H         1 PEA         0.0000 
+     16 H7         47.3320   17.8260   52.7320 H         1 PEA         0.0000 
+     17 H8         45.1170   17.3030   53.6580 H         1 PEA         0.0000 
+     18 H9         44.9710   18.9510   54.3570 H         1 PEA         0.0000 
+     19 H10        46.8330   18.4270   55.7890 H         1 PEA         0.4500 
+     20 H11        46.9670   16.9170   55.1480 H         1 PEA         0.4500 
+     21 H12        45.6240   17.3310   56.0060 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_521
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_521
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.6810   21.4750   51.1260 C.ar      1 PEA        -0.1435 
+      2 C6'        44.8160   21.2800   50.0640 C.ar      1 PEA        -0.1500 
+      3 C5'        44.1950   20.0690   49.8080 C.ar      1 PEA        -0.1500 
+      4 C4'        44.4380   18.9720   50.6220 C.ar      1 PEA        -0.1500 
+      5 C3'        45.3130   19.1480   51.6780 C.ar      1 PEA        -0.1500 
+      6 C2'        45.9130   20.3610   51.9180 C.ar      1 PEA        -0.1500 
+      7 C2         46.2710   22.7350   51.3660 C.3       1 PEA         0.1435 
+      8 C1         47.2030   22.7020   52.6160 C.3       1 PEA         0.5030 
+      9 N          48.4100   21.8530   52.3790 N.4       1 PEA        -0.8530 
+     10 H1         44.6150   22.1150   49.4010 H         1 PEA         0.1500 
+     11 H2         43.5170   19.9760   48.9670 H         1 PEA         0.1500 
+     12 H3         43.9600   18.0160   50.4380 H         1 PEA         0.1500 
+     13 H4         45.5310   18.3100   52.3310 H         1 PEA         0.1500 
+     14 H5         46.5930   20.4500   52.7570 H         1 PEA         0.1500 
+     15 H6         45.4760   23.4760   51.5330 H         1 PEA         0.0000 
+     16 H7         46.8650   23.0240   50.4860 H         1 PEA         0.0000 
+     17 H8         46.6420   22.2940   53.4700 H         1 PEA         0.0000 
+     18 H9         47.5280   23.7270   52.8460 H         1 PEA         0.0000 
+     19 H10        48.9330   22.2220   51.6010 H         1 PEA         0.4500 
+     20 H11        48.1220   20.9100   52.1720 H         1 PEA         0.4500 
+     21 H12        48.9900   21.8540   53.2040 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_547
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_547
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.0170   19.3380   52.1610 C.ar      1 PEA        -0.1435 
+      2 C6'        45.4270   19.5950   50.8640 C.ar      1 PEA        -0.1500 
+      3 C5'        45.8650   20.8400   50.4430 C.ar      1 PEA        -0.1500 
+      4 C4'        45.8950   21.9070   51.3290 C.ar      1 PEA        -0.1500 
+      5 C3'        45.4730   21.6700   52.6240 C.ar      1 PEA        -0.1500 
+      6 C2'        45.0480   20.4240   53.0220 C.ar      1 PEA        -0.1500 
+      7 C2         44.6030   18.0480   52.5540 C.3       1 PEA         0.1435 
+      8 C1         45.4940   17.4850   53.7030 C.3       1 PEA         0.5030 
+      9 N          46.9470   17.5520   53.3550 N.4       1 PEA        -0.8530 
+     10 H1         45.4030   18.7850   50.1450 H         1 PEA         0.1500 
+     11 H2         46.1850   20.9820   49.4170 H         1 PEA         0.1500 
+     12 H3         46.2360   22.8890   51.0180 H         1 PEA         0.1500 
+     13 H4         45.4760   22.4830   53.3400 H         1 PEA         0.1500 
+     14 H5         44.7250   20.2860   54.0470 H         1 PEA         0.1500 
+     15 H6         44.6680   17.3720   51.6870 H         1 PEA         0.0000 
+     16 H7         43.5610   18.0980   52.9030 H         1 PEA         0.0000 
+     17 H8         45.2200   16.4350   53.8870 H         1 PEA         0.0000 
+     18 H9         45.3180   18.0750   54.6140 H         1 PEA         0.0000 
+     19 H10        47.2080   18.5110   53.1890 H         1 PEA         0.4500 
+     20 H11        47.1180   17.0100   52.5240 H         1 PEA         0.4500 
+     21 H12        47.4920   17.1820   54.1170 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_549
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_549
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.0520   19.6010   52.0020 C.ar      1 PEA        -0.1435 
+      2 C6'        45.3670   20.8850   52.4110 C.ar      1 PEA        -0.1500 
+      3 C5'        45.9180   21.8330   51.5660 C.ar      1 PEA        -0.1500 
+      4 C4'        46.1960   21.5160   50.2440 C.ar      1 PEA        -0.1500 
+      5 C3'        45.9030   20.2310   49.8250 C.ar      1 PEA        -0.1500 
+      6 C2'        45.3490   19.3070   50.6800 C.ar      1 PEA        -0.1500 
+      7 C2         44.4670   18.6730   52.8900 C.3       1 PEA         0.1435 
+      8 C1         45.5490   17.8470   53.6500 C.3       1 PEA         0.5030 
+      9 N          46.5230   17.2180   52.7070 N.4       1 PEA        -0.8530 
+     10 H1         45.1730   21.1600   53.4420 H         1 PEA         0.1500 
+     11 H2         46.1340   22.8280   51.9380 H         1 PEA         0.1500 
+     12 H3         46.6260   22.2460   49.5670 H         1 PEA         0.1500 
+     13 H4         46.1130   19.9470   48.8010 H         1 PEA         0.1500 
+     14 H5         45.1380   18.3120   50.3060 H         1 PEA         0.1500 
+     15 H6         43.8280   17.9850   52.3180 H         1 PEA         0.0000 
+     16 H7         43.8550   19.2190   53.6240 H         1 PEA         0.0000 
+     17 H8         45.0520   17.0550   54.2300 H         1 PEA         0.0000 
+     18 H9         46.0940   18.5140   54.3340 H         1 PEA         0.0000 
+     19 H10        46.9870   17.9370   52.1750 H         1 PEA         0.4500 
+     20 H11        46.0320   16.6000   52.0800 H         1 PEA         0.4500 
+     21 H12        47.2060   16.6930   53.2300 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_563
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_563
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        46.0000   21.1540   51.5870 C.ar      1 PEA        -0.1435 
+      2 C6'        46.8080   22.2360   51.2850 C.ar      1 PEA        -0.1500 
+      3 C5'        47.1810   23.1850   52.2230 C.ar      1 PEA        -0.1500 
+      4 C4'        46.7320   23.0890   53.5320 C.ar      1 PEA        -0.1500 
+      5 C3'        45.9100   22.0220   53.8440 C.ar      1 PEA        -0.1500 
+      6 C2'        45.5570   21.0880   52.8990 C.ar      1 PEA        -0.1500 
+      7 C2         45.6660   20.1960   50.6060 C.3       1 PEA         0.1435 
+      8 C1         44.3590   20.5820   49.8490 C.3       1 PEA         0.5030 
+      9 N          43.2380   20.8640   50.7960 N.4       1 PEA        -0.8530 
+     10 H1         47.1660   22.3460   50.2680 H         1 PEA         0.1500 
+     11 H2         47.8270   24.0060   51.9340 H         1 PEA         0.1500 
+     12 H3         47.0140   23.8220   54.2800 H         1 PEA         0.1500 
+     13 H4         45.5340   21.9210   54.8560 H         1 PEA         0.1500 
+     14 H5         44.9090   20.2700   53.1900 H         1 PEA         0.1500 
+     15 H6         45.5210   19.2200   51.0940 H         1 PEA         0.0000 
+     16 H7         46.4900   20.1250   49.8810 H         1 PEA         0.0000 
+     17 H8         44.0680   19.7510   49.1900 H         1 PEA         0.0000 
+     18 H9         44.5490   21.4810   49.2430 H         1 PEA         0.0000 
+     19 H10        43.4940   21.6280   51.4010 H         1 PEA         0.4500 
+     20 H11        43.0530   20.0440   51.3520 H         1 PEA         0.4500 
+     21 H12        42.4110   21.1100   50.2750 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_564
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_564
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        44.8340   21.0910   52.0180 C.ar      1 PEA        -0.1435 
+      2 C6'        45.3620   19.8150   52.0960 C.ar      1 PEA        -0.1500 
+      3 C5'        45.3730   18.9350   51.0250 C.ar      1 PEA        -0.1500 
+      4 C4'        44.8260   19.3100   49.8070 C.ar      1 PEA        -0.1500 
+      5 C3'        44.2790   20.5770   49.7190 C.ar      1 PEA        -0.1500 
+      6 C2'        44.2850   21.4360   50.7930 C.ar      1 PEA        -0.1500 
+      7 C2         44.8680   21.9640   53.1270 C.3       1 PEA         0.1435 
+      8 C1         45.6620   23.2670   52.8070 C.3       1 PEA         0.5030 
+      9 N          47.0200   22.9630   52.2610 N.4       1 PEA        -0.8530 
+     10 H1         45.7870   19.4870   53.0380 H         1 PEA         0.1500 
+     11 H2         45.8110   17.9500   51.1390 H         1 PEA         0.1500 
+     12 H3         44.8260   18.6360   48.9570 H         1 PEA         0.1500 
+     13 H4         43.8360   20.9000   48.7840 H         1 PEA         0.1500 
+     14 H5         43.8440   22.4190   50.6770 H         1 PEA         0.1500 
+     15 H6         45.3510   21.4500   53.9720 H         1 PEA         0.0000 
+     16 H7         43.8370   22.2330   53.4010 H         1 PEA         0.0000 
+     17 H8         45.7720   23.8550   53.7300 H         1 PEA         0.0000 
+     18 H9         45.1020   23.8530   52.0640 H         1 PEA         0.0000 
+     19 H10        46.9280   22.4290   51.4110 H         1 PEA         0.4500 
+     20 H11        47.5420   22.4300   52.9370 H         1 PEA         0.4500 
+     21 H12        47.5040   23.8250   52.0650 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_569
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_569
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.1690   21.5670   51.4070 C.ar      1 PEA        -0.1435 
+      2 C6'        46.3420   22.2540   51.1480 C.ar      1 PEA        -0.1500 
+      3 C5'        47.1720   22.7350   52.1480 C.ar      1 PEA        -0.1500 
+      4 C4'        46.8400   22.5520   53.4820 C.ar      1 PEA        -0.1500 
+      5 C3'        45.6630   21.8810   53.7560 C.ar      1 PEA        -0.1500 
+      6 C2'        44.8570   21.4060   52.7490 C.ar      1 PEA        -0.1500 
+      7 C2         44.3660   21.0710   50.3580 C.3       1 PEA         0.1435 
+      8 C1         44.2100   19.5220   50.4390 C.3       1 PEA         0.5030 
+      9 N          45.5370   18.8400   50.5310 N.4       1 PEA        -0.8530 
+     10 H1         46.6230   22.4250   50.1150 H         1 PEA         0.1500 
+     11 H2         48.0850   23.2570   51.8860 H         1 PEA         0.1500 
+     12 H3         47.4780   22.9200   54.2780 H         1 PEA         0.1500 
+     13 H4         45.3690   21.7260   54.7880 H         1 PEA         0.1500 
+     14 H5         43.9420   20.8870   53.0120 H         1 PEA         0.1500 
+     15 H6         44.8320   21.3340   49.3970 H         1 PEA         0.0000 
+     16 H7         43.3700   21.5330   50.4220 H         1 PEA         0.0000 
+     17 H8         43.6900   19.1680   49.5370 H         1 PEA         0.0000 
+     18 H9         43.6160   19.2680   51.3280 H         1 PEA         0.0000 
+     19 H10        46.0200   19.1550   51.3580 H         1 PEA         0.4500 
+     20 H11        46.0870   19.0630   49.7170 H         1 PEA         0.4500 
+     21 H12        45.4000   17.8430   50.5820 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_577
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_577
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.1560   21.4100   50.8350 C.ar      1 PEA        -0.1435 
+      2 C6'        46.0630   20.8490   49.9530 C.ar      1 PEA        -0.1500 
+      3 C5'        45.6830   20.0700   48.8720 C.ar      1 PEA        -0.1500 
+      4 C4'        44.3410   19.8060   48.6380 C.ar      1 PEA        -0.1500 
+      5 C3'        43.4250   20.3470   49.5210 C.ar      1 PEA        -0.1500 
+      6 C2'        43.8240   21.1220   50.5830 C.ar      1 PEA        -0.1500 
+      7 C2         45.5860   22.2200   51.9080 C.3       1 PEA         0.1435 
+      8 C1         45.8570   21.3750   53.1900 C.3       1 PEA         0.5030 
+      9 N          46.1380   22.2450   54.3730 N.4       1 PEA        -0.8530 
+     10 H1         47.1200   21.0270   50.1160 H         1 PEA         0.1500 
+     11 H2         46.4360   19.6650   48.2070 H         1 PEA         0.1500 
+     12 H3         44.0240   19.2000   47.7970 H         1 PEA         0.1500 
+     13 H4         42.3680   20.1540   49.3720 H         1 PEA         0.1500 
+     14 H5         43.0690   21.5240   51.2500 H         1 PEA         0.1500 
+     15 H6         44.8060   22.9640   52.1290 H         1 PEA         0.0000 
+     16 H7         46.5140   22.7350   51.6180 H         1 PEA         0.0000 
+     17 H8         46.7260   20.7240   53.0120 H         1 PEA         0.0000 
+     18 H9         44.9740   20.7560   53.4040 H         1 PEA         0.0000 
+     19 H10        45.3440   22.8410   54.5460 H         1 PEA         0.4500 
+     20 H11        46.9500   22.8120   54.1880 H         1 PEA         0.4500 
+     21 H12        46.3080   21.6680   55.1820 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_580
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_580
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.3360   21.0780   52.2270 C.ar      1 PEA        -0.1435 
+      2 C6'        45.6850   21.3840   53.5310 C.ar      1 PEA        -0.1500 
+      3 C5'        46.6140   22.3580   53.8560 C.ar      1 PEA        -0.1500 
+      4 C4'        47.2570   23.0730   52.8560 C.ar      1 PEA        -0.1500 
+      5 C3'        46.9300   22.7670   51.5470 C.ar      1 PEA        -0.1500 
+      6 C2'        46.0000   21.8010   51.2480 C.ar      1 PEA        -0.1500 
+      7 C2         44.3640   20.0950   51.9420 C.3       1 PEA         0.1435 
+      8 C1         45.0060   18.6830   51.7860 C.3       1 PEA         0.5030 
+      9 N          45.5570   18.1830   53.0830 N.4       1 PEA        -0.8530 
+     10 H1         45.2090   20.8340   54.3350 H         1 PEA         0.1500 
+     11 H2         46.8400   22.5640   54.8960 H         1 PEA         0.1500 
+     12 H3         47.9860   23.8410   53.0910 H         1 PEA         0.1500 
+     13 H4         47.4190   23.3020   50.7400 H         1 PEA         0.1500 
+     14 H5         45.7780   21.5950   50.2070 H         1 PEA         0.1500 
+     15 H6         43.8520   20.3600   51.0050 H         1 PEA         0.0000 
+     16 H7         43.6340   20.0660   52.7650 H         1 PEA         0.0000 
+     17 H8         45.8220   18.7410   51.0510 H         1 PEA         0.0000 
+     18 H9         44.2400   17.9800   51.4290 H         1 PEA         0.0000 
+     19 H10        44.8150   18.1230   53.7620 H         1 PEA         0.4500 
+     20 H11        46.2640   18.8200   53.4150 H         1 PEA         0.4500 
+     21 H12        45.9630   17.2710   52.9460 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_593
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_593
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.2320   21.0330   52.2300 C.ar      1 PEA        -0.1435 
+      2 C6'        46.2750   21.7750   52.7560 C.ar      1 PEA        -0.1500 
+      3 C5'        46.8840   22.8140   52.0710 C.ar      1 PEA        -0.1500 
+      4 C4'        46.4680   23.1470   50.7910 C.ar      1 PEA        -0.1500 
+      5 C3'        45.4380   22.4030   50.2450 C.ar      1 PEA        -0.1500 
+      6 C2'        44.8430   21.3800   50.9450 C.ar      1 PEA        -0.1500 
+      7 C2         44.6220   20.0000   52.9730 C.3       1 PEA         0.1435 
+      8 C1         45.3250   18.6300   52.7330 C.3       1 PEA         0.5030 
+      9 N          45.4340   18.3150   51.2760 N.4       1 PEA        -0.8530 
+     10 H1         46.6310   21.5320   53.7510 H         1 PEA         0.1500 
+     11 H2         47.6900   23.3690   52.5380 H         1 PEA         0.1500 
+     12 H3         46.9320   23.9570   50.2400 H         1 PEA         0.1500 
+     13 H4         45.0930   22.6310   49.2430 H         1 PEA         0.1500 
+     14 H5         44.0400   20.8240   50.4750 H         1 PEA         0.1500 
+     15 H6         43.5670   19.9180   52.6720 H         1 PEA         0.0000 
+     16 H7         44.6800   20.2480   54.0430 H         1 PEA         0.0000 
+     17 H8         44.7430   17.8380   53.2260 H         1 PEA         0.0000 
+     18 H9         46.3360   18.6650   53.1670 H         1 PEA         0.0000 
+     19 H10        45.9710   19.0340   50.8170 H         1 PEA         0.4500 
+     20 H11        44.5120   18.2760   50.8710 H         1 PEA         0.4500 
+     21 H12        45.8930   17.4260   51.1570 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_594
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_594
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.5940   21.7430   52.0700 C.ar      1 PEA        -0.1435 
+      2 C6'        46.6900   22.4410   51.5940 C.ar      1 PEA        -0.1500 
+      3 C5'        47.4730   23.2560   52.3950 C.ar      1 PEA        -0.1500 
+      4 C4'        47.1700   23.4160   53.7380 C.ar      1 PEA        -0.1500 
+      5 C3'        46.0680   22.7380   54.2250 C.ar      1 PEA        -0.1500 
+      6 C2'        45.3080   21.9290   53.4140 C.ar      1 PEA        -0.1500 
+      7 C2         44.8390   20.9020   51.2250 C.3       1 PEA         0.1435 
+      8 C1         44.8410   19.4280   51.7310 C.3       1 PEA         0.5030 
+      9 N          46.2310   18.9280   51.9620 N.4       1 PEA        -0.8530 
+     10 H1         46.9460   22.3460   50.5450 H         1 PEA         0.1500 
+     11 H2         48.3270   23.7700   51.9700 H         1 PEA         0.1500 
+     12 H3         47.7720   24.0490   54.3810 H         1 PEA         0.1500 
+     13 H4         45.7970   22.8460   55.2700 H         1 PEA         0.1500 
+     14 H5         44.4520   21.4180   53.8410 H         1 PEA         0.1500 
+     15 H6         45.2700   20.9330   50.2130 H         1 PEA         0.0000 
+     16 H7         43.8010   21.2670   51.1930 H         1 PEA         0.0000 
+     17 H8         44.3530   18.7910   50.9790 H         1 PEA         0.0000 
+     18 H9         44.2800   19.3740   52.6760 H         1 PEA         0.0000 
+     19 H10        46.6840   19.5040   52.6540 H         1 PEA         0.4500 
+     20 H11        46.7500   18.9690   51.1000 H         1 PEA         0.4500 
+     21 H12        46.1950   17.9750   52.2890 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_640
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_640
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.9160   20.5820   51.9840 C.ar      1 PEA        -0.1435 
+      2 C6'        47.0790   21.2370   51.6180 C.ar      1 PEA        -0.1500 
+      3 C5'        47.2070   21.9440   50.4330 C.ar      1 PEA        -0.1500 
+      4 C4'        46.1490   22.0080   49.5390 C.ar      1 PEA        -0.1500 
+      5 C3'        44.9860   21.3430   49.8830 C.ar      1 PEA        -0.1500 
+      6 C2'        44.8780   20.6540   51.0670 C.ar      1 PEA        -0.1500 
+      7 C2         45.8200   19.8950   53.2130 C.3       1 PEA         0.1435 
+      8 C1         45.5170   18.3810   53.0020 C.3       1 PEA         0.5030 
+      9 N          46.6670   17.6740   52.3610 N.4       1 PEA        -0.8530 
+     10 H1         47.9280   21.1960   52.2900 H         1 PEA         0.1500 
+     11 H2         48.1390   22.4480   50.2040 H         1 PEA         0.1500 
+     12 H3         46.2310   22.5570   48.6070 H         1 PEA         0.1500 
+     13 H4         44.1420   21.3670   49.2040 H         1 PEA         0.1500 
+     14 H5         43.9470   20.1470   51.2930 H         1 PEA         0.1500 
+     15 H6         45.0100   20.3420   53.8090 H         1 PEA         0.0000 
+     16 H7         46.7730   19.9960   53.7540 H         1 PEA         0.0000 
+     17 H8         44.6320   18.2800   52.3560 H         1 PEA         0.0000 
+     18 H9         45.3130   17.9180   53.9790 H         1 PEA         0.0000 
+     19 H10        47.4820   17.7570   52.9490 H         1 PEA         0.4500 
+     20 H11        46.8580   18.0890   51.4630 H         1 PEA         0.4500 
+     21 H12        46.4380   16.7000   52.2400 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_686
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_686
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        46.7010   20.2390   51.8300 C.ar      1 PEA        -0.1435 
+      2 C6'        45.7960   20.0060   50.8090 C.ar      1 PEA        -0.1500 
+      3 C5'        45.0740   21.0150   50.1940 C.ar      1 PEA        -0.1500 
+      4 C4'        45.2260   22.3320   50.6020 C.ar      1 PEA        -0.1500 
+      5 C3'        46.1140   22.5790   51.6320 C.ar      1 PEA        -0.1500 
+      6 C2'        46.8260   21.5620   52.2240 C.ar      1 PEA        -0.1500 
+      7 C2         47.4350   19.1830   52.4100 C.3       1 PEA         0.1435 
+      8 C1         46.6810   18.5600   53.6240 C.3       1 PEA         0.5030 
+      9 N          45.4380   17.8500   53.1930 N.4       1 PEA        -0.8530 
+     10 H1         45.6460   18.9850   50.4760 H         1 PEA         0.1500 
+     11 H2         44.3870   20.7760   49.3910 H         1 PEA         0.1500 
+     12 H3         44.6700   23.1360   50.1310 H         1 PEA         0.1500 
+     13 H4         46.2520   23.5960   51.9810 H         1 PEA         0.1500 
+     14 H5         47.5100   21.8040   53.0290 H         1 PEA         0.1500 
+     15 H6         48.4070   19.5700   52.7540 H         1 PEA         0.0000 
+     16 H7         47.5990   18.4020   51.6530 H         1 PEA         0.0000 
+     17 H8         46.4080   19.3620   54.3260 H         1 PEA         0.0000 
+     18 H9         47.3450   17.8430   54.1280 H         1 PEA         0.0000 
+     19 H10        45.6790   17.1090   52.5530 H         1 PEA         0.4500 
+     20 H11        44.8210   18.5010   52.7350 H         1 PEA         0.4500 
+     21 H12        44.9770   17.4590   54.0000 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_688
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_688
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.8560   20.9440   50.6950 C.ar      1 PEA        -0.1435 
+      2 C6'        47.2330   21.0610   50.7720 C.ar      1 PEA        -0.1500 
+      3 C5'        47.8890   21.5300   51.8990 C.ar      1 PEA        -0.1500 
+      4 C4'        47.1660   21.9220   53.0160 C.ar      1 PEA        -0.1500 
+      5 C3'        45.7890   21.8260   52.9470 C.ar      1 PEA        -0.1500 
+      6 C2'        45.1590   21.3520   51.8210 C.ar      1 PEA        -0.1500 
+      7 C2         45.2300   20.4370   49.5360 C.3       1 PEA         0.1435 
+      8 C1         44.4010   19.1540   49.8470 C.3       1 PEA         0.5030 
+      9 N          45.2200   18.1300   50.5640 N.4       1 PEA        -0.8530 
+     10 H1         47.8250   20.7740   49.9110 H         1 PEA         0.1500 
+     11 H2         48.9710   21.5900   51.9080 H         1 PEA         0.1500 
+     12 H3         47.6620   22.2900   53.9080 H         1 PEA         0.1500 
+     13 H4         45.1930   22.1310   53.8000 H         1 PEA         0.1500 
+     14 H5         44.0760   21.2960   51.8130 H         1 PEA         0.1500 
+     15 H6         46.0030   20.1910   48.7910 H         1 PEA         0.0000 
+     16 H7         44.5580   21.2060   49.1270 H         1 PEA         0.0000 
+     17 H8         44.0400   18.7230   48.9010 H         1 PEA         0.0000 
+     18 H9         43.5410   19.4280   50.4760 H         1 PEA         0.0000 
+     19 H10        45.5510   18.5150   51.4350 H         1 PEA         0.4500 
+     20 H11        46.0070   17.8690   49.9920 H         1 PEA         0.4500 
+     21 H12        44.6540   17.3170   50.7500 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_698
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_698
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1'        45.4120   21.1820   51.1270 C.ar      1 PEA        -0.1435 
+      2 C6'        44.7820   20.9390   52.3350 C.ar      1 PEA        -0.1500 
+      3 C5'        45.3660   20.2080   53.3570 C.ar      1 PEA        -0.1500 
+      4 C4'        46.6320   19.6660   53.1950 C.ar      1 PEA        -0.1500 
+      5 C3'        47.2670   19.8860   51.9860 C.ar      1 PEA        -0.1500 
+      6 C2'        46.6720   20.6210   50.9880 C.ar      1 PEA        -0.1500 
+      7 C2         44.7910   21.9550   50.1220 C.3       1 PEA         0.1435 
+      8 C1         43.9410   21.0690   49.1610 C.3       1 PEA         0.5030 
+      9 N          44.7390   19.9300   48.6130 N.4       1 PEA        -0.8530 
+     10 H1         43.7860   21.3380   52.4880 H         1 PEA         0.1500 
+     11 H2         44.8300   20.0580   54.2880 H         1 PEA         0.1500 
+     12 H3         47.1050   19.0920   53.9840 H         1 PEA         0.1500 
+     13 H4         48.2550   19.4710   51.8230 H         1 PEA         0.1500 
+     14 H5         47.2080   20.7660   50.0570 H         1 PEA         0.1500 
+     15 H6         45.5680   22.4720   49.5380 H         1 PEA         0.0000 
+     16 H7         44.1330   22.6970   50.5980 H         1 PEA         0.0000 
+     17 H8         43.5840   21.6890   48.3250 H         1 PEA         0.0000 
+     18 H9         43.0790   20.6680   49.7140 H         1 PEA         0.0000 
+     19 H10        45.0660   19.3530   49.3720 H         1 PEA         0.4500 
+     20 H11        45.5280   20.2890   48.1000 H         1 PEA         0.4500 
+     21 H12        44.1610   19.3790   47.9980 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8    9 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_738
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_738
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.7093   22.7501   49.0603 C.ar      1 PEA        -0.1435 
+      2 C          43.3194   22.7089   49.3205 C.ar      1 PEA        -0.1500 
+      3 C          42.4528   23.6594   48.7513 C.ar      1 PEA        -0.1500 
+      4 C          42.9626   24.6682   47.9119 C.ar      1 PEA        -0.1500 
+      5 C          44.3414   24.7252   47.6458 C.ar      1 PEA        -0.1500 
+      6 C          45.2067   23.7742   48.2140 C.ar      1 PEA        -0.1500 
+      7 C          45.6344   21.7721   49.6965 C.3       1 PEA         0.1435 
+      8 C          45.8750   20.4971   48.8499 C.3       1 PEA         0.5030 
+      9 N          44.6197   19.8669   48.4298 N.4       1 PEA        -0.8530 
+     10 H          42.9278   21.9877   49.9294 H         1 PEA         0.1500 
+     11 H          41.4489   23.6208   48.9478 H         1 PEA         0.1500 
+     12 H          42.3304   25.3602   47.4994 H         1 PEA         0.1500 
+     13 H          44.7135   25.4626   47.0405 H         1 PEA         0.1500 
+     14 H          46.2072   23.8357   48.0131 H         1 PEA         0.1500 
+     15 H          45.2600   21.4526   50.6738 H         1 PEA         0.0000 
+     16 H          46.5914   22.2712   49.8729 H         1 PEA         0.0000 
+     17 H          46.4323   19.7724   49.4476 H         1 PEA         0.0000 
+     18 H          46.4571   20.7264   47.9557 H         1 PEA         0.0000 
+     19 H          44.8399   19.0527   47.8534 H         1 PEA         0.4500 
+     20 H          44.0700   20.5273   47.8792 H         1 PEA         0.4500 
+     21 H          44.0836   19.5728   49.2494 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_743
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_743
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.9478   21.7209   51.0588 C.ar      1 PEA        -0.1435 
+      2 C          45.6982   22.9169   50.9451 C.ar      1 PEA        -0.1500 
+      3 C          45.4237   23.8431   49.9191 C.ar      1 PEA        -0.1500 
+      4 C          44.3940   23.5852   48.9966 C.ar      1 PEA        -0.1500 
+      5 C          43.6388   22.4048   49.1002 C.ar      1 PEA        -0.1500 
+      6 C          43.9140   21.4806   50.1243 C.ar      1 PEA        -0.1500 
+      7 C          45.2435   20.7420   52.1442 C.3       1 PEA         0.1435 
+      8 C          46.4840   19.8708   51.8278 C.3       1 PEA         0.5030 
+      9 N          46.8208   19.0044   52.9631 N.4       1 PEA        -0.8530 
+     10 H          46.4446   23.1238   51.6113 H         1 PEA         0.1500 
+     11 H          45.9731   24.7015   49.8431 H         1 PEA         0.1500 
+     12 H          44.1976   24.2528   48.2496 H         1 PEA         0.1500 
+     13 H          42.8912   22.2149   48.4294 H         1 PEA         0.1500 
+     14 H          43.3613   20.6214   50.1715 H         1 PEA         0.1500 
+     15 H          44.3947   20.0727   52.3117 H         1 PEA         0.0000 
+     16 H          45.3999   21.2863   53.0825 H         1 PEA         0.0000 
+     17 H          47.3493   20.5005   51.6111 H         1 PEA         0.0000 
+     18 H          46.2877   19.2436   50.9559 H         1 PEA         0.0000 
+     19 H          47.6165   18.4154   52.7137 H         1 PEA         0.4500 
+     20 H          46.0212   18.4106   53.1897 H         1 PEA         0.4500 
+     21 H          47.0611   19.5741   53.7782 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_752
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_752
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.4950   24.5442   47.2094 C.ar      1 PEA        -0.1435 
+      2 C          45.6444   23.9299   46.6527 C.ar      1 PEA        -0.1500 
+      3 C          45.9048   24.0003   45.2695 C.ar      1 PEA        -0.1500 
+      4 C          44.9993   24.6571   44.4174 C.ar      1 PEA        -0.1500 
+      5 C          43.8551   25.2754   44.9495 C.ar      1 PEA        -0.1500 
+      6 C          43.6148   25.2285   46.3352 C.ar      1 PEA        -0.1500 
+      7 C          44.2383   24.5402   48.6808 C.3       1 PEA         0.1435 
+      8 C          42.9125   23.8637   49.1197 C.3       1 PEA         0.5030 
+      9 N          42.9839   22.3955   49.1490 N.4       1 PEA        -0.8530 
+     10 H          46.3099   23.4396   47.2529 H         1 PEA         0.1500 
+     11 H          46.7581   23.5875   44.8812 H         1 PEA         0.1500 
+     12 H          45.1866   24.7085   43.4139 H         1 PEA         0.1500 
+     13 H          43.2111   25.7791   44.3342 H         1 PEA         0.1500 
+     14 H          42.7985   25.7205   46.7052 H         1 PEA         0.1500 
+     15 H          44.2046   25.5816   49.0129 H         1 PEA         0.0000 
+     16 H          45.0618   24.0631   49.2216 H         1 PEA         0.0000 
+     17 H          42.0945   24.1693   48.4650 H         1 PEA         0.0000 
+     18 H          42.6696   24.1949   50.1314 H         1 PEA         0.0000 
+     19 H          42.0597   22.0204   49.3756 H         1 PEA         0.4500 
+     20 H          43.6460   22.0997   49.8705 H         1 PEA         0.4500 
+     21 H          43.2825   22.0316   48.2417 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_757
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_757
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.4876   24.4826   47.1121 C.ar      1 PEA        -0.1435 
+      2 C          43.5704   25.1689   46.2784 C.ar      1 PEA        -0.1500 
+      3 C          43.7646   25.2281   44.8848 C.ar      1 PEA        -0.1500 
+      4 C          44.8709   24.5861   44.3011 C.ar      1 PEA        -0.1500 
+      5 C          45.7892   23.8881   45.1089 C.ar      1 PEA        -0.1500 
+      6 C          45.6020   23.8430   46.5055 C.ar      1 PEA        -0.1500 
+      7 C          44.3081   24.4889   48.5918 C.3       1 PEA         0.1435 
+      8 C          43.0001   23.8317   49.0928 C.3       1 PEA         0.5030 
+      9 N          43.0656   22.3645   49.1043 N.4       1 PEA        -0.8530 
+     10 H          42.7698   25.6563   46.6852 H         1 PEA         0.1500 
+     11 H          43.1021   25.7420   44.2946 H         1 PEA         0.1500 
+     12 H          45.0167   24.6324   43.2898 H         1 PEA         0.1500 
+     13 H          46.5916   23.4249   44.6815 H         1 PEA         0.1500 
+     14 H          46.2827   23.3366   47.0788 H         1 PEA         0.1500 
+     15 H          44.3201   25.5299   48.9167 H         1 PEA         0.0000 
+     16 H          45.1534   23.9875   49.0858 H         1 PEA         0.0000 
+     17 H          42.1563   24.1403   48.4685 H         1 PEA         0.0000 
+     18 H          42.8114   24.1548   50.1197 H         1 PEA         0.0000 
+     19 H          42.1409   21.9863   49.3249 H         1 PEA         0.4500 
+     20 H          43.7306   22.0466   49.8124 H         1 PEA         0.4500 
+     21 H          43.3570   22.0140   48.1922 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_762
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:45 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:45 2018
+
+@<TRIPOS>MOLECULE
+1uto_762
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.4448   23.5960   51.6160 C.ar      1 PEA        -0.1435 
+      2 C          46.6729   23.2707   50.9924 C.ar      1 PEA        -0.1500 
+      3 C          47.7433   22.7425   51.7405 C.ar      1 PEA        -0.1500 
+      4 C          47.6022   22.5362   53.1244 C.ar      1 PEA        -0.1500 
+      5 C          46.3930   22.8672   53.7618 C.ar      1 PEA        -0.1500 
+      6 C          45.3217   23.3940   53.0139 C.ar      1 PEA        -0.1500 
+      7 C          44.3013   24.1231   50.8190 C.3       1 PEA         0.1435 
+      8 C          43.3073   23.0155   50.3538 C.3       1 PEA         0.5030 
+      9 N          41.9298   23.3123   50.7648 N.4       1 PEA        -0.8530 
+     10 H          46.7941   23.4057   49.9851 H         1 PEA         0.1500 
+     11 H          48.6220   22.5022   51.2758 H         1 PEA         0.1500 
+     12 H          48.3776   22.1456   53.6671 H         1 PEA         0.1500 
+     13 H          46.2933   22.7210   54.7700 H         1 PEA         0.1500 
+     14 H          44.4485   23.6237   53.4952 H         1 PEA         0.1500 
+     15 H          44.6825   24.6459   49.9353 H         1 PEA         0.0000 
+     16 H          43.7781   24.8817   51.4098 H         1 PEA         0.0000 
+     17 H          43.5722   22.0350   50.7577 H         1 PEA         0.0000 
+     18 H          43.3203   22.9380   49.2641 H         1 PEA         0.0000 
+     19 H          41.3104   22.5541   50.4736 H         1 PEA         0.4500 
+     20 H          41.6229   24.1861   50.3327 H         1 PEA         0.4500 
+     21 H          41.8911   23.4057   51.7808 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_765
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_765
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.4425   24.5002   47.2728 C.ar      1 PEA        -0.1435 
+      2 C          43.4610   25.1276   46.4705 C.ar      1 PEA        -0.1500 
+      3 C          43.6260   25.2239   45.0730 C.ar      1 PEA        -0.1500 
+      4 C          44.7661   24.6721   44.4582 C.ar      1 PEA        -0.1500 
+      5 C          45.7500   24.0435   45.2428 C.ar      1 PEA        -0.1500 
+      6 C          45.5904   23.9633   46.6395 C.ar      1 PEA        -0.1500 
+      7 C          44.2923   24.4618   48.7531 C.3       1 PEA         0.1435 
+      8 C          42.9934   23.7708   49.2454 C.3       1 PEA         0.5030 
+      9 N          43.0565   22.3032   49.2020 N.4       1 PEA        -0.8530 
+     10 H          42.6336   25.5461   46.9001 H         1 PEA         0.1500 
+     11 H          42.9168   25.6946   44.5014 H         1 PEA         0.1500 
+     12 H          44.8813   24.7340   43.4419 H         1 PEA         0.1500 
+     13 H          46.5834   23.6578   44.7975 H         1 PEA         0.1500 
+     14 H          46.3181   23.5060   47.1919 H         1 PEA         0.1500 
+     15 H          44.2983   25.4946   49.1159 H         1 PEA         0.0000 
+     16 H          45.1457   23.9591   49.2208 H         1 PEA         0.0000 
+     17 H          42.1385   24.1006   48.6483 H         1 PEA         0.0000 
+     18 H          42.8188   24.0544   50.2896 H         1 PEA         0.0000 
+     19 H          42.1497   21.9252   49.4835 H         1 PEA         0.4500 
+     20 H          43.7725   21.9641   49.8471 H         1 PEA         0.4500 
+     21 H          43.2729   21.9845   48.2545 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_768
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:45 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:45 2018
+
+@<TRIPOS>MOLECULE
+1uto_768
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.0311   24.3468   47.7137 C.ar      1 PEA        -0.1435 
+      2 C          45.2995   23.9923   47.1867 C.ar      1 PEA        -0.1500 
+      3 C          45.8623   24.7038   46.1099 C.ar      1 PEA        -0.1500 
+      4 C          45.1666   25.7825   45.5363 C.ar      1 PEA        -0.1500 
+      5 C          43.9005   26.1390   46.0324 C.ar      1 PEA        -0.1500 
+      6 C          43.3330   25.4170   47.0987 C.ar      1 PEA        -0.1500 
+      7 C          43.4533   23.5663   48.8504 C.3       1 PEA         0.1435 
+      8 C          42.2313   24.2088   49.5607 C.3       1 PEA         0.5030 
+      9 N          41.7866   23.4358   50.7231 N.4       1 PEA        -0.8530 
+     10 H          45.8261   23.2095   47.5837 H         1 PEA         0.1500 
+     11 H          46.7803   24.4409   45.7465 H         1 PEA         0.1500 
+     12 H          45.5784   26.3066   44.7595 H         1 PEA         0.1500 
+     13 H          43.3957   26.9264   45.6196 H         1 PEA         0.1500 
+     14 H          42.4054   25.6916   47.4260 H         1 PEA         0.1500 
+     15 H          44.2216   23.4081   49.6133 H         1 PEA         0.0000 
+     16 H          43.1696   22.5805   48.4730 H         1 PEA         0.0000 
+     17 H          41.3809   24.2639   48.8760 H         1 PEA         0.0000 
+     18 H          42.4839   25.2154   49.9002 H         1 PEA         0.0000 
+     19 H          40.9962   23.9177   51.1550 H         1 PEA         0.4500 
+     20 H          42.5449   23.3521   51.4025 H         1 PEA         0.4500 
+     21 H          41.4911   22.5071   50.4169 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_770
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_770
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          43.4736   25.2190   49.3921 C.ar      1 PEA        -0.1435 
+      2 C          43.0780   25.4188   48.0459 C.ar      1 PEA        -0.1500 
+      3 C          44.0137   25.3386   46.9998 C.ar      1 PEA        -0.1500 
+      4 C          45.3637   25.0699   47.2821 C.ar      1 PEA        -0.1500 
+      5 C          45.7795   24.8880   48.6124 C.ar      1 PEA        -0.1500 
+      6 C          44.8402   24.9627   49.6613 C.ar      1 PEA        -0.1500 
+      7 C          42.4693   25.2599   50.4909 C.3       1 PEA         0.1435 
+      8 C          41.6645   23.9426   50.6301 C.3       1 PEA         0.5030 
+      9 N          40.8762   23.6414   49.4296 N.4       1 PEA        -0.8530 
+     10 H          42.1014   25.6186   47.8209 H         1 PEA         0.1500 
+     11 H          43.7104   25.4740   46.0319 H         1 PEA         0.1500 
+     12 H          46.0439   25.0090   46.5209 H         1 PEA         0.1500 
+     13 H          46.7618   24.6956   48.8217 H         1 PEA         0.1500 
+     14 H          45.1611   24.8191   50.6223 H         1 PEA         0.1500 
+     15 H          41.7785   26.0905   50.3256 H         1 PEA         0.0000 
+     16 H          42.9654   25.4530   51.4468 H         1 PEA         0.0000 
+     17 H          40.9765   24.0285   51.4738 H         1 PEA         0.0000 
+     18 H          42.3394   23.1071   50.8273 H         1 PEA         0.0000 
+     19 H          40.3480   22.7817   49.5758 H         1 PEA         0.4500 
+     20 H          41.5070   23.5069   48.6361 H         1 PEA         0.4500 
+     21 H          40.2350   24.4107   49.2292 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_772
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:41 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:41 2018
+
+@<TRIPOS>MOLECULE
+1uto_772
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          43.4280   25.3026   49.2951 C.ar      1 PEA        -0.1435 
+      2 C          43.0929   25.3382   47.9231 C.ar      1 PEA        -0.1500 
+      3 C          44.0835   25.2149   46.9294 C.ar      1 PEA        -0.1500 
+      4 C          45.4328   25.0622   47.2980 C.ar      1 PEA        -0.1500 
+      5 C          45.7878   25.0442   48.6588 C.ar      1 PEA        -0.1500 
+      6 C          44.7953   25.1659   49.6503 C.ar      1 PEA        -0.1500 
+      7 C          42.3689   25.3888   50.3388 C.3       1 PEA         0.1435 
+      8 C          41.6501   24.0393   50.6030 C.3       1 PEA         0.5030 
+      9 N          40.9086   23.5794   49.4266 N.4       1 PEA        -0.8530 
+     10 H          42.1188   25.4488   47.6320 H         1 PEA         0.1500 
+     11 H          43.8230   25.2324   45.9408 H         1 PEA         0.1500 
+     12 H          46.1506   24.9652   46.5799 H         1 PEA         0.1500 
+     13 H          46.7690   24.9358   48.9279 H         1 PEA         0.1500 
+     14 H          45.0741   25.1447   50.6346 H         1 PEA         0.1500 
+     15 H          41.6243   26.1361   50.0460 H         1 PEA         0.0000 
+     16 H          42.7950   25.7336   51.2859 H         1 PEA         0.0000 
+     17 H          40.9588   24.1444   51.4321 H         1 PEA         0.0000 
+     18 H          42.3885   23.2695   50.8727 H         1 PEA         0.0000 
+     19 H          40.4298   22.7023   49.6431 H         1 PEA         0.4500 
+     20 H          41.5535   23.4206   48.6574 H         1 PEA         0.4500 
+     21 H          40.2160   24.2871   49.1538 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_774
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_774
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.3298   22.6176   49.4295 C.ar      1 PEA        -0.1435 
+      2 C          44.6590   21.3936   50.0611 C.ar      1 PEA        -0.1500 
+      3 C          45.9691   21.1478   50.5144 C.ar      1 PEA        -0.1500 
+      4 C          46.9673   22.1260   50.3515 C.ar      1 PEA        -0.1500 
+      5 C          46.6542   23.3456   49.7270 C.ar      1 PEA        -0.1500 
+      6 C          45.3455   23.5896   49.2677 C.ar      1 PEA        -0.1500 
+      7 C          42.9490   22.8570   48.9238 C.3       1 PEA         0.1435 
+      8 C          41.9923   23.4213   50.0027 C.3       1 PEA         0.5030 
+      9 N          42.2533   24.8453   50.2480 N.4       1 PEA        -0.8530 
+     10 H          43.9491   20.6656   50.1817 H         1 PEA         0.1500 
+     11 H          46.1980   20.2542   50.9542 H         1 PEA         0.1500 
+     12 H          47.9198   21.9469   50.6797 H         1 PEA         0.1500 
+     13 H          47.3803   24.0542   49.5978 H         1 PEA         0.1500 
+     14 H          45.1422   24.4809   48.8100 H         1 PEA         0.1500 
+     15 H          42.5420   21.9161   48.5418 H         1 PEA         0.0000 
+     16 H          42.9702   23.5563   48.0824 H         1 PEA         0.0000 
+     17 H          42.1154   22.8741   50.9392 H         1 PEA         0.0000 
+     18 H          40.9535   23.3148   49.6732 H         1 PEA         0.0000 
+     19 H          41.5911   25.2009   50.9394 H         1 PEA         0.4500 
+     20 H          42.1467   25.3720   49.3778 H         1 PEA         0.4500 
+     21 H          43.2057   24.9623   50.5984 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_775
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_775
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.2914   25.3106   49.1191 C.ar      1 PEA        -0.1435 
+      2 C          44.3393   26.5163   49.8730 C.ar      1 PEA        -0.1500 
+      3 C          45.5422   26.9623   50.4602 C.ar      1 PEA        -0.1500 
+      4 C          46.7201   26.2070   50.2945 C.ar      1 PEA        -0.1500 
+      5 C          46.6968   25.0107   49.5460 C.ar      1 PEA        -0.1500 
+      6 C          45.4903   24.5668   48.9632 C.ar      1 PEA        -0.1500 
+      7 C          43.0062   24.8274   48.5215 C.3       1 PEA         0.1435 
+      8 C          42.4598   23.5421   49.2096 C.3       1 PEA         0.5030 
+      9 N          41.0163   23.6312   49.5199 N.4       1 PEA        -0.8530 
+     10 H          43.4906   27.0788   50.0096 H         1 PEA         0.1500 
+     11 H          45.5550   27.8281   51.0125 H         1 PEA         0.1500 
+     12 H          47.5958   26.5180   50.7270 H         1 PEA         0.1500 
+     13 H          47.5545   24.4618   49.4302 H         1 PEA         0.1500 
+     14 H          45.4835   23.6904   48.4283 H         1 PEA         0.1500 
+     15 H          43.1811   24.6283   47.4596 H         1 PEA         0.0000 
+     16 H          42.2495   25.6212   48.5768 H         1 PEA         0.0000 
+     17 H          42.9727   23.3463   50.1639 H         1 PEA         0.0000 
+     18 H          42.6183   22.6731   48.5565 H         1 PEA         0.0000 
+     19 H          40.6895   22.7260   49.8555 H         1 PEA         0.4500 
+     20 H          40.4866   23.9000   48.6904 H         1 PEA         0.4500 
+     21 H          40.8629   24.3289   50.2517 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_777
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_777
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.3750   22.7228   49.4032 C.ar      1 PEA        -0.1435 
+      2 C          44.8115   21.5057   49.9816 C.ar      1 PEA        -0.1500 
+      3 C          46.1447   21.3455   50.4015 C.ar      1 PEA        -0.1500 
+      4 C          47.0638   22.3997   50.2525 C.ar      1 PEA        -0.1500 
+      5 C          46.6469   23.6147   49.6840 C.ar      1 PEA        -0.1500 
+      6 C          45.3121   23.7758   49.2624 C.ar      1 PEA        -0.1500 
+      7 C          42.9673   22.8833   48.9489 C.3       1 PEA         0.1435 
+      8 C          42.0177   23.4419   50.0419 C.3       1 PEA         0.5030 
+      9 N          42.2276   24.8693   50.2998 N.4       1 PEA        -0.8530 
+     10 H          44.1518   20.7295   50.1019 H         1 PEA         0.1500 
+     11 H          46.4514   20.4579   50.8015 H         1 PEA         0.1500 
+     12 H          48.0354   22.2813   50.5466 H         1 PEA         0.1500 
+     13 H          47.3154   24.3781   49.5669 H         1 PEA         0.1500 
+     14 H          45.0253   24.6683   48.8577 H         1 PEA         0.1500 
+     15 H          42.5830   21.9135   48.6216 H         1 PEA         0.0000 
+     16 H          42.9318   23.5368   48.0725 H         1 PEA         0.0000 
+     17 H          42.1412   22.8956   50.9788 H         1 PEA         0.0000 
+     18 H          40.9872   23.3182   49.7094 H         1 PEA         0.0000 
+     19 H          41.5734   25.1825   51.0211 H         1 PEA         0.4500 
+     20 H          42.0548   25.3908   49.4383 H         1 PEA         0.4500 
+     21 H          43.1853   25.0332   50.6165 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_783
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:45 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:45 2018
+
+@<TRIPOS>MOLECULE
+1uto_783
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.3970   25.1365   49.2812 C.ar      1 PEA        -0.1435 
+      2 C          44.2392   26.1785   50.2252 C.ar      1 PEA        -0.1500 
+      3 C          45.3525   26.7234   50.8912 C.ar      1 PEA        -0.1500 
+      4 C          46.6414   26.2295   50.6235 C.ar      1 PEA        -0.1500 
+      5 C          46.8148   25.1817   49.7034 C.ar      1 PEA        -0.1500 
+      6 C          45.6994   24.6335   49.0411 C.ar      1 PEA        -0.1500 
+      7 C          43.2217   24.5868   48.5485 C.3       1 PEA         0.1435 
+      8 C          42.5912   23.3271   49.2148 C.3       1 PEA         0.5030 
+      9 N          41.1837   23.5514   49.5701 N.4       1 PEA        -0.8530 
+     10 H          43.3093   26.5489   50.4333 H         1 PEA         0.1500 
+     11 H          45.2248   27.4815   51.5644 H         1 PEA         0.1500 
+     12 H          47.4511   26.6345   51.0977 H         1 PEA         0.1500 
+     13 H          47.7534   24.8230   49.5131 H         1 PEA         0.1500 
+     14 H          45.8449   23.8743   48.3726 H         1 PEA         0.1500 
+     15 H          43.5177   24.3414   47.5259 H         1 PEA         0.0000 
+     16 H          42.4612   25.3654   48.4440 H         1 PEA         0.0000 
+     17 H          43.1276   23.0390   50.1215 H         1 PEA         0.0000 
+     18 H          42.6330   22.4808   48.5246 H         1 PEA         0.0000 
+     19 H          40.8047   22.7172   50.0254 H         1 PEA         0.4500 
+     20 H          40.6444   23.7457   48.7221 H         1 PEA         0.4500 
+     21 H          41.1119   24.3502   50.2065 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_784
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:44 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:44 2018
+
+@<TRIPOS>MOLECULE
+1uto_784
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.2292   24.2974   50.9195 C.ar      1 PEA        -0.1435 
+      2 C          46.2540   24.9249   50.1693 C.ar      1 PEA        -0.1500 
+      3 C          47.6054   24.5742   50.3605 C.ar      1 PEA        -0.1500 
+      4 C          47.9489   23.5981   51.3118 C.ar      1 PEA        -0.1500 
+      5 C          46.9491   22.9894   52.0871 C.ar      1 PEA        -0.1500 
+      6 C          45.5989   23.3406   51.8971 C.ar      1 PEA        -0.1500 
+      7 C          43.7958   24.6447   50.6999 C.3       1 PEA         0.1435 
+      8 C          42.9706   23.4264   50.2208 C.3       1 PEA         0.5030 
+      9 N          41.5611   23.5276   50.6416 N.4       1 PEA        -0.8530 
+     10 H          46.0194   25.6342   49.4659 H         1 PEA         0.1500 
+     11 H          48.3341   25.0271   49.8059 H         1 PEA         0.1500 
+     12 H          48.9277   23.3333   51.4395 H         1 PEA         0.1500 
+     13 H          47.2039   22.2921   52.7922 H         1 PEA         0.1500 
+     14 H          44.8851   22.8863   52.4717 H         1 PEA         0.1500 
+     15 H          43.7028   25.4331   49.9451 H         1 PEA         0.0000 
+     16 H          43.3670   25.0338   51.6281 H         1 PEA         0.0000 
+     17 H          43.3800   22.5018   50.6362 H         1 PEA         0.0000 
+     18 H          42.9900   23.3620   49.1269 H         1 PEA         0.0000 
+     19 H          41.0478   22.6934   50.3282 H         1 PEA         0.4500 
+     20 H          41.1327   24.3653   50.2319 H         1 PEA         0.4500 
+     21 H          41.5092   23.5862   51.6649 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_785
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_785
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.2632   25.0265   50.1469 C.ar      1 PEA        -0.1435 
+      2 C          44.6146   25.4067   51.4660 C.ar      1 PEA        -0.1500 
+      3 C          45.9032   25.1523   51.9665 C.ar      1 PEA        -0.1500 
+      4 C          46.8594   24.5173   51.1542 C.ar      1 PEA        -0.1500 
+      5 C          46.5247   24.1280   49.8447 C.ar      1 PEA        -0.1500 
+      6 C          45.2325   24.3836   49.3465 C.ar      1 PEA        -0.1500 
+      7 C          42.9110   25.3294   49.5975 C.3       1 PEA         0.1435 
+      8 C          42.0378   24.0776   49.3496 C.3       1 PEA         0.5030 
+      9 N          41.7488   23.3647   50.6022 N.4       1 PEA        -0.8530 
+     10 H          43.9335   25.8705   52.0684 H         1 PEA         0.1500 
+     11 H          46.1433   25.4323   52.9213 H         1 PEA         0.1500 
+     12 H          47.7999   24.3377   51.5166 H         1 PEA         0.1500 
+     13 H          47.2196   23.6624   49.2569 H         1 PEA         0.1500 
+     14 H          45.0087   24.1017   48.3895 H         1 PEA         0.1500 
+     15 H          43.0328   25.8686   48.6534 H         1 PEA         0.0000 
+     16 H          42.3579   25.9965   50.2644 H         1 PEA         0.0000 
+     17 H          42.5326   23.3960   48.6567 H         1 PEA         0.0000 
+     18 H          41.0891   24.3767   48.9012 H         1 PEA         0.0000 
+     19 H          41.1944   22.5352   50.3916 H         1 PEA         0.4500 
+     20 H          41.2218   23.9728   51.2355 H         1 PEA         0.4500 
+     21 H          42.6232   23.0818   51.0506 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_786
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:45 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:45 2018
+
+@<TRIPOS>MOLECULE
+1uto_786
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.0080   24.0085   50.4254 C.ar      1 PEA        -0.1435 
+      2 C          45.0364   24.3003   51.8103 C.ar      1 PEA        -0.1500 
+      3 C          46.0966   23.8526   52.6198 C.ar      1 PEA        -0.1500 
+      4 C          47.1456   23.1095   52.0519 C.ar      1 PEA        -0.1500 
+      5 C          47.1333   22.8064   50.6786 C.ar      1 PEA        -0.1500 
+      6 C          46.0673   23.2524   49.8735 C.ar      1 PEA        -0.1500 
+      7 C          43.9134   24.5255   49.5567 C.3       1 PEA         0.1435 
+      8 C          42.7838   23.4998   49.3116 C.3       1 PEA         0.5030 
+      9 N          41.8843   23.3922   50.4732 N.4       1 PEA        -0.8530 
+     10 H          44.2809   24.8429   52.2361 H         1 PEA         0.1500 
+     11 H          46.1008   24.0693   53.6203 H         1 PEA         0.1500 
+     12 H          47.9186   22.7892   52.6350 H         1 PEA         0.1500 
+     13 H          47.8947   22.2617   50.2656 H         1 PEA         0.1500 
+     14 H          46.0717   23.0320   48.8746 H         1 PEA         0.1500 
+     15 H          44.3327   24.8306   48.5952 H         1 PEA         0.0000 
+     16 H          43.4848   25.4338   49.9819 H         1 PEA         0.0000 
+     17 H          43.1915   22.5139   49.0722 H         1 PEA         0.0000 
+     18 H          42.1854   23.8196   48.4589 H         1 PEA         0.0000 
+     19 H          41.1778   22.6829   50.2828 H         1 PEA         0.4500 
+     20 H          41.4338   24.2963   50.6343 H         1 PEA         0.4500 
+     21 H          42.4212   23.1232   51.2967 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_789
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_789
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.0760   21.7097   48.9010 C.ar      1 PEA        -0.1435 
+      2 C          42.9638   22.5826   49.0025 C.ar      1 PEA        -0.1500 
+      3 C          43.0732   23.9381   48.6339 C.ar      1 PEA        -0.1500 
+      4 C          44.2958   24.4456   48.1596 C.ar      1 PEA        -0.1500 
+      5 C          45.4085   23.5925   48.0572 C.ar      1 PEA        -0.1500 
+      6 C          45.2983   22.2357   48.4186 C.ar      1 PEA        -0.1500 
+      7 C          43.9656   20.2572   49.2230 C.3       1 PEA         0.1435 
+      8 C          44.8281   19.8307   50.4357 C.3       1 PEA         0.5030 
+      9 N          44.8902   18.3670   50.5418 N.4       1 PEA        -0.8530 
+     10 H          42.0571   22.2359   49.3383 H         1 PEA         0.1500 
+     11 H          42.2601   24.5518   48.6939 H         1 PEA         0.1500 
+     12 H          44.3758   25.4282   47.8878 H         1 PEA         0.1500 
+     13 H          46.2934   23.9525   47.6977 H         1 PEA         0.1500 
+     14 H          46.1138   21.6265   48.3098 H         1 PEA         0.1500 
+     15 H          44.2890   19.6907   48.3415 H         1 PEA         0.0000 
+     16 H          42.9266   19.9772   49.4207 H         1 PEA         0.0000 
+     17 H          44.4087   20.2338   51.3638 H         1 PEA         0.0000 
+     18 H          45.8492   20.1951   50.3272 H         1 PEA         0.0000 
+     19 H          45.4440   18.1011   51.3613 H         1 PEA         0.4500 
+     20 H          45.3268   17.9799   49.7042 H         1 PEA         0.4500 
+     21 H          43.9452   17.9868   50.6367 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_790
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_790
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.3006   25.0596   50.0184 C.ar      1 PEA        -0.1435 
+      2 C          44.6788   25.4357   51.3287 C.ar      1 PEA        -0.1500 
+      3 C          45.9861   25.2062   51.7957 C.ar      1 PEA        -0.1500 
+      4 C          46.9349   24.5994   50.9528 C.ar      1 PEA        -0.1500 
+      5 C          46.5724   24.2132   49.6500 C.ar      1 PEA        -0.1500 
+      6 C          45.2645   24.4427   49.1858 C.ar      1 PEA        -0.1500 
+      7 C          42.9327   25.3402   49.5018 C.3       1 PEA         0.1435 
+      8 C          42.0594   24.0742   49.3282 C.3       1 PEA         0.5030 
+      9 N          41.7582   23.4421   50.6198 N.4       1 PEA        -0.8530 
+     10 H          44.0028   25.8800   51.9530 H         1 PEA         0.1500 
+     11 H          46.2434   25.4818   52.7470 H         1 PEA         0.1500 
+     12 H          47.8869   24.4358   51.2881 H         1 PEA         0.1500 
+     13 H          47.2603   23.7641   49.0426 H         1 PEA         0.1500 
+     14 H          45.0204   24.1676   48.2320 H         1 PEA         0.1500 
+     15 H          43.0208   25.8450   48.5369 H         1 PEA         0.0000 
+     16 H          42.4010   26.0293   50.1628 H         1 PEA         0.0000 
+     17 H          42.5569   23.3501   48.6804 H         1 PEA         0.0000 
+     18 H          41.1133   24.3474   48.8560 H         1 PEA         0.0000 
+     19 H          41.2041   22.5998   50.4559 H         1 PEA         0.4500 
+     20 H          41.2264   24.0893   51.2086 H         1 PEA         0.4500 
+     21 H          42.6274   23.1876   51.0954 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_791
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_791
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          43.7422   24.8650   47.9720 C.ar      1 PEA        -0.1435 
+      2 C          43.1993   25.5381   46.8564 C.ar      1 PEA        -0.1500 
+      3 C          43.8287   25.4771   45.5996 C.ar      1 PEA        -0.1500 
+      4 C          45.0215   24.7471   45.4382 C.ar      1 PEA        -0.1500 
+      5 C          45.5819   24.0933   46.5412 C.ar      1 PEA        -0.1500 
+      6 C          44.9524   24.1515   47.8024 C.ar      1 PEA        -0.1500 
+      7 C          43.0538   24.8755   49.2932 C.3       1 PEA         0.1435 
+      8 C          42.1802   23.6208   49.5545 C.3       1 PEA         0.5030 
+      9 N          42.8997   22.3477   49.4178 N.4       1 PEA        -0.8530 
+     10 H          42.3293   26.0771   46.9456 H         1 PEA         0.1500 
+     11 H          43.4225   25.9589   44.8011 H         1 PEA         0.1500 
+     12 H          45.4681   24.6889   44.5250 H         1 PEA         0.1500 
+     13 H          46.4503   23.5620   46.4347 H         1 PEA         0.1500 
+     14 H          45.3861   23.6659   48.5904 H         1 PEA         0.1500 
+     15 H          42.4074   25.7519   49.3672 H         1 PEA         0.0000 
+     16 H          43.7988   24.9779   50.0835 H         1 PEA         0.0000 
+     17 H          41.3365   23.6094   48.8683 H         1 PEA         0.0000 
+     18 H          41.7939   23.6714   50.5718 H         1 PEA         0.0000 
+     19 H          42.2786   21.5929   49.7165 H         1 PEA         0.4500 
+     20 H          43.7416   22.3599   50.0010 H         1 PEA         0.4500 
+     21 H          43.1893   22.2125   48.4389 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_792
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_792
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          46.1031   23.2465   51.0871 C.ar      1 PEA        -0.1435 
+      2 C          46.8286   22.0740   51.4055 C.ar      1 PEA        -0.1500 
+      3 C          46.7786   21.5288   52.7018 C.ar      1 PEA        -0.1500 
+      4 C          46.0137   22.1551   53.7023 C.ar      1 PEA        -0.1500 
+      5 C          45.3015   23.3301   53.4055 C.ar      1 PEA        -0.1500 
+      6 C          45.3472   23.8733   52.1077 C.ar      1 PEA        -0.1500 
+      7 C          46.1240   23.8196   49.7118 C.3       1 PEA         0.1435 
+      8 C          44.7389   23.7961   49.0172 C.3       1 PEA         0.5030 
+      9 N          44.2110   22.4317   48.8897 N.4       1 PEA        -0.8530 
+     10 H          47.3931   21.6019   50.6926 H         1 PEA         0.1500 
+     11 H          47.2956   20.6734   52.9168 H         1 PEA         0.1500 
+     12 H          45.9785   21.7594   54.6447 H         1 PEA         0.1500 
+     13 H          44.7490   23.7907   54.1320 H         1 PEA         0.1500 
+     14 H          44.8251   24.7310   51.9123 H         1 PEA         0.1500 
+     15 H          46.8336   23.2801   49.0780 H         1 PEA         0.0000 
+     16 H          46.4753   24.8533   49.7668 H         1 PEA         0.0000 
+     17 H          44.8312   24.2181   48.0143 H         1 PEA         0.0000 
+     18 H          44.0196   24.4013   49.5732 H         1 PEA         0.0000 
+     19 H          43.3160   22.4564   48.3953 H         1 PEA         0.4500 
+     20 H          44.0756   22.0251   49.8177 H         1 PEA         0.4500 
+     21 H          44.8711   21.8580   48.3601 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_823
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_823
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.5055   19.0792   51.0110 C.ar      1 PEA        -0.1435 
+      2 C          46.5327   19.2794   51.9657 C.ar      1 PEA        -0.1500 
+      3 C          46.6071   18.4834   53.1238 C.ar      1 PEA        -0.1500 
+      4 C          45.6558   17.4738   53.3450 C.ar      1 PEA        -0.1500 
+      5 C          44.6111   17.2830   52.4242 C.ar      1 PEA        -0.1500 
+      6 C          44.5328   18.0818   51.2681 C.ar      1 PEA        -0.1500 
+      7 C          45.4409   19.9139   49.7764 C.3       1 PEA         0.1435 
+      8 C          44.3843   21.0535   49.8404 C.3       1 PEA         0.5030 
+      9 N          43.1730   20.7407   49.0752 N.4       1 PEA        -0.8530 
+     10 H          47.2303   20.0123   51.8212 H         1 PEA         0.1500 
+     11 H          47.3618   18.6294   53.7951 H         1 PEA         0.1500 
+     12 H          45.7223   16.8894   54.1828 H         1 PEA         0.1500 
+     13 H          43.9088   16.5624   52.5975 H         1 PEA         0.1500 
+     14 H          43.7658   17.9241   50.6106 H         1 PEA         0.1500 
+     15 H          45.2406   19.2622   48.9231 H         1 PEA         0.0000 
+     16 H          46.4216   20.3626   49.5904 H         1 PEA         0.0000 
+     17 H          44.8078   21.9728   49.4236 H         1 PEA         0.0000 
+     18 H          44.0931   21.2597   50.8711 H         1 PEA         0.0000 
+     19 H          42.4763   21.4745   49.2161 H         1 PEA         0.4500 
+     20 H          42.7874   19.8459   49.3788 H         1 PEA         0.4500 
+     21 H          43.4120   20.6963   48.0831 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_826
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_826
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.2363   19.7446   50.2100 C.ar      1 PEA        -0.1435 
+      2 C          46.1813   20.7892   50.0649 C.ar      1 PEA        -0.1500 
+      3 C          45.8123   22.0128   49.4772 C.ar      1 PEA        -0.1500 
+      4 C          44.4983   22.2036   49.0152 C.ar      1 PEA        -0.1500 
+      5 C          43.5504   21.1724   49.1489 C.ar      1 PEA        -0.1500 
+      6 C          43.9126   19.9561   49.7562 C.ar      1 PEA        -0.1500 
+      7 C          45.6233   18.4450   50.8191 C.3       1 PEA         0.1435 
+      8 C          45.2370   18.3550   52.3161 C.3       1 PEA         0.5030 
+      9 N          45.9366   17.2387   52.9639 N.4       1 PEA        -0.8530 
+     10 H          47.1437   20.6658   50.3862 H         1 PEA         0.1500 
+     11 H          46.5019   22.7596   49.3737 H         1 PEA         0.1500 
+     12 H          44.2320   23.0855   48.5732 H         1 PEA         0.1500 
+     13 H          42.6018   21.3025   48.7911 H         1 PEA         0.1500 
+     14 H          43.2092   19.2164   49.8468 H         1 PEA         0.1500 
+     15 H          46.7026   18.3045   50.7331 H         1 PEA         0.0000 
+     16 H          45.1553   17.6262   50.2640 H         1 PEA         0.0000 
+     17 H          44.1594   18.2111   52.4256 H         1 PEA         0.0000 
+     18 H          45.5207   19.2755   52.8311 H         1 PEA         0.0000 
+     19 H          45.6536   17.1764   53.9438 H         1 PEA         0.4500 
+     20 H          46.9461   17.3963   52.9131 H         1 PEA         0.4500 
+     21 H          45.7123   16.3651   52.4811 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_834
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_834
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.2513   19.7310   50.3933 C.ar      1 PEA        -0.1435 
+      2 C          46.2211   20.7618   50.3680 C.ar      1 PEA        -0.1500 
+      3 C          45.9150   22.0318   49.8532 C.ar      1 PEA        -0.1500 
+      4 C          44.6283   22.2886   49.3456 C.ar      1 PEA        -0.1500 
+      5 C          43.6546   21.2747   49.3568 C.ar      1 PEA        -0.1500 
+      6 C          43.9639   20.0020   49.8684 C.ar      1 PEA        -0.1500 
+      7 C          45.5999   18.3839   50.9190 C.3       1 PEA         0.1435 
+      8 C          45.3016   18.2506   52.4331 C.3       1 PEA         0.5030 
+      9 N          45.9163   17.0371   52.9874 N.4       1 PEA        -0.8530 
+     10 H          47.1596   20.5966   50.7336 H         1 PEA         0.1500 
+     11 H          46.6229   22.7705   49.8453 H         1 PEA         0.1500 
+     12 H          44.4011   23.2106   48.9707 H         1 PEA         0.1500 
+     13 H          42.7232   21.4602   48.9767 H         1 PEA         0.1500 
+     14 H          43.2413   19.2782   49.8801 H         1 PEA         0.1500 
+     15 H          46.6639   18.1944   50.7271 H         1 PEA         0.0000 
+     16 H          45.0374   17.6023   50.3970 H         1 PEA         0.0000 
+     17 H          44.2191   18.2031   52.5845 H         1 PEA         0.0000 
+     18 H          45.6899   19.1055   52.9894 H         1 PEA         0.0000 
+     19 H          45.6967   16.9457   53.9752 H         1 PEA         0.4500 
+     20 H          46.9252   17.0858   52.8891 H         1 PEA         0.4500 
+     21 H          45.5742   16.2125   52.5025 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_837
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_837
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.1400   19.9103   50.1102 C.ar      1 PEA        -0.1435 
+      2 C          46.1344   20.9079   49.9643 C.ar      1 PEA        -0.1500 
+      3 C          45.8145   22.1746   49.4384 C.ar      1 PEA        -0.1500 
+      4 C          44.4960   22.4624   49.0454 C.ar      1 PEA        -0.1500 
+      5 C          43.4971   21.4803   49.1781 C.ar      1 PEA        -0.1500 
+      6 C          43.8150   20.2158   49.7116 C.ar      1 PEA        -0.1500 
+      7 C          45.4810   18.5664   50.6621 C.3       1 PEA         0.1435 
+      8 C          44.9108   18.3276   52.0825 C.3       1 PEA         0.5030 
+      9 N          45.7046   17.3524   52.8435 N.4       1 PEA        -0.8530 
+     10 H          47.1015   20.7247   50.2446 H         1 PEA         0.1500 
+     11 H          46.5418   22.8855   49.3374 H         1 PEA         0.1500 
+     12 H          44.2628   23.3829   48.6639 H         1 PEA         0.1500 
+     13 H          42.5392   21.6862   48.8807 H         1 PEA         0.1500 
+     14 H          43.0741   19.5164   49.7983 H         1 PEA         0.1500 
+     15 H          46.5678   18.4332   50.6900 H         1 PEA         0.0000 
+     16 H          45.0863   17.7960   49.9959 H         1 PEA         0.0000 
+     17 H          43.8935   17.9388   52.0030 H         1 PEA         0.0000 
+     18 H          44.8781   19.2672   52.6401 H         1 PEA         0.0000 
+     19 H          45.2758   17.2117   53.7609 H         1 PEA         0.4500 
+     20 H          46.6581   17.7013   52.9648 H         1 PEA         0.4500 
+     21 H          45.7299   16.4606   52.3434 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_841
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_841
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.1176   20.0427   50.0323 C.ar      1 PEA        -0.1435 
+      2 C          46.0852   21.0633   49.8750 C.ar      1 PEA        -0.1500 
+      3 C          45.7317   22.3200   49.3484 C.ar      1 PEA        -0.1500 
+      4 C          44.4011   22.5760   48.9757 C.ar      1 PEA        -0.1500 
+      5 C          43.4256   21.5761   49.1289 C.ar      1 PEA        -0.1500 
+      6 C          43.7799   20.3193   49.6543 C.ar      1 PEA        -0.1500 
+      7 C          45.4905   18.7093   50.5890 C.3       1 PEA         0.1435 
+      8 C          44.8096   18.4025   51.9520 C.3       1 PEA         0.5030 
+      9 N          45.5951   17.4554   52.7547 N.4       1 PEA        -0.8530 
+     10 H          47.0584   20.8982   50.1412 H         1 PEA         0.1500 
+     11 H          46.4467   23.0446   49.2369 H         1 PEA         0.1500 
+     12 H          44.1483   23.4870   48.5926 H         1 PEA         0.1500 
+     13 H          42.4661   21.7634   48.8451 H         1 PEA         0.1500 
+     14 H          43.0534   19.6063   49.7616 H         1 PEA         0.1500 
+     15 H          46.5749   18.6439   50.7128 H         1 PEA         0.0000 
+     16 H          45.2145   17.9347   49.8689 H         1 PEA         0.0000 
+     17 H          43.8217   17.9672   51.7819 H         1 PEA         0.0000 
+     18 H          44.6881   19.3116   52.5467 H         1 PEA         0.0000 
+     19 H          45.1083   17.2644   53.6324 H         1 PEA         0.4500 
+     20 H          46.5149   17.8520   52.9674 H         1 PEA         0.4500 
+     21 H          45.7187   16.5812   52.2400 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_877
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_877
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.5661   24.2240   48.9947 C.ar      1 PEA        -0.1435 
+      2 C          45.0124   25.5683   48.9299 C.ar      1 PEA        -0.1500 
+      3 C          46.3438   25.9093   49.2417 C.ar      1 PEA        -0.1500 
+      4 C          47.2525   24.9117   49.6335 C.ar      1 PEA        -0.1500 
+      5 C          46.8316   23.5699   49.6968 C.ar      1 PEA        -0.1500 
+      6 C          45.5010   23.2294   49.3768 C.ar      1 PEA        -0.1500 
+      7 C          43.1682   23.8826   48.5929 C.3       1 PEA         0.1435 
+      8 C          42.0730   24.3478   49.5915 C.3       1 PEA         0.5030 
+      9 N          41.9042   23.4175   50.7168 N.4       1 PEA        -0.8530 
+     10 H          44.3731   26.3069   48.6265 H         1 PEA         0.1500 
+     11 H          46.6542   26.8822   49.1711 H         1 PEA         0.1500 
+     12 H          48.2230   25.1554   49.8476 H         1 PEA         0.1500 
+     13 H          47.5001   22.8367   49.9517 H         1 PEA         0.1500 
+     14 H          45.2241   22.2437   49.4182 H         1 PEA         0.1500 
+     15 H          43.0601   22.8060   48.4240 H         1 PEA         0.0000 
+     16 H          42.9751   24.3645   47.6311 H         1 PEA         0.0000 
+     17 H          41.1150   24.3984   49.0672 H         1 PEA         0.0000 
+     18 H          42.2971   25.3444   49.9835 H         1 PEA         0.0000 
+     19 H          41.2247   23.8070   51.3750 H         1 PEA         0.4500 
+     20 H          42.7958   23.2759   51.1964 H         1 PEA         0.4500 
+     21 H          41.5552   22.5185   50.3724 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_878
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_878
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.5025   19.2058   51.1387 C.ar      1 PEA        -0.1435 
+      2 C          44.7979   20.3925   51.4552 C.ar      1 PEA        -0.1500 
+      3 C          44.3345   21.2428   50.4333 C.ar      1 PEA        -0.1500 
+      4 C          44.5760   20.9217   49.0877 C.ar      1 PEA        -0.1500 
+      5 C          45.2830   19.7529   48.7576 C.ar      1 PEA        -0.1500 
+      6 C          45.7434   18.9007   49.7758 C.ar      1 PEA        -0.1500 
+      7 C          46.0011   18.3215   52.2293 C.3       1 PEA         0.1435 
+      8 C          44.8948   17.6805   53.1029 C.3       1 PEA         0.5030 
+      9 N          43.9689   16.8731   52.3022 N.4       1 PEA        -0.8530 
+     10 H          44.6227   20.6473   52.4269 H         1 PEA         0.1500 
+     11 H          43.8280   22.0982   50.6714 H         1 PEA         0.1500 
+     12 H          44.2438   21.5473   48.3489 H         1 PEA         0.1500 
+     13 H          45.4649   19.5233   47.7750 H         1 PEA         0.1500 
+     14 H          46.2588   18.0540   49.5130 H         1 PEA         0.1500 
+     15 H          46.6649   18.9070   52.8715 H         1 PEA         0.0000 
+     16 H          46.5951   17.5037   51.8157 H         1 PEA         0.0000 
+     17 H          44.3337   18.4480   53.6323 H         1 PEA         0.0000 
+     18 H          45.3658   17.0278   53.8403 H         1 PEA         0.0000 
+     19 H          43.2653   16.4312   52.8946 H         1 PEA         0.4500 
+     20 H          44.5010   16.1488   51.8236 H         1 PEA         0.4500 
+     21 H          43.5034   17.4691   51.6135 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_885
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_885
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          46.1134   23.3553   49.5496 C.ar      1 PEA        -0.1435 
+      2 C          46.5740   22.0692   49.9161 C.ar      1 PEA        -0.1500 
+      3 C          47.4967   21.9088   50.9652 C.ar      1 PEA        -0.1500 
+      4 C          47.9683   23.0292   51.6705 C.ar      1 PEA        -0.1500 
+      5 C          47.5135   24.3130   51.3239 C.ar      1 PEA        -0.1500 
+      6 C          46.5906   24.4760   50.2740 C.ar      1 PEA        -0.1500 
+      7 C          45.1487   23.5328   48.4270 C.3       1 PEA         0.1435 
+      8 C          43.6679   23.3853   48.8667 C.3       1 PEA         0.5030 
+      9 N          43.2867   21.9881   49.0922 N.4       1 PEA        -0.8530 
+     10 H          46.2557   21.2390   49.4073 H         1 PEA         0.1500 
+     11 H          47.8222   20.9737   51.2153 H         1 PEA         0.1500 
+     12 H          48.6311   22.9090   52.4392 H         1 PEA         0.1500 
+     13 H          47.8448   25.1272   51.8442 H         1 PEA         0.1500 
+     14 H          46.2679   25.4165   50.0404 H         1 PEA         0.1500 
+     15 H          45.3713   22.8159   47.6291 H         1 PEA         0.0000 
+     16 H          45.2633   24.5288   47.9864 H         1 PEA         0.0000 
+     17 H          43.0166   23.7799   48.0836 H         1 PEA         0.0000 
+     18 H          43.4796   23.9539   49.7813 H         1 PEA         0.0000 
+     19 H          42.2932   21.9359   49.3311 H         1 PEA         0.4500 
+     20 H          43.8389   21.5941   49.8570 H         1 PEA         0.4500 
+     21 H          43.4569   21.4574   48.2360 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_887
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_887
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          46.3880   21.2373   50.0929 C.ar      1 PEA        -0.1435 
+      2 C          45.8700   20.7353   48.8746 C.ar      1 PEA        -0.1500 
+      3 C          45.5356   19.3756   48.7421 C.ar      1 PEA        -0.1500 
+      4 C          45.7176   18.4973   49.8247 C.ar      1 PEA        -0.1500 
+      5 C          46.2207   18.9816   51.0442 C.ar      1 PEA        -0.1500 
+      6 C          46.5554   20.3423   51.1766 C.ar      1 PEA        -0.1500 
+      7 C          46.7451   22.6758   50.2392 C.3       1 PEA         0.1435 
+      8 C          45.8435   23.4427   51.2393 C.3       1 PEA         0.5030 
+      9 N          44.4159   23.3236   50.9128 N.4       1 PEA        -0.8530 
+     10 H          45.7294   21.3566   48.0749 H         1 PEA         0.1500 
+     11 H          45.1644   19.0272   47.8544 H         1 PEA         0.1500 
+     12 H          45.4822   17.5085   49.7273 H         1 PEA         0.1500 
+     13 H          46.3478   18.3436   51.8334 H         1 PEA         0.1500 
+     14 H          46.9270   20.6754   52.0706 H         1 PEA         0.1500 
+     15 H          46.6896   23.1895   49.2747 H         1 PEA         0.0000 
+     16 H          47.7843   22.7447   50.5718 H         1 PEA         0.0000 
+     17 H          46.1093   24.5017   51.2233 H         1 PEA         0.0000 
+     18 H          46.0012   23.0714   52.2531 H         1 PEA         0.0000 
+     19 H          43.8645   23.8516   51.5922 H         1 PEA         0.4500 
+     20 H          44.1366   22.3402   50.9461 H         1 PEA         0.4500 
+     21 H          44.2444   23.6934   49.9753 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_918
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_918
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.1363   19.6564   50.5618 C.ar      1 PEA        -0.1435 
+      2 C          45.6739   19.4313   49.2694 C.ar      1 PEA        -0.1500 
+      3 C          45.7972   20.4883   48.3469 C.ar      1 PEA        -0.1500 
+      4 C          45.4080   21.7887   48.7082 C.ar      1 PEA        -0.1500 
+      5 C          44.8729   22.0313   49.9818 C.ar      1 PEA        -0.1500 
+      6 C          44.7160   20.9667   50.8917 C.ar      1 PEA        -0.1500 
+      7 C          44.9998   18.5361   51.5428 C.3       1 PEA         0.1435 
+      8 C          45.5587   18.8192   52.9629 C.3       1 PEA         0.5030 
+      9 N          46.9706   19.2136   52.9344 N.4       1 PEA        -0.8530 
+     10 H          45.9723   18.4946   48.9853 H         1 PEA         0.1500 
+     11 H          46.1838   20.3151   47.4163 H         1 PEA         0.1500 
+     12 H          45.5163   22.5589   48.0430 H         1 PEA         0.1500 
+     13 H          44.5988   22.9765   50.2530 H         1 PEA         0.1500 
+     14 H          44.3080   21.1670   51.8092 H         1 PEA         0.1500 
+     15 H          45.5059   17.6399   51.1660 H         1 PEA         0.0000 
+     16 H          43.9358   18.2938   51.6311 H         1 PEA         0.0000 
+     17 H          45.4598   17.9206   53.5746 H         1 PEA         0.0000 
+     18 H          44.9834   19.6108   53.4451 H         1 PEA         0.0000 
+     19 H          47.2706   19.4511   53.8774 H         1 PEA         0.4500 
+     20 H          47.0847   20.0308   52.3286 H         1 PEA         0.4500 
+     21 H          47.5383   18.4431   52.5782 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_962
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_962
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.9670   19.7798   50.1286 C.ar      1 PEA        -0.1435 
+      2 C          46.0584   20.6800   50.0513 C.ar      1 PEA        -0.1500 
+      3 C          45.8855   21.9838   49.5426 C.ar      1 PEA        -0.1500 
+      4 C          44.6242   22.3931   49.0745 C.ar      1 PEA        -0.1500 
+      5 C          43.5337   21.5050   49.1268 C.ar      1 PEA        -0.1500 
+      6 C          43.7061   20.2112   49.6514 C.ar      1 PEA        -0.1500 
+      7 C          45.1420   18.4165   50.6968 C.3       1 PEA         0.1435 
+      8 C          45.5322   18.4190   52.2004 C.3       1 PEA         0.5030 
+      9 N          45.2875   17.1124   52.8259 N.4       1 PEA        -0.8530 
+     10 H          46.9858   20.3973   50.3745 H         1 PEA         0.1500 
+     11 H          46.6713   22.6354   49.5238 H         1 PEA         0.1500 
+     12 H          44.4949   23.3374   48.7086 H         1 PEA         0.1500 
+     13 H          42.6154   21.8045   48.7933 H         1 PEA         0.1500 
+     14 H          42.8967   19.5820   49.6867 H         1 PEA         0.1500 
+     15 H          45.9092   17.8875   50.1188 H         1 PEA         0.0000 
+     16 H          44.2159   17.8453   50.5898 H         1 PEA         0.0000 
+     17 H          44.9376   19.1585   52.7432 H         1 PEA         0.0000 
+     18 H          46.5908   18.6720   52.3143 H         1 PEA         0.0000 
+     19 H          45.6030   17.1240   53.7939 H         1 PEA         0.4500 
+     20 H          45.7816   16.3850   52.3094 H         1 PEA         0.4500 
+     21 H          44.2839   16.9135   52.7990 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_965
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_965
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.2233   19.7868   50.2194 C.ar      1 PEA        -0.1435 
+      2 C          46.2105   20.7992   50.1297 C.ar      1 PEA        -0.1500 
+      3 C          45.9002   22.0629   49.5953 C.ar      1 PEA        -0.1500 
+      4 C          44.5981   22.3306   49.1390 C.ar      1 PEA        -0.1500 
+      5 C          43.6055   21.3374   49.2246 C.ar      1 PEA        -0.1500 
+      6 C          43.9132   20.0748   49.7677 C.ar      1 PEA        -0.1500 
+      7 C          45.5598   18.4576   50.7966 C.3       1 PEA         0.1435 
+      8 C          45.1668   18.3373   52.2936 C.3       1 PEA         0.5030 
+      9 N          45.8860   17.2325   52.9435 N.4       1 PEA        -0.8530 
+     10 H          47.1603   20.6300   50.4689 H         1 PEA         0.1500 
+     11 H          46.6226   22.7852   49.5401 H         1 PEA         0.1500 
+     12 H          44.3739   23.2468   48.7453 H         1 PEA         0.1500 
+     13 H          42.6604   21.5349   48.8883 H         1 PEA         0.1500 
+     14 H          43.1759   19.3677   49.8318 H         1 PEA         0.1500 
+     15 H          46.6338   18.2832   50.6884 H         1 PEA         0.0000 
+     16 H          45.0641   17.6665   50.2274 H         1 PEA         0.0000 
+     17 H          44.0912   18.1620   52.3792 H         1 PEA         0.0000 
+     18 H          45.4072   19.2517   52.8412 H         1 PEA         0.0000 
+     19 H          45.6115   17.1673   53.9249 H         1 PEA         0.4500 
+     20 H          46.8938   17.4036   52.8891 H         1 PEA         0.4500 
+     21 H          45.6719   16.3550   52.4655 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_966
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_966
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.7952   19.6288   50.1332 C.ar      1 PEA        -0.1435 
+      2 C          45.8887   20.5293   50.0777 C.ar      1 PEA        -0.1500 
+      3 C          45.7408   21.8127   49.5286 C.ar      1 PEA        -0.1500 
+      4 C          44.5033   22.2065   48.9900 C.ar      1 PEA        -0.1500 
+      5 C          43.4138   21.3172   49.0075 C.ar      1 PEA        -0.1500 
+      6 C          43.5595   20.0373   49.5767 C.ar      1 PEA        -0.1500 
+      7 C          44.9520   18.2757   50.7428 C.3       1 PEA         0.1435 
+      8 C          45.5300   18.3137   52.1827 C.3       1 PEA         0.5030 
+      9 N          45.3604   17.0311   52.8706 N.4       1 PEA        -0.8530 
+     10 H          46.7953   20.2668   50.4689 H         1 PEA         0.1500 
+     11 H          46.5255   22.4671   49.5439 H         1 PEA         0.1500 
+     12 H          44.3958   23.1371   48.5842 H         1 PEA         0.1500 
+     13 H          42.5168   21.6002   48.6092 H         1 PEA         0.1500 
+     14 H          42.7559   19.4039   49.5738 H         1 PEA         0.1500 
+     15 H          45.6083   17.6881   50.0951 H         1 PEA         0.0000 
+     16 H          43.9858   17.7624   50.7785 H         1 PEA         0.0000 
+     17 H          45.0209   19.0776   52.7736 H         1 PEA         0.0000 
+     18 H          46.5977   18.5366   52.1508 H         1 PEA         0.0000 
+     19 H          45.7713   17.0779   53.8090 H         1 PEA         0.4500 
+     20 H          45.8116   16.3009   52.3237 H         1 PEA         0.4500 
+     21 H          44.3668   16.8086   52.9358 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_971
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_971
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.3008   19.5257   51.5410 C.ar      1 PEA        -0.1435 
+      2 C          44.7833   20.8510   51.6285 C.ar      1 PEA        -0.1500 
+      3 C          44.4910   21.7902   50.6193 C.ar      1 PEA        -0.1500 
+      4 C          43.7056   21.4168   49.5156 C.ar      1 PEA        -0.1500 
+      5 C          43.2130   20.1041   49.4199 C.ar      1 PEA        -0.1500 
+      6 C          43.5087   19.1639   50.4243 C.ar      1 PEA        -0.1500 
+      7 C          44.6277   18.5253   52.5937 C.3       1 PEA         0.1435 
+      8 C          46.0409   17.9253   52.4356 C.3       1 PEA         0.5030 
+      9 N          47.1043   18.8574   52.8334 N.4       1 PEA        -0.8530 
+     10 H          45.3454   21.1464   52.4312 H         1 PEA         0.1500 
+     11 H          44.8488   22.7467   50.6908 H         1 PEA         0.1500 
+     12 H          43.4925   22.0978   48.7830 H         1 PEA         0.1500 
+     13 H          42.6351   19.8328   48.6193 H         1 PEA         0.1500 
+     14 H          43.1428   18.2146   50.3329 H         1 PEA         0.1500 
+     15 H          43.9125   17.7005   52.5678 H         1 PEA         0.0000 
+     16 H          44.5385   18.9826   53.5787 H         1 PEA         0.0000 
+     17 H          46.2110   17.6351   51.3966 H         1 PEA         0.0000 
+     18 H          46.1313   17.0293   53.0565 H         1 PEA         0.0000 
+     19 H          48.0033   18.3927   52.7004 H         1 PEA         0.4500 
+     20 H          46.9998   19.1220   53.8177 H         1 PEA         0.4500 
+     21 H          47.0692   19.6945   52.2493 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_972
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:43 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:43 2018
+
+@<TRIPOS>MOLECULE
+1uto_972
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          45.2365   19.6954   50.3198 C.ar      1 PEA        -0.1435 
+      2 C          43.9503   19.9911   49.8055 C.ar      1 PEA        -0.1500 
+      3 C          43.6747   21.2422   49.2238 C.ar      1 PEA        -0.1500 
+      4 C          44.6878   22.2177   49.1410 C.ar      1 PEA        -0.1500 
+      5 C          45.9669   21.9475   49.6638 C.ar      1 PEA        -0.1500 
+      6 C          46.2354   20.6940   50.2461 C.ar      1 PEA        -0.1500 
+      7 C          45.5507   18.3677   50.9063 C.3       1 PEA         0.1435 
+      8 C          45.4121   18.3614   52.4496 C.3       1 PEA         0.5030 
+      9 N          46.0287   17.1603   53.0258 N.4       1 PEA        -0.8530 
+     10 H          43.1983   19.2989   49.8580 H         1 PEA         0.1500 
+     11 H          42.7469   21.4430   48.8468 H         1 PEA         0.1500 
+     12 H          44.4949   23.1230   48.7081 H         1 PEA         0.1500 
+     13 H          46.7051   22.6548   49.6045 H         1 PEA         0.1500 
+     14 H          47.1733   20.5164   50.6197 H         1 PEA         0.1500 
+     15 H          46.5710   18.0899   50.6402 H         1 PEA         0.0000 
+     16 H          44.8962   17.6033   50.4879 H         1 PEA         0.0000 
+     17 H          44.3511   18.3795   52.7267 H         1 PEA         0.0000 
+     18 H          45.9020   19.2383   52.8830 H         1 PEA         0.0000 
+     19 H          45.7527   17.0667   54.0073 H         1 PEA         0.4500 
+     20 H          47.0488   17.2390   52.9696 H         1 PEA         0.4500 
+     21 H          45.7296   16.3335   52.5016 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 
+#	Name:			1uto_991
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:02:42 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:02:42 2018
+
+@<TRIPOS>MOLECULE
+1uto_991
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C          44.8466   19.6844   50.2889 C.ar      1 PEA        -0.1435 
+      2 C          46.0735   20.3969   50.2835 C.ar      1 PEA        -0.1500 
+      3 C          46.1501   21.6998   49.7579 C.ar      1 PEA        -0.1500 
+      4 C          45.0154   22.2933   49.1780 C.ar      1 PEA        -0.1500 
+      5 C          43.8019   21.5835   49.1318 C.ar      1 PEA        -0.1500 
+      6 C          43.7184   20.2891   49.6840 C.ar      1 PEA        -0.1500 
+      7 C          44.7713   18.3140   50.8702 C.3       1 PEA         0.1435 
+      8 C          45.2503   18.2270   52.3449 C.3       1 PEA         0.5030 
+      9 N          45.1508   16.8592   52.8643 N.4       1 PEA        -0.8530 
+     10 H          46.9177   19.9766   50.6777 H         1 PEA         0.1500 
+     11 H          47.0309   22.2213   49.8082 H         1 PEA         0.1500 
+     12 H          45.0758   23.2380   48.7854 H         1 PEA         0.1500 
+     13 H          42.9779   22.0100   48.7001 H         1 PEA         0.1500 
+     14 H          42.8276   19.7888   49.6325 H         1 PEA         0.1500 
+     15 H          45.3799   17.6585   50.2427 H         1 PEA         0.0000 
+     16 H          43.7474   17.9308   50.8355 H         1 PEA         0.0000 
+     17 H          44.6464   18.8853   52.9744 H         1 PEA         0.0000 
+     18 H          46.3003   18.5145   52.4310 H         1 PEA         0.0000 
+     19 H          45.5105   16.8332   53.8205 H         1 PEA         0.4500 
+     20 H          45.7161   16.2442   52.2786 H         1 PEA         0.4500 
+     21 H          44.1778   16.5425   52.8505 H         1 PEA         0.4500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 1    
+     9    8    9 1    
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    7   15 1    
+    16    7   16 1    
+    17    8   17 1    
+    18    8   18 1    
+    19    9   19 1    
+    20    9   20 1    
+    21    9   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PEA         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 7 CR 8 CR 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HC 16 HC 17 HC 18 HC 19 HNR+ 20 HNR+ 21 HNR+ \
+9 NR+ 

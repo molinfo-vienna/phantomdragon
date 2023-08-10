@@ -181,6 +181,9 @@ class parameterCollector:
 
     def get_testingdata(self):
         return self.features_test, self.scores_test
+    
+    def get_predicted_values(self):
+        return self.scores_pre
 
     def set_trainingdata(self, features_train, scores_train):
         self.features_train = features_train

@@ -1,0 +1,4880 @@
+#	Name:			4owm_109
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_109
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.1742  -27.1669   15.5482 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.0888  -26.5553   15.6837 C.2       1 MOL         0.9790 
+      3 OAC       -19.0751  -25.4296   16.2315 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.9196  -27.1340   15.1992 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.9670  -28.2514   14.3501 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.7603  -28.8070   13.8819 C.ar      1 MOL        -0.1500 
+      7 CAF       -15.5330  -28.2491   14.2584 C.ar      1 MOL        -0.1500 
+      8 CAJ       -15.4780  -27.1267   15.0920 C.ar      1 MOL         0.1900 
+      9 FAD       -14.2219  -26.4967   15.5464 F         1 MOL        -0.1900 
+     10 CAI       -16.6652  -26.6029   15.5550 C.ar      1 MOL         0.1000 
+     11 NAA       -16.5559  -25.5414   16.3653 N.pl3     1 MOL        -0.9000 
+     12 H         -18.9189  -28.6805   14.0591 H         1 MOL         0.1500 
+     13 H         -16.7823  -29.6706   13.2270 H         1 MOL         0.1500 
+     14 H         -14.6118  -28.6931   13.8990 H         1 MOL         0.1500 
+     15 H         -17.4024  -25.0933   16.7441 H         1 MOL         0.4000 
+     16 H         -15.6253  -25.1734   16.6093 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_114
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_114
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.3519  -26.7969   15.7559 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.2306  -26.2535   15.8901 C.2       1 MOL         0.9790 
+      3 OAC       -19.1501  -25.1167   16.4086 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.0960  -26.9195   15.4367 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.2063  -28.0709   14.6407 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.0329  -28.7153   14.2025 C.ar      1 MOL        -0.1500 
+      7 CAF       -15.7761  -28.2108   14.5563 C.ar      1 MOL        -0.1500 
+      8 CAJ       -15.6578  -27.0555   15.3367 C.ar      1 MOL         0.1900 
+      9 FAD       -14.3681  -26.4771   15.7650 F         1 MOL        -0.1900 
+     10 CAI       -16.8135  -26.4442   15.7712 C.ar      1 MOL         0.1000 
+     11 NAA       -16.6445  -25.3539   16.5313 N.pl3     1 MOL        -0.9000 
+     12 H         -19.1809  -28.4585   14.3671 H         1 MOL         0.1500 
+     13 H         -17.1036  -29.6059   13.5886 H         1 MOL         0.1500 
+     14 H         -14.8813  -28.7225   14.2207 H         1 MOL         0.1500 
+     15 H         -17.4644  -24.8413   16.8863 H         1 MOL         0.4000 
+     16 H         -15.6947  -25.0281   16.7607 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_135
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_135
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.5805  -31.5779   17.7418 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.6376  -32.3790   17.9408 C.2       1 MOL         0.9790 
+      3 OAC       -19.5331  -32.9513   19.0495 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.7094  -32.5987   16.9275 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.4594  -31.6177   15.9545 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.5120  -31.8799   14.9457 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.8300  -33.1019   14.9178 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.0627  -34.0785   15.8924 C.ar      1 MOL         0.1900 
+      9 FAD       -16.3967  -35.3965   15.9159 F         1 MOL        -0.1900 
+     10 CAI       -18.0030  -33.8149   16.8642 C.ar      1 MOL         0.1000 
+     11 NAA       -18.2019  -34.7904   17.7610 N.pl3     1 MOL        -0.9000 
+     12 H         -18.9881  -30.6717   15.9794 H         1 MOL         0.1500 
+     13 H         -17.3103  -31.1319   14.1874 H         1 MOL         0.1500 
+     14 H         -16.1110  -33.2945   14.1298 H         1 MOL         0.1500 
+     15 H         -18.8854  -34.6603   18.5205 H         1 MOL         0.4000 
+     16 H         -17.6712  -35.6704   17.6910 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_148
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_148
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.3334  -26.9816   15.8304 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.2339  -26.3824   15.8794 C.2       1 MOL         0.9790 
+      3 OAC       -19.1826  -25.2158   16.3312 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.0918  -27.0218   15.4069 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.1887  -28.1713   14.6063 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.0081  -28.7884   14.1486 C.ar      1 MOL        -0.1500 
+      7 CAF       -15.7575  -28.2590   14.4878 C.ar      1 MOL        -0.1500 
+      8 CAJ       -15.6529  -27.1054   15.2726 C.ar      1 MOL         0.1900 
+      9 FAD       -14.3700  -26.5019   15.6862 F         1 MOL        -0.1900 
+     10 CAI       -16.8152  -26.5211   15.7262 C.ar      1 MOL         0.1000 
+     11 NAA       -16.6588  -25.4312   16.4897 N.pl3     1 MOL        -0.9000 
+     12 H         -19.1586  -28.5782   14.3442 H         1 MOL         0.1500 
+     13 H         -17.0684  -29.6772   13.5311 H         1 MOL         0.1500 
+     14 H         -14.8568  -28.7499   14.1372 H         1 MOL         0.1500 
+     15 H         -17.4844  -24.9380   16.8586 H         1 MOL         0.4000 
+     16 H         -15.7130  -25.0865   16.7077 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_16
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_16
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.0214  -35.0446   19.0871 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.2738  -35.1280   18.0848 C.2       1 MOL         0.9790 
+      3 OAC       -17.6137  -36.1736   17.8883 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.1756  -34.0421   17.2201 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.9090  -32.8674   17.4525 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.7812  -31.7912   16.5528 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.9325  -31.8943   15.4446 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.1870  -33.0558   15.2143 C.ar      1 MOL         0.1900 
+      9 FAD       -16.2880  -33.2440   14.0578 F         1 MOL        -0.1900 
+     10 CAI       -17.3334  -34.1063   16.0937 C.ar      1 MOL         0.1000 
+     11 NAA       -16.6128  -35.2014   15.8168 N.pl3     1 MOL        -0.9000 
+     12 H         -19.5645  -32.7899   18.3124 H         1 MOL         0.1500 
+     13 H         -19.3427  -30.8791   16.7195 H         1 MOL         0.1500 
+     14 H         -17.8515  -31.0622   14.7546 H         1 MOL         0.1500 
+     15 H         -16.6670  -36.0235   16.4349 H         1 MOL         0.4000 
+     16 H         -16.0045  -35.2211   14.9858 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_163
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_163
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.9435  -34.8150   19.8404 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.8309  -35.1370   18.6346 C.2       1 MOL         0.9790 
+      3 OAC       -17.5436  -36.3174   18.3317 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.0061  -34.1650   17.6542 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.9109  -33.1077   17.8415 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0586  -32.1447   16.8243 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.3106  -32.2427   15.6452 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.3961  -33.2848   15.4573 C.ar      1 MOL         0.1900 
+      9 FAD       -16.5883  -33.4637   14.2340 F         1 MOL        -0.1900 
+     10 CAI       -17.2731  -34.2282   16.4538 C.ar      1 MOL         0.1000 
+     11 NAA       -16.3989  -35.2153   16.2155 N.pl3     1 MOL        -0.9000 
+     12 H         -19.4878  -33.0337   18.7562 H         1 MOL         0.1500 
+     13 H         -19.7547  -31.3240   16.9551 H         1 MOL         0.1500 
+     14 H         -18.4418  -31.5003   14.8662 H         1 MOL         0.1500 
+     15 H         -16.2499  -35.9524   16.9194 H         1 MOL         0.4000 
+     16 H         -15.8758  -35.2371   15.3285 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_215
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_215
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.5140  -26.8051   16.9818 O.co2     1 MOL        -0.9000 
+      2 CAH       -15.6905  -26.9596   15.7508 C.2       1 MOL         0.9790 
+      3 OAC       -14.7189  -27.2493   15.0162 O.co2     1 MOL        -0.9000 
+      4 CAK       -16.9652  -26.7826   15.2213 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.5957  -27.8106   14.5021 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.8863  -27.5906   13.9824 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.5289  -26.3634   14.1838 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.9133  -25.3395   14.9121 C.ar      1 MOL         0.1900 
+      9 FAD       -19.5206  -24.0140   15.1479 F         1 MOL        -0.1900 
+     10 CAI       -17.6449  -25.5628   15.4014 C.ar      1 MOL         0.1000 
+     11 NAA       -17.0931  -24.5437   16.0740 N.pl3     1 MOL        -0.9000 
+     12 H         -17.0962  -28.7603   14.3489 H         1 MOL         0.1500 
+     13 H         -19.3841  -28.3751   13.4240 H         1 MOL         0.1500 
+     14 H         -20.5178  -26.2040   13.7696 H         1 MOL         0.1500 
+     15 H         -16.1491  -24.6418   16.4742 H         1 MOL         0.4000 
+     16 H         -17.6130  -23.6622   16.1908 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_216
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_216
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.5838  -33.9271   18.8828 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.0774  -33.0969   18.0844 C.2       1 MOL         0.9790 
+      3 OAC       -20.1759  -32.5579   18.3501 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.4014  -32.8079   16.9029 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.9744  -33.8360   16.0472 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.2931  -33.5007   14.8608 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.0486  -32.1599   14.5419 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.4840  -31.1291   15.3820 C.ar      1 MOL         0.1900 
+      9 FAD       -17.2452  -29.6952   15.1212 F         1 MOL        -0.1900 
+     10 CAI       -18.1354  -31.4720   16.5465 C.ar      1 MOL         0.1000 
+     11 NAA       -18.5134  -30.4487   17.3245 N.pl3     1 MOL        -0.9000 
+     12 H         -18.1665  -34.8734   16.2961 H         1 MOL         0.1500 
+     13 H         -16.9567  -34.2845   14.1918 H         1 MOL         0.1500 
+     14 H         -16.5141  -31.9165   13.6307 H         1 MOL         0.1500 
+     15 H         -19.0117  -30.6298   18.2076 H         1 MOL         0.4000 
+     16 H         -18.3059  -29.4810   17.0394 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_223
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_223
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.3446  -34.3996   19.6197 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.9848  -33.9669   18.6331 C.2       1 MOL         0.9790 
+      3 OAC       -20.2085  -33.7264   18.7445 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.3229  -33.7840   17.4228 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.2583  -32.5169   16.8213 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.5787  -32.3747   15.5958 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.9757  -33.4831   14.9899 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.0229  -34.7460   15.5904 C.ar      1 MOL         0.1900 
+      9 FAD       -16.4280  -35.9628   15.0016 F         1 MOL        -0.1900 
+     10 CAI       -17.7041  -34.8738   16.7811 C.ar      1 MOL         0.1000 
+     11 NAA       -17.7360  -36.1072   17.3035 N.pl3     1 MOL        -0.9000 
+     12 H         -18.7251  -31.6600   17.2934 H         1 MOL         0.1500 
+     13 H         -17.5224  -31.4024   15.1196 H         1 MOL         0.1500 
+     14 H         -16.4647  -33.3614   14.0417 H         1 MOL         0.1500 
+     15 H         -18.2219  -36.2762   18.1959 H         1 MOL         0.4000 
+     16 H         -17.2747  -36.8865   16.8127 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_228
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_228
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.4251  -26.5691   17.0854 O.co2     1 MOL        -0.9000 
+      2 CAH       -15.7168  -26.6419   15.8688 C.2       1 MOL         0.9790 
+      3 OAC       -14.8357  -26.9581   15.0373 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.0149  -26.3459   15.4640 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.7903  -27.2955   14.7794 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0997  -26.9558   14.3871 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.6180  -25.6887   14.6791 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.8570  -24.7423   15.3740 C.ar      1 MOL         0.1900 
+      9 FAD       -19.3291  -23.3813   15.6995 F         1 MOL        -0.1900 
+     10 CAI       -17.5725  -25.0825   15.7381 C.ar      1 MOL         0.1000 
+     11 NAA       -16.8803  -24.1339   16.3833 N.pl3     1 MOL        -0.9000 
+     12 H         -17.3867  -28.2764   14.5559 H         1 MOL         0.1500 
+     13 H         -19.7088  -27.6788   13.8567 H         1 MOL         0.1500 
+     14 H         -20.6237  -25.4370   14.3623 H         1 MOL         0.1500 
+     15 H         -15.9155  -24.3205   16.6919 H         1 MOL         0.4000 
+     16 H         -17.3129  -23.2182   16.5707 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_230
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_230
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.0599  -33.8292   18.4742 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.8437  -34.1312   18.4792 C.2       1 MOL         0.9790 
+      3 OAC       -18.2779  -34.4096   19.5609 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.1394  -34.1280   17.2790 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.5476  -35.3028   16.7879 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.8433  -35.2568   15.5689 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.7386  -34.0550   14.8589 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.3382  -32.8835   15.3342 C.ar      1 MOL         0.1900 
+      9 FAD       -17.2534  -31.5770   14.6508 F         1 MOL        -0.1900 
+     10 CAI       -18.0107  -32.9395   16.5353 C.ar      1 MOL         0.1000 
+     11 NAA       -18.5491  -31.7865   16.9547 N.pl3     1 MOL        -0.9000 
+     12 H         -17.6315  -36.2324   17.3392 H         1 MOL         0.1500 
+     13 H         -16.3802  -36.1560   15.1790 H         1 MOL         0.1500 
+     14 H         -16.1849  -34.0315   13.9273 H         1 MOL         0.1500 
+     15 H         -19.0725  -31.7549   17.8413 H         1 MOL         0.4000 
+     16 H         -18.4397  -30.9317   16.3906 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_232
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_232
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.2256  -34.6676   19.6170 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.9468  -34.3746   18.6349 C.2       1 MOL         0.9790 
+      3 OAC       -20.1662  -34.1479   18.8063 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.3782  -34.3300   17.3656 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.6713  -35.4299   16.8537 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.1109  -35.3437   15.5643 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.2605  -34.1767   14.8060 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.9762  -33.0820   15.3030 C.ar      1 MOL         0.1900 
+      9 FAD       -18.1583  -31.8130   14.5698 F         1 MOL        -0.1900 
+     10 CAI       -18.5057  -33.1743   16.5716 C.ar      1 MOL         0.1000 
+     11 NAA       -19.1642  -32.0917   17.0072 N.pl3     1 MOL        -0.9000 
+     12 H         -17.5583  -36.3329   17.4427 H         1 MOL         0.1500 
+     13 H         -16.5614  -36.1849   15.1575 H         1 MOL         0.1500 
+     14 H         -16.8153  -34.1203   13.8192 H         1 MOL         0.1500 
+     15 H         -19.5924  -32.0917   17.9440 H         1 MOL         0.4000 
+     16 H         -19.2422  -31.2596   16.4053 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_243
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_243
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.0790  -23.9101   14.7812 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.4830  -24.4871   15.7205 C.2       1 MOL         0.9790 
+      3 OAC       -19.6175  -24.0664   16.8920 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.6624  -25.5745   15.4363 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.1781  -26.7233   14.8151 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.3136  -27.8021   14.5450 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.9594  -27.7255   14.8910 C.ar      1 MOL        -0.1500 
+      8 CAJ       -16.4350  -26.5784   15.4967 C.ar      1 MOL         0.1900 
+      9 FAD       -15.0237  -26.4335   15.9071 F         1 MOL        -0.1900 
+     10 CAI       -17.2949  -25.5370   15.7690 C.ar      1 MOL         0.1000 
+     11 NAA       -16.7463  -24.4710   16.3672 N.pl3     1 MOL        -0.9000 
+     12 H         -20.2269  -26.7792   14.5470 H         1 MOL         0.1500 
+     13 H         -18.6987  -28.6956   14.0672 H         1 MOL         0.1500 
+     14 H         -16.3075  -28.5671   14.6866 H         1 MOL         0.1500 
+     15 H         -17.3280  -23.6520   16.5948 H         1 MOL         0.4000 
+     16 H         -15.7428  -24.4703   16.5994 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_260
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_260
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.0157  -27.2989   15.1472 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.0497  -27.0227   15.7990 C.2       1 MOL         0.9790 
+      3 OAC       -16.0079  -27.0034   17.0502 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.2336  -26.7647   15.1147 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.8540  -27.7630   14.3465 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0515  -27.4606   13.6692 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.6131  -26.1820   13.7646 C.ar      1 MOL        -0.1500 
+      8 CAJ       -19.0090  -25.1864   14.5401 C.ar      1 MOL         0.1900 
+      9 FAD       -19.5319  -23.8114   14.6716 F         1 MOL        -0.1900 
+     10 CAI       -17.8301  -25.4912   15.1846 C.ar      1 MOL         0.1000 
+     11 NAA       -17.2828  -24.4972   15.8971 N.pl3     1 MOL        -0.9000 
+     12 H         -17.4175  -28.7527   14.2757 H         1 MOL         0.1500 
+     13 H         -19.5402  -28.2215   13.0714 H         1 MOL         0.1500 
+     14 H         -20.5296  -25.9600   13.2298 H         1 MOL         0.1500 
+     15 H         -16.4043  -24.6552   16.4112 H         1 MOL         0.4000 
+     16 H         -17.7406  -23.5752   15.9309 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_270
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_270
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.2106  -26.8732   15.3242 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.1858  -26.5636   16.0477 C.2       1 MOL         0.9790 
+      3 OAC       -16.0592  -26.5638   17.2933 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.4010  -26.2468   15.4481 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.0992  -27.1988   14.6879 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.3260  -26.8376   14.0977 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.8398  -25.5470   14.2703 C.ar      1 MOL        -0.1500 
+      8 CAJ       -19.1575  -24.5974   15.0387 C.ar      1 MOL         0.1900 
+      9 FAD       -19.6273  -23.2130   15.2483 F         1 MOL        -0.1900 
+     10 CAI       -17.9512  -24.9594   15.5974 C.ar      1 MOL         0.1000 
+     11 NAA       -17.3296  -24.0076   16.3065 N.pl3     1 MOL        -0.9000 
+     12 H         -17.6995  -28.1979   14.5571 H         1 MOL         0.1500 
+     13 H         -19.8747  -27.5622   13.5070 H         1 MOL         0.1500 
+     14 H         -20.7800  -25.2793   13.8020 H         1 MOL         0.1500 
+     15 H         -16.4265  -24.2094   16.7588 H         1 MOL         0.4000 
+     16 H         -17.7549  -23.0741   16.3995 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_272
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_272
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.6860  -23.8324   16.6203 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.3734  -24.1140   15.4399 C.2       1 MOL         0.9790 
+      3 OAC       -19.8243  -23.4242   14.4972 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.5459  -25.2068   15.2001 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.0191  -26.3291   14.5013 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.1492  -27.4145   14.2797 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.8313  -27.3705   14.7495 C.ar      1 MOL        -0.1500 
+      8 CAJ       -16.3480  -26.2497   15.4336 C.ar      1 MOL         0.1900 
+      9 FAD       -14.9782  -26.1402   15.9747 F         1 MOL        -0.1900 
+     10 CAI       -17.2141  -25.2018   15.6567 C.ar      1 MOL         0.1000 
+     11 NAA       -16.7072  -24.1622   16.3331 N.pl3     1 MOL        -0.9000 
+     12 H         -20.0397  -26.3598   14.1375 H         1 MOL         0.1500 
+     13 H         -18.5018  -28.2878   13.7430 H         1 MOL         0.1500 
+     14 H         -16.1756  -28.2171   14.5809 H         1 MOL         0.1500 
+     15 H         -17.2956  -23.3401   16.5306 H         1 MOL         0.4000 
+     16 H         -15.7293  -24.1850   16.6556 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_278
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_278
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.1840  -27.4588   15.1974 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.0254  -26.8246   15.8757 C.2       1 MOL         0.9790 
+      3 OAC       -15.7932  -26.5801   17.0815 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.2159  -26.4239   15.2767 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.0171  -27.3430   14.5804 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.2146  -26.8965   13.9883 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.5982  -25.5546   14.0964 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.8128  -24.6359   14.8013 C.ar      1 MOL         0.1900 
+      9 FAD       -19.1430  -23.2032   14.9404 F         1 MOL        -0.1900 
+     10 CAI       -17.6365  -25.0830   15.3621 C.ar      1 MOL         0.1000 
+     11 NAA       -16.9125  -24.1593   16.0086 N.pl3     1 MOL        -0.9000 
+     12 H         -17.7181  -28.3818   14.4995 H         1 MOL         0.1500 
+     13 H         -19.8419  -27.5951   13.4465 H         1 MOL         0.1500 
+     14 H         -20.5172  -25.2224   13.6272 H         1 MOL         0.1500 
+     15 H         -16.0244  -24.4234   16.4586 H         1 MOL         0.4000 
+     16 H         -17.2440  -23.1853   16.0556 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_280
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_280
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.2871  -27.5204   15.5330 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.1459  -26.9426   16.2394 C.2       1 MOL         0.9790 
+      3 OAC       -15.8928  -26.6871   17.4387 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.3770  -26.6164   15.6786 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.2688  -27.6192   15.2653 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.5049  -27.2465   14.7023 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.8370  -25.8941   14.5602 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.9602  -24.8892   14.9833 C.ar      1 MOL         0.1900 
+      9 FAD       -19.2335  -23.4442   14.8475 F         1 MOL        -0.1900 
+     10 CAI       -17.7482  -25.2678   15.5179 C.ar      1 MOL         0.1000 
+     11 NAA       -16.9379  -24.2672   15.8886 N.pl3     1 MOL        -0.9000 
+     12 H         -18.0095  -28.6657   15.3779 H         1 MOL         0.1500 
+     13 H         -20.2022  -28.0103   14.3776 H         1 MOL         0.1500 
+     14 H         -20.7874  -25.6214   14.1158 H         1 MOL         0.1500 
+     15 H         -16.0181  -24.4757   16.3027 H         1 MOL         0.4000 
+     16 H         -17.2348  -23.2893   15.7596 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_287
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_287
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -14.9153  -27.1101   15.0549 O.co2     1 MOL        -0.9000 
+      2 CAH       -15.8574  -26.7597   15.8032 C.2       1 MOL         0.9790 
+      3 OAC       -15.6702  -26.6749   17.0383 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.1037  -26.4931   15.2445 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.8147  -27.4917   14.5598 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0732  -27.1806   14.0089 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.6051  -25.8931   14.1458 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.9095  -24.8968   14.8395 C.ar      1 MOL         0.1900 
+      9 FAD       -19.3979  -23.5131   15.0070 F         1 MOL        -0.1900 
+     10 CAI       -17.6730  -25.2106   15.3598 C.ar      1 MOL         0.1000 
+     11 NAA       -17.0406  -24.2159   15.9970 N.pl3     1 MOL        -0.9000 
+     12 H         -17.4009  -28.4883   14.4566 H         1 MOL         0.1500 
+     13 H         -19.6322  -27.9416   13.4765 H         1 MOL         0.1500 
+     14 H         -20.5701  -25.6645   13.7080 H         1 MOL         0.1500 
+     15 H         -16.1147  -24.3801   16.4174 H         1 MOL         0.4000 
+     16 H         -17.4804  -23.2871   16.0665 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_293
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_293
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.4429  -26.5943   15.2216 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.2587  -26.3461   16.1399 C.2       1 MOL         0.9790 
+      3 OAC       -15.9738  -26.6474   17.3213 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.4795  -25.7587   15.8217 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.8056  -24.4758   16.2901 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0518  -23.9173   15.9452 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.9494  -24.6337   15.1449 C.ar      1 MOL        -0.1500 
+      8 CAJ       -19.6257  -25.9064   14.6620 C.ar      1 MOL         0.1900 
+      9 FAD       -20.5285  -26.7281   13.8307 F         1 MOL        -0.1900 
+     10 CAI       -18.4100  -26.4468   15.0198 C.ar      1 MOL         0.1000 
+     11 NAA       -18.1578  -27.6750   14.5475 N.pl3     1 MOL        -0.9000 
+     12 H         -17.1079  -23.9228   16.9085 H         1 MOL         0.1500 
+     13 H         -19.3170  -22.9283   16.3011 H         1 MOL         0.1500 
+     14 H         -20.9093  -24.1960   14.8956 H         1 MOL         0.1500 
+     15 H         -17.2652  -28.1388   14.7690 H         1 MOL         0.4000 
+     16 H         -18.8565  -28.1555   13.9628 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_299
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_299
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.3217  -23.9603   14.3275 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.7608  -24.6286   15.2271 C.2       1 MOL         0.9790 
+      3 OAC       -20.0384  -24.4085   16.4280 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.8199  -25.5899   14.8706 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.1681  -26.6642   14.0362 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.1858  -27.6158   13.6994 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.8812  -27.4880   14.1902 C.ar      1 MOL        -0.1500 
+      8 CAJ       -16.5227  -26.4123   15.0099 C.ar      1 MOL         0.1900 
+      9 FAD       -15.1735  -26.2227   15.5802 F         1 MOL        -0.1900 
+     10 CAI       -17.4971  -25.4974   15.3439 C.ar      1 MOL         0.1000 
+     11 NAA       -17.1065  -24.4984   16.1468 N.pl3     1 MOL        -0.9000 
+     12 H         -20.1789  -26.7599   13.6565 H         1 MOL         0.1500 
+     13 H         -18.4413  -28.4510   13.0573 H         1 MOL         0.1500 
+     14 H         -16.1377  -28.2332   13.9313 H         1 MOL         0.1500 
+     15 H         -17.7803  -23.7737   16.4324 H         1 MOL         0.4000 
+     16 H         -16.1322  -24.4551   16.4784 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_305
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_305
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.1033  -36.8910   18.5021 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.1071  -35.6466   18.6500 C.2       1 MOL         0.9790 
+      3 OAC       -18.3907  -35.1552   19.7661 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.8169  -34.8334   17.5587 C.ar      1 MOL        -0.1790 
+      5 CAG       -16.8671  -35.2244   16.6012 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.6025  -34.3720   15.5115 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.2804  -33.1536   15.3872 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.2390  -32.7639   16.3290 C.ar      1 MOL         0.1900 
+      9 FAD       -18.9784  -31.4866   16.2742 F         1 MOL        -0.1900 
+     10 CAI       -18.4766  -33.6000   17.3979 C.ar      1 MOL         0.1000 
+     11 NAA       -19.3887  -33.1708   18.2806 N.pl3     1 MOL        -0.9000 
+     12 H         -16.3447  -36.1691   16.6994 H         1 MOL         0.1500 
+     13 H         -15.8706  -34.6608   14.7659 H         1 MOL         0.1500 
+     14 H         -17.0596  -32.5026   14.5491 H         1 MOL         0.1500 
+     15 H         -19.6224  -33.7477   19.1013 H         1 MOL         0.4000 
+     16 H         -19.8563  -32.2642   18.1384 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_329
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_329
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.1106  -25.4931   16.5538 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.9825  -26.3336   15.6332 C.2       1 MOL         0.9790 
+      3 OAC       -19.5594  -27.4823   15.8962 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.2933  -25.9626   14.3285 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.5920  -26.5040   13.2391 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.9379  -26.1018   11.9342 C.ar      1 MOL        -0.1500 
+      7 CAF       -20.9681  -25.1765   11.7302 C.ar      1 MOL        -0.1500 
+      8 CAJ       -21.6815  -24.6439   12.8096 C.ar      1 MOL         0.1900 
+      9 FAD       -22.7656  -23.6502   12.6729 F         1 MOL        -0.1900 
+     10 CAI       -21.3225  -25.0342   14.0812 C.ar      1 MOL         0.1000 
+     11 NAA       -22.0235  -24.4799   15.0795 N.pl3     1 MOL        -0.9000 
+     12 H         -18.7956  -27.2214   13.4000 H         1 MOL         0.1500 
+     13 H         -19.4037  -26.5107   11.0841 H         1 MOL         0.1500 
+     14 H         -21.2170  -24.8681   10.7212 H         1 MOL         0.1500 
+     15 H         -21.8146  -24.7304   16.0565 H         1 MOL         0.4000 
+     16 H         -22.7714  -23.8034   14.8699 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_346
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_346
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.0488  -25.5551   16.5974 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.9926  -26.3214   15.6074 C.2       1 MOL         0.9790 
+      3 OAC       -19.4861  -27.4596   15.7318 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.4764  -25.8795   14.3798 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.9856  -26.4135   13.1775 C.ar      1 MOL        -0.1500 
+      6 CAE       -20.5019  -25.9385   11.9561 C.ar      1 MOL        -0.1500 
+      7 CAF       -21.4919  -24.9489   11.9452 C.ar      1 MOL        -0.1500 
+      8 CAJ       -21.9967  -24.4225   13.1392 C.ar      1 MOL         0.1900 
+      9 FAD       -23.0251  -23.3646   13.2053 F         1 MOL        -0.1900 
+     10 CAI       -21.4717  -24.8851   14.3260 C.ar      1 MOL         0.1000 
+     11 NAA       -21.9755  -24.3344   15.4387 N.pl3     1 MOL        -0.9000 
+     12 H         -19.2199  -27.1807   13.1891 H         1 MOL         0.1500 
+     13 H         -20.1309  -26.3410   11.0204 H         1 MOL         0.1500 
+     14 H         -21.8730  -24.5852   10.9978 H         1 MOL         0.1500 
+     15 H         -21.6350  -24.6367   16.3627 H         1 MOL         0.4000 
+     16 H         -22.7032  -23.6087   15.3703 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_362
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_362
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.7889  -35.1010   19.8662 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.3973  -34.7840   18.8176 C.2       1 MOL         0.9790 
+      3 OAC       -20.6491  -34.7993   18.7978 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.6640  -34.4422   17.6853 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.7502  -35.3454   17.1191 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.0277  -34.9602   15.9729 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.2221  -33.6943   15.4080 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.1418  -32.7944   15.9576 C.ar      1 MOL         0.1900 
+      9 FAD       -18.3854  -31.4370   15.4289 F         1 MOL        -0.1900 
+     10 CAI       -18.8302  -33.1784   17.0875 C.ar      1 MOL         0.1000 
+     11 NAA       -19.6833  -32.2727   17.5848 N.pl3     1 MOL        -0.9000 
+     12 H         -17.6027  -36.3256   17.5579 H         1 MOL         0.1500 
+     13 H         -16.3179  -35.6471   15.5263 H         1 MOL         0.1500 
+     14 H         -16.6519  -33.4071   14.5320 H         1 MOL         0.1500 
+     15 H         -20.2373  -32.4936   18.4245 H         1 MOL         0.4000 
+     16 H         -19.7852  -31.3555   17.1272 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_366
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_366
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.6969  -33.7976   18.9904 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.6792  -33.0884   17.9574 C.2       1 MOL         0.9790 
+      3 OAC       -20.5120  -32.1627   17.8259 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.7441  -33.3613   16.9636 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.2169  -34.6531   16.8057 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.2723  -34.8872   15.7874 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.8687  -33.8445   14.9453 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.4006  -32.5581   15.0867 C.ar      1 MOL         0.1900 
+      9 FAD       -17.0086  -31.4061   14.2497 F         1 MOL        -0.1900 
+     10 CAI       -18.3119  -32.3397   16.0966 C.ar      1 MOL         0.1000 
+     11 NAA       -18.7750  -31.0867   16.2012 N.pl3     1 MOL        -0.9000 
+     12 H         -18.5323  -35.4590   17.4584 H         1 MOL         0.1500 
+     13 H         -16.8561  -35.8794   15.6552 H         1 MOL         0.1500 
+     14 H         -16.1333  -34.0364   14.1723 H         1 MOL         0.1500 
+     15 H         -19.4646  -30.8516   16.9293 H         1 MOL         0.4000 
+     16 H         -18.4416  -30.3586   15.5534 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_378
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_378
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.4351  -35.1950   19.9622 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.1147  -35.1305   18.9113 C.2       1 MOL         0.9790 
+      3 OAC       -20.3299  -35.4311   18.9387 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.4953  -34.7461   17.7259 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.7801  -35.6747   16.9528 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.1677  -35.2447   15.7594 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.2745  -33.9098   15.3522 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.9980  -32.9819   16.1094 C.ar      1 MOL         0.1900 
+      9 FAD       -18.1371  -31.5553   15.7536 F         1 MOL        -0.1900 
+     10 CAI       -18.5787  -33.4126   17.2821 C.ar      1 MOL         0.1000 
+     11 NAA       -19.2427  -32.4805   17.9790 N.pl3     1 MOL        -0.9000 
+     12 H         -17.7002  -36.7082   17.2699 H         1 MOL         0.1500 
+     13 H         -16.6112  -35.9508   15.1537 H         1 MOL         0.1500 
+     14 H         -16.7896  -33.5902   14.4369 H         1 MOL         0.1500 
+     15 H         -19.7081  -32.7323   18.8627 H         1 MOL         0.4000 
+     16 H         -19.2878  -31.5121   17.6309 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_389
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_389
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.1649  -35.3386   18.8033 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.9551  -35.0122   18.8169 C.2       1 MOL         0.9790 
+      3 OAC       -18.3269  -35.0034   19.9000 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.3392  -34.6428   17.6250 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.5274  -35.5481   16.9227 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.9221  -35.1343   15.7201 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.1308  -33.8384   15.2339 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.9503  -32.9354   15.9201 C.ar      1 MOL         0.1900 
+      9 FAD       -18.2004  -31.5482   15.4792 F         1 MOL        -0.1900 
+     10 CAI       -18.5235  -33.3483   17.1029 C.ar      1 MOL         0.1000 
+     11 NAA       -19.2824  -32.4394   17.7299 N.pl3     1 MOL        -0.9000 
+     12 H         -17.3687  -36.5515   17.3009 H         1 MOL         0.1500 
+     13 H         -16.2919  -35.8226   15.1685 H         1 MOL         0.1500 
+     14 H         -16.6506  -33.5299   14.3123 H         1 MOL         0.1500 
+     15 H         -19.7481  -32.6805   18.6164 H         1 MOL         0.4000 
+     16 H         -19.4002  -31.4995   17.3254 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_392
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_392
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.0955  -25.6327   16.7278 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.9528  -26.4484   15.7873 C.2       1 MOL         0.9790 
+      3 OAC       -19.4400  -27.5687   16.0100 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.3486  -26.0805   14.5049 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.6453  -26.5319   13.3765 C.ar      1 MOL        -0.1500 
+      6 CAE       -20.0787  -26.1361   12.0961 C.ar      1 MOL        -0.1500 
+      7 CAF       -21.1966  -25.3057   11.9544 C.ar      1 MOL        -0.1500 
+      8 CAJ       -21.9116  -24.8640   13.0731 C.ar      1 MOL         0.1900 
+      9 FAD       -23.0866  -23.9719   13.0024 F         1 MOL        -0.1900 
+     10 CAI       -21.4675  -25.2461   14.3200 C.ar      1 MOL         0.1000 
+     11 NAA       -22.1754  -24.7799   15.3577 N.pl3     1 MOL        -0.9000 
+     12 H         -18.7807  -27.1760   13.4892 H         1 MOL         0.1500 
+     13 H         -19.5441  -26.4760   11.2165 H         1 MOL         0.1500 
+     14 H         -21.5131  -25.0005   10.9636 H         1 MOL         0.1500 
+     15 H         -21.9052  -25.0304   16.3196 H         1 MOL         0.4000 
+     16 H         -22.9898  -24.1710   15.1936 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_397
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_397
+   16    16     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.7237  -27.0201   16.5955 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.8092  -25.9456   15.9563 C.2       1 MOL         0.9790 
+      3 OAC       -19.8373  -24.8568   16.5738 O.co2     1 MOL        -0.9000 
+      4 CAK       -19.8946  -25.9877   14.5680 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.2912  -27.0259   13.8402 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.4011  -27.0313   12.4359 C.ar      1 MOL        -0.1500 
+      7 CAF       -20.1045  -26.0151   11.7788 C.ar      1 MOL        -0.1500 
+      8 CAJ       -20.7212  -24.9853   12.4979 C.ar      1 MOL         0.1900 
+      9 FAD       -21.4619  -23.8708   11.8730 F         1 MOL        -0.1900 
+     10 CAI       -20.5926  -24.9840   13.8696 C.ar      1 MOL         0.1000 
+     11 NAA       -21.1847  -23.9658   14.5083 N.pl3     1 MOL        -0.9000 
+     12 H         -18.7483  -27.8123   14.3519 H         1 MOL         0.1500 
+     13 H         -18.9388  -27.8260   11.8616 H         1 MOL         0.1500 
+     14 H         -20.1725  -26.0260   10.6969 H         1 MOL         0.1500 
+     15 H         -21.1357  -23.9038   15.5353 H         1 MOL         0.4000 
+     16 H         -21.6889  -23.2451   13.9723 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+2 15 16
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+2 15 16
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_407
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_407
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -16.3510  -36.3120   17.5960 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.4030  -35.6360   17.5170 C.2       1 MOL         0.9790 
+      3 OAC       -18.4050  -35.9670   18.1900 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.4420  -34.5400   16.6600 C.ar      1 MOL        -0.1790 
+      5 CAG       -16.7610  -34.5610   15.4320 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.8260  -33.4300   14.5940 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.5620  -32.3050   14.9830 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.2560  -32.2820   16.1980 C.ar      1 MOL         0.1900 
+      9 FAD       -19.0350  -31.1250   16.6820 F         1 MOL        -0.1900 
+     10 CAI       -18.1710  -33.3880   17.0140 C.ar      1 MOL         0.1000 
+     11 NAA       -18.8370  -33.3080   18.1740 N.pl3     1 MOL        -0.9000 
+     12 H         -16.1930  -35.4340   15.1340 H         1 MOL         0.1500 
+     13 H         -16.3040  -33.4320   13.6440 H         1 MOL         0.1500 
+     14 H         -17.5950  -31.4380   14.3330 H         1 MOL         0.1500 
+     15 H         -18.8130  -34.0950   18.8380 H         1 MOL         0.4000 
+     16 H         -19.3730  -32.4580   18.4020 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_427
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_427
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.7720  -32.6070   19.0860 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.4950  -32.2920   17.9050 C.2       1 MOL         0.9790 
+      3 OAC       -21.2300  -31.4880   17.2880 O.co2     1 MOL        -0.9000 
+      4 CAK       -19.3830  -32.8640   17.2940 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.0170  -34.1930   17.5630 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.8840  -34.7330   16.9240 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.1370  -33.9540   16.0330 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.5030  -32.6340   15.7490 C.ar      1 MOL         0.1900 
+      9 FAD       -16.7530  -31.7470   14.8370 F         1 MOL        -0.1900 
+     10 CAI       -18.6040  -32.1130   16.3930 C.ar      1 MOL         0.1000 
+     11 NAA       -18.9000  -30.8390   16.1000 N.pl3     1 MOL        -0.9000 
+     12 H         -19.5980  -34.7940   18.2520 H         1 MOL         0.1500 
+     13 H         -17.5900  -35.7580   17.1230 H         1 MOL         0.1500 
+     14 H         -16.2610  -34.3800   15.5560 H         1 MOL         0.1500 
+     15 H         -19.7070  -30.3820   16.5500 H         1 MOL         0.4000 
+     16 H         -18.3220  -30.3180   15.4260 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_430
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_430
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.7190  -32.6200   18.7780 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.4680  -33.4550   17.8770 C.2       1 MOL         0.9790 
+      3 OAC       -21.2650  -34.3970   17.6650 O.co2     1 MOL        -0.9000 
+      4 CAK       -19.2930  -33.3280   17.1420 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.3860  -34.3950   17.0440 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.2080  -34.2250   16.2910 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.9490  -33.0080   15.6500 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.8550  -31.9450   15.7310 C.ar      1 MOL         0.1900 
+      9 FAD       -17.6400  -30.6280   15.0990 F         1 MOL        -0.1900 
+     10 CAI       -18.9960  -32.1200   16.4830 C.ar      1 MOL         0.1000 
+     11 NAA       -19.8190  -31.0650   16.5440 N.pl3     1 MOL        -0.9000 
+     12 H         -18.5900  -35.3370   17.5400 H         1 MOL         0.1500 
+     13 H         -16.4980  -35.0410   16.2080 H         1 MOL         0.1500 
+     14 H         -16.0330  -32.8880   15.0830 H         1 MOL         0.1500 
+     15 H         -20.6890  -31.1210   17.0940 H         1 MOL         0.4000 
+     16 H         -19.5840  -30.1970   16.0410 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_437
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_437
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.2170  -36.3590   16.5280 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.8010  -35.2010   16.2950 C.2       1 MOL         0.9790 
+      3 OAC       -15.5720  -34.9940   16.1780 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.7190  -34.1590   16.1920 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.8700  -34.1310   16.9960 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.7730  -33.0590   16.8610 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.5220  -32.0360   15.9390 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.3700  -32.0490   15.1450 C.ar      1 MOL         0.1900 
+      9 FAD       -18.0500  -31.0170   14.1390 F         1 MOL        -0.1900 
+     10 CAI       -17.5030  -33.1110   15.2770 C.ar      1 MOL         0.1000 
+     11 NAA       -16.4260  -33.0850   14.4800 N.pl3     1 MOL        -0.9000 
+     12 H         -19.0610  -34.9240   17.7100 H         1 MOL         0.1500 
+     13 H         -20.6670  -33.0260   17.4750 H         1 MOL         0.1500 
+     14 H         -20.2310  -31.2220   15.8390 H         1 MOL         0.1500 
+     15 H         -15.7380  -33.8510   14.5190 H         1 MOL         0.4000 
+     16 H         -16.2860  -32.2990   13.8290 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_440
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_440
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.9190  -30.2760   15.4150 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.9810  -31.4160   14.8980 C.2       1 MOL         0.9790 
+      3 OAC       -17.8890  -31.5400   13.6560 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.1730  -32.5230   15.7190 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.9870  -32.4410   16.8600 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.1560  -33.5850   17.6650 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.5210  -34.7860   17.3270 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.7210  -34.8800   16.1830 C.ar      1 MOL         0.1900 
+      9 FAD       -17.0050  -36.1050   15.7760 F         1 MOL        -0.1900 
+     10 CAI       -17.5520  -33.7490   15.4140 C.ar      1 MOL         0.1000 
+     11 NAA       -16.7600  -33.8880   14.3420 N.pl3     1 MOL        -0.9000 
+     12 H         -19.4790  -31.5110   17.1190 H         1 MOL         0.1500 
+     13 H         -19.7810  -33.5350   18.5500 H         1 MOL         0.1500 
+     14 H         -18.6520  -35.6550   17.9610 H         1 MOL         0.1500 
+     15 H         -16.5830  -33.0820   13.7250 H         1 MOL         0.4000 
+     16 H         -16.3290  -34.8000   14.1350 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_455
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_455
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.9990  -33.4540   19.9290 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.8770  -34.2120   18.9390 C.2       1 MOL         0.9790 
+      3 OAC       -19.1040  -35.4370   19.0620 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.4670  -33.6750   17.7220 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.3560  -34.1990   17.0410 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.9740  -33.6270   15.8120 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.6960  -32.5530   15.2780 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.8130  -32.0350   15.9430 C.ar      1 MOL         0.1900 
+      9 FAD       -19.6110  -30.8930   15.4520 F         1 MOL        -0.1900 
+     10 CAI       -19.1660  -32.5940   17.1520 C.ar      1 MOL         0.1000 
+     11 NAA       -20.2310  -32.0490   17.7560 N.pl3     1 MOL        -0.9000 
+     12 H         -16.7990  -35.0310   17.4560 H         1 MOL         0.1500 
+     13 H         -16.1170  -34.0200   15.2760 H         1 MOL         0.1500 
+     14 H         -17.3850  -32.1160   14.3360 H         1 MOL         0.1500 
+     15 H         -20.5480  -32.4120   18.6670 H         1 MOL         0.4000 
+     16 H         -20.7320  -31.2680   17.3100 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_461
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_461
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.0020  -34.4510   16.0630 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.8010  -33.8820   16.8430 C.2       1 MOL         0.9790 
+      3 OAC       -18.4360  -34.5590   17.6830 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.9830  -32.5060   16.7420 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.9520  -31.8650   15.4940 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.1410  -30.4700   15.4350 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.3580  -29.7370   16.6080 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.4050  -30.3710   17.8550 C.ar      1 MOL         0.1900 
+      9 FAD       -18.6100  -29.6620   19.1340 F         1 MOL        -0.1900 
+     10 CAI       -18.2040  -31.7330   17.8990 C.ar      1 MOL         0.1000 
+     11 NAA       -18.2390  -32.2880   19.1180 N.pl3     1 MOL        -0.9000 
+     12 H         -17.7850  -32.4340   14.5870 H         1 MOL         0.1500 
+     13 H         -18.1180  -29.9620   14.4780 H         1 MOL         0.1500 
+     14 H         -18.4910  -28.6630   16.5500 H         1 MOL         0.1500 
+     15 H         -18.0900  -33.3010   19.2280 H         1 MOL         0.4000 
+     16 H         -18.4160  -31.7000   19.9460 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_463
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_463
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.0350  -33.7790   16.1880 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.0010  -33.0330   16.4700 C.2       1 MOL         0.9790 
+      3 OAC       -18.9820  -33.4980   17.0940 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.9730  -31.7030   16.0630 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.3940  -31.3370   14.8370 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.3850  -29.9800   14.4610 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.9490  -29.0120   15.3010 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.5410  -29.3700   16.5170 C.ar      1 MOL         0.1900 
+      9 FAD       -19.1370  -28.4030   17.4610 F         1 MOL        -0.1900 
+     10 CAI       -18.5290  -30.6990   16.8780 C.ar      1 MOL         0.1000 
+     11 NAA       -19.0900  -30.9850   18.0610 N.pl3     1 MOL        -0.9000 
+     12 H         -16.9590  -32.0890   14.1880 H         1 MOL         0.1500 
+     13 H         -16.9400  -29.6830   13.5180 H         1 MOL         0.1500 
+     14 H         -17.9260  -27.9690   15.0040 H         1 MOL         0.1500 
+     15 H         -19.1110  -31.9580   18.3990 H         1 MOL         0.4000 
+     16 H         -19.5020  -30.2330   18.6310 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_465
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_465
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.2560  -29.1760   21.0840 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.6790  -29.8420   20.1110 C.2       1 MOL         0.9790 
+      3 OAC       -18.8750  -30.2490   19.2410 O.co2     1 MOL        -0.9000 
+      4 CAK       -21.0430  -30.0980   20.0050 C.ar      1 MOL        -0.1790 
+      5 CAG       -21.9880  -29.1430   20.4130 C.ar      1 MOL        -0.1500 
+      6 CAE       -23.3590  -29.4410   20.2890 C.ar      1 MOL        -0.1500 
+      7 CAF       -23.7700  -30.6720   19.7650 C.ar      1 MOL        -0.1500 
+      8 CAJ       -22.8340  -31.6230   19.3420 C.ar      1 MOL         0.1900 
+      9 FAD       -23.1920  -32.9480   18.7980 F         1 MOL        -0.1900 
+     10 CAI       -21.4960  -31.3240   19.4830 C.ar      1 MOL         0.1000 
+     11 NAA       -20.6430  -32.2760   19.0820 N.pl3     1 MOL        -0.9000 
+     12 H         -21.6680  -28.1910   20.8180 H         1 MOL         0.1500 
+     13 H         -24.1000  -28.7140   20.6020 H         1 MOL         0.1500 
+     14 H         -24.8280  -30.8930   19.6850 H         1 MOL         0.1500 
+     15 H         -19.6270  -32.1240   19.1640 H         1 MOL         0.4000 
+     16 H         -21.0020  -33.1580   18.6910 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_475
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_475
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -23.4940  -33.2420   17.6940 O.co2     1 MOL        -0.9000 
+      2 CAH       -22.2670  -33.0440   17.8570 C.2       1 MOL         0.9790 
+      3 OAC       -21.4410  -33.8840   17.4330 O.co2     1 MOL        -0.9000 
+      4 CAK       -21.8480  -31.9000   18.5300 C.ar      1 MOL        -0.1790 
+      5 CAG       -22.5910  -31.3840   19.6040 C.ar      1 MOL        -0.1500 
+      6 CAE       -22.1320  -30.2230   20.2570 C.ar      1 MOL        -0.1500 
+      7 CAF       -20.9510  -29.5980   19.8410 C.ar      1 MOL        -0.1500 
+      8 CAJ       -20.1980  -30.1150   18.7810 C.ar      1 MOL         0.1900 
+      9 FAD       -18.9550  -29.5000   18.2740 F         1 MOL        -0.1900 
+     10 CAI       -20.6660  -31.2420   18.1400 C.ar      1 MOL         0.1000 
+     11 NAA       -19.9190  -31.6840   17.1200 N.pl3     1 MOL        -0.9000 
+     12 H         -23.5040  -31.8700   19.9250 H         1 MOL         0.1500 
+     13 H         -22.6960  -29.8130   21.0870 H         1 MOL         0.1500 
+     14 H         -20.6160  -28.7000   20.3460 H         1 MOL         0.1500 
+     15 H         -20.2110  -32.5180   16.5910 H         1 MOL         0.4000 
+     16 H         -19.0510  -31.1910   16.8660 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_482
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_482
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -23.4350  -33.8140   18.3190 O.co2     1 MOL        -0.9000 
+      2 CAH       -23.7050  -32.6130   18.5510 C.2       1 MOL         0.9790 
+      3 OAC       -24.8900  -32.2160   18.4660 O.co2     1 MOL        -0.9000 
+      4 CAK       -22.6750  -31.7360   18.8780 C.ar      1 MOL        -0.1790 
+      5 CAG       -21.4060  -31.8640   18.2900 C.ar      1 MOL        -0.1500 
+      6 CAE       -20.3910  -30.9570   18.6490 C.ar      1 MOL        -0.1500 
+      7 CAF       -20.6460  -29.9420   19.5780 C.ar      1 MOL        -0.1500 
+      8 CAJ       -21.9120  -29.7990   20.1580 C.ar      1 MOL         0.1900 
+      9 FAD       -22.2500  -28.7670   21.1580 F         1 MOL        -0.1900 
+     10 CAI       -22.8920  -30.7030   19.8090 C.ar      1 MOL         0.1000 
+     11 NAA       -24.0790  -30.5330   20.4070 N.pl3     1 MOL        -0.9000 
+     12 H         -21.2110  -32.6500   17.5700 H         1 MOL         0.1500 
+     13 H         -19.4060  -31.0450   18.2030 H         1 MOL         0.1500 
+     14 H         -19.8530  -29.2570   19.8530 H         1 MOL         0.1500 
+     15 H         -24.8570  -31.1760   20.2000 H         1 MOL         0.4000 
+     16 H         -24.2130  -29.7600   21.0740 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_484
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_484
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -21.5160  -29.5370   21.9450 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.9190  -29.2320   20.8860 C.2       1 MOL         0.9790 
+      3 OAC       -20.2850  -28.1550   20.8180 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.9960  -30.0920   19.7940 C.ar      1 MOL        -0.1790 
+      5 CAG       -22.1710  -30.8110   19.5240 C.ar      1 MOL        -0.1500 
+      6 CAE       -22.2070  -31.6700   18.4090 C.ar      1 MOL        -0.1500 
+      7 CAF       -21.0850  -31.8020   17.5820 C.ar      1 MOL        -0.1500 
+      8 CAJ       -19.9150  -31.0770   17.8360 C.ar      1 MOL         0.1900 
+      9 FAD       -18.6880  -31.1790   17.0200 F         1 MOL        -0.1900 
+     10 CAI       -19.8890  -30.2520   18.9380 C.ar      1 MOL         0.1000 
+     11 NAA       -18.7390  -29.5960   19.1470 N.pl3     1 MOL        -0.9000 
+     12 H         -23.0390  -30.7060   20.1650 H         1 MOL         0.1500 
+     13 H         -23.1080  -32.2330   18.1890 H         1 MOL         0.1500 
+     14 H         -21.1230  -32.4750   16.7330 H         1 MOL         0.1500 
+     15 H         -18.6450  -28.9660   19.9570 H         1 MOL         0.4000 
+     16 H         -17.9500  -29.7220   18.4980 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_493
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_493
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.0570  -28.7850   11.8150 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.7630  -28.6760   13.0280 C.2       1 MOL         0.9790 
+      3 OAC       -16.1040  -27.6860   13.4200 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.1570  -29.6740   13.9140 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.1790  -31.0210   13.5190 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.5850  -32.0000   14.4460 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.9590  -31.6320   15.7440 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.9250  -30.2940   16.1500 C.ar      1 MOL         0.1900 
+      9 FAD       -18.3230  -29.8290   17.4940 F         1 MOL        -0.1900 
+     10 CAI       -17.5410  -29.3450   15.2280 C.ar      1 MOL         0.1000 
+     11 NAA       -17.5450  -28.0770   15.6620 N.pl3     1 MOL        -0.9000 
+     12 H         -16.8880  -31.3040   12.5140 H         1 MOL         0.1500 
+     13 H         -17.6080  -33.0440   14.1530 H         1 MOL         0.1500 
+     14 H         -18.2790  -32.3950   16.4440 H         1 MOL         0.1500 
+     15 H         -17.2750  -27.3130   15.0250 H         1 MOL         0.4000 
+     16 H         -17.8170  -27.8660   16.6330 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_501
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_501
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.0400  -33.7640   18.3590 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.3200  -32.5910   18.0200 C.2       1 MOL         0.9790 
+      3 OAC       -20.2360  -31.9750   18.6120 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.6200  -32.0030   16.9710 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.2050  -32.7630   15.8660 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.4980  -32.1300   14.8250 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.2170  -30.7600   14.8940 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.6400  -29.9920   15.9850 C.ar      1 MOL         0.1900 
+      9 FAD       -17.3630  -28.5500   16.1350 F         1 MOL        -0.1900 
+     10 CAI       -18.3170  -30.6280   17.0030 C.ar      1 MOL         0.1000 
+     11 NAA       -18.6820  -29.8520   18.0320 N.pl3     1 MOL        -0.9000 
+     12 H         -18.4250  -33.8230   15.8140 H         1 MOL         0.1500 
+     13 H         -17.1700  -32.7050   13.9670 H         1 MOL         0.1500 
+     14 H         -16.6630  -30.2880   14.0910 H         1 MOL         0.1500 
+     15 H         -19.1860  -30.2610   18.8320 H         1 MOL         0.4000 
+     16 H         -18.4590  -28.8460   18.0230 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_506
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_506
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.3740  -32.8130   18.3380 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.3990  -32.7080   17.5580 C.2       1 MOL         0.9790 
+      3 OAC       -18.8810  -33.7380   17.0700 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.8960  -31.4430   17.2680 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.8720  -30.4350   18.2450 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.3550  -29.1680   17.9100 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.8710  -28.9220   16.6200 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.8780  -29.9250   15.6450 C.ar      1 MOL         0.1900 
+      9 FAD       -17.4030  -29.7330   14.2600 F         1 MOL        -0.1900 
+     10 CAI       -18.4000  -31.1550   15.9820 C.ar      1 MOL         0.1000 
+     11 NAA       -18.4010  -32.0730   15.0060 N.pl3     1 MOL        -0.9000 
+     12 H         -19.2470  -30.6290   19.2440 H         1 MOL         0.1500 
+     13 H         -18.3320  -28.3810   18.6550 H         1 MOL         0.1500 
+     14 H         -17.4860  -27.9390   16.3730 H         1 MOL         0.1500 
+     15 H         -18.7830  -33.0140   15.1840 H         1 MOL         0.4000 
+     16 H         -18.0190  -31.8390   14.0780 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_509
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_509
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.1780  -31.5130   19.4850 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.9610  -31.8010   18.5510 C.2       1 MOL         0.9790 
+      3 OAC       -19.5010  -32.1230   17.4320 O.co2     1 MOL        -0.9000 
+      4 CAK       -21.3340  -31.7350   18.7710 C.ar      1 MOL        -0.1790 
+      5 CAG       -21.8830  -30.7470   19.6040 C.ar      1 MOL        -0.1500 
+      6 CAE       -23.2770  -30.7150   19.8010 C.ar      1 MOL        -0.1500 
+      7 CAF       -24.1010  -31.6560   19.1730 C.ar      1 MOL        -0.1500 
+      8 CAJ       -23.5630  -32.6340   18.3300 C.ar      1 MOL         0.1900 
+      9 FAD       -24.3660  -33.6700   17.6500 F         1 MOL        -0.1900 
+     10 CAI       -22.1960  -32.6640   18.1580 C.ar      1 MOL         0.1000 
+     11 NAA       -21.7310  -33.6320   17.3570 N.pl3     1 MOL        -0.9000 
+     12 H         -21.2430  -30.0190   20.0890 H         1 MOL         0.1500 
+     13 H         -23.7140  -29.9580   20.4430 H         1 MOL         0.1500 
+     14 H         -25.1710  -31.6260   19.3420 H         1 MOL         0.1500 
+     15 H         -20.7190  -33.7190   17.1880 H         1 MOL         0.4000 
+     16 H         -22.3860  -34.2900   16.9100 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_517
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_517
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.3350  -35.4870   19.1580 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.4890  -35.9240   17.9940 C.2       1 MOL         0.9790 
+      3 OAC       -18.4310  -35.1350   17.0230 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.7450  -37.2790   17.8060 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.5280  -37.9980   18.7230 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.7630  -39.3680   18.4960 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.2230  -40.0000   17.3700 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.4550  -39.2870   16.4440 C.ar      1 MOL         0.1900 
+      9 FAD       -17.8370  -39.8900   15.2450 F         1 MOL        -0.1900 
+     10 CAI       -18.2200  -37.9510   16.6860 C.ar      1 MOL         0.1000 
+     11 NAA       -17.4620  -37.3200   15.7790 N.pl3     1 MOL        -0.9000 
+     12 H         -19.9460  -37.5060   19.5940 H         1 MOL         0.1500 
+     13 H         -20.3650  -39.9360   19.1980 H         1 MOL         0.1500 
+     14 H         -19.4030  -41.0570   17.2130 H         1 MOL         0.1500 
+     15 H         -17.2390  -36.3210   15.8990 H         1 MOL         0.4000 
+     16 H         -17.1020  -37.8330   14.9620 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_534
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_534
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.1700  -34.4610   18.9220 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.9600  -33.8620   17.8420 C.2       1 MOL         0.9790 
+      3 OAC       -20.7250  -32.9360   17.4870 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.8900  -34.2560   17.0450 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.5180  -35.6070   16.9550 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.4280  -35.9630   16.1370 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.7280  -34.9820   15.4250 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.1020  -33.6360   15.4980 C.ar      1 MOL         0.1900 
+      9 FAD       -16.4000  -32.5450   14.7920 F         1 MOL        -0.1900 
+     10 CAI       -18.1600  -33.2990   16.3130 C.ar      1 MOL         0.1000 
+     11 NAA       -18.4640  -31.9950   16.3630 N.pl3     1 MOL        -0.9000 
+     12 H         -19.0620  -36.3640   17.5060 H         1 MOL         0.1500 
+     13 H         -17.1290  -37.0030   16.0590 H         1 MOL         0.1500 
+     14 H         -15.8850  -35.2700   14.8080 H         1 MOL         0.1500 
+     15 H         -19.2400  -31.6690   16.9580 H         1 MOL         0.4000 
+     16 H         -17.9230  -31.3180   15.8060 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_542
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_542
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.8600  -31.7670   18.4390 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.2720  -32.3020   17.4700 C.2       1 MOL         0.9790 
+      3 OAC       -20.2910  -31.7450   16.3490 O.co2     1 MOL        -0.9000 
+      4 CAK       -19.6280  -33.5210   17.6570 C.ar      1 MOL        -0.1790 
+      5 CAG       -20.1570  -34.4900   18.5250 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.4740  -35.7110   18.6860 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.2860  -35.9530   17.9880 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.7600  -34.9990   17.1090 C.ar      1 MOL         0.1900 
+      9 FAD       -16.5030  -35.1750   16.3550 F         1 MOL        -0.1900 
+     10 CAI       -18.4300  -33.8030   16.9730 C.ar      1 MOL         0.1000 
+     11 NAA       -17.8740  -32.9170   16.1360 N.pl3     1 MOL        -0.9000 
+     12 H         -21.0780  -34.3000   19.0640 H         1 MOL         0.1500 
+     13 H         -19.8710  -36.4670   19.3550 H         1 MOL         0.1500 
+     14 H         -17.7650  -36.8930   18.1290 H         1 MOL         0.1500 
+     15 H         -18.3180  -31.9980   15.9890 H         1 MOL         0.4000 
+     16 H         -17.0050  -33.1540   15.6380 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_554
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_554
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -16.2330  -27.0730   16.0730 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.1780  -27.8810   15.9120 C.2       1 MOL         0.9790 
+      3 OAC       -17.7960  -27.9040   14.8240 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.5350  -28.7230   16.9610 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.4650  -28.2850   18.2930 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.8360  -29.1690   19.3250 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.2680  -30.4650   19.0230 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.3540  -30.9050   17.6970 C.ar      1 MOL         0.1900 
+      9 FAD       -18.7820  -32.2630   17.3040 F         1 MOL        -0.1900 
+     10 CAI       -17.9740  -30.0350   16.6990 C.ar      1 MOL         0.1000 
+     11 NAA       -18.0570  -30.5120   15.4490 N.pl3     1 MOL        -0.9000 
+     12 H         -17.1310  -27.2800   18.5240 H         1 MOL         0.1500 
+     13 H         -17.7850  -28.8440   20.3580 H         1 MOL         0.1500 
+     14 H         -18.5400  -31.1390   19.8270 H         1 MOL         0.1500 
+     15 H         -17.7830  -29.9190   14.6520 H         1 MOL         0.4000 
+     16 H         -18.3950  -31.4710   15.2850 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_556
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_556
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.0550  -27.7950   14.3870 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.2600  -27.7790   15.3550 C.2       1 MOL         0.9790 
+      3 OAC       -17.4760  -26.8130   15.4980 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.2490  -28.8510   16.2420 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.4680  -30.1620   15.7900 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.4490  -31.2190   16.7210 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.2130  -30.9630   18.0760 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.9790  -29.6610   18.5320 C.ar      1 MOL         0.1900 
+      9 FAD       -17.7430  -29.3120   19.9480 F         1 MOL        -0.1900 
+     10 CAI       -18.0160  -28.6350   17.6140 C.ar      1 MOL         0.1000 
+     11 NAA       -17.8050  -27.4060   18.1060 N.pl3     1 MOL        -0.9000 
+     12 H         -18.6500  -30.3580   14.7400 H         1 MOL         0.1500 
+     13 H         -18.6190  -32.2370   16.3860 H         1 MOL         0.1500 
+     14 H         -18.2120  -31.7840   18.7830 H         1 MOL         0.1500 
+     15 H         -17.8240  -26.5890   17.4770 H         1 MOL         0.4000 
+     16 H         -17.6230  -27.2780   19.1110 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_561
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_561
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -15.8910  -27.4290   12.6790 O.co2     1 MOL        -0.9000 
+      2 CAH       -16.5580  -28.4840   12.5770 C.2       1 MOL         0.9790 
+      3 OAC       -16.7250  -29.0070   11.4510 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.1210  -29.0440   13.7200 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.6170  -28.2300   14.7510 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.1790  -28.8360   15.8920 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.2420  -30.2300   15.9910 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.7640  -31.0480   14.9620 C.ar      1 MOL         0.1900 
+      9 FAD       -17.7790  -32.5240   15.0060 F         1 MOL        -0.1900 
+     10 CAI       -17.2030  -30.4420   13.8590 C.ar      1 MOL         0.1000 
+     11 NAA       -16.7420  -31.2710   12.9120 N.pl3     1 MOL        -0.9000 
+     12 H         -17.5680  -27.1500   14.6710 H         1 MOL         0.1500 
+     13 H         -18.5650  -28.2190   16.6960 H         1 MOL         0.1500 
+     14 H         -18.6680  -30.6830   16.8790 H         1 MOL         0.1500 
+     15 H         -16.3040  -30.8880   12.0620 H         1 MOL         0.4000 
+     16 H         -16.8270  -32.2900   13.0330 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_571
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_571
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -16.5850  -33.3380   17.8160 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.0050  -34.0420   16.8680 C.2       1 MOL         0.9790 
+      3 OAC       -16.8570  -33.6480   15.6890 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.6500  -35.2430   17.1500 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.4760  -35.3700   18.2780 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.1110  -36.6020   18.5270 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.9200  -37.6830   17.6580 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.1100  -37.5600   16.5240 C.ar      1 MOL         0.1900 
+      9 FAD       -17.8470  -38.6610   15.5740 F         1 MOL        -0.1900 
+     10 CAI       -17.4830  -36.3540   16.3010 C.ar      1 MOL         0.1000 
+     11 NAA       -16.7050  -36.2950   15.2120 N.pl3     1 MOL        -0.9000 
+     12 H         -18.6230  -34.5310   18.9480 H         1 MOL         0.1500 
+     13 H         -19.7500  -36.7140   19.3960 H         1 MOL         0.1500 
+     14 H         -19.4060  -38.6290   17.8680 H         1 MOL         0.1500 
+     15 H         -16.1990  -35.4260   14.9860 H         1 MOL         0.4000 
+     16 H         -16.6110  -37.1190   14.6010 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_572
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_572
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.1220  -39.4020   16.7140 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.9800  -38.9020   16.5820 C.2       1 MOL         0.9790 
+      3 OAC       -18.0790  -39.5560   16.0100 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.7320  -37.6330   17.0960 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.3340  -37.2100   18.2930 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0560  -35.9180   18.7790 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.1910  -35.0700   18.0780 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.5760  -35.4890   16.8930 C.ar      1 MOL         0.1900 
+      9 FAD       -16.6690  -34.6450   16.0900 F         1 MOL        -0.1900 
+     10 CAI       -17.8680  -36.7500   16.4210 C.ar      1 MOL         0.1000 
+     11 NAA       -17.2690  -37.0940   15.2730 N.pl3     1 MOL        -0.9000 
+     12 H         -20.0020  -37.8690   18.8340 H         1 MOL         0.1500 
+     13 H         -19.5150  -35.5780   19.7010 H         1 MOL         0.1500 
+     14 H         -17.9940  -34.0740   18.4590 H         1 MOL         0.1500 
+     15 H         -17.4460  -38.0200   14.8570 H         1 MOL         0.4000 
+     16 H         -16.6310  -36.4340   14.8070 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_574
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_574
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.3040  -40.1070   16.0900 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.4520  -39.2030   16.2520 C.2       1 MOL         0.9790 
+      3 OAC       -16.2800  -39.3750   15.8450 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.8220  -38.0310   16.9050 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.7390  -38.0570   17.9680 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.0870  -36.8490   18.6020 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.5230  -35.6400   18.1760 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.5970  -35.6080   17.1280 C.ar      1 MOL         0.1900 
+      9 FAD       -16.9760  -34.3710   16.6130 F         1 MOL        -0.1900 
+     10 CAI       -17.2770  -36.7950   16.5070 C.ar      1 MOL         0.1000 
+     11 NAA       -16.4020  -36.7060   15.4970 N.pl3     1 MOL        -0.9000 
+     12 H         -19.1740  -38.9940   18.2960 H         1 MOL         0.1500 
+     13 H         -19.7960  -36.8540   19.4230 H         1 MOL         0.1500 
+     14 H         -18.8080  -34.7160   18.6660 H         1 MOL         0.1500 
+     15 H         -16.1210  -37.5540   14.9820 H         1 MOL         0.4000 
+     16 H         -16.0080  -35.7910   15.2360 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_575
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_575
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.2980  -34.4870   17.5920 O.co2     1 MOL        -0.9000 
+      2 CAH       -17.7480  -35.3480   16.8000 C.2       1 MOL         0.9790 
+      3 OAC       -17.7240  -35.1290   15.5670 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.2880  -36.5240   17.3120 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.0080  -36.5210   18.5170 C.ar      1 MOL        -0.1500 
+      6 CAE       -19.5380  -37.7330   19.0010 C.ar      1 MOL        -0.1500 
+      7 CAF       -19.3490  -38.9220   18.2850 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.6460  -38.9300   17.0750 C.ar      1 MOL         0.1900 
+      9 FAD       -18.3910  -40.1460   16.2770 F         1 MOL        -0.1900 
+     10 CAI       -18.1200  -37.7400   16.6220 C.ar      1 MOL         0.1000 
+     11 NAA       -17.4390  -37.8060   15.4700 N.pl3     1 MOL        -0.9000 
+     12 H         -19.1530  -35.6000   19.0690 H         1 MOL         0.1500 
+     13 H         -20.0950  -37.7460   19.9310 H         1 MOL         0.1500 
+     14 H         -19.7540  -39.8490   18.6740 H         1 MOL         0.1500 
+     15 H         -17.0120  -36.9560   15.0740 H         1 MOL         0.4000 
+     16 H         -17.3430  -38.7070   14.9800 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_576
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_576
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -22.4560  -32.9300   17.1690 O.co2     1 MOL        -0.9000 
+      2 CAH       -21.4670  -32.5960   17.8610 C.2       1 MOL         0.9790 
+      3 OAC       -20.3710  -33.1800   17.7010 O.co2     1 MOL        -0.9000 
+      4 CAK       -21.6140  -31.5920   18.8150 C.ar      1 MOL        -0.1790 
+      5 CAG       -22.8080  -31.4590   19.5420 C.ar      1 MOL        -0.1500 
+      6 CAE       -22.9160  -30.4300   20.4970 C.ar      1 MOL        -0.1500 
+      7 CAF       -21.8460  -29.5560   20.7180 C.ar      1 MOL        -0.1500 
+      8 CAJ       -20.6480  -29.6910   20.0080 C.ar      1 MOL         0.1900 
+      9 FAD       -19.4850  -28.7960   20.1730 F         1 MOL        -0.1900 
+     10 CAI       -20.5610  -30.6920   19.0660 C.ar      1 MOL         0.1000 
+     11 NAA       -19.4000  -30.7660   18.4010 N.pl3     1 MOL        -0.9000 
+     12 H         -23.6350  -32.1380   19.3700 H         1 MOL         0.1500 
+     13 H         -23.8330  -30.3150   21.0650 H         1 MOL         0.1500 
+     14 H         -21.9470  -28.7620   21.4490 H         1 MOL         0.1500 
+     15 H         -19.2660  -31.4860   17.6760 H         1 MOL         0.4000 
+     16 H         -18.6410  -30.1030   18.6140 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_579
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_579
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -21.2250  -30.3690   21.2770 O.co2     1 MOL        -0.9000 
+      2 CAH       -21.8160  -30.4400   20.1740 C.2       1 MOL         0.9790 
+      3 OAC       -21.5770  -29.5900   19.2860 O.co2     1 MOL        -0.9000 
+      4 CAK       -22.7470  -31.4530   19.9680 C.ar      1 MOL        -0.1790 
+      5 CAG       -23.5730  -31.8970   21.0140 C.ar      1 MOL        -0.1500 
+      6 CAE       -24.5020  -32.9250   20.7630 C.ar      1 MOL        -0.1500 
+      7 CAF       -24.6000  -33.4930   19.4870 C.ar      1 MOL        -0.1500 
+      8 CAJ       -23.7910  -33.0460   18.4370 C.ar      1 MOL         0.1900 
+      9 FAD       -23.8250  -33.6100   17.0720 F         1 MOL        -0.1900 
+     10 CAI       -22.8760  -32.0500   18.7000 C.ar      1 MOL         0.1000 
+     11 NAA       -22.1140  -31.6730   17.6650 N.pl3     1 MOL        -0.9000 
+     12 H         -23.4960  -31.4550   22.0000 H         1 MOL         0.1500 
+     13 H         -25.1450  -33.2780   21.5620 H         1 MOL         0.1500 
+     14 H         -25.3120  -34.2910   19.3110 H         1 MOL         0.1500 
+     15 H         -21.4030  -30.9380   17.7890 H         1 MOL         0.4000 
+     16 H         -22.2390  -32.1180   16.7440 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_582
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_582
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.1470  -34.3530   16.9260 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.0510  -33.7510   17.5510 C.2       1 MOL         0.9790 
+      3 OAC       -19.7730  -32.7190   18.2030 O.co2     1 MOL        -0.9000 
+      4 CAK       -21.3470  -34.2590   17.5260 C.ar      1 MOL        -0.1790 
+      5 CAG       -21.5770  -35.6440   17.5120 C.ar      1 MOL        -0.1500 
+      6 CAE       -22.9040  -36.1170   17.4870 C.ar      1 MOL        -0.1500 
+      7 CAF       -23.9750  -35.2160   17.4770 C.ar      1 MOL        -0.1500 
+      8 CAJ       -23.7530  -33.8350   17.5050 C.ar      1 MOL         0.1900 
+      9 FAD       -24.8310  -32.8250   17.4770 F         1 MOL        -0.1900 
+     10 CAI       -22.4510  -33.3860   17.5150 C.ar      1 MOL         0.1000 
+     11 NAA       -22.2940  -32.0550   17.5220 N.pl3     1 MOL        -0.9000 
+     12 H         -20.7460  -36.3400   17.5210 H         1 MOL         0.1500 
+     13 H         -23.0960  -37.1850   17.4740 H         1 MOL         0.1500 
+     14 H         -24.9900  -35.5940   17.4460 H         1 MOL         0.1500 
+     15 H         -21.3480  -31.6480   17.5220 H         1 MOL         0.4000 
+     16 H         -23.1200  -31.4400   17.5270 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_583
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_583
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.8830  -28.2880   14.3480 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.7440  -28.6640   15.5350 C.2       1 MOL         0.9790 
+      3 OAC       -18.7080  -27.8150   16.4550 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.6100  -30.0230   15.8050 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.9170  -30.8670   14.9230 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.8030  -32.2370   15.2330 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.3740  -32.7450   16.4060 C.ar      1 MOL        -0.1500 
+      8 CAJ       -19.0530  -31.9070   17.2970 C.ar      1 MOL         0.1900 
+      9 FAD       -19.6960  -32.3740   18.5420 F         1 MOL        -0.1900 
+     10 CAI       -19.1690  -30.5730   16.9740 C.ar      1 MOL         0.1000 
+     11 NAA       -19.8460  -29.8190   17.8510 N.pl3     1 MOL        -0.9000 
+     12 H         -17.4750  -30.4710   14.0160 H         1 MOL         0.1500 
+     13 H         -17.2720  -32.9000   14.5600 H         1 MOL         0.1500 
+     14 H         -18.2880  -33.8020   16.6270 H         1 MOL         0.1500 
+     15 H         -19.9780  -28.8130   17.6710 H         1 MOL         0.4000 
+     16 H         -20.2330  -30.2450   18.7050 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_584
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_584
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -23.8580  -33.4600   17.9100 O.co2     1 MOL        -0.9000 
+      2 CAH       -23.3480  -32.9980   18.9580 C.2       1 MOL         0.9790 
+      3 OAC       -23.0650  -33.7700   19.9020 O.co2     1 MOL        -0.9000 
+      4 CAK       -23.1280  -31.6280   19.0580 C.ar      1 MOL        -0.1790 
+      5 CAG       -24.0240  -30.7110   18.4850 C.ar      1 MOL        -0.1500 
+      6 CAE       -23.7640  -29.3320   18.6090 C.ar      1 MOL        -0.1500 
+      7 CAF       -22.6290  -28.8860   19.2960 C.ar      1 MOL        -0.1500 
+      8 CAJ       -21.7400  -29.7930   19.8830 C.ar      1 MOL         0.1900 
+      9 FAD       -20.5140  -29.3980   20.6050 F         1 MOL        -0.1900 
+     10 CAI       -21.9980  -31.1390   19.7400 C.ar      1 MOL         0.1000 
+     11 NAA       -21.1060  -31.9650   20.3040 N.pl3     1 MOL        -0.9000 
+     12 H         -24.9020  -31.0580   17.9540 H         1 MOL         0.1500 
+     13 H         -24.4470  -28.6120   18.1690 H         1 MOL         0.1500 
+     14 H         -22.4360  -27.8220   19.3750 H         1 MOL         0.1500 
+     15 H         -21.2310  -32.9850   20.2320 H         1 MOL         0.4000 
+     16 H         -20.2950  -31.5800   20.8090 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_595
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_595
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.9090  -37.6720   16.8940 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.6640  -36.6130   17.5160 C.2       1 MOL         0.9790 
+      3 OAC       -18.9930  -36.5100   18.7200 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.0480  -35.5600   16.8460 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.6250  -34.2790   16.8320 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.9690  -33.2410   16.1410 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.7600  -33.4860   15.4810 C.ar      1 MOL        -0.1500 
+      8 CAJ       -16.1710  -34.7550   15.5030 C.ar      1 MOL         0.1900 
+      9 FAD       -14.9090  -35.0920   14.8150 F         1 MOL        -0.1900 
+     10 CAI       -16.8310  -35.7650   16.1690 C.ar      1 MOL         0.1000 
+     11 NAA       -16.2350  -36.9650   16.1430 N.pl3     1 MOL        -0.9000 
+     12 H         -19.5610  -34.0930   17.3450 H         1 MOL         0.1500 
+     13 H         -18.4040  -32.2480   16.1210 H         1 MOL         0.1500 
+     14 H         -16.2720  -32.6800   14.9450 H         1 MOL         0.1500 
+     15 H         -16.6750  -37.7690   16.6150 H         1 MOL         0.4000 
+     16 H         -15.3370  -37.0830   15.6520 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_619
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_619
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.4310  -27.7990   17.5410 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.0180  -28.9810   17.5100 C.2       1 MOL         0.9790 
+      3 OAC       -17.9330  -29.6370   18.5730 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.6390  -29.5350   16.2900 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.0090  -28.7530   15.3090 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.6420  -29.3520   14.0880 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.9010  -30.7080   13.8610 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.5150  -31.4980   14.8400 C.ar      1 MOL         0.1900 
+      9 FAD       -17.8370  -32.9280   14.6640 F         1 MOL        -0.1900 
+     10 CAI       -17.8820  -30.8960   16.0230 C.ar      1 MOL         0.1000 
+     11 NAA       -18.4840  -31.6910   16.9180 N.pl3     1 MOL        -0.9000 
+     12 H         -16.8090  -27.7030   15.4880 H         1 MOL         0.1500 
+     13 H         -16.1560  -28.7590   13.3210 H         1 MOL         0.1500 
+     14 H         -16.6220  -31.1540   12.9130 H         1 MOL         0.1500 
+     15 H         -18.7920  -31.3070   17.8230 H         1 MOL         0.4000 
+     16 H         -18.6370  -32.6860   16.7020 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_626
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_626
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.4030  -30.4970   21.5620 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.2280  -29.8480   20.5040 C.2       1 MOL         0.9790 
+      3 OAC       -19.0740  -29.7250   20.0350 O.co2     1 MOL        -0.9000 
+      4 CAK       -21.3240  -29.2550   19.8840 C.ar      1 MOL        -0.1790 
+      5 CAG       -21.3270  -27.8830   19.5840 C.ar      1 MOL        -0.1500 
+      6 CAE       -22.4560  -27.3220   18.9560 C.ar      1 MOL        -0.1500 
+      7 CAF       -23.5560  -28.1250   18.6340 C.ar      1 MOL        -0.1500 
+      8 CAJ       -23.5550  -29.4960   18.9150 C.ar      1 MOL         0.1900 
+      9 FAD       -24.6850  -30.4000   18.6230 F         1 MOL        -0.1900 
+     10 CAI       -22.4500  -30.0280   19.5440 C.ar      1 MOL         0.1000 
+     11 NAA       -22.5080  -31.3400   19.8090 N.pl3     1 MOL        -0.9000 
+     12 H         -20.4730  -27.2640   19.8340 H         1 MOL         0.1500 
+     13 H         -22.4720  -26.2640   18.7200 H         1 MOL         0.1500 
+     14 H         -24.4230  -27.6780   18.1600 H         1 MOL         0.1500 
+     15 H         -21.7200  -31.8050   20.2840 H         1 MOL         0.4000 
+     16 H         -23.3390  -31.8850   19.5370 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_629
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_629
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.5980  -35.0050   19.1690 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.9550  -34.2820   18.2090 C.2       1 MOL         0.9790 
+      3 OAC       -19.9190  -33.4950   18.3500 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.2830  -34.3870   16.9950 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.8010  -35.6270   16.5440 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.1260  -35.6900   15.3090 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.9420  -34.5320   14.5450 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.4320  -33.2960   14.9810 C.ar      1 MOL         0.1900 
+      9 FAD       -17.2590  -32.0310   14.2390 F         1 MOL        -0.1900 
+     10 CAI       -18.0770  -33.2460   16.1980 C.ar      1 MOL         0.1000 
+     11 NAA       -18.5090  -32.0360   16.5770 N.pl3     1 MOL        -0.9000 
+     12 H         -17.9460  -36.5220   17.1370 H         1 MOL         0.1500 
+     13 H         -16.7480  -36.6400   14.9490 H         1 MOL         0.1500 
+     14 H         -16.4120  -34.5930   13.6020 H         1 MOL         0.1500 
+     15 H         -18.9940  -31.9220   17.4790 H         1 MOL         0.4000 
+     16 H         -18.3570  -31.2200   15.9680 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_637
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_637
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.1340  -34.0140   18.7970 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.6480  -35.1590   18.6430 C.2       1 MOL         0.9790 
+      3 OAC       -18.7800  -36.0160   19.5460 O.co2     1 MOL        -0.9000 
+      4 CAK       -17.9500  -35.4470   17.4740 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.1550  -34.4720   16.8510 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.4640  -34.8040   15.6690 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.5710  -36.0900   15.1270 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.3500  -37.0720   15.7500 C.ar      1 MOL         0.1900 
+      9 FAD       -17.5250  -38.4420   15.2270 F         1 MOL        -0.1900 
+     10 CAI       -18.0320  -36.7290   16.8970 C.ar      1 MOL         0.1000 
+     11 NAA       -18.7780  -37.6990   17.4420 N.pl3     1 MOL        -0.9000 
+     12 H         -17.0730  -33.4770   17.2740 H         1 MOL         0.1500 
+     13 H         -15.8470  -34.0610   15.1770 H         1 MOL         0.1500 
+     14 H         -16.0420  -36.3290   14.2110 H         1 MOL         0.1500 
+     15 H         -19.3210  -37.5120   18.2980 H         1 MOL         0.4000 
+     16 H         -18.8080  -38.6320   17.0060 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_639
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_639
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.7780  -30.4780   20.8360 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.2880  -29.8040   19.9110 C.2       1 MOL         0.9790 
+      3 OAC       -20.1760  -28.9610   20.1730 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.8700  -30.0240   18.6010 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.5320  -31.3130   18.1600 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.1130  -31.4930   16.8280 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.0390  -30.4000   15.9570 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.3890  -29.1140   16.3850 C.ar      1 MOL         0.1900 
+      9 FAD       -18.3160  -27.9120   15.5300 F         1 MOL        -0.1900 
+     10 CAI       -18.7810  -28.9500   17.6950 C.ar      1 MOL         0.1000 
+     11 NAA       -19.0860  -27.6970   18.0590 N.pl3     1 MOL        -0.9000 
+     12 H         -18.5920  -32.1590   18.8360 H         1 MOL         0.1500 
+     13 H         -17.8480  -32.4840   16.4740 H         1 MOL         0.1500 
+     14 H         -17.7050  -30.5510   14.9370 H         1 MOL         0.1500 
+     15 H         -19.3810  -27.4980   19.0260 H         1 MOL         0.4000 
+     16 H         -19.0250  -26.9320   17.3710 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_648
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_648
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.9690  -27.4100   18.7000 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.3380  -28.4260   18.3280 C.2       1 MOL         0.9790 
+      3 OAC       -17.8550  -29.2040   19.1810 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.1670  -28.6570   16.9660 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.9810  -27.5900   16.0730 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.8120  -27.8660   14.7020 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.8290  -29.1870   14.2410 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.9990  -30.2570   15.1270 C.ar      1 MOL         0.1900 
+      9 FAD       -18.0470  -31.6730   14.7110 F         1 MOL        -0.1900 
+     10 CAI       -18.1780  -29.9710   16.4620 C.ar      1 MOL         0.1000 
+     11 NAA       -18.3570  -31.0300   17.2650 N.pl3     1 MOL        -0.9000 
+     12 H         -17.9670  -26.5670   16.4320 H         1 MOL         0.1500 
+     13 H         -17.6680  -27.0510   14.0010 H         1 MOL         0.1500 
+     14 H         -17.7080  -29.3850   13.1820 H         1 MOL         0.1500 
+     15 H         -18.5040  -30.8910   18.2750 H         1 MOL         0.4000 
+     16 H         -18.3470  -31.9820   16.8710 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_661
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_661
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.5120  -27.0570   16.9070 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.2230  -28.1330   17.4800 C.2       1 MOL         0.9790 
+      3 OAC       -18.1990  -28.7650   17.1350 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.0630  -28.6160   18.4790 C.ar      1 MOL        -0.1790 
+      5 CAG       -21.4550  -28.4460   18.3940 C.ar      1 MOL        -0.1500 
+      6 CAE       -22.2700  -28.9500   19.4260 C.ar      1 MOL        -0.1500 
+      7 CAF       -21.6980  -29.6130   20.5180 C.ar      1 MOL        -0.1500 
+      8 CAJ       -20.3140  -29.7990   20.6030 C.ar      1 MOL         0.1900 
+      9 FAD       -19.6390  -30.4690   21.7320 F         1 MOL        -0.1900 
+     10 CAI       -19.5270  -29.2880   19.5940 C.ar      1 MOL         0.1000 
+     11 NAA       -18.2080  -29.4760   19.7330 N.pl3     1 MOL        -0.9000 
+     12 H         -21.8950  -27.9340   17.5470 H         1 MOL         0.1500 
+     13 H         -23.3460  -28.8240   19.3740 H         1 MOL         0.1500 
+     14 H         -22.3370  -29.9860   21.3100 H         1 MOL         0.1500 
+     15 H         -17.5580  -29.1150   19.0200 H         1 MOL         0.4000 
+     16 H         -17.8440  -29.9830   20.5530 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_663
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_663
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.0140  -27.5320   16.1100 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.6590  -27.7420   14.9260 C.2       1 MOL         0.9790 
+      3 OAC       -20.2680  -27.1790   13.9870 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.6070  -28.6170   14.6780 C.ar      1 MOL        -0.1790 
+      5 CAG       -18.4180  -29.7600   15.4720 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.3400  -30.6210   15.1880 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.4720  -30.3380   14.1270 C.ar      1 MOL        -0.1500 
+      8 CAJ       -16.6610  -29.2090   13.3220 C.ar      1 MOL         0.1900 
+      9 FAD       -15.7760  -28.8370   12.2000 F         1 MOL        -0.1900 
+     10 CAI       -17.7110  -28.3680   13.6210 C.ar      1 MOL         0.1000 
+     11 NAA       -17.8360  -27.2920   12.8330 N.pl3     1 MOL        -0.9000 
+     12 H         -19.0930  -29.9770   16.2920 H         1 MOL         0.1500 
+     13 H         -17.1820  -31.5060   15.7940 H         1 MOL         0.1500 
+     14 H         -15.6400  -31.0040   13.9260 H         1 MOL         0.1500 
+     15 H         -18.5950  -26.6150   13.0010 H         1 MOL         0.4000 
+     16 H         -17.1750  -27.1420   12.0570 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_670
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_670
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.7270  -29.9240   19.9610 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.5500  -30.7860   20.3490 C.2       1 MOL         0.9790 
+      3 OAC       -19.7970  -30.9030   21.5710 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.1580  -31.6150   19.4100 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.4540  -32.0600   18.2800 C.ar      1 MOL        -0.1500 
+      6 CAE       -20.1060  -32.8970   17.3530 C.ar      1 MOL        -0.1500 
+      7 CAF       -21.4370  -33.2790   17.5610 C.ar      1 MOL        -0.1500 
+      8 CAJ       -22.1400  -32.8520   18.6930 C.ar      1 MOL         0.1900 
+      9 FAD       -23.5490  -33.1970   18.9680 F         1 MOL        -0.1900 
+     10 CAI       -21.4950  -32.0210   19.5830 C.ar      1 MOL         0.1000 
+     11 NAA       -22.2190  -31.6240   20.6380 N.pl3     1 MOL        -0.9000 
+     12 H         -18.4240  -31.7640   18.1220 H         1 MOL         0.1500 
+     13 H         -19.5750  -33.2480   16.4750 H         1 MOL         0.1500 
+     14 H         -21.9290  -33.9150   16.8350 H         1 MOL         0.1500 
+     15 H         -21.8030  -30.9960   21.3410 H         1 MOL         0.4000 
+     16 H         -23.1910  -31.9480   20.7470 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_671
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_671
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -19.3770  -31.3990   15.9910 O.co2     1 MOL        -0.9000 
+      2 CAH       -19.3580  -32.4980   16.5930 C.2       1 MOL         0.9790 
+      3 OAC       -20.2470  -32.7590   17.4360 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.3320  -33.4000   16.3260 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.0300  -32.9500   16.0550 C.ar      1 MOL        -0.1500 
+      6 CAE       -16.0210  -33.8950   15.7900 C.ar      1 MOL        -0.1500 
+      7 CAF       -16.3140  -35.2640   15.8000 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.6060  -35.7210   16.0840 C.ar      1 MOL         0.1900 
+      9 FAD       -17.9940  -37.1450   16.0940 F         1 MOL        -0.1900 
+     10 CAI       -18.5870  -34.7840   16.3270 C.ar      1 MOL         0.1000 
+     11 NAA       -19.8100  -35.2740   16.5740 N.pl3     1 MOL        -0.9000 
+     12 H         -16.8050  -31.8900   16.0490 H         1 MOL         0.1500 
+     13 H         -15.0110  -33.5610   15.5770 H         1 MOL         0.1500 
+     14 H         -15.5300  -35.9800   15.5840 H         1 MOL         0.1500 
+     15 H         -20.5940  -34.6320   16.7570 H         1 MOL         0.4000 
+     16 H         -19.9650  -36.2920   16.5810 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_674
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_674
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -17.9200  -29.4890   18.1640 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.8190  -28.9630   18.8620 C.2       1 MOL         0.9790 
+      3 OAC       -18.6290  -27.8360   19.3720 O.co2     1 MOL        -0.9000 
+      4 CAK       -20.0060  -29.6580   19.0730 C.ar      1 MOL        -0.1790 
+      5 CAG       -20.0070  -31.0550   19.2160 C.ar      1 MOL        -0.1500 
+      6 CAE       -21.2310  -31.7200   19.4290 C.ar      1 MOL        -0.1500 
+      7 CAF       -22.4260  -30.9950   19.4990 C.ar      1 MOL        -0.1500 
+      8 CAJ       -22.4310  -29.6020   19.3730 C.ar      1 MOL         0.1900 
+      9 FAD       -23.6530  -28.7740   19.4160 F         1 MOL        -0.1900 
+     10 CAI       -21.2290  -28.9660   19.1490 C.ar      1 MOL         0.1000 
+     11 NAA       -21.2920  -27.6340   19.0160 N.pl3     1 MOL        -0.9000 
+     12 H         -19.0800  -31.6140   19.1620 H         1 MOL         0.1500 
+     13 H         -21.2460  -32.7990   19.5390 H         1 MOL         0.1500 
+     14 H         -23.3610  -31.5210   19.6520 H         1 MOL         0.1500 
+     15 H         -20.4330  -27.0930   18.8410 H         1 MOL         0.4000 
+     16 H         -22.1990  -27.1510   19.0900 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_689
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_689
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -18.7630  -28.7700   18.5500 O.co2     1 MOL        -0.9000 
+      2 CAH       -18.7100  -29.9700   18.9060 C.2       1 MOL         0.9790 
+      3 OAC       -18.8420  -30.2650   20.1150 O.co2     1 MOL        -0.9000 
+      4 CAK       -18.4820  -30.9520   17.9460 C.ar      1 MOL        -0.1790 
+      5 CAG       -17.6310  -30.7100   16.8560 C.ar      1 MOL        -0.1500 
+      6 CAE       -17.4260  -31.7300   15.9070 C.ar      1 MOL        -0.1500 
+      7 CAF       -18.0630  -32.9680   16.0540 C.ar      1 MOL        -0.1500 
+      8 CAJ       -18.9000  -33.2230   17.1450 C.ar      1 MOL         0.1900 
+      9 FAD       -19.6190  -34.4950   17.3550 F         1 MOL        -0.1900 
+     10 CAI       -19.1030  -32.2100   18.0570 C.ar      1 MOL         0.1000 
+     11 NAA       -19.9290  -32.4990   19.0720 N.pl3     1 MOL        -0.9000 
+     12 H         -17.1380  -29.7510   16.7460 H         1 MOL         0.1500 
+     13 H         -16.7730  -31.5560   15.0590 H         1 MOL         0.1500 
+     14 H         -17.9040  -33.7410   15.3100 H         1 MOL         0.1500 
+     15 H         -20.1330  -31.7870   19.7890 H         1 MOL         0.4000 
+     16 H         -20.3590  -33.4330   19.1360 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_695
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_695
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAB       -20.8430  -32.0550   19.3210 O.co2     1 MOL        -0.9000 
+      2 CAH       -20.5740  -32.4820   18.1740 C.2       1 MOL         0.9790 
+      3 OAC       -21.1570  -31.9960   17.1790 O.co2     1 MOL        -0.9000 
+      4 CAK       -19.6450  -33.5090   18.0330 C.ar      1 MOL        -0.1790 
+      5 CAG       -19.5540  -34.5340   18.9890 C.ar      1 MOL        -0.1500 
+      6 CAE       -18.5990  -35.5540   18.8090 C.ar      1 MOL        -0.1500 
+      7 CAF       -17.7570  -35.5440   17.6910 C.ar      1 MOL        -0.1500 
+      8 CAJ       -17.8520  -34.5340   16.7270 C.ar      1 MOL         0.1900 
+      9 FAD       -16.9850  -34.4470   15.5350 F         1 MOL        -0.1900 
+     10 CAI       -18.7790  -33.5340   16.9240 C.ar      1 MOL         0.1000 
+     11 NAA       -18.8150  -32.5810   15.9820 N.pl3     1 MOL        -0.9000 
+     12 H         -20.2080  -34.5400   19.8520 H         1 MOL         0.1500 
+     13 H         -18.5170  -36.3510   19.5390 H         1 MOL         0.1500 
+     14 H         -17.0200  -36.3300   17.5700 H         1 MOL         0.1500 
+     15 H         -19.4800  -31.7980   16.0670 H         1 MOL         0.4000 
+     16 H         -18.1790  -32.6320   15.1730 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    5   12 1    
+     8    6    7 ar   
+     9    6   13 1    
+    10    7    8 ar   
+    11    7   14 1    
+    12    8    9 1    
+    13    8   10 ar   
+    14   10   11 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         4 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_742
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_742
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -18.1161  -35.3317   19.9650 O.co2     1 MOL        -0.9000 
+      2 C         -18.0844  -36.5586   19.3981 C.2       1 MOL         0.9790 
+      3 O         -17.4407  -36.6829   18.2148 O.co2     1 MOL        -0.9000 
+      4 C         -18.6495  -37.6752   20.0577 C.ar      1 MOL        -0.1790 
+      5 C         -18.0180  -38.9353   19.9253 C.ar      1 MOL        -0.1500 
+      6 C         -18.5138  -40.0643   20.5983 C.ar      1 MOL        -0.1500 
+      7 C         -19.6573  -39.9538   21.4049 C.ar      1 MOL        -0.1500 
+      8 C         -20.3099  -38.7151   21.5390 C.ar      1 MOL         0.1900 
+      9 F         -21.3816  -38.6507   22.2856 F         1 MOL        -0.1900 
+     10 C         -19.8160  -37.5724   20.8679 C.ar      1 MOL         0.1000 
+     11 N         -20.5013  -36.4162   20.9964 N.pl3     1 MOL        -0.9000 
+     12 H         -17.1724  -39.0416   19.3574 H         1 MOL         0.1500 
+     13 H         -18.0382  -40.9646   20.5048 H         1 MOL         0.1500 
+     14 H         -20.0155  -40.7800   21.8896 H         1 MOL         0.1500 
+     15 H         -20.2142  -35.6172   20.5292 H         1 MOL         0.4000 
+     16 H         -21.3013  -36.3815   21.5431 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_760
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_760
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -16.5699  -40.7292   15.7730 O.co2     1 MOL        -0.9000 
+      2 C         -17.1896  -40.4276   16.9386 C.2       1 MOL         0.9790 
+      3 O         -17.3546  -41.4530   17.8109 O.co2     1 MOL        -0.9000 
+      4 C         -17.4943  -39.0845   17.2999 C.ar      1 MOL        -0.1790 
+      5 C         -17.5699  -38.7493   18.6770 C.ar      1 MOL        -0.1500 
+      6 C         -17.8178  -37.4311   19.0934 C.ar      1 MOL        -0.1500 
+      7 C         -17.9976  -36.4172   18.1430 C.ar      1 MOL        -0.1500 
+      8 C         -17.9572  -36.7242   16.7723 C.ar      1 MOL         0.1900 
+      9 F         -18.1469  -35.7529   15.9150 F         1 MOL        -0.1900 
+     10 C         -17.7209  -38.0519   16.3416 C.ar      1 MOL         0.1000 
+     11 N         -17.7598  -38.2945   15.0133 N.pl3     1 MOL        -0.9000 
+     12 H         -17.4261  -39.4581   19.4013 H         1 MOL         0.1500 
+     13 H         -17.8543  -37.2062   20.0889 H         1 MOL         0.1500 
+     14 H         -18.1628  -35.4559   18.4523 H         1 MOL         0.1500 
+     15 H         -17.6437  -39.1952   14.6744 H         1 MOL         0.4000 
+     16 H         -17.9509  -37.5757   14.3874 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_768
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_768
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -19.5810  -35.1841   17.2531 O.co2     1 MOL        -0.9000 
+      2 C         -19.6248  -34.7851   18.5417 C.2       1 MOL         0.9790 
+      3 O         -18.4840  -34.7558   19.2542 O.co2     1 MOL        -0.9000 
+      4 C         -20.8046  -34.2215   19.0787 C.ar      1 MOL        -0.1790 
+      5 C         -21.4071  -33.1311   18.4090 C.ar      1 MOL        -0.1500 
+      6 C         -22.5691  -32.5318   18.9289 C.ar      1 MOL        -0.1500 
+      7 C         -23.1558  -33.0252   20.1077 C.ar      1 MOL        -0.1500 
+      8 C         -22.5711  -34.1182   20.7750 C.ar      1 MOL         0.1900 
+      9 F         -23.1476  -34.5787   21.8551 F         1 MOL        -0.1900 
+     10 C         -21.3936  -34.7217   20.2703 C.ar      1 MOL         0.1000 
+     11 N         -20.8779  -35.8009   20.8976 N.pl3     1 MOL        -0.9000 
+     12 H         -20.9986  -32.7455   17.5580 H         1 MOL         0.1500 
+     13 H         -22.9955  -31.7367   18.4365 H         1 MOL         0.1500 
+     14 H         -24.0074  -32.5941   20.4653 H         1 MOL         0.1500 
+     15 H         -20.1057  -36.2504   20.5324 H         1 MOL         0.4000 
+     16 H         -21.2999  -36.1533   21.7044 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_774
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_774
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -18.5960  -36.7639   18.4015 O.co2     1 MOL        -0.9000 
+      2 C         -19.0108  -35.8691   19.3306 C.2       1 MOL         0.9790 
+      3 O         -18.4974  -34.6186   19.2357 O.co2     1 MOL        -0.9000 
+      4 C         -20.0360  -36.1770   20.2657 C.ar      1 MOL        -0.1790 
+      5 C         -21.0976  -35.2565   20.4495 C.ar      1 MOL        -0.1500 
+      6 C         -22.1519  -35.5268   21.3411 C.ar      1 MOL        -0.1500 
+      7 C         -22.1642  -36.7217   22.0765 C.ar      1 MOL        -0.1500 
+      8 C         -21.1152  -37.6463   21.9236 C.ar      1 MOL         0.1900 
+      9 F         -21.1558  -38.7512   22.6253 F         1 MOL        -0.1900 
+     10 C         -20.0508  -37.3820   21.0290 C.ar      1 MOL         0.1000 
+     11 N         -19.0589  -38.2903   20.9622 N.pl3     1 MOL        -0.9000 
+     12 H         -21.1345  -34.3846   19.9138 H         1 MOL         0.1500 
+     13 H         -22.9181  -34.8606   21.4440 H         1 MOL         0.1500 
+     14 H         -22.9379  -36.9199   22.7185 H         1 MOL         0.1500 
+     15 H         -18.2939  -38.1383   20.3933 H         1 MOL         0.4000 
+     16 H         -19.1034  -39.0943   21.5011 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_779
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_779
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -21.0894  -35.9235   17.7468 O.co2     1 MOL        -0.9000 
+      2 C         -19.8771  -35.3446   17.6284 C.2       1 MOL         0.9790 
+      3 O         -18.8379  -36.1912   17.4537 O.co2     1 MOL        -0.9000 
+      4 C         -19.6720  -33.9605   17.8748 C.ar      1 MOL        -0.1790 
+      5 C         -20.5231  -33.2855   18.7846 C.ar      1 MOL        -0.1500 
+      6 C         -20.3537  -31.9123   19.0622 C.ar      1 MOL        -0.1500 
+      7 C         -19.3340  -31.1857   18.4252 C.ar      1 MOL        -0.1500 
+      8 C         -18.4830  -31.8291   17.5144 C.ar      1 MOL         0.1900 
+      9 F         -17.5610  -31.1152   16.9159 F         1 MOL        -0.1900 
+     10 C         -18.6434  -33.2120   17.2316 C.ar      1 MOL         0.1000 
+     11 N         -17.8230  -33.7563   16.3074 N.pl3     1 MOL        -0.9000 
+     12 H         -21.2726  -33.7743   19.2657 H         1 MOL         0.1500 
+     13 H         -20.9780  -31.4372   19.7186 H         1 MOL         0.1500 
+     14 H         -19.2283  -30.1879   18.6145 H         1 MOL         0.1500 
+     15 H         -17.9113  -34.6813   16.0487 H         1 MOL         0.4000 
+     16 H         -17.1433  -33.2029   15.8776 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_780
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_780
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -23.0505  -35.2295   19.0308 O.co2     1 MOL        -0.9000 
+      2 C         -21.9760  -35.2153   19.8547 C.2       1 MOL         0.9790 
+      3 O         -22.1791  -35.2364   21.1877 O.co2     1 MOL        -0.9000 
+      4 C         -20.6721  -35.1108   19.3327 C.ar      1 MOL        -0.1790 
+      5 C         -20.4097  -34.1285   18.3543 C.ar      1 MOL        -0.1500 
+      6 C         -19.1206  -33.9772   17.8212 C.ar      1 MOL        -0.1500 
+      7 C         -18.0831  -34.8184   18.2626 C.ar      1 MOL        -0.1500 
+      8 C         -18.3317  -35.8140   19.2317 C.ar      1 MOL         0.1900 
+      9 F         -17.3452  -36.5884   19.6101 F         1 MOL        -0.1900 
+     10 C         -19.6259  -35.9653   19.7736 C.ar      1 MOL         0.1000 
+     11 N         -19.8488  -36.9550   20.6670 N.pl3     1 MOL        -0.9000 
+     12 H         -21.1539  -33.5019   18.0281 H         1 MOL         0.1500 
+     13 H         -18.9416  -33.2569   17.1210 H         1 MOL         0.1500 
+     14 H         -17.1443  -34.7038   17.8719 H         1 MOL         0.1500 
+     15 H         -20.7351  -37.0897   21.0327 H         1 MOL         0.4000 
+     16 H         -19.1229  -37.5439   20.9379 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_849
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:26 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:26 2018
+
+@<TRIPOS>MOLECULE
+4owm_849
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -19.8173  -33.7107   18.9442 O.co2     1 MOL        -0.9000 
+      2 C         -18.6314  -34.3088   18.6725 C.2       1 MOL         0.9790 
+      3 O         -18.1011  -35.0427   19.6818 O.co2     1 MOL        -0.9000 
+      4 C         -18.0479  -34.2792   17.3771 C.ar      1 MOL        -0.1790 
+      5 C         -17.1529  -35.3140   17.0076 C.ar      1 MOL        -0.1500 
+      6 C         -16.5248  -35.3185   15.7509 C.ar      1 MOL        -0.1500 
+      7 C         -16.8066  -34.2985   14.8294 C.ar      1 MOL        -0.1500 
+      8 C         -17.7004  -33.2674   15.1645 C.ar      1 MOL         0.1900 
+      9 F         -17.9426  -32.3444   14.2673 F         1 MOL        -0.1900 
+     10 C         -18.3082  -33.2392   16.4395 C.ar      1 MOL         0.1000 
+     11 N         -19.1019  -32.1855   16.7151 N.pl3     1 MOL        -0.9000 
+     12 H         -16.9517  -36.0869   17.6435 H         1 MOL         0.1500 
+     13 H         -15.8761  -36.0681   15.5027 H         1 MOL         0.1500 
+     14 H         -16.3696  -34.3135   13.9058 H         1 MOL         0.1500 
+     15 H         -19.5215  -32.0902   17.5829 H         1 MOL         0.4000 
+     16 H         -19.2332  -31.4940   16.0476 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_851
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:25 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:25 2018
+
+@<TRIPOS>MOLECULE
+4owm_851
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -17.4881  -37.0521   18.2149 O.co2     1 MOL        -0.9000 
+      2 C         -17.9861  -36.3822   19.2762 C.2       1 MOL         0.9790 
+      3 O         -17.4977  -36.6749   20.5001 O.co2     1 MOL        -0.9000 
+      4 C         -19.0378  -35.4441   19.1221 C.ar      1 MOL        -0.1790 
+      5 C         -20.2406  -35.6462   19.8406 C.ar      1 MOL        -0.1500 
+      6 C         -21.3012  -34.7331   19.7407 C.ar      1 MOL        -0.1500 
+      7 C         -21.1819  -33.5999   18.9217 C.ar      1 MOL        -0.1500 
+      8 C         -19.9905  -33.3801   18.2060 C.ar      1 MOL         0.1900 
+      9 F         -19.9022  -32.2995   17.4730 F         1 MOL        -0.1900 
+     10 C         -18.9161  -34.2941   18.2958 C.ar      1 MOL         0.1000 
+     11 N         -17.7824  -34.0157   17.6218 N.pl3     1 MOL        -0.9000 
+     12 H         -20.3618  -36.4639   20.4410 H         1 MOL         0.1500 
+     13 H         -22.1684  -34.8978   20.2605 H         1 MOL         0.1500 
+     14 H         -21.9591  -32.9313   18.8659 H         1 MOL         0.1500 
+     15 H         -17.0123  -34.5941   17.6973 H         1 MOL         0.4000 
+     16 H         -17.7185  -33.2168   17.0721 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_860
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_860
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -19.7721  -31.8862   16.8634 O.co2     1 MOL        -0.9000 
+      2 C         -19.0170  -32.8909   17.3528 C.2       1 MOL         0.9790 
+      3 O         -17.7298  -32.8773   16.9515 O.co2     1 MOL        -0.9000 
+      4 C         -19.5544  -33.8466   18.2682 C.ar      1 MOL        -0.1790 
+      5 C         -20.8248  -33.5906   18.8528 C.ar      1 MOL        -0.1500 
+      6 C         -21.4083  -34.4860   19.7657 C.ar      1 MOL        -0.1500 
+      7 C         -20.7420  -35.6738   20.1025 C.ar      1 MOL        -0.1500 
+      8 C         -19.4897  -35.9591   19.5396 C.ar      1 MOL         0.1900 
+      9 F         -18.9013  -37.0782   19.8768 F         1 MOL        -0.1900 
+     10 C         -18.8819  -35.0526   18.6377 C.ar      1 MOL         0.1000 
+     11 N         -17.6688  -35.3901   18.1590 N.pl3     1 MOL        -0.9000 
+     12 H         -21.3343  -32.7281   18.6444 H         1 MOL         0.1500 
+     13 H         -22.3108  -34.2689   20.1912 H         1 MOL         0.1500 
+     14 H         -21.1741  -36.3257   20.7626 H         1 MOL         0.1500 
+     15 H         -17.1854  -34.8063   17.5558 H         1 MOL         0.4000 
+     16 H         -17.2590  -36.2240   18.4357 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_872
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_872
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -19.9698  -31.6887   17.3482 O.co2     1 MOL        -0.9000 
+      2 C         -18.8945  -32.5033   17.4311 C.2       1 MOL         0.9790 
+      3 O         -17.7151  -31.9331   17.0954 O.co2     1 MOL        -0.9000 
+      4 C         -19.0018  -33.8414   17.9075 C.ar      1 MOL        -0.1790 
+      5 C         -20.1530  -34.2030   18.6547 C.ar      1 MOL        -0.1500 
+      6 C         -20.3174  -35.5019   19.1629 C.ar      1 MOL        -0.1500 
+      7 C         -19.3349  -36.4742   18.9306 C.ar      1 MOL        -0.1500 
+      8 C         -18.1886  -36.1485   18.1857 C.ar      1 MOL         0.1900 
+      9 F         -17.3060  -37.0908   17.9750 F         1 MOL        -0.1900 
+     10 C         -18.0129  -34.8420   17.6701 C.ar      1 MOL         0.1000 
+     11 N         -16.9056  -34.6156   16.9320 N.pl3     1 MOL        -0.9000 
+     12 H         -20.8859  -33.5185   18.8570 H         1 MOL         0.1500 
+     13 H         -21.1509  -35.7396   19.7061 H         1 MOL         0.1500 
+     14 H         -19.4610  -37.4217   19.2986 H         1 MOL         0.1500 
+     15 H         -16.7446  -33.7527   16.5273 H         1 MOL         0.4000 
+     16 H         -16.2699  -35.3327   16.7808 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 
+#	Name:			4owm_874
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 07:27:24 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 07:27:24 2018
+
+@<TRIPOS>MOLECULE
+4owm_874
+   16    16     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -17.5358  -36.0860   17.9574 O.co2     1 MOL        -0.9000 
+      2 C         -17.9402  -37.3446   18.2725 C.2       1 MOL         0.9790 
+      3 O         -18.7484  -37.5242   19.3428 O.co2     1 MOL        -0.9000 
+      4 C         -17.6330  -38.4332   17.4282 C.ar      1 MOL        -0.1790 
+      5 C         -17.1981  -39.6350   18.0263 C.ar      1 MOL        -0.1500 
+      6 C         -16.8862  -40.7540   17.2346 C.ar      1 MOL        -0.1500 
+      7 C         -17.0213  -40.6840   15.8372 C.ar      1 MOL        -0.1500 
+      8 C         -17.4582  -39.4976   15.2284 C.ar      1 MOL         0.1900 
+      9 F         -17.5996  -39.4799   13.9323 F         1 MOL        -0.1900 
+     10 C         -17.7557  -38.3576   16.0186 C.ar      1 MOL         0.1000 
+     11 N         -18.1723  -37.2213   15.4270 N.pl3     1 MOL        -0.9000 
+     12 H         -17.0967  -39.7040   19.0421 H         1 MOL         0.1500 
+     13 H         -16.5607  -41.6162   17.6745 H         1 MOL         0.1500 
+     14 H         -16.8028  -41.5134   15.2717 H         1 MOL         0.1500 
+     15 H         -18.3843  -36.4412   15.9696 H         1 MOL         0.4000 
+     16 H         -18.2585  -37.1675   14.4614 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   10 ar   
+     6    5    6 ar   
+     7    6    7 ar   
+     8    7    8 ar   
+     9    8    9 1    
+    10    8   10 ar   
+    11   10   11 1    
+    12    5   12 1    
+    13    6   13 1    
+    14    7   14 1    
+    15   11   15 1    
+    16   11   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 4 CB 5 CB 6 CB 7 CB 8 CB 10 CB 2 CO2M 12 HC 13 HC 14 HC 15 HNCC \
+16 HNCC 1 O2CM 3 O2CM 11 NC=C 9 F 

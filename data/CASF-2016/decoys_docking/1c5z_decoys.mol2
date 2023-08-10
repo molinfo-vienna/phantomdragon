@@ -1,0 +1,4740 @@
+#	Name:			1c5z_247
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_247
+   18    18     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7877    0.6795   25.0176 C.ar      1 BAM        -0.0220 
+      2 C2          7.9780    1.7432   25.4686 C.ar      1 BAM        -0.1500 
+      3 C3          8.0583    3.0089   24.8917 C.ar      1 BAM        -0.1500 
+      4 C4          8.9468    3.2391   23.8510 C.ar      1 BAM        -0.1500 
+      5 C5          9.7555    2.2190   23.3868 C.ar      1 BAM        -0.1500 
+      6 C6          9.6729    0.9652   23.9622 C.ar      1 BAM        -0.1500 
+      7 C           8.7125   -0.6049   25.5887 C.ar      1 BAM         0.7308 
+      8 N1          8.6322   -1.6741   24.8251 N.pl3     1 BAM        -1.1924 
+      9 N2          8.7236   -0.7156   26.8904 N.pl3     1 BAM        -1.1924 
+     10 H1          7.2798    1.5725   26.2800 H         1 BAM         0.1500 
+     11 H2          7.4279    3.8123   25.2551 H         1 BAM         0.1500 
+     12 H3          9.0069    4.2232   23.4002 H         1 BAM         0.1500 
+     13 H4         10.4509    2.4013   22.5755 H         1 BAM         0.1500 
+     14 H5         10.3124    0.1743   23.5873 H         1 BAM         0.1500 
+     15 H6          8.5776   -2.6096   25.2528 H         1 BAM         0.6690 
+     16 H7          8.6240   -1.5753   23.7999 H         1 BAM         0.6690 
+     17 H8          8.7868    0.1276   27.4785 H         1 BAM         0.6690 
+     18 H9          8.6692   -1.6462   27.3287 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+4 15 16 17 18
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+4 15 16 17 18
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_258
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_258
+   18    18     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7191    0.8584   25.5810 C.ar      1 BAM        -0.0220 
+      2 C2          7.6765    1.7746   25.8343 C.ar      1 BAM        -0.1500 
+      3 C3          7.7681    3.1049   25.4305 C.ar      1 BAM        -0.1500 
+      4 C4          8.9013    3.5485   24.7635 C.ar      1 BAM        -0.1500 
+      5 C5          9.9413    2.6768   24.5015 C.ar      1 BAM        -0.1500 
+      6 C6          9.8464    1.3582   24.9041 C.ar      1 BAM        -0.1500 
+      7 C           8.6366   -0.4893   25.9794 C.ar      1 BAM         0.7308 
+      8 N1          8.9944   -1.4538   25.1581 N.pl3     1 BAM        -1.1924 
+      9 N2          8.1980   -0.7644   27.1789 N.pl3     1 BAM        -1.1924 
+     10 H1          6.7868    1.4369   26.3532 H         1 BAM         0.1500 
+     11 H2          6.9557    3.7923   25.6370 H         1 BAM         0.1500 
+     12 H3          8.9710    4.5829   24.4467 H         1 BAM         0.1500 
+     13 H4         10.8269    3.0257   23.9827 H         1 BAM         0.1500 
+     14 H5         10.6694    0.6856   24.6909 H         1 BAM         0.1500 
+     15 H6          8.9302   -2.4367   25.4591 H         1 BAM         0.6690 
+     16 H7          9.3385   -1.2256   24.2145 H         1 BAM         0.6690 
+     17 H8          7.9208   -0.0019   27.8133 H         1 BAM         0.6690 
+     18 H9          8.1296   -1.7439   27.4901 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+4 15 16 17 18
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+4 15 16 17 18
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_3
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_3
+   18    18     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.8071    0.8767   25.1290 C.ar      1 BAM        -0.0220 
+      2 C2          8.5196    2.1174   25.7359 C.ar      1 BAM        -0.1500 
+      3 C3          8.9639    3.3153   25.1800 C.ar      1 BAM        -0.1500 
+      4 C4          9.7027    3.3002   24.0055 C.ar      1 BAM        -0.1500 
+      5 C5         10.0031    2.1015   23.3868 C.ar      1 BAM        -0.1500 
+      6 C6          9.5607    0.9156   23.9418 C.ar      1 BAM        -0.1500 
+      7 C           8.3598   -0.3400   25.6780 C.ar      1 BAM         0.7308 
+      8 N1          8.3104   -0.5084   26.9826 N.pl3     1 BAM        -1.1924 
+      9 N2          7.9950   -1.2984   24.8685 N.pl3     1 BAM        -1.1924 
+     10 H1          7.9417    2.1392   26.6527 H         1 BAM         0.1500 
+     11 H2          8.7328    4.2572   25.6640 H         1 BAM         0.1500 
+     12 H3         10.0457    4.2325   23.5715 H         1 BAM         0.1500 
+     13 H4         10.5827    2.0914   22.4708 H         1 BAM         0.1500 
+     14 H5          9.8029   -0.0169   23.4451 H         1 BAM         0.1500 
+     15 H6          7.9816   -1.4025   27.3743 H         1 BAM         0.6690 
+     16 H7          8.6006    0.2538   27.6116 H         1 BAM         0.6690 
+     17 H8          8.0377   -1.1558   23.8493 H         1 BAM         0.6690 
+     18 H9          7.6648   -2.1966   25.2495 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+4 15 16 17 18
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+4 15 16 17 18
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_402
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_402
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.6570    0.8520   24.8430 C.ar      1 BAM        -0.0220 
+      2 C2          8.2660    1.6290   25.9540 C.ar      1 BAM        -0.1500 
+      3 C3          8.5160    2.9990   26.0030 C.ar      1 BAM        -0.1500 
+      4 C4          9.1610    3.6230   24.9440 C.ar      1 BAM        -0.1500 
+      5 C5          9.5590    2.8900   23.8420 C.ar      1 BAM        -0.1500 
+      6 C6          9.3090    1.5310   23.7970 C.ar      1 BAM        -0.1500 
+      7 C           8.4060   -0.5310   24.7790 C.cat     1 BAM         0.7308 
+      8 N1          8.5550   -1.1880   23.6480 N.pl3     1 BAM        -1.1924 
+      9 N2          8.0220   -1.1510   25.8630 N.pl3     1 BAM        -1.1924 
+     10 H1          7.7610    1.1510   26.7850 H         1 BAM         0.1500 
+     11 H2          8.2080    3.5760   26.8680 H         1 BAM         0.1500 
+     12 H3          9.3520    4.6890   24.9810 H         1 BAM         0.1500 
+     13 H4         10.0640    3.3780   23.0160 H         1 BAM         0.1500 
+     14 H5          9.6260    0.9690   22.9260 H         1 BAM         0.1500 
+     15 H6          8.3680   -2.2010   23.6110 H         1 BAM         0.6690 
+     16 H7          8.8590   -0.6900   22.8000 H         1 BAM         0.6690 
+     17 H8          7.8320   -2.1630   25.8370 H         1 BAM         0.6690 
+     18 H9          7.9070   -0.6280   26.7430 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_415
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_415
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.1430    0.8640   23.8760 C.ar      1 BAM        -0.0220 
+      2 C2          8.6700   -0.1080   24.7830 C.ar      1 BAM        -0.1500 
+      3 C3          8.3120    0.2320   26.0860 C.ar      1 BAM        -0.1500 
+      4 C4          8.4170    1.5490   26.5100 C.ar      1 BAM        -0.1500 
+      5 C5          8.8790    2.5250   25.6470 C.ar      1 BAM        -0.1500 
+      6 C6          9.2330    2.1830   24.3550 C.ar      1 BAM        -0.1500 
+      7 C           9.5040    0.5340   22.5550 C.cat     1 BAM         0.7308 
+      8 N1          8.7100   -0.2060   21.8090 N.pl3     1 BAM        -1.1924 
+      9 N2         10.6390    0.9750   22.0840 N.pl3     1 BAM        -1.1924 
+     10 H1          8.5830   -1.1390   24.4600 H         1 BAM         0.1500 
+     11 H2          7.9520   -0.5310   26.7660 H         1 BAM         0.1500 
+     12 H3          8.1360    1.8150   27.5220 H         1 BAM         0.1500 
+     13 H4          8.9630    3.5530   25.9810 H         1 BAM         0.1500 
+     14 H5          9.5930    2.9580   23.6890 H         1 BAM         0.1500 
+     15 H6          8.9830   -0.4430   20.8440 H         1 BAM         0.6690 
+     16 H7          7.8170   -0.5490   22.1900 H         1 BAM         0.6690 
+     17 H8         10.9220    0.7450   21.1210 H         1 BAM         0.6690 
+     18 H9         11.2530    1.5540   22.6770 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_425
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:31 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:31 2018
+
+@<TRIPOS>MOLECULE
+1c5z_425
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.3750    0.3250   25.5990 C.ar      1 BAM        -0.0220 
+      2 C2          7.9200    1.1520   26.6460 C.ar      1 BAM        -0.1500 
+      3 C3          8.1110    2.5320   26.6140 C.ar      1 BAM        -0.1500 
+      4 C4          8.7600    3.1150   25.5350 C.ar      1 BAM        -0.1500 
+      5 C5          9.2200    2.3320   24.4930 C.ar      1 BAM        -0.1500 
+      6 C6          9.0280    0.9640   24.5290 C.ar      1 BAM        -0.1500 
+      7 C           8.1840   -1.0700   25.6170 C.cat     1 BAM         0.7308 
+      8 N1          7.0050   -1.5800   25.9060 N.pl3     1 BAM        -1.1924 
+      9 N2          9.1970   -1.8470   25.3410 N.pl3     1 BAM        -1.1924 
+     10 H1          7.4110    0.7070   27.4930 H         1 BAM         0.1500 
+     11 H2          7.7540    3.1490   27.4310 H         1 BAM         0.1500 
+     12 H3          8.9060    4.1890   25.5080 H         1 BAM         0.1500 
+     13 H4          9.7300    2.7890   23.6520 H         1 BAM         0.1500 
+     14 H5          9.3940    0.3630   23.7050 H         1 BAM         0.1500 
+     15 H6          6.8750   -2.6030   25.9170 H         1 BAM         0.6690 
+     16 H7          6.2140   -0.9580   26.1210 H         1 BAM         0.6690 
+     17 H8          9.0780   -2.8700   25.3490 H         1 BAM         0.6690 
+     18 H9         10.1150   -1.4370   25.1170 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_427
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_427
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.2340    0.4780   24.9260 C.ar      1 BAM        -0.0220 
+      2 C2          9.2000    0.5810   23.9030 C.ar      1 BAM        -0.1500 
+      3 C3          9.7910    1.8020   23.5860 C.ar      1 BAM        -0.1500 
+      4 C4          9.4320    2.9460   24.2840 C.ar      1 BAM        -0.1500 
+      5 C5          8.4870    2.8800   25.2910 C.ar      1 BAM        -0.1500 
+      6 C6          7.9030    1.6670   25.6020 C.ar      1 BAM        -0.1500 
+      7 C           7.6340   -0.7510   25.2600 C.cat     1 BAM         0.7308 
+      8 N1          8.3680   -1.8290   25.4370 N.pl3     1 BAM        -1.1924 
+      9 N2          6.3350   -0.8010   25.3910 N.pl3     1 BAM        -1.1924 
+     10 H1          9.4880   -0.3070   23.3530 H         1 BAM         0.1500 
+     11 H2         10.5310    1.8580   22.7950 H         1 BAM         0.1500 
+     12 H3          9.8930    3.8960   24.0390 H         1 BAM         0.1500 
+     13 H4          8.2050    3.7760   25.8330 H         1 BAM         0.1500 
+     14 H5          7.1650    1.6290   26.3940 H         1 BAM         0.1500 
+     15 H6          7.9190   -2.7240   25.6800 H         1 BAM         0.6690 
+     16 H7          9.3910   -1.7780   25.3320 H         1 BAM         0.6690 
+     17 H8          5.8760   -1.6900   25.6340 H         1 BAM         0.6690 
+     18 H9          5.7700    0.0490   25.2500 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_431
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_431
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7110    0.9580   24.8260 C.ar      1 BAM        -0.0220 
+      2 C2          9.1370    1.8080   23.7840 C.ar      1 BAM        -0.1500 
+      3 C3          9.2070    3.1880   23.9580 C.ar      1 BAM        -0.1500 
+      4 C4          8.8550    3.7490   25.1780 C.ar      1 BAM        -0.1500 
+      5 C5          8.4320    2.9450   26.2190 C.ar      1 BAM        -0.1500 
+      6 C6          8.3640    1.5760   26.0410 C.ar      1 BAM        -0.1500 
+      7 C           8.6400   -0.4390   24.6640 C.cat     1 BAM         0.7308 
+      8 N1          9.6440   -1.1030   24.1320 N.pl3     1 BAM        -1.1924 
+      9 N2          7.5590   -1.0630   25.0500 N.pl3     1 BAM        -1.1924 
+     10 H1          9.4140    1.3790   22.8280 H         1 BAM         0.1500 
+     11 H2          9.5360    3.8230   23.1430 H         1 BAM         0.1500 
+     12 H3          8.9130    4.8230   25.3150 H         1 BAM         0.1500 
+     13 H4          8.1550    3.3860   27.1700 H         1 BAM         0.1500 
+     14 H5          8.0310    0.9570   26.8660 H         1 BAM         0.1500 
+     15 H6          9.5830   -2.1250   24.0170 H         1 BAM         0.6690 
+     16 H7         10.4920   -0.6010   23.8310 H         1 BAM         0.6690 
+     17 H8          7.4870   -2.0840   24.9400 H         1 BAM         0.6690 
+     18 H9          6.7790   -0.5330   25.4650 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_438
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_438
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.0720    0.9340   24.4720 C.ar      1 BAM        -0.0220 
+      2 C2          8.8810    1.8990   25.4830 C.ar      1 BAM        -0.1500 
+      3 C3          8.3140    1.5600   26.7090 C.ar      1 BAM        -0.1500 
+      4 C4          7.9260    0.2510   26.9530 C.ar      1 BAM        -0.1500 
+      5 C5          8.0970   -0.7190   25.9830 C.ar      1 BAM        -0.1500 
+      6 C6          8.6600   -0.3780   24.7680 C.ar      1 BAM        -0.1500 
+      7 C           9.6490    1.2630   23.2300 C.cat     1 BAM         0.7308 
+      8 N1         10.7550    1.9740   23.1730 N.pl3     1 BAM        -1.1924 
+      9 N2          9.0660    0.8490   22.1370 N.pl3     1 BAM        -1.1924 
+     10 H1          9.1820    2.9250   25.3020 H         1 BAM         0.1500 
+     11 H2          8.1750    2.3190   27.4710 H         1 BAM         0.1500 
+     12 H3          7.4870   -0.0140   27.9080 H         1 BAM         0.1500 
+     13 H4          7.7910   -1.7410   26.1740 H         1 BAM         0.1500 
+     14 H5          8.7890   -1.1490   24.0170 H         1 BAM         0.1500 
+     15 H6         11.1700    2.2090   22.2590 H         1 BAM         0.6690 
+     16 H7         11.2070    2.2940   24.0410 H         1 BAM         0.6690 
+     17 H8          9.4710    1.0790   21.2180 H         1 BAM         0.6690 
+     18 H9          8.2000    0.2930   22.1930 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_449
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_449
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.0860    1.1030   25.0470 C.ar      1 BAM        -0.0220 
+      2 C2          9.5220    1.4260   23.7450 C.ar      1 BAM        -0.1500 
+      3 C3          9.5550    2.7450   23.2990 C.ar      1 BAM        -0.1500 
+      4 C4          9.1560    3.7710   24.1440 C.ar      1 BAM        -0.1500 
+      5 C5          8.7230    3.4880   25.4260 C.ar      1 BAM        -0.1500 
+      6 C6          8.6910    2.1780   25.8640 C.ar      1 BAM        -0.1500 
+      7 C           9.0530   -0.2260   25.5110 C.cat     1 BAM         0.7308 
+      8 N1         10.0870   -1.0220   25.3390 N.pl3     1 BAM        -1.1924 
+      9 N2          7.9770   -0.6540   26.1150 N.pl3     1 BAM        -1.1924 
+     10 H1          9.8360    0.6320   23.0770 H         1 BAM         0.1500 
+     11 H2          9.8920    2.9700   22.2930 H         1 BAM         0.1500 
+     12 H3          9.1850    4.7980   23.7990 H         1 BAM         0.1500 
+     13 H4          8.4090    4.2910   26.0840 H         1 BAM         0.1500 
+     14 H5          8.3490    1.9710   26.8710 H         1 BAM         0.1500 
+     15 H6         10.0530   -1.9930   25.6820 H         1 BAM         0.6690 
+     16 H7         10.9310   -0.6740   24.8620 H         1 BAM         0.6690 
+     17 H8          7.9310   -1.6230   26.4620 H         1 BAM         0.6690 
+     18 H9          7.1720   -0.0220   26.2440 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_452
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_452
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7720    1.1710   25.2060 C.ar      1 BAM        -0.0220 
+      2 C2          8.8840    2.5060   25.6480 C.ar      1 BAM        -0.1500 
+      3 C3          9.3470    3.5110   24.8020 C.ar      1 BAM        -0.1500 
+      4 C4          9.7040    3.2060   23.4960 C.ar      1 BAM        -0.1500 
+      5 C5          9.6070    1.9080   23.0320 C.ar      1 BAM        -0.1500 
+      6 C6          9.1490    0.9130   23.8750 C.ar      1 BAM        -0.1500 
+      7 C           8.3010    0.1460   26.0490 C.cat     1 BAM         0.7308 
+      8 N1          7.2080    0.3150   26.7630 N.pl3     1 BAM        -1.1924 
+      9 N2          8.9700   -0.9740   26.1100 N.pl3     1 BAM        -1.1924 
+     10 H1          8.6060    2.7540   26.6650 H         1 BAM         0.1500 
+     11 H2          9.4270    4.5310   25.1630 H         1 BAM         0.1500 
+     12 H3         10.0610    3.9890   22.8370 H         1 BAM         0.1500 
+     13 H4          9.8900    1.6710   22.0130 H         1 BAM         0.1500 
+     14 H5          9.0770   -0.1000   23.4980 H         1 BAM         0.1500 
+     15 H6          6.8720   -0.4400   27.3780 H         1 BAM         0.6690 
+     16 H7          6.6880    1.2020   26.7070 H         1 BAM         0.6690 
+     17 H8          8.6420   -1.7360   26.7220 H         1 BAM         0.6690 
+     18 H9          9.8240   -1.0960   25.5480 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_460
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_460
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.3040    0.4170   25.6070 C.ar      1 BAM        -0.0220 
+      2 C2          8.5840   -0.5770   24.6470 C.ar      1 BAM        -0.1500 
+      3 C3          9.1420   -0.2540   23.4120 C.ar      1 BAM        -0.1500 
+      4 C4          9.4330    1.0690   23.1090 C.ar      1 BAM        -0.1500 
+      5 C5          9.1690    2.0670   24.0280 C.ar      1 BAM        -0.1500 
+      6 C6          8.6150    1.7420   25.2520 C.ar      1 BAM        -0.1500 
+      7 C           7.7460    0.1030   26.8610 C.cat     1 BAM         0.7308 
+      8 N1          8.2380   -0.8790   27.5860 N.pl3     1 BAM        -1.1924 
+      9 N2          6.7300    0.8040   27.2900 N.pl3     1 BAM        -1.1924 
+     10 H1          8.3620   -1.6130   24.8740 H         1 BAM         0.1500 
+     11 H2          9.3480   -1.0350   22.6880 H         1 BAM         0.1500 
+     12 H3          9.8690    1.3200   22.1500 H         1 BAM         0.1500 
+     13 H4          9.3940    3.1010   23.7890 H         1 BAM         0.1500 
+     14 H5          8.4140    2.5350   25.9620 H         1 BAM         0.1500 
+     15 H6          7.8220   -1.1010   28.5030 H         1 BAM         0.6690 
+     16 H7          9.0390   -1.4240   27.2390 H         1 BAM         0.6690 
+     17 H8          6.3060    0.5900   28.2040 H         1 BAM         0.6690 
+     18 H9          6.3520    1.5700   26.7140 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_465
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_465
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.8300    0.5300   24.5150 C.ar      1 BAM        -0.0220 
+      2 C2          8.7870    1.4570   25.5780 C.ar      1 BAM        -0.1500 
+      3 C3          8.7090    2.8280   25.3400 C.ar      1 BAM        -0.1500 
+      4 C4          8.6710    3.3020   24.0370 C.ar      1 BAM        -0.1500 
+      5 C5          8.7130    2.4200   22.9730 C.ar      1 BAM        -0.1500 
+      6 C6          8.7910    1.0620   23.2140 C.ar      1 BAM        -0.1500 
+      7 C           8.9030   -0.8570   24.7420 C.cat     1 BAM         0.7308 
+      8 N1          8.1000   -1.4380   25.6090 N.pl3     1 BAM        -1.1924 
+      9 N2          9.7830   -1.5570   24.0770 N.pl3     1 BAM        -1.1924 
+     10 H1          8.8150    1.0960   26.5990 H         1 BAM         0.1500 
+     11 H2          8.6790    3.5220   26.1720 H         1 BAM         0.1500 
+     12 H3          8.6070    4.3680   23.8520 H         1 BAM         0.1500 
+     13 H4          8.6860    2.7930   21.9550 H         1 BAM         0.1500 
+     14 H5          8.8220    0.3820   22.3700 H         1 BAM         0.1500 
+     15 H6          8.1620   -2.4540   25.7690 H         1 BAM         0.6690 
+     16 H7          7.4100   -0.8770   26.1280 H         1 BAM         0.6690 
+     17 H8          9.8530   -2.5740   24.2290 H         1 BAM         0.6690 
+     18 H9         10.4070   -1.0930   23.4010 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_482
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_482
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.6140    0.8280   25.1040 C.ar      1 BAM        -0.0220 
+      2 C2          8.1530    0.5750   26.4130 C.ar      1 BAM        -0.1500 
+      3 C3          7.9440    1.6120   27.3200 C.ar      1 BAM        -0.1500 
+      4 C4          8.1870    2.9240   26.9380 C.ar      1 BAM        -0.1500 
+      5 C5          8.6400    3.2050   25.6630 C.ar      1 BAM        -0.1500 
+      6 C6          8.8470    2.1740   24.7670 C.ar      1 BAM        -0.1500 
+      7 C           8.8250   -0.2110   24.1770 C.cat     1 BAM         0.7308 
+      8 N1          7.9130   -1.1420   23.9960 N.pl3     1 BAM        -1.1924 
+      9 N2          9.9430   -0.2330   23.5020 N.pl3     1 BAM        -1.1924 
+     10 H1          7.9590   -0.4460   26.7210 H         1 BAM         0.1500 
+     11 H2          7.5910    1.3940   28.3220 H         1 BAM         0.1500 
+     12 H3          8.0210    3.7310   27.6420 H         1 BAM         0.1500 
+     13 H4          8.8330    4.2310   25.3670 H         1 BAM         0.1500 
+     14 H5          9.2020    2.4090   23.7710 H         1 BAM         0.1500 
+     15 H6          8.0760   -1.8990   23.3150 H         1 BAM         0.6690 
+     16 H7          7.0350   -1.1150   24.5330 H         1 BAM         0.6690 
+     17 H8         10.1170   -0.9840   22.8190 H         1 BAM         0.6690 
+     18 H9         10.6500    0.5010   23.6520 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_509
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_509
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.5060    6.8120   23.2450 C.ar      1 BAM        -0.0220 
+      2 C2          9.3670    7.9860   22.4740 C.ar      1 BAM        -0.1500 
+      3 C3         10.4320    8.8660   22.2980 C.ar      1 BAM        -0.1500 
+      4 C4         11.6600    8.5920   22.8840 C.ar      1 BAM        -0.1500 
+      5 C5         11.8290    7.4520   23.6460 C.ar      1 BAM        -0.1500 
+      6 C6         10.7700    6.5820   23.8190 C.ar      1 BAM        -0.1500 
+      7 C           8.4390    5.9120   23.4270 C.cat     1 BAM         0.7308 
+      8 N1          8.6500    4.7170   23.9360 N.pl3     1 BAM        -1.1924 
+      9 N2          7.2360    6.2850   23.0800 N.pl3     1 BAM        -1.1924 
+     10 H1          8.4120    8.2070   22.0120 H         1 BAM         0.1500 
+     11 H2         10.3020    9.7630   21.7030 H         1 BAM         0.1500 
+     12 H3         12.4890    9.2760   22.7440 H         1 BAM         0.1500 
+     13 H4         12.7880    7.2410   24.1060 H         1 BAM         0.1500 
+     14 H5         10.9170    5.6910   24.4180 H         1 BAM         0.1500 
+     15 H6          7.8630    4.0650   24.0650 H         1 BAM         0.6690 
+     16 H7          9.6020    4.4330   24.2060 H         1 BAM         0.6690 
+     17 H8          6.4410    5.6420   23.2050 H         1 BAM         0.6690 
+     18 H9          7.0820    7.2230   22.6820 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_516
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_516
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.4460    6.9920   22.8920 C.ar      1 BAM        -0.0220 
+      2 C2         10.1720    6.0950   23.7040 C.ar      1 BAM        -0.1500 
+      3 C3         11.4980    6.3440   24.0520 C.ar      1 BAM        -0.1500 
+      4 C4         12.1270    7.4940   23.5980 C.ar      1 BAM        -0.1500 
+      5 C5         11.4450    8.3930   22.7990 C.ar      1 BAM        -0.1500 
+      6 C6         10.1300    8.1410   22.4570 C.ar      1 BAM        -0.1500 
+      7 C           8.1050    6.7540   22.5380 C.cat     1 BAM         0.7308 
+      8 N1          7.3770    7.7060   21.9920 N.pl3     1 BAM        -1.1924 
+      9 N2          7.5950    5.5720   22.7620 N.pl3     1 BAM        -1.1924 
+     10 H1          9.6890    5.1940   24.0640 H         1 BAM         0.1500 
+     11 H2         12.0370    5.6400   24.6760 H         1 BAM         0.1500 
+     12 H3         13.1580    7.6900   23.8710 H         1 BAM         0.1500 
+     13 H4         11.9390    9.2900   22.4430 H         1 BAM         0.1500 
+     14 H5          9.6070    8.8550   21.8310 H         1 BAM         0.1500 
+     15 H6          6.3960    7.5220   21.7370 H         1 BAM         0.6690 
+     16 H7          7.7890    8.6330   21.8190 H         1 BAM         0.6690 
+     17 H8          6.6160    5.3780   22.5110 H         1 BAM         0.6690 
+     18 H9          8.1740    4.8350   23.1910 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_519
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_519
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.1630    2.6480   24.0720 C.ar      1 BAM        -0.0220 
+      2 C2          8.8300    3.8580   23.4270 C.ar      1 BAM        -0.1500 
+      3 C3          8.1830    4.8870   24.1080 C.ar      1 BAM        -0.1500 
+      4 C4          7.8580    4.7310   25.4480 C.ar      1 BAM        -0.1500 
+      5 C5          8.1690    3.5570   26.1090 C.ar      1 BAM        -0.1500 
+      6 C6          8.8100    2.5390   25.4290 C.ar      1 BAM        -0.1500 
+      7 C           9.8210    1.6030   23.3950 C.cat     1 BAM         0.7308 
+      8 N1         10.8820    1.8470   22.6560 N.pl3     1 BAM        -1.1924 
+      9 N2          9.3580    0.3870   23.5160 N.pl3     1 BAM        -1.1924 
+     10 H1          9.0810    3.9900   22.3810 H         1 BAM         0.1500 
+     11 H2          7.9360    5.8080   23.5920 H         1 BAM         0.1500 
+     12 H3          7.3580    5.5330   25.9790 H         1 BAM         0.1500 
+     13 H4          7.9110    3.4360   27.1550 H         1 BAM         0.1500 
+     14 H5          9.0480    1.6250   25.9590 H         1 BAM         0.1500 
+     15 H6         11.3570    1.0750   22.1650 H         1 BAM         0.6690 
+     16 H7         11.2390    2.8080   22.5690 H         1 BAM         0.6690 
+     17 H8          9.8240   -0.3920   23.0290 H         1 BAM         0.6690 
+     18 H9          8.5260    0.2080   24.0960 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_520
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_520
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7190    5.1720   23.6400 C.ar      1 BAM        -0.0220 
+      2 C2          8.7980    6.1110   24.6900 C.ar      1 BAM        -0.1500 
+      3 C3          8.6550    7.4760   24.4520 C.ar      1 BAM        -0.1500 
+      4 C4          8.4280    7.9330   23.1610 C.ar      1 BAM        -0.1500 
+      5 C5          8.3460    7.0390   22.1100 C.ar      1 BAM        -0.1500 
+      6 C6          8.4890    5.6860   22.3510 C.ar      1 BAM        -0.1500 
+      7 C           8.8570    3.7890   23.8680 C.cat     1 BAM         0.7308 
+      8 N1          8.1950    3.2020   24.8420 N.pl3     1 BAM        -1.1924 
+      9 N2          9.6550    3.1010   23.0950 N.pl3     1 BAM        -1.1924 
+     10 H1          8.9750    5.7640   25.7010 H         1 BAM         0.1500 
+     11 H2          8.7210    8.1800   25.2740 H         1 BAM         0.1500 
+     12 H3          8.3130    8.9950   22.9770 H         1 BAM         0.1500 
+     13 H4          8.1710    7.3980   21.1020 H         1 BAM         0.1500 
+     14 H5          8.4220    4.9960   21.5170 H         1 BAM         0.1500 
+     15 H6          8.3020    2.1890   25.0010 H         1 BAM         0.6690 
+     16 H7          7.5680    3.7530   25.4440 H         1 BAM         0.6690 
+     17 H8          9.7700    2.0890   23.2450 H         1 BAM         0.6690 
+     18 H9         10.1690    3.5720   22.3360 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_530
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_530
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.4700    1.4180   25.6800 C.ar      1 BAM        -0.0220 
+      2 C2          9.1370    2.1690   26.6710 C.ar      1 BAM        -0.1500 
+      3 C3          9.3070    3.5460   26.5430 C.ar      1 BAM        -0.1500 
+      4 C4          8.8140    4.2030   25.4250 C.ar      1 BAM        -0.1500 
+      5 C5          8.1580    3.4960   24.4350 C.ar      1 BAM        -0.1500 
+      6 C6          7.9920    2.1300   24.5650 C.ar      1 BAM        -0.1500 
+      7 C           8.2870    0.0280   25.7990 C.cat     1 BAM         0.7308 
+      8 N1          7.8360   -0.4950   26.9200 N.pl3     1 BAM        -1.1924 
+      9 N2          8.5740   -0.7340   24.7780 N.pl3     1 BAM        -1.1924 
+     10 H1          9.5240    1.6650   27.5490 H         1 BAM         0.1500 
+     11 H2          9.8240    4.1030   27.3170 H         1 BAM         0.1500 
+     12 H3          8.9440    5.2750   25.3270 H         1 BAM         0.1500 
+     13 H4          7.7760    4.0110   23.5600 H         1 BAM         0.1500 
+     14 H5          7.4750    1.5890   23.7820 H         1 BAM         0.1500 
+     15 H6          7.7060   -1.5140   26.9980 H         1 BAM         0.6690 
+     16 H7          7.6130    0.1150   27.7190 H         1 BAM         0.6690 
+     17 H8          8.4480   -1.7540   24.8450 H         1 BAM         0.6690 
+     18 H9          8.9280   -0.3150   23.9050 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_536
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_536
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1         10.3320    7.2300   22.9920 C.ar      1 BAM        -0.0220 
+      2 C2          9.8360    5.9880   23.4410 C.ar      1 BAM        -0.1500 
+      3 C3          8.4990    5.6370   23.2700 C.ar      1 BAM        -0.1500 
+      4 C4          7.6280    6.5180   22.6440 C.ar      1 BAM        -0.1500 
+      5 C5          8.0810    7.7440   22.1940 C.ar      1 BAM        -0.1500 
+      6 C6          9.4090    8.0870   22.3660 C.ar      1 BAM        -0.1500 
+      7 C          11.6820    7.5940   23.1550 C.cat     1 BAM         0.7308 
+      8 N1         12.6450    6.7560   22.8320 N.pl3     1 BAM        -1.1924 
+      9 N2         11.9610    8.7770   23.6320 N.pl3     1 BAM        -1.1924 
+     10 H1         10.5080    5.2920   23.9300 H         1 BAM         0.1500 
+     11 H2          8.1390    4.6770   23.6240 H         1 BAM         0.1500 
+     12 H3          6.5880    6.2440   22.5080 H         1 BAM         0.1500 
+     13 H4          7.3990    8.4320   21.7080 H         1 BAM         0.1500 
+     14 H5          9.7500    9.0510   22.0080 H         1 BAM         0.1500 
+     15 H6         13.6300    7.0320   22.9550 H         1 BAM         0.6690 
+     16 H7         12.4140    5.8260   22.4560 H         1 BAM         0.6690 
+     17 H8         12.9420    9.0630   23.7600 H         1 BAM         0.6690 
+     18 H9         11.1990    9.4250   23.8820 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_537
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_537
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.6590    1.7870   25.1700 C.ar      1 BAM        -0.0220 
+      2 C2          9.2130    1.8440   23.8730 C.ar      1 BAM        -0.1500 
+      3 C3          9.3930    0.6910   23.1120 C.ar      1 BAM        -0.1500 
+      4 C4          9.0230   -0.5430   23.6280 C.ar      1 BAM        -0.1500 
+      5 C5          8.4800   -0.6340   24.8950 C.ar      1 BAM        -0.1500 
+      6 C6          8.3030    0.5120   25.6470 C.ar      1 BAM        -0.1500 
+      7 C           8.4670    2.9450   25.9470 C.cat     1 BAM         0.7308 
+      8 N1          7.8980    4.0130   25.4290 N.pl3     1 BAM        -1.1924 
+      9 N2          8.8650    2.9390   27.1920 N.pl3     1 BAM        -1.1924 
+     10 H1          9.5040    2.8030   23.4620 H         1 BAM         0.1500 
+     11 H2          9.8220    0.7590   22.1180 H         1 BAM         0.1500 
+     12 H3          9.1610   -1.4390   23.0340 H         1 BAM         0.1500 
+     13 H4          8.1940   -1.5990   25.2970 H         1 BAM         0.1500 
+     14 H5          7.8750    0.4260   26.6390 H         1 BAM         0.1500 
+     15 H6          7.7620    4.8560   26.0060 H         1 BAM         0.6690 
+     16 H7          7.5880    4.0060   24.4470 H         1 BAM         0.6690 
+     17 H8          8.7340    3.7760   27.7780 H         1 BAM         0.6690 
+     18 H9          9.3100    2.0980   27.5870 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_542
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_542
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7080    5.6470   23.8420 C.ar      1 BAM        -0.0220 
+      2 C2          9.6050    4.5600   23.9030 C.ar      1 BAM        -0.1500 
+      3 C3          9.4750    3.5680   24.8740 C.ar      1 BAM        -0.1500 
+      4 C4          8.4460    3.6400   25.8020 C.ar      1 BAM        -0.1500 
+      5 C5          7.5520    4.6930   25.7710 C.ar      1 BAM        -0.1500 
+      6 C6          7.6840    5.6750   24.8070 C.ar      1 BAM        -0.1500 
+      7 C           8.8250    6.6530   22.8640 C.cat     1 BAM         0.7308 
+      8 N1          7.8510    7.5170   22.6710 N.pl3     1 BAM        -1.1924 
+      9 N2          9.9190    6.7120   22.1520 N.pl3     1 BAM        -1.1924 
+     10 H1         10.4110    4.4950   23.1820 H         1 BAM         0.1500 
+     11 H2         10.1770    2.7420   24.9030 H         1 BAM         0.1500 
+     12 H3          8.3430    2.8670   26.5550 H         1 BAM         0.1500 
+     13 H4          6.7500    4.7490   26.4990 H         1 BAM         0.1500 
+     14 H5          6.9750    6.4940   24.7940 H         1 BAM         0.1500 
+     15 H6          7.9460    8.2490   21.9520 H         1 BAM         0.6690 
+     16 H7          6.9940    7.4610   23.2380 H         1 BAM         0.6690 
+     17 H8         10.0250    7.4400   21.4310 H         1 BAM         0.6690 
+     18 H9         10.6750    6.0310   22.3110 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_544
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_544
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.7940    5.5490   23.6270 C.ar      1 BAM        -0.0220 
+      2 C2         11.1400    5.7450   24.0040 C.ar      1 BAM        -0.1500 
+      3 C3         11.7470    6.9940   23.8940 C.ar      1 BAM        -0.1500 
+      4 C4         11.0250    8.0740   23.4070 C.ar      1 BAM        -0.1500 
+      5 C5          9.7060    7.9150   23.0280 C.ar      1 BAM        -0.1500 
+      6 C6          9.1070    6.6750   23.1380 C.ar      1 BAM        -0.1500 
+      7 C           9.1670    4.2940   23.7380 C.cat     1 BAM         0.7308 
+      8 N1          7.8610    4.1840   23.6160 N.pl3     1 BAM        -1.1924 
+      9 N2          9.9050    3.2400   23.9660 N.pl3     1 BAM        -1.1924 
+     10 H1         11.7120    4.9080   24.3870 H         1 BAM         0.1500 
+     11 H2         12.7830    7.1220   24.1880 H         1 BAM         0.1500 
+     12 H3         11.4970    9.0460   23.3250 H         1 BAM         0.1500 
+     13 H4          9.1430    8.7600   22.6450 H         1 BAM         0.1500 
+     14 H5          8.0710    6.5650   22.8380 H         1 BAM         0.1500 
+     15 H6          7.4110    3.2610   23.6990 H         1 BAM         0.6690 
+     16 H7          7.2890    5.0210   23.4360 H         1 BAM         0.6690 
+     17 H8          9.4660    2.3130   24.0510 H         1 BAM         0.6690 
+     18 H9         10.9270    3.3380   24.0610 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_546
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_546
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.6370    3.5470   25.5070 C.ar      1 BAM        -0.0220 
+      2 C2          7.6250    4.5300   25.4710 C.ar      1 BAM        -0.1500 
+      3 C3          7.0860    5.0580   26.6420 C.ar      1 BAM        -0.1500 
+      4 C4          7.5470    4.6180   27.8750 C.ar      1 BAM        -0.1500 
+      5 C5          8.5360    3.6550   27.9450 C.ar      1 BAM        -0.1500 
+      6 C6          9.0670    3.1340   26.7810 C.ar      1 BAM        -0.1500 
+      7 C           9.1930    3.0100   24.3310 C.cat     1 BAM         0.7308 
+      8 N1          9.5820    3.8000   23.3520 N.pl3     1 BAM        -1.1924 
+      9 N2          9.3140    1.7130   24.2290 N.pl3     1 BAM        -1.1924 
+     10 H1          7.2590    4.8810   24.5130 H         1 BAM         0.1500 
+     11 H2          6.3080    5.8120   26.5910 H         1 BAM         0.1500 
+     12 H3          7.1300    5.0300   28.7860 H         1 BAM         0.1500 
+     13 H4          8.8930    3.3090   28.9100 H         1 BAM         0.1500 
+     14 H5          9.8430    2.3800   26.8510 H         1 BAM         0.1500 
+     15 H6          9.9880    3.3970   22.4950 H         1 BAM         0.6690 
+     16 H7          9.4820    4.8200   23.4440 H         1 BAM         0.6690 
+     17 H8          9.7180    1.3000   23.3760 H         1 BAM         0.6690 
+     18 H9          9.0060    1.1040   25.0000 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_556
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_556
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          7.8880    3.0250   26.8970 C.ar      1 BAM        -0.0220 
+      2 C2          8.8900    3.1520   27.8820 C.ar      1 BAM        -0.1500 
+      3 C3          8.7470    4.0360   28.9490 C.ar      1 BAM        -0.1500 
+      4 C4          7.6000    4.8100   29.0570 C.ar      1 BAM        -0.1500 
+      5 C5          6.6000    4.7100   28.1070 C.ar      1 BAM        -0.1500 
+      6 C6          6.7470    3.8320   27.0500 C.ar      1 BAM        -0.1500 
+      7 C           8.0190    2.1310   25.8160 C.cat     1 BAM         0.7308 
+      8 N1          8.3970    0.8870   26.0180 N.pl3     1 BAM        -1.1924 
+      9 N2          7.7590    2.5610   24.6100 N.pl3     1 BAM        -1.1924 
+     10 H1          9.7890    2.5520   27.8070 H         1 BAM         0.1500 
+     11 H2          9.5300    4.1190   29.6940 H         1 BAM         0.1500 
+     12 H3          7.4870    5.4960   29.8890 H         1 BAM         0.1500 
+     13 H4          5.7060    5.3180   28.1910 H         1 BAM         0.1500 
+     14 H5          5.9550    3.7630   26.3130 H         1 BAM         0.1500 
+     15 H6          8.4900    0.2400   25.2210 H         1 BAM         0.6690 
+     16 H7          8.5980    0.5580   26.9730 H         1 BAM         0.6690 
+     17 H8          7.8490    1.9240   23.8060 H         1 BAM         0.6690 
+     18 H9          7.4650    3.5380   24.4640 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_558
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_558
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.4010    3.0310   24.1990 C.ar      1 BAM        -0.0220 
+      2 C2          8.8120    3.5450   25.3730 C.ar      1 BAM        -0.1500 
+      3 C3          8.2380    2.7030   26.3240 C.ar      1 BAM        -0.1500 
+      4 C4          8.2420    1.3300   26.1230 C.ar      1 BAM        -0.1500 
+      5 C5          8.8100    0.7950   24.9820 C.ar      1 BAM        -0.1500 
+      6 C6          9.3770    1.6330   24.0420 C.ar      1 BAM        -0.1500 
+      7 C           9.9880    3.8710   23.2330 C.cat     1 BAM         0.7308 
+      8 N1         10.8250    4.8220   23.5920 N.pl3     1 BAM        -1.1924 
+      9 N2          9.6870    3.6890   21.9750 N.pl3     1 BAM        -1.1924 
+     10 H1          8.8050    4.6160   25.5390 H         1 BAM         0.1500 
+     11 H2          7.7900    3.1210   27.2180 H         1 BAM         0.1500 
+     12 H3          7.7990    0.6750   26.8640 H         1 BAM         0.1500 
+     13 H4          8.8090   -0.2790   24.8260 H         1 BAM         0.1500 
+     14 H5          9.8190    1.1990   23.1530 H         1 BAM         0.1500 
+     15 H6         11.2490    5.4320   22.8780 H         1 BAM         0.6690 
+     16 H7         11.0560    4.9560   24.5860 H         1 BAM         0.6690 
+     17 H8         10.1050    4.2920   21.2530 H         1 BAM         0.6690 
+     18 H9          9.0300    2.9420   21.7050 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_563
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_563
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.8480    4.5110   24.4140 C.ar      1 BAM        -0.0220 
+      2 C2         10.0590    5.1480   24.7580 C.ar      1 BAM        -0.1500 
+      3 C3         10.5150    6.2630   24.0560 C.ar      1 BAM        -0.1500 
+      4 C4          9.7710    6.7660   22.9980 C.ar      1 BAM        -0.1500 
+      5 C5          8.5810    6.1640   22.6350 C.ar      1 BAM        -0.1500 
+      6 C6          8.1330    5.0590   23.3330 C.ar      1 BAM        -0.1500 
+      7 C           8.3730    3.3880   25.1170 C.cat     1 BAM         0.7308 
+      8 N1          7.1400    2.9610   24.9440 N.pl3     1 BAM        -1.1924 
+      9 N2          9.1800    2.7790   25.9450 N.pl3     1 BAM        -1.1924 
+     10 H1         10.6460    4.7640   25.5830 H         1 BAM         0.1500 
+     11 H2         11.4490    6.7360   24.3370 H         1 BAM         0.1500 
+     12 H3         10.1250    7.6340   22.4550 H         1 BAM         0.1500 
+     13 H4          8.0030    6.5570   21.8060 H         1 BAM         0.1500 
+     14 H5          7.1980    4.5970   23.0370 H         1 BAM         0.1500 
+     15 H6          6.8020    2.1380   25.4640 H         1 BAM         0.6690 
+     16 H7          6.5140    3.4480   24.2890 H         1 BAM         0.6690 
+     17 H8          8.8520    1.9550   26.4700 H         1 BAM         0.6690 
+     18 H9         10.1430    3.1220   26.0740 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_564
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_564
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.5150    1.0150   25.3910 C.ar      1 BAM        -0.0220 
+      2 C2          8.0020    0.1890   26.4130 C.ar      1 BAM        -0.1500 
+      3 C3          7.8920   -1.1890   26.2430 C.ar      1 BAM        -0.1500 
+      4 C4          8.2930   -1.7720   25.0490 C.ar      1 BAM        -0.1500 
+      5 C5          8.7980   -0.9910   24.0270 C.ar      1 BAM        -0.1500 
+      6 C6          8.9050    0.3760   24.2000 C.ar      1 BAM        -0.1500 
+      7 C           8.6360    2.4090   25.5520 C.cat     1 BAM         0.7308 
+      8 N1          9.1790    2.9120   26.6400 N.pl3     1 BAM        -1.1924 
+      9 N2          8.1990    3.1920   24.6020 N.pl3     1 BAM        -1.1924 
+     10 H1          7.6870    0.6360   27.3490 H         1 BAM         0.1500 
+     11 H2          7.4930   -1.8050   27.0420 H         1 BAM         0.1500 
+     12 H3          8.2100   -2.8450   24.9180 H         1 BAM         0.1500 
+     13 H4          9.1080   -1.4490   23.0940 H         1 BAM         0.1500 
+     14 H5          9.3040    0.9760   23.3910 H         1 BAM         0.1500 
+     15 H6          9.2630    3.9340   26.7490 H         1 BAM         0.6690 
+     16 H7          9.5210    2.2860   27.3820 H         1 BAM         0.6690 
+     17 H8          8.2780    4.2140   24.7010 H         1 BAM         0.6690 
+     18 H9          7.7750    2.7870   23.7550 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_577
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_577
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.9320    1.1230   25.4310 C.ar      1 BAM        -0.0220 
+      2 C2          8.5170    2.3600   24.8950 C.ar      1 BAM        -0.1500 
+      3 C3          8.6830    3.5480   25.6050 C.ar      1 BAM        -0.1500 
+      4 C4          9.2680    3.5260   26.8630 C.ar      1 BAM        -0.1500 
+      5 C5          9.6840    2.3300   27.4170 C.ar      1 BAM        -0.1500 
+      6 C6          9.5170    1.1540   26.7100 C.ar      1 BAM        -0.1500 
+      7 C           8.7750   -0.0840   24.7230 C.cat     1 BAM         0.7308 
+      8 N1          9.1370   -0.1710   23.4600 N.pl3     1 BAM        -1.1924 
+      9 N2          8.2630   -1.1140   25.3410 N.pl3     1 BAM        -1.1924 
+     10 H1          8.0610    2.3880   23.9130 H         1 BAM         0.1500 
+     11 H2          8.3550    4.4880   25.1740 H         1 BAM         0.1500 
+     12 H3          9.4000    4.4500   27.4130 H         1 BAM         0.1500 
+     13 H4         10.1380    2.3140   28.4020 H         1 BAM         0.1500 
+     14 H5          9.8490    0.2240   27.1570 H         1 BAM         0.1500 
+     15 H6          9.0180   -1.0580   22.9500 H         1 BAM         0.6690 
+     16 H7          9.5410    0.6470   22.9820 H         1 BAM         0.6690 
+     17 H8          8.1390   -2.0060   24.8410 H         1 BAM         0.6690 
+     18 H9          7.9820   -1.0340   26.3300 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_583
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_583
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.1950    7.2650   23.3680 C.ar      1 BAM        -0.0220 
+      2 C2          9.5650    6.0260   23.9310 C.ar      1 BAM        -0.1500 
+      3 C3         10.8770    5.7730   24.3250 C.ar      1 BAM        -0.1500 
+      4 C4         11.8470    6.7520   24.1660 C.ar      1 BAM        -0.1500 
+      5 C5         11.5180    7.9770   23.6160 C.ar      1 BAM        -0.1500 
+      6 C6         10.2150    8.2230   23.2270 C.ar      1 BAM        -0.1500 
+      7 C           7.8710    7.5350   22.9710 C.cat     1 BAM         0.7308 
+      8 N1          6.8630    7.2600   23.7700 N.pl3     1 BAM        -1.1924 
+      9 N2          7.6630    8.0620   21.7940 N.pl3     1 BAM        -1.1924 
+     10 H1          8.8140    5.2550   24.0600 H         1 BAM         0.1500 
+     11 H2         11.1400    4.8130   24.7540 H         1 BAM         0.1500 
+     12 H3         12.8680    6.5570   24.4760 H         1 BAM         0.1500 
+     13 H4         12.2780    8.7400   23.4900 H         1 BAM         0.1500 
+     14 H5          9.9710    9.1880   22.7970 H         1 BAM         0.1500 
+     15 H6          5.8970    7.4610   23.4710 H         1 BAM         0.6690 
+     16 H7          7.0380    6.8450   24.6960 H         1 BAM         0.6690 
+     17 H8          6.7030    8.2670   21.4840 H         1 BAM         0.6690 
+     18 H9          8.4600    8.2730   21.1750 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_586
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_586
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.9310    1.3130   24.8240 C.ar      1 BAM        -0.0220 
+      2 C2          8.9190    0.8160   26.1440 C.ar      1 BAM        -0.1500 
+      3 C3          8.7910    1.6700   27.2380 C.ar      1 BAM        -0.1500 
+      4 C4          8.6700    3.0380   27.0360 C.ar      1 BAM        -0.1500 
+      5 C5          8.6800    3.5570   25.7560 C.ar      1 BAM        -0.1500 
+      6 C6          8.8070    2.7060   24.6740 C.ar      1 BAM        -0.1500 
+      7 C           9.0540    0.4610   23.7110 C.cat     1 BAM         0.7308 
+      8 N1          8.3150   -0.6240   23.6120 N.pl3     1 BAM        -1.1924 
+      9 N2          9.9160    0.7660   22.7770 N.pl3     1 BAM        -1.1924 
+     10 H1          9.0120   -0.2500   26.3120 H         1 BAM         0.1500 
+     11 H2          8.7860    1.2670   28.2440 H         1 BAM         0.1500 
+     12 H3          8.5680    3.7020   27.8870 H         1 BAM         0.1500 
+     13 H4          8.5880    4.6270   25.6000 H         1 BAM         0.1500 
+     14 H5          8.8120    3.1270   23.6750 H         1 BAM         0.1500 
+     15 H6          8.4130   -1.2430   22.7940 H         1 BAM         0.6690 
+     16 H7          7.6380   -0.8550   24.3530 H         1 BAM         0.6690 
+     17 H8         10.0220    0.1550   21.9550 H         1 BAM         0.6690 
+     18 H9         10.4900    1.6170   22.8650 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_590
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_590
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.8940    5.3610   23.2160 C.ar      1 BAM        -0.0220 
+      2 C2         10.1290    5.9100   23.6200 C.ar      1 BAM        -0.1500 
+      3 C3         10.4380    7.2480   23.3850 C.ar      1 BAM        -0.1500 
+      4 C4          9.5190    8.0670   22.7450 C.ar      1 BAM        -0.1500 
+      5 C5          8.3010    7.5600   22.3350 C.ar      1 BAM        -0.1500 
+      6 C6          7.9990    6.2320   22.5690 C.ar      1 BAM        -0.1500 
+      7 C           8.5680    4.0120   23.4520 C.cat     1 BAM         0.7308 
+      8 N1          7.3340    3.5830   23.2920 N.pl3     1 BAM        -1.1924 
+      9 N2          9.5130    3.1940   23.8330 N.pl3     1 BAM        -1.1924 
+     10 H1         10.8520    5.2780   24.1220 H         1 BAM         0.1500 
+     11 H2         11.3940    7.6480   23.7030 H         1 BAM         0.1500 
+     12 H3          9.7580    9.1090   22.5650 H         1 BAM         0.1500 
+     13 H4          7.5850    8.2020   21.8320 H         1 BAM         0.1500 
+     14 H5          7.0390    5.8490   22.2430 H         1 BAM         0.1500 
+     15 H6          7.1050    2.5930   23.4670 H         1 BAM         0.6690 
+     16 H7          6.5970    4.2360   22.9900 H         1 BAM         0.6690 
+     17 H8          9.2950    2.2030   24.0110 H         1 BAM         0.6690 
+     18 H9         10.4750    3.5410   23.9560 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_593
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_593
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.2870    3.1560   26.9130 C.ar      1 BAM        -0.0220 
+      2 C2          8.0800    1.8080   26.5520 C.ar      1 BAM        -0.1500 
+      3 C3          8.3790    1.3470   25.2720 C.ar      1 BAM        -0.1500 
+      4 C4          8.8930    2.2210   24.3250 C.ar      1 BAM        -0.1500 
+      5 C5          9.1060    3.5480   24.6450 C.ar      1 BAM        -0.1500 
+      6 C6          8.8080    4.0020   25.9160 C.ar      1 BAM        -0.1500 
+      7 C           7.9930    3.6340   28.2040 C.cat     1 BAM         0.7308 
+      8 N1          8.4000    2.9770   29.2700 N.pl3     1 BAM        -1.1924 
+      9 N2          7.3100    4.7410   28.3240 N.pl3     1 BAM        -1.1924 
+     10 H1          7.6790    1.1180   27.2860 H         1 BAM         0.1500 
+     11 H2          8.2100    0.3060   25.0170 H         1 BAM         0.1500 
+     12 H3          9.1290    1.8610   23.3300 H         1 BAM         0.1500 
+     13 H4          9.5060    4.2300   23.9030 H         1 BAM         0.1500 
+     14 H5          8.9810    5.0450   26.1530 H         1 BAM         0.1500 
+     15 H6          8.1800    3.3340   30.2110 H         1 BAM         0.6690 
+     16 H7          8.9390    2.1060   29.1630 H         1 BAM         0.6690 
+     17 H8          7.0840    5.1070   29.2600 H         1 BAM         0.6690 
+     18 H9          6.9960    5.2470   27.4840 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_596
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_596
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.0850    3.7530   27.6120 C.ar      1 BAM        -0.0220 
+      2 C2          8.5880    3.2830   28.8430 C.ar      1 BAM        -0.1500 
+      3 C3          8.3150    3.9470   30.0370 C.ar      1 BAM        -0.1500 
+      4 C4          7.5340    5.0930   30.0280 C.ar      1 BAM        -0.1500 
+      5 C5          7.0270    5.5810   28.8380 C.ar      1 BAM        -0.1500 
+      6 C6          7.3000    4.9190   27.6560 C.ar      1 BAM        -0.1500 
+      7 C           8.3490    3.0880   26.3990 C.cat     1 BAM         0.7308 
+      8 N1          8.1960    1.7840   26.3030 N.pl3     1 BAM        -1.1924 
+      9 N2          8.7480    3.7890   25.3720 N.pl3     1 BAM        -1.1924 
+     10 H1          9.1990    2.3880   28.8610 H         1 BAM         0.1500 
+     11 H2          8.7140    3.5690   30.9720 H         1 BAM         0.1500 
+     12 H3          7.3190    5.6080   30.9570 H         1 BAM         0.1500 
+     13 H4          6.4180    6.4790   28.8320 H         1 BAM         0.1500 
+     14 H5          6.8950    5.3130   26.7310 H         1 BAM         0.1500 
+     15 H6          8.3920    1.3060   25.4110 H         1 BAM         0.6690 
+     16 H7          7.8800    1.2410   27.1190 H         1 BAM         0.6690 
+     17 H8          8.9470    3.3220   24.4750 H         1 BAM         0.6690 
+     18 H9          8.8650    4.8100   25.4580 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_607
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_607
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.1290    0.1640   24.7780 C.ar      1 BAM        -0.0220 
+      2 C2          8.8850   -0.2980   23.4680 C.ar      1 BAM        -0.1500 
+      3 C3          9.3060    0.4260   22.3550 C.ar      1 BAM        -0.1500 
+      4 C4          9.9820    1.6260   22.5260 C.ar      1 BAM        -0.1500 
+      5 C5         10.2350    2.1080   23.7960 C.ar      1 BAM        -0.1500 
+      6 C6          9.8150    1.3860   24.8980 C.ar      1 BAM        -0.1500 
+      7 C           8.7130   -0.5610   25.9110 C.cat     1 BAM         0.7308 
+      8 N1          8.9490   -1.8520   26.0040 N.pl3     1 BAM        -1.1924 
+      9 N2          8.0880    0.0720   26.8680 N.pl3     1 BAM        -1.1924 
+     10 H1          8.3590   -1.2350   23.3240 H         1 BAM         0.1500 
+     11 H2          9.1070    0.0520   21.3570 H         1 BAM         0.1500 
+     12 H3         10.3120    2.1880   21.6600 H         1 BAM         0.1500 
+     13 H4         10.7610    3.0470   23.9280 H         1 BAM         0.1500 
+     14 H5         10.0210    1.7760   25.8880 H         1 BAM         0.1500 
+     15 H6          8.6400   -2.3740   26.8370 H         1 BAM         0.6690 
+     16 H7          9.4430   -2.3410   25.2450 H         1 BAM         0.6690 
+     17 H8          7.7740   -0.4390   27.7050 H         1 BAM         0.6690 
+     18 H9          7.9070    1.0840   26.7850 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_613
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_613
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.5130   -0.1040   25.0390 C.ar      1 BAM        -0.0220 
+      2 C2          8.9260   -0.1560   26.3870 C.ar      1 BAM        -0.1500 
+      3 C3          8.7260    0.9220   27.2480 C.ar      1 BAM        -0.1500 
+      4 C4          8.1090    2.0730   26.7810 C.ar      1 BAM        -0.1500 
+      5 C5          7.6940    2.1570   25.4660 C.ar      1 BAM        -0.1500 
+      6 C6          7.8940    1.0860   24.6160 C.ar      1 BAM        -0.1500 
+      7 C           8.7040   -1.1880   24.1620 C.cat     1 BAM         0.7308 
+      8 N1          8.3760   -2.4100   24.5250 N.pl3     1 BAM        -1.1924 
+      9 N2          9.2130   -0.9580   22.9810 N.pl3     1 BAM        -1.1924 
+     10 H1          9.4080   -1.0510   26.7610 H         1 BAM         0.1500 
+     11 H2          9.0530    0.8600   28.2800 H         1 BAM         0.1500 
+     12 H3          7.9510    2.9110   27.4520 H         1 BAM         0.1500 
+     13 H4          7.2140    3.0600   25.1020 H         1 BAM         0.1500 
+     14 H5          7.5630    1.1660   23.5870 H         1 BAM         0.1500 
+     15 H6          8.5200   -3.1970   23.8750 H         1 BAM         0.6690 
+     16 H7          7.9750   -2.5800   25.4580 H         1 BAM         0.6690 
+     17 H8          9.3610   -1.7370   22.3230 H         1 BAM         0.6690 
+     18 H9          9.4660    0.0030   22.7070 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_627
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_627
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.8900    1.2610   24.8780 C.ar      1 BAM        -0.0220 
+      2 C2          9.6720    1.9990   25.7910 C.ar      1 BAM        -0.1500 
+      3 C3         10.0010    3.3310   25.5510 C.ar      1 BAM        -0.1500 
+      4 C4          9.5550    3.9560   24.3950 C.ar      1 BAM        -0.1500 
+      5 C5          8.7890    3.2600   23.4790 C.ar      1 BAM        -0.1500 
+      6 C6          8.4650    1.9390   23.7210 C.ar      1 BAM        -0.1500 
+      7 C           8.5470   -0.0840   25.1110 C.cat     1 BAM         0.7308 
+      8 N1          8.0710   -0.4610   26.2800 N.pl3     1 BAM        -1.1924 
+      9 N2          8.7080   -0.9510   24.1470 N.pl3     1 BAM        -1.1924 
+     10 H1         10.0240    1.5200   26.6980 H         1 BAM         0.1500 
+     11 H2         10.6050    3.8790   26.2670 H         1 BAM         0.1500 
+     12 H3          9.8090    4.9930   24.2100 H         1 BAM         0.1500 
+     13 H4          8.4440    3.7490   22.5740 H         1 BAM         0.1500 
+     14 H5          7.8630    1.4060   22.9940 H         1 BAM         0.1500 
+     15 H6          7.8230   -1.4480   26.4410 H         1 BAM         0.6690 
+     16 H7          7.9470    0.2300   27.0320 H         1 BAM         0.6690 
+     17 H8          8.4630   -1.9400   24.2980 H         1 BAM         0.6690 
+     18 H9          9.0820   -0.6450   23.2370 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_642
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_642
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.2730    1.4760   24.2630 C.ar      1 BAM        -0.0220 
+      2 C2          8.9550    1.8710   22.9460 C.ar      1 BAM        -0.1500 
+      3 C3          9.2810    3.1410   22.4730 C.ar      1 BAM        -0.1500 
+      4 C4          9.9320    4.0420   23.3030 C.ar      1 BAM        -0.1500 
+      5 C5         10.2560    3.6870   24.5990 C.ar      1 BAM        -0.1500 
+      6 C6          9.9310    2.4270   25.0640 C.ar      1 BAM        -0.1500 
+      7 C           8.9530    0.1950   24.7510 C.cat     1 BAM         0.7308 
+      8 N1          9.2310   -0.8800   24.0440 N.pl3     1 BAM        -1.1924 
+      9 N2          8.3760    0.0940   25.9190 N.pl3     1 BAM        -1.1924 
+     10 H1          8.4470    1.1740   22.2900 H         1 BAM         0.1500 
+     11 H2          9.0260    3.4240   21.4570 H         1 BAM         0.1500 
+     12 H3         10.1890    5.0280   22.9340 H         1 BAM         0.1500 
+     13 H4         10.7630    4.3930   25.2470 H         1 BAM         0.1500 
+     14 H5         10.1920    2.1620   26.0820 H         1 BAM         0.1500 
+     15 H6          8.9940   -1.8130   24.4100 H         1 BAM         0.6690 
+     16 H7          9.6870   -0.7880   23.1260 H         1 BAM         0.6690 
+     17 H8          8.1340   -0.8350   26.2940 H         1 BAM         0.6690 
+     18 H9          8.1620    0.9420   26.4640 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_661
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_661
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.5570    1.0620   25.3210 C.ar      1 BAM        -0.0220 
+      2 C2          9.0940    1.6610   24.1620 C.ar      1 BAM        -0.1500 
+      3 C3          9.4350    0.9010   23.0460 C.ar      1 BAM        -0.1500 
+      4 C4          9.2440   -0.4740   23.0610 C.ar      1 BAM        -0.1500 
+      5 C5          8.7210   -1.0920   24.1810 C.ar      1 BAM        -0.1500 
+      6 C6          8.3860   -0.3340   25.2870 C.ar      1 BAM        -0.1500 
+      7 C           8.2050    1.8200   26.4540 C.cat     1 BAM         0.7308 
+      8 N1          7.4890    2.9180   26.3290 N.pl3     1 BAM        -1.1924 
+      9 N2          8.6020    1.4130   27.6300 N.pl3     1 BAM        -1.1924 
+     10 H1          9.2460    2.7340   24.1400 H         1 BAM         0.1500 
+     11 H2          9.8470    1.3820   22.1660 H         1 BAM         0.1500 
+     12 H3          9.5050   -1.0650   22.1910 H         1 BAM         0.1500 
+     13 H4          8.5760   -2.1670   24.1920 H         1 BAM         0.1500 
+     14 H5          7.9760   -0.8320   26.1580 H         1 BAM         0.1500 
+     15 H6          7.2370    3.4660   27.1650 H         1 BAM         0.6690 
+     16 H7          7.1810    3.2290   25.3980 H         1 BAM         0.6690 
+     17 H8          8.3550    1.9540   28.4720 H         1 BAM         0.6690 
+     18 H9          9.1620    0.5530   27.7160 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_665
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_665
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          9.0800    0.7600   23.9850 C.ar      1 BAM        -0.0220 
+      2 C2          9.5660    1.6020   22.9620 C.ar      1 BAM        -0.1500 
+      3 C3          9.7560    2.9650   23.1760 C.ar      1 BAM        -0.1500 
+      4 C4          9.4660    3.5170   24.4160 C.ar      1 BAM        -0.1500 
+      5 C5          8.9860    2.7210   25.4390 C.ar      1 BAM        -0.1500 
+      6 C6          8.7990    1.3680   25.2220 C.ar      1 BAM        -0.1500 
+      7 C           8.8890   -0.6200   23.7820 C.cat     1 BAM         0.7308 
+      8 N1          9.8270   -1.3510   23.2190 N.pl3     1 BAM        -1.1924 
+      9 N2          7.7630   -1.1610   24.1650 N.pl3     1 BAM        -1.1924 
+     10 H1          9.7960    1.1800   21.9910 H         1 BAM         0.1500 
+     11 H2         10.1290    3.5940   22.3760 H         1 BAM         0.1500 
+     12 H3          9.6160    4.5780   24.5840 H         1 BAM         0.1500 
+     13 H4          8.7580    3.1540   26.4060 H         1 BAM         0.1500 
+     14 H5          8.4240    0.7560   26.0320 H         1 BAM         0.1500 
+     15 H6          9.6780   -2.3600   23.0740 H         1 BAM         0.6690 
+     16 H7         10.7110   -0.9140   22.9220 H         1 BAM         0.6690 
+     17 H8          7.6030   -2.1690   24.0250 H         1 BAM         0.6690 
+     18 H9          7.0350   -0.5800   24.6050 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_698
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_698
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.1710    1.6990   26.1610 C.ar      1 BAM        -0.0220 
+      2 C2          8.6290    2.5630   25.1450 C.ar      1 BAM        -0.1500 
+      3 C3          8.5080    3.9460   25.2620 C.ar      1 BAM        -0.1500 
+      4 C4          7.9290    4.4960   26.3970 C.ar      1 BAM        -0.1500 
+      5 C5          7.4690    3.6770   27.4110 C.ar      1 BAM        -0.1500 
+      6 C6          7.5910    2.3050   27.2900 C.ar      1 BAM        -0.1500 
+      7 C           8.2920    0.3000   26.0570 C.cat     1 BAM         0.7308 
+      8 N1          9.4320   -0.2480   25.6930 N.pl3     1 BAM        -1.1924 
+      9 N2          7.2520   -0.4430   26.3280 N.pl3     1 BAM        -1.1924 
+     10 H1          9.0830    2.1440   24.2550 H         1 BAM         0.1500 
+     11 H2          8.8660    4.5920   24.4670 H         1 BAM         0.1500 
+     12 H3          7.8380    5.5720   26.4900 H         1 BAM         0.1500 
+     13 H4          7.0150    4.1080   28.2960 H         1 BAM         0.1500 
+     14 H5          7.2260    1.6750   28.0930 H         1 BAM         0.1500 
+     15 H6          9.5110   -1.2730   25.6190 H         1 BAM         0.6690 
+     16 H7         10.2460    0.3460   25.4820 H         1 BAM         0.6690 
+     17 H8          7.3190   -1.4680   26.2570 H         1 BAM         0.6690 
+     18 H9          6.3640   -0.0030   26.6110 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_700
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_700
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.4990    1.2580   25.5810 C.ar      1 BAM        -0.0220 
+      2 C2          9.5430    2.1950   25.7270 C.ar      1 BAM        -0.1500 
+      3 C3         10.2070    2.7170   24.6180 C.ar      1 BAM        -0.1500 
+      4 C4          9.8410    2.3160   23.3410 C.ar      1 BAM        -0.1500 
+      5 C5          8.8230    1.3990   23.1640 C.ar      1 BAM        -0.1500 
+      6 C6          8.1670    0.8830   24.2670 C.ar      1 BAM        -0.1500 
+      7 C           7.8170    0.7270   26.6930 C.cat     1 BAM         0.7308 
+      8 N1          7.3750    1.5170   27.6480 N.pl3     1 BAM        -1.1924 
+      9 N2          7.6330   -0.5650   26.7580 N.pl3     1 BAM        -1.1924 
+     10 H1          9.8360    2.5150   26.7200 H         1 BAM         0.1500 
+     11 H2         11.0080    3.4350   24.7540 H         1 BAM         0.1500 
+     12 H3         10.3550    2.7250   22.4790 H         1 BAM         0.1500 
+     13 H4          8.5400    1.0850   22.1660 H         1 BAM         0.1500 
+     14 H5          7.3700    0.1650   24.1130 H         1 BAM         0.1500 
+     15 H6          6.8770    1.1190   28.4580 H         1 BAM         0.6690 
+     16 H7          7.5250    2.5340   27.5860 H         1 BAM         0.6690 
+     17 H8          7.1370   -0.9740   27.5630 H         1 BAM         0.6690 
+     18 H9          7.9830   -1.1750   26.0050 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    2   10 1    
+     6    3    4 ar   
+     7    3   11 1    
+     8    4    5 ar   
+     9    4   12 1    
+    10    5    6 ar   
+    11    5   13 1    
+    12    6   14 1    
+    13    7    8 ar   
+    14    7    9 ar   
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 GROUP             4 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_711
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_711
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.1318    4.4012   23.8104 C.ar      1 BAM        -0.0220 
+      2 C           9.3544    3.3382   22.8919 C.ar      1 BAM        -0.1500 
+      3 C           9.7908    2.0737   23.3225 C.ar      1 BAM        -0.1500 
+      4 C          10.0413    1.8388   24.6807 C.ar      1 BAM        -0.1500 
+      5 C           9.8514    2.8727   25.6128 C.ar      1 BAM        -0.1500 
+      6 C           9.3952    4.1340   25.1828 C.ar      1 BAM        -0.1500 
+      7 C           8.6635    5.6562   23.3834 C.cat     1 BAM         0.7308 
+      8 N           8.2362    5.8659   22.1966 N.pl3     1 BAM        -1.1924 
+      9 N           8.6215    6.6801   24.1466 N.pl3     1 BAM        -1.1924 
+     10 H           9.2092    3.4699   21.8890 H         1 BAM         0.1500 
+     11 H           9.9279    1.3213   22.6415 H         1 BAM         0.1500 
+     12 H          10.3635    0.9173   24.9904 H         1 BAM         0.1500 
+     13 H          10.0355    2.7088   26.6051 H         1 BAM         0.1500 
+     14 H           9.2452    4.8483   25.8968 H         1 BAM         0.1500 
+     15 H           7.9285    6.7151   21.9537 H         1 BAM         0.6690 
+     16 H           8.2170    5.1740   21.5679 H         1 BAM         0.6690 
+     17 H           8.9175    6.6276   25.0333 H         1 BAM         0.6690 
+     18 H           8.2970    7.4935   23.8187 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_715
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_715
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.3339    5.3930   24.2484 C.ar      1 BAM        -0.0220 
+      2 C           6.5594    5.2822   25.4362 C.ar      1 BAM        -0.1500 
+      3 C           7.0905    4.7137   26.6092 C.ar      1 BAM        -0.1500 
+      4 C           8.4115    4.2388   26.6238 C.ar      1 BAM        -0.1500 
+      5 C           9.2004    4.3333   25.4664 C.ar      1 BAM        -0.1500 
+      6 C           8.6686    4.9040   24.2961 C.ar      1 BAM        -0.1500 
+      7 C           6.8041    5.9626   23.0759 C.cat     1 BAM         0.7308 
+      8 N           7.4099    5.9262   21.9512 N.pl3     1 BAM        -1.1924 
+      9 N           5.6743    6.5608   23.0485 N.pl3     1 BAM        -1.1924 
+     10 H           5.5893    5.6066   25.4651 H         1 BAM         0.1500 
+     11 H           6.5130    4.6434   27.4502 H         1 BAM         0.1500 
+     12 H           8.7981    3.8251   27.4756 H         1 BAM         0.1500 
+     13 H          10.1634    3.9896   25.4743 H         1 BAM         0.1500 
+     14 H           9.2806    4.9642   23.4787 H         1 BAM         0.1500 
+     15 H           7.0192    6.3216   21.1981 H         1 BAM         0.6690 
+     16 H           8.2417    5.5063   21.8667 H         1 BAM         0.6690 
+     17 H           5.1585    6.6463   23.8237 H         1 BAM         0.6690 
+     18 H           5.3596    6.9248   22.2450 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_722
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_722
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           5.4599    6.2193   24.1251 C.ar      1 BAM        -0.0220 
+      2 C           5.3134    6.1925   25.5403 C.ar      1 BAM        -0.1500 
+      3 C           4.2141    6.8002   26.1772 C.ar      1 BAM        -0.1500 
+      4 C           3.2292    7.4472   25.4139 C.ar      1 BAM        -0.1500 
+      5 C           3.3415    7.4815   24.0157 C.ar      1 BAM        -0.1500 
+      6 C           4.4446    6.8800   23.3819 C.ar      1 BAM        -0.1500 
+      7 C           6.5430    5.5941   23.4842 C.cat     1 BAM         0.7308 
+      8 N           6.8207    5.7867   22.2517 N.pl3     1 BAM        -1.1924 
+      9 N           7.3241    4.7764   24.0815 N.pl3     1 BAM        -1.1924 
+     10 H           6.0057    5.7281   26.1330 H         1 BAM         0.1500 
+     11 H           4.1271    6.7610   27.1953 H         1 BAM         0.1500 
+     12 H           2.4284    7.8837   25.8762 H         1 BAM         0.1500 
+     13 H           2.6135    7.9328   23.4564 H         1 BAM         0.1500 
+     14 H           4.4770    6.9120   22.3608 H         1 BAM         0.1500 
+     15 H           7.5257    5.3216   21.8497 H         1 BAM         0.6690 
+     16 H           6.3190    6.3780   21.7345 H         1 BAM         0.6690 
+     17 H           7.2001    4.5679   24.9836 H         1 BAM         0.6690 
+     18 H           8.0250    4.3708   23.6113 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_733
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_733
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.5599    7.3072   22.8344 C.ar      1 BAM        -0.0220 
+      2 C          10.6333    7.0271   23.7248 C.ar      1 BAM        -0.1500 
+      3 C          11.3383    8.0576   24.3741 C.ar      1 BAM        -0.1500 
+      4 C          10.9883    9.3990   24.1488 C.ar      1 BAM        -0.1500 
+      5 C           9.9334    9.7078   23.2750 C.ar      1 BAM        -0.1500 
+      6 C           9.2299    8.6752   22.6282 C.ar      1 BAM        -0.1500 
+      7 C           8.8531    6.2781   22.1866 C.cat     1 BAM         0.7308 
+      8 N           9.0068    5.0429   22.4750 N.pl3     1 BAM        -1.1924 
+      9 N           7.9994    6.5027   21.2620 N.pl3     1 BAM        -1.1924 
+     10 H          10.9271    6.0654   23.9101 H         1 BAM         0.1500 
+     11 H          12.1074    7.8308   25.0091 H         1 BAM         0.1500 
+     12 H          11.4999   10.1491   24.6199 H         1 BAM         0.1500 
+     13 H           9.6756   10.6839   23.1105 H         1 BAM         0.1500 
+     14 H           8.4620    8.9442   22.0089 H         1 BAM         0.1500 
+     15 H           8.5154    4.3964   22.0119 H         1 BAM         0.6690 
+     16 H           9.6048    4.7757   23.1412 H         1 BAM         0.6690 
+     17 H           7.8233    7.3738   20.9729 H         1 BAM         0.6690 
+     18 H           7.5564    5.7856   20.8567 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_734
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_734
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.6313    4.1644   25.8919 C.ar      1 BAM        -0.0220 
+      2 C           8.2197    5.5231   25.9831 C.ar      1 BAM        -0.1500 
+      3 C           8.7386    6.5092   25.1226 C.ar      1 BAM        -0.1500 
+      4 C           9.6860    6.1635   24.1458 C.ar      1 BAM        -0.1500 
+      5 C          10.1112    4.8309   24.0305 C.ar      1 BAM        -0.1500 
+      6 C           9.5948    3.8479   24.8952 C.ar      1 BAM        -0.1500 
+      7 C           8.1020    3.1777   26.7458 C.cat     1 BAM         0.7308 
+      8 N           8.5481    1.9811   26.7947 N.pl3     1 BAM        -1.1924 
+      9 N           7.1265    3.3914   27.5434 N.pl3     1 BAM        -1.1924 
+     10 H           7.5374    5.8193   26.6847 H         1 BAM         0.1500 
+     11 H           8.4292    7.4814   25.2112 H         1 BAM         0.1500 
+     12 H          10.0645    6.8792   23.5219 H         1 BAM         0.1500 
+     13 H          10.7998    4.5757   23.3154 H         1 BAM         0.1500 
+     14 H           9.9287    2.8884   24.7733 H         1 BAM         0.1500 
+     15 H           8.1512    1.3678   27.3813 H         1 BAM         0.6690 
+     16 H           9.2655    1.7092   26.2615 H         1 BAM         0.6690 
+     17 H           6.7109    4.2265   27.5902 H         1 BAM         0.6690 
+     18 H           6.8148    2.6933   28.0839 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_738
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_738
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.2632    6.7073   24.7104 C.ar      1 BAM        -0.0220 
+      2 C           7.8930    7.6926   25.5189 C.ar      1 BAM        -0.1500 
+      3 C           8.3577    7.3952   26.8145 C.ar      1 BAM        -0.1500 
+      4 C           8.2053    6.1017   27.3375 C.ar      1 BAM        -0.1500 
+      5 C           7.5861    5.1074   26.5646 C.ar      1 BAM        -0.1500 
+      6 C           7.1212    5.4069   25.2700 C.ar      1 BAM        -0.1500 
+      7 C           6.7989    7.0047   23.4153 C.cat     1 BAM         0.7308 
+      8 N           7.0482    8.1044   22.8143 N.pl3     1 BAM        -1.1924 
+      9 N           6.0865    6.1944   22.7309 N.pl3     1 BAM        -1.1924 
+     10 H           8.0172    8.6490   25.1803 H         1 BAM         0.1500 
+     11 H           8.8086    8.1218   27.3761 H         1 BAM         0.1500 
+     12 H           8.5468    5.8842   28.2761 H         1 BAM         0.1500 
+     13 H           7.4753    4.1629   26.9427 H         1 BAM         0.1500 
+     14 H           6.6845    4.6497   24.7396 H         1 BAM         0.1500 
+     15 H           6.7119    8.2449   21.9501 H         1 BAM         0.6690 
+     16 H           7.5662    8.7685   23.2196 H         1 BAM         0.6690 
+     17 H           5.8428    5.3632   23.0753 H         1 BAM         0.6690 
+     18 H           5.8017    6.4388   21.8748 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_739
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_739
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.4156    7.3277   22.9147 C.ar      1 BAM        -0.0220 
+      2 C          10.4097    7.0632   23.8966 C.ar      1 BAM        -0.1500 
+      3 C          11.0528    8.1045   24.5911 C.ar      1 BAM        -0.1500 
+      4 C          10.7193    9.4406   24.3214 C.ar      1 BAM        -0.1500 
+      5 C           9.7428    9.7334   23.3570 C.ar      1 BAM        -0.1500 
+      6 C           9.1013    8.6910   22.6634 C.ar      1 BAM        -0.1500 
+      7 C           8.7703    6.2888   22.2246 C.cat     1 BAM         0.7308 
+      8 N           7.9965    6.4888   21.2274 N.pl3     1 BAM        -1.1924 
+      9 N           8.9069    5.0577   22.5389 N.pl3     1 BAM        -1.1924 
+     10 H          10.6912    6.1061   24.1194 H         1 BAM         0.1500 
+     11 H          11.7648    7.8879   25.2920 H         1 BAM         0.1500 
+     12 H          11.1861   10.1976   24.8254 H         1 BAM         0.1500 
+     13 H           9.4969   10.7060   23.1602 H         1 BAM         0.1500 
+     14 H           8.3891    8.9499   21.9766 H         1 BAM         0.1500 
+     15 H           7.6000    5.7587   20.7943 H         1 BAM         0.6690 
+     16 H           7.8391    7.3528   20.9089 H         1 BAM         0.6690 
+     17 H           9.4452    4.8023   23.2587 H         1 BAM         0.6690 
+     18 H           8.4605    4.4041   22.0399 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_741
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_741
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           6.4588    5.7974   25.6539 C.ar      1 BAM        -0.0220 
+      2 C           7.1029    6.4683   24.5756 C.ar      1 BAM        -0.1500 
+      3 C           6.4293    6.7307   23.3667 C.ar      1 BAM        -0.1500 
+      4 C           5.0894    6.3389   23.2069 C.ar      1 BAM        -0.1500 
+      5 C           4.4218    5.6901   24.2624 C.ar      1 BAM        -0.1500 
+      6 C           5.1003    5.4223   25.4667 C.ar      1 BAM        -0.1500 
+      7 C           7.1366    5.5128   26.8510 C.cat     1 BAM         0.7308 
+      8 N           6.7248    4.6349   27.6834 N.pl3     1 BAM        -1.1924 
+      9 N           8.2124    6.1154   27.1873 N.pl3     1 BAM        -1.1924 
+     10 H           8.0822    6.7571   24.6434 H         1 BAM         0.1500 
+     11 H           6.9158    7.2082   22.6031 H         1 BAM         0.1500 
+     12 H           4.6007    6.5242   22.3264 H         1 BAM         0.1500 
+     13 H           3.4432    5.4094   24.1551 H         1 BAM         0.1500 
+     14 H           4.5735    4.9670   26.2176 H         1 BAM         0.1500 
+     15 H           7.1993    4.4784   28.4758 H         1 BAM         0.6690 
+     16 H           5.9544    4.1377   27.5053 H         1 BAM         0.6690 
+     17 H           8.5716    6.7820   26.6401 H         1 BAM         0.6690 
+     18 H           8.6466    5.8954   27.9879 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_743
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_743
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.0327    7.4573   23.3743 C.ar      1 BAM        -0.0220 
+      2 C           9.2733    7.9184   23.8935 C.ar      1 BAM        -0.1500 
+      3 C           9.3399    9.0156   24.7723 C.ar      1 BAM        -0.1500 
+      4 C           8.1662    9.6835   25.1560 C.ar      1 BAM        -0.1500 
+      5 C           6.9266    9.2513   24.6589 C.ar      1 BAM        -0.1500 
+      6 C           6.8616    8.1533   23.7808 C.ar      1 BAM        -0.1500 
+      7 C           7.9659    6.3609   22.4982 C.cat     1 BAM         0.7308 
+      8 N           6.8963    6.0256   21.8851 N.pl3     1 BAM        -1.1924 
+      9 N           8.9707    5.6115   22.2452 N.pl3     1 BAM        -1.1924 
+     10 H          10.1537    7.4685   23.6339 H         1 BAM         0.1500 
+     11 H          10.2457    9.3293   25.1318 H         1 BAM         0.1500 
+     12 H           8.2139   10.4794   25.7935 H         1 BAM         0.1500 
+     13 H           6.0687    9.7348   24.9375 H         1 BAM         0.1500 
+     14 H           5.9370    7.8669   23.4524 H         1 BAM         0.1500 
+     15 H           6.9040    5.2878   21.3083 H         1 BAM         0.6690 
+     16 H           6.1069    6.5132   21.9961 H         1 BAM         0.6690 
+     17 H           9.7978    5.7702   22.6507 H         1 BAM         0.6690 
+     18 H           8.8755    4.8919   21.6524 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_753
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_753
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.0828    6.3702   26.2500 C.ar      1 BAM        -0.0220 
+      2 C           8.2724    7.2214   27.3736 C.ar      1 BAM        -0.1500 
+      3 C           9.1256    8.3382   27.3094 C.ar      1 BAM        -0.1500 
+      4 C           9.8128    8.6334   26.1211 C.ar      1 BAM        -0.1500 
+      5 C           9.6450    7.8099   24.9968 C.ar      1 BAM        -0.1500 
+      6 C           8.7906    6.6939   25.0600 C.ar      1 BAM        -0.1500 
+      7 C           7.2292    5.2539   26.3109 C.cat     1 BAM         0.7308 
+      8 N           7.1627    4.3759   25.3824 N.pl3     1 BAM        -1.1924 
+      9 N           6.4511    5.0304   27.3034 N.pl3     1 BAM        -1.1924 
+     10 H           7.7971    7.0354   28.2613 H         1 BAM         0.1500 
+     11 H           9.2468    8.9351   28.1315 H         1 BAM         0.1500 
+     12 H          10.4308    9.4422   26.0747 H         1 BAM         0.1500 
+     13 H          10.1422    8.0213   24.1285 H         1 BAM         0.1500 
+     14 H           8.6870    6.1252   24.2153 H         1 BAM         0.1500 
+     15 H           6.5764    3.6468   25.4680 H         1 BAM         0.6690 
+     16 H           7.6959    4.4456   24.6154 H         1 BAM         0.6690 
+     17 H           6.4205    5.6192   28.0311 H         1 BAM         0.6690 
+     18 H           5.8991    4.2711   27.3040 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_754
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_754
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           6.3799    5.9511   25.6670 C.ar      1 BAM        -0.0220 
+      2 C           6.9035    6.8436   24.6913 C.ar      1 BAM        -0.1500 
+      3 C           6.1682    7.1850   23.5408 C.ar      1 BAM        -0.1500 
+      4 C           4.8899    6.6417   23.3356 C.ar      1 BAM        -0.1500 
+      5 C           4.3475    5.7575   24.2815 C.ar      1 BAM        -0.1500 
+      6 C           5.0826    5.4180   25.4318 C.ar      1 BAM        -0.1500 
+      7 C           7.1124    5.6088   26.8192 C.cat     1 BAM         0.7308 
+      8 N           8.2014    6.1926   27.1485 N.pl3     1 BAM        -1.1924 
+      9 N           6.7430    4.6878   27.6244 N.pl3     1 BAM        -1.1924 
+     10 H           7.8349    7.2539   24.7983 H         1 BAM         0.1500 
+     11 H           6.5665    7.8281   22.8526 H         1 BAM         0.1500 
+     12 H           4.3562    6.8891   22.5013 H         1 BAM         0.1500 
+     13 H           3.4165    5.3609   24.1362 H         1 BAM         0.1500 
+     14 H           4.6466    4.7795   26.1017 H         1 BAM         0.1500 
+     15 H           8.6557    5.9303   27.9263 H         1 BAM         0.6690 
+     16 H           8.5532    6.8854   26.6261 H         1 BAM         0.6690 
+     17 H           5.9620    4.1956   27.4653 H         1 BAM         0.6690 
+     18 H           7.2598    4.4927   28.3823 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_759
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_759
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.2865    5.0951   24.7345 C.ar      1 BAM        -0.0220 
+      2 C           8.3597    4.5841   25.5152 C.ar      1 BAM        -0.1500 
+      3 C           9.6284    4.3475   24.9540 C.ar      1 BAM        -0.1500 
+      4 C           9.8637    4.6295   23.5992 C.ar      1 BAM        -0.1500 
+      5 C           8.8250    5.1402   22.8051 C.ar      1 BAM        -0.1500 
+      6 C           7.5540    5.3669   23.3643 C.ar      1 BAM        -0.1500 
+      7 C           6.0143    5.3175   25.2899 C.cat     1 BAM         0.7308 
+      8 N           5.7973    5.3122   26.5493 N.pl3     1 BAM        -1.1924 
+      9 N           4.9817    5.5443   24.5715 N.pl3     1 BAM        -1.1924 
+     10 H           8.2302    4.3566   26.5033 H         1 BAM         0.1500 
+     11 H          10.3796    3.9644   25.5315 H         1 BAM         0.1500 
+     12 H          10.7864    4.4590   23.1918 H         1 BAM         0.1500 
+     13 H           8.9929    5.3517   21.8193 H         1 BAM         0.1500 
+     14 H           6.8288    5.7433   22.7475 H         1 BAM         0.1500 
+     15 H           4.9352    5.4673   26.8794 H         1 BAM         0.6690 
+     16 H           6.4950    5.1620   27.1507 H         1 BAM         0.6690 
+     17 H           5.0449    5.5649   23.6393 H         1 BAM         0.6690 
+     18 H           4.1500    5.6826   24.9772 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_761
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_761
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.5813    6.5220   27.9603 C.ar      1 BAM        -0.0220 
+      2 C           8.0767    6.6437   29.2879 C.ar      1 BAM        -0.1500 
+      3 C           8.6823    7.8306   29.7412 C.ar      1 BAM        -0.1500 
+      4 C           8.8109    8.9293   28.8764 C.ar      1 BAM        -0.1500 
+      5 C           8.3316    8.8401   27.5598 C.ar      1 BAM        -0.1500 
+      6 C           7.7250    7.6529   27.1101 C.ar      1 BAM        -0.1500 
+      7 C           6.9743    5.3376   27.5071 C.cat     1 BAM         0.7308 
+      8 N           6.6783    4.3676   28.2841 N.pl3     1 BAM        -1.1924 
+      9 N           6.6728    5.1414   26.2803 N.pl3     1 BAM        -1.1924 
+     10 H           8.0133    5.8649   29.9475 H         1 BAM         0.1500 
+     11 H           9.0331    7.8930   30.7001 H         1 BAM         0.1500 
+     12 H           9.2512    9.7919   29.2044 H         1 BAM         0.1500 
+     13 H           8.4219    9.6397   26.9282 H         1 BAM         0.1500 
+     14 H           7.3802    7.6358   26.1479 H         1 BAM         0.1500 
+     15 H           6.2702    3.6030   27.9320 H         1 BAM         0.6690 
+     16 H           6.8519    4.4158   29.2012 H         1 BAM         0.6690 
+     17 H           6.8562    5.7891   25.6323 H         1 BAM         0.6690 
+     18 H           6.2662    4.3382   26.0273 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_763
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_763
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.3572    7.0688   22.7798 C.ar      1 BAM        -0.0220 
+      2 C           8.4617    7.4520   21.7433 C.ar      1 BAM        -0.1500 
+      3 C           8.2999    8.8011   21.3781 C.ar      1 BAM        -0.1500 
+      4 C           9.0277    9.8030   22.0396 C.ar      1 BAM        -0.1500 
+      5 C           9.9181    9.4536   23.0672 C.ar      1 BAM        -0.1500 
+      6 C          10.0815    8.1044   23.4315 C.ar      1 BAM        -0.1500 
+      7 C           9.5223    5.7207   23.1461 C.cat     1 BAM         0.7308 
+      8 N           9.0219    4.7514   22.4779 N.pl3     1 BAM        -1.1924 
+      9 N          10.1879    5.3608   24.1787 N.pl3     1 BAM        -1.1924 
+     10 H           7.9055    6.7535   21.2425 H         1 BAM         0.1500 
+     11 H           7.6487    9.0523   20.6299 H         1 BAM         0.1500 
+     12 H           8.9105   10.7803   21.7751 H         1 BAM         0.1500 
+     13 H          10.4516   10.1795   23.5512 H         1 BAM         0.1500 
+     14 H          10.7485    7.8910   24.1777 H         1 BAM         0.1500 
+     15 H           9.1590    3.8666   22.7619 H         1 BAM         0.6690 
+     16 H           8.5215    4.9096   21.7021 H         1 BAM         0.6690 
+     17 H          10.5875    5.9973   24.7375 H         1 BAM         0.6690 
+     18 H          10.2753    4.4494   24.3854 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_765
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_765
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.6525    8.2375   23.1466 C.ar      1 BAM        -0.0220 
+      2 C           8.6589    9.0850   22.6076 C.ar      1 BAM        -0.1500 
+      3 C           8.9445   10.3410   23.1748 C.ar      1 BAM        -0.1500 
+      4 C           8.2305   10.7866   24.2980 C.ar      1 BAM        -0.1500 
+      5 C           7.2305    9.9725   24.8521 C.ar      1 BAM        -0.1500 
+      6 C           6.9465    8.7163   24.2844 C.ar      1 BAM        -0.1500 
+      7 C           7.3671    6.9819   22.5806 C.cat     1 BAM         0.7308 
+      8 N           6.3631    6.2744   22.9336 N.pl3     1 BAM        -1.1924 
+      9 N           8.0899    6.4509   21.6699 N.pl3     1 BAM        -1.1924 
+     10 H           9.1976    8.8074   21.7845 H         1 BAM         0.1500 
+     11 H           9.6733   10.9329   22.7673 H         1 BAM         0.1500 
+     12 H           8.4373   11.6975   24.7097 H         1 BAM         0.1500 
+     13 H           6.7089   10.2933   25.6718 H         1 BAM         0.1500 
+     14 H           6.2174    8.1543   24.7278 H         1 BAM         0.1500 
+     15 H           6.2150    5.4437   22.5302 H         1 BAM         0.6690 
+     16 H           5.7716    6.5763   23.5886 H         1 BAM         0.6690 
+     17 H           8.8475    6.8944   21.3553 H         1 BAM         0.6690 
+     18 H           7.8661    5.6120   21.3144 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_766
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_766
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.8450    8.0449   23.3869 C.ar      1 BAM        -0.0220 
+      2 C           8.8624    8.9077   22.8937 C.ar      1 BAM        -0.1500 
+      3 C           9.2554   10.0601   23.5990 C.ar      1 BAM        -0.1500 
+      4 C           8.6409   10.3833   24.8194 C.ar      1 BAM        -0.1500 
+      5 C           7.6336    9.5515   25.3322 C.ar      1 BAM        -0.1500 
+      6 C           7.2429    8.3993   24.6256 C.ar      1 BAM        -0.1500 
+      7 C           7.4513    6.8920   22.6837 C.cat     1 BAM         0.7308 
+      8 N           8.0807    6.4517   21.6617 N.pl3     1 BAM        -1.1924 
+      9 N           6.4331    6.1946   23.0143 N.pl3     1 BAM        -1.1924 
+     10 H           9.3302    8.7168   22.0047 H         1 BAM         0.1500 
+     11 H           9.9884   10.6659   23.2230 H         1 BAM         0.1500 
+     12 H           8.9256   11.2200   25.3323 H         1 BAM         0.1500 
+     13 H           7.1850    9.7830   26.2215 H         1 BAM         0.1500 
+     14 H           6.5130    7.8183   25.0425 H         1 BAM         0.1500 
+     15 H           7.7872    5.6769   21.2216 H         1 BAM         0.6690 
+     16 H           8.8395    6.8958   21.3506 H         1 BAM         0.6690 
+     17 H           5.9045    6.4373   23.7441 H         1 BAM         0.6690 
+     18 H           6.2095    5.4339   22.5200 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_776
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_776
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.9139    2.3224   24.8508 C.ar      1 BAM        -0.0220 
+      2 C           9.9035    3.3042   24.5645 C.ar      1 BAM        -0.1500 
+      3 C          10.4299    3.4566   23.2689 C.ar      1 BAM        -0.1500 
+      4 C           9.9710    2.6418   22.2212 C.ar      1 BAM        -0.1500 
+      5 C           9.0042    1.6572   22.4744 C.ar      1 BAM        -0.1500 
+      6 C           8.4939    1.4933   23.7727 C.ar      1 BAM        -0.1500 
+      7 C           8.3597    2.1830   26.1351 C.cat     1 BAM         0.7308 
+      8 N           8.5731    3.0139   27.0830 N.pl3     1 BAM        -1.1924 
+      9 N           7.5917    1.2092   26.4440 N.pl3     1 BAM        -1.1924 
+     10 H          10.2602    3.9210   25.2987 H         1 BAM         0.1500 
+     11 H          11.1456    4.1647   23.0877 H         1 BAM         0.1500 
+     12 H          10.3408    2.7585   21.2763 H         1 BAM         0.1500 
+     13 H           8.6716    1.0590   21.7154 H         1 BAM         0.1500 
+     14 H           7.7958    0.7610   23.9145 H         1 BAM         0.1500 
+     15 H           8.1784    2.8786   27.9222 H         1 BAM         0.6690 
+     16 H           9.1096    3.7635   26.9471 H         1 BAM         0.6690 
+     17 H           7.3841    0.5492   25.8188 H         1 BAM         0.6690 
+     18 H           7.2304    1.1496   27.3029 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_781
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_781
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           6.8728    5.5779   23.7744 C.ar      1 BAM        -0.0220 
+      2 C           7.5657    4.7755   24.7232 C.ar      1 BAM        -0.1500 
+      3 C           8.9637    4.6183   24.6734 C.ar      1 BAM        -0.1500 
+      4 C           9.7063    5.2596   23.6688 C.ar      1 BAM        -0.1500 
+      5 C           9.0519    6.0576   22.7166 C.ar      1 BAM        -0.1500 
+      6 C           7.6548    6.2139   22.7708 C.ar      1 BAM        -0.1500 
+      7 C           5.4773    5.7361   23.8262 C.cat     1 BAM         0.7308 
+      8 N           4.8089    6.3108   22.8998 N.pl3     1 BAM        -1.1924 
+      9 N           4.7699    5.3212   24.8067 N.pl3     1 BAM        -1.1924 
+     10 H           7.0617    4.2835   25.4649 H         1 BAM         0.1500 
+     11 H           9.4391    4.0358   25.3662 H         1 BAM         0.1500 
+     12 H          10.7229    5.1460   23.6307 H         1 BAM         0.1500 
+     13 H           9.5914    6.5267   21.9856 H         1 BAM         0.1500 
+     14 H           7.2196    6.8128   22.0654 H         1 BAM         0.1500 
+     15 H           3.8801    6.3890   22.9733 H         1 BAM         0.6690 
+     16 H           5.2337    6.6440   22.1354 H         1 BAM         0.6690 
+     17 H           5.1668    4.8920   25.5360 H         1 BAM         0.6690 
+     18 H           3.8434    5.4443   24.7987 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_790
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_790
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.5931    4.8832   24.3690 C.ar      1 BAM        -0.0220 
+      2 C           8.7500    4.2495   23.8384 C.ar      1 BAM        -0.1500 
+      3 C           9.6078    3.4766   24.6455 C.ar      1 BAM        -0.1500 
+      4 C           9.3294    3.3119   26.0115 C.ar      1 BAM        -0.1500 
+      5 C           8.1939    3.9223   26.5669 C.ar      1 BAM        -0.1500 
+      6 C           7.3406    4.6964   25.7592 C.ar      1 BAM        -0.1500 
+      7 C           6.7484    5.6702   23.5625 C.cat     1 BAM         0.7308 
+      8 N           6.8586    5.7403   22.2889 N.pl3     1 BAM        -1.1924 
+      9 N           5.7971    6.3785   24.0430 N.pl3     1 BAM        -1.1924 
+     10 H           8.9947    4.3468   22.8497 H         1 BAM         0.1500 
+     11 H          10.4338    3.0316   24.2378 H         1 BAM         0.1500 
+     12 H           9.9491    2.7483   26.5994 H         1 BAM         0.1500 
+     13 H           7.9886    3.8046   27.5626 H         1 BAM         0.1500 
+     14 H           6.5269    5.1219   26.2077 H         1 BAM         0.1500 
+     15 H           6.2892    6.2987   21.7961 H         1 BAM         0.6690 
+     16 H           7.4871    5.2238   21.8285 H         1 BAM         0.6690 
+     17 H           5.6322    6.3979   24.9620 H         1 BAM         0.6690 
+     18 H           5.2537    6.8810   23.4707 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_8
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_8
+   18    18     1     1     2
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          8.7299    0.8487   25.1057 C.ar      1 BAM        -0.0220 
+      2 C2          9.5719    1.0332   23.9887 C.ar      1 BAM        -0.1500 
+      3 C3          9.8043    2.3007   23.4591 C.ar      1 BAM        -0.1500 
+      4 C4          9.2031    3.4112   24.0343 C.ar      1 BAM        -0.1500 
+      5 C5          8.3714    3.2646   25.1284 C.ar      1 BAM        -0.1500 
+      6 C6          8.1433    2.0055   25.6503 C.ar      1 BAM        -0.1500 
+      7 C           8.4910   -0.4260   25.6532 C.ar      1 BAM         0.7308 
+      8 N1          8.4933   -0.6063   26.9571 N.pl3     1 BAM        -1.1924 
+      9 N2          8.2675   -1.4262   24.8430 N.pl3     1 BAM        -1.1924 
+     10 H1         10.0472    0.1718   23.5336 H         1 BAM         0.1500 
+     11 H2         10.4536    2.4192   22.5992 H         1 BAM         0.1500 
+     12 H3          9.3866    4.3976   23.6240 H         1 BAM         0.1500 
+     13 H4          7.9005    4.1330   25.5748 H         1 BAM         0.1500 
+     14 H5          7.4895    1.9057   26.5092 H         1 BAM         0.1500 
+     15 H6          8.3174   -1.5430   27.3478 H         1 BAM         0.6690 
+     16 H7          8.6709    0.1893   27.5867 H         1 BAM         0.6690 
+     17 H8          8.2681   -1.2739   23.8244 H         1 BAM         0.6690 
+     18 H9          8.0907   -2.3672   25.2230 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>SET
+DONOR_HYDROGENS STATIC     ATOMS    <user>   **** ""
+4 15 16 17 18
+ATOM$RED        STATIC     ATOMS    COLORGROUP SYSTEM 
+4 15 16 17 18
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_804
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_804
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.2788    4.5048   24.3540 C.ar      1 BAM        -0.0220 
+      2 C           9.2977    5.1043   23.5632 C.ar      1 BAM        -0.1500 
+      3 C           8.9907    6.0219   22.5416 C.ar      1 BAM        -0.1500 
+      4 C           7.6551    6.3624   22.2775 C.ar      1 BAM        -0.1500 
+      5 C           6.6265    5.7927   23.0439 C.ar      1 BAM        -0.1500 
+      6 C           6.9367    4.8835   24.0731 C.ar      1 BAM        -0.1500 
+      7 C           8.5868    3.5724   25.3634 C.cat     1 BAM         0.7308 
+      8 N           9.7843    3.3341   25.7426 N.pl3     1 BAM        -1.1924 
+      9 N           7.6985    2.8874   25.9768 N.pl3     1 BAM        -1.1924 
+     10 H          10.2824    4.8752   23.7091 H         1 BAM         0.1500 
+     11 H           9.7414    6.4422   21.9885 H         1 BAM         0.1500 
+     12 H           7.4370    7.0260   21.5322 H         1 BAM         0.1500 
+     13 H           5.6537    6.0392   22.8533 H         1 BAM         0.1500 
+     14 H           6.1579    4.4999   24.6145 H         1 BAM         0.1500 
+     15 H           9.9486    2.7048   26.4174 H         1 BAM         0.6690 
+     16 H          10.5030    3.7893   25.3587 H         1 BAM         0.6690 
+     17 H           6.7912    2.9837   25.7783 H         1 BAM         0.6690 
+     18 H           7.9537    2.2785   26.6411 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_805
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_805
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.6262    3.0546   25.2041 C.ar      1 BAM        -0.0220 
+      2 C           9.3876    4.4280   24.9244 C.ar      1 BAM        -0.1500 
+      3 C           8.5977    5.2269   25.7732 C.ar      1 BAM        -0.1500 
+      4 C           8.0281    4.6760   26.9309 C.ar      1 BAM        -0.1500 
+      5 C           8.2457    3.3236   27.2351 C.ar      1 BAM        -0.1500 
+      6 C           9.0326    2.5253   26.3840 C.ar      1 BAM        -0.1500 
+      7 C          10.4078    2.2545   24.3499 C.cat     1 BAM         0.7308 
+      8 N          11.0896    2.7327   23.3793 N.pl3     1 BAM        -1.1924 
+      9 N          10.4986    0.9856   24.4787 N.pl3     1 BAM        -1.1924 
+     10 H           9.7748    4.8703   24.0882 H         1 BAM         0.1500 
+     11 H           8.4397    6.2123   25.5484 H         1 BAM         0.1500 
+     12 H           7.4571    5.2552   27.5490 H         1 BAM         0.1500 
+     13 H           7.8302    2.9201   28.0781 H         1 BAM         0.1500 
+     14 H           9.1651    1.5471   26.6480 H         1 BAM         0.1500 
+     15 H          11.5977    2.1622   22.8361 H         1 BAM         0.6690 
+     16 H          11.0920    3.6495   23.2041 H         1 BAM         0.6690 
+     17 H          10.0335    0.5405   25.1546 H         1 BAM         0.6690 
+     18 H          11.0337    0.4909   23.8901 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_811
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_811
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.0793    4.2884   24.7002 C.ar      1 BAM        -0.0220 
+      2 C           6.7357    4.7485   24.6197 C.ar      1 BAM        -0.1500 
+      3 C           6.2714    5.4775   23.5088 C.ar      1 BAM        -0.1500 
+      4 C           7.1399    5.7672   22.4451 C.ar      1 BAM        -0.1500 
+      5 C           8.4727    5.3294   22.4946 C.ar      1 BAM        -0.1500 
+      6 C           8.9343    4.6007   23.6068 C.ar      1 BAM        -0.1500 
+      7 C           8.5431    3.5620   25.8130 C.cat     1 BAM         0.7308 
+      8 N           7.7682    3.1399   26.7380 N.pl3     1 BAM        -1.1924 
+      9 N           9.7756    3.2712   25.9858 N.pl3     1 BAM        -1.1924 
+     10 H           6.0710    4.5661   25.3742 H         1 BAM         0.1500 
+     11 H           5.3009    5.7983   23.4744 H         1 BAM         0.1500 
+     12 H           6.8027    6.2968   21.6391 H         1 BAM         0.1500 
+     13 H           9.1053    5.5370   21.7180 H         1 BAM         0.1500 
+     14 H           9.9086    4.2918   23.5951 H         1 BAM         0.1500 
+     15 H           8.1193    2.6603   27.4609 H         1 BAM         0.6690 
+     16 H           6.8490    3.2982   26.6995 H         1 BAM         0.6690 
+     17 H          10.4207    3.5407   25.3672 H         1 BAM         0.6690 
+     18 H          10.0417    2.7840   26.7390 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_826
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_826
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.2084    5.4777   24.1213 C.ar      1 BAM        -0.0220 
+      2 C           9.5963    5.4736   24.4314 C.ar      1 BAM        -0.1500 
+      3 C          10.5221    6.2172   23.6765 C.ar      1 BAM        -0.1500 
+      4 C          10.0853    6.9809   22.5828 C.ar      1 BAM        -0.1500 
+      5 C           8.7239    6.9909   22.2390 C.ar      1 BAM        -0.1500 
+      6 C           7.8000    6.2478   22.9972 C.ar      1 BAM        -0.1500 
+      7 C           7.2795    4.7634   24.8992 C.cat     1 BAM         0.7308 
+      8 N           6.0344    4.7006   24.6186 N.pl3     1 BAM        -1.1924 
+      9 N           7.5944    4.1227   25.9596 N.pl3     1 BAM        -1.1924 
+     10 H           9.9588    4.9266   25.2148 H         1 BAM         0.1500 
+     11 H          11.5140    6.2059   23.9255 H         1 BAM         0.1500 
+     12 H          10.7576    7.5256   22.0382 H         1 BAM         0.1500 
+     13 H           8.4034    7.5436   21.4401 H         1 BAM         0.1500 
+     14 H           6.8183    6.2873   22.7136 H         1 BAM         0.1500 
+     15 H           5.4644    4.2179   25.1825 H         1 BAM         0.6690 
+     16 H           5.6861    5.1251   23.8632 H         1 BAM         0.6690 
+     17 H           8.4764    4.1027   26.2672 H         1 BAM         0.6690 
+     18 H           6.9288    3.6646   26.4341 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_828
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:31 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:31 2018
+
+@<TRIPOS>MOLECULE
+1c5z_828
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.2227    5.5331   24.1545 C.ar      1 BAM        -0.0220 
+      2 C           9.6175    5.4792   24.4260 C.ar      1 BAM        -0.1500 
+      3 C          10.5449    6.2036   23.6544 C.ar      1 BAM        -0.1500 
+      4 C          10.1024    7.0022   22.5877 C.ar      1 BAM        -0.1500 
+      5 C           8.7314    7.0741   22.2940 C.ar      1 BAM        -0.1500 
+      6 C           7.8054    6.3501   23.0681 C.ar      1 BAM        -0.1500 
+      7 C           7.2948    4.8122   24.9260 C.cat     1 BAM         0.7308 
+      8 N           7.6100    4.2063   26.0064 N.pl3     1 BAM        -1.1924 
+      9 N           6.0623    4.7086   24.6049 N.pl3     1 BAM        -1.1924 
+     10 H           9.9845    4.9032   25.1869 H         1 BAM         0.1500 
+     11 H          11.5444    6.1488   23.8685 H         1 BAM         0.1500 
+     12 H          10.7753    7.5277   22.0273 H         1 BAM         0.1500 
+     13 H           8.4050    7.6558   21.5177 H         1 BAM         0.1500 
+     14 H           6.8165    6.4412   22.8259 H         1 BAM         0.1500 
+     15 H           6.9538    3.7366   26.4829 H         1 BAM         0.6690 
+     16 H           8.4875    4.2267   26.3290 H         1 BAM         0.6690 
+     17 H           5.7334    5.1094   23.8268 H         1 BAM         0.6690 
+     18 H           5.4816    4.2194   25.1520 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_829
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_829
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.1801    7.4066   23.0038 C.ar      1 BAM        -0.0220 
+      2 C           8.8219    8.7479   22.6881 C.ar      1 BAM        -0.1500 
+      3 C           9.3441    9.8357   23.4134 C.ar      1 BAM        -0.1500 
+      4 C          10.2451    9.6134   24.4689 C.ar      1 BAM        -0.1500 
+      5 C          10.6197    8.3009   24.8033 C.ar      1 BAM        -0.1500 
+      6 C          10.0939    7.2146   24.0793 C.ar      1 BAM        -0.1500 
+      7 C           8.6557    6.3186   22.2801 C.cat     1 BAM         0.7308 
+      8 N           7.8273    6.4469   21.3139 N.pl3     1 BAM        -1.1924 
+      9 N           8.9667    5.1021   22.5204 N.pl3     1 BAM        -1.1924 
+     10 H           8.1709    8.9577   21.9245 H         1 BAM         0.1500 
+     11 H           9.0738   10.7930   23.1659 H         1 BAM         0.1500 
+     12 H          10.6243   10.4047   24.9938 H         1 BAM         0.1500 
+     13 H          11.2777    8.1354   25.5708 H         1 BAM         0.1500 
+     14 H          10.3950    6.2757   24.3529 H         1 BAM         0.1500 
+     15 H           7.5237    5.6836   20.8632 H         1 BAM         0.6690 
+     16 H           7.5215    7.2870   21.0456 H         1 BAM         0.6690 
+     17 H           9.5727    4.8814   23.1986 H         1 BAM         0.6690 
+     18 H           8.5886    4.4228   21.9997 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_836
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_836
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.5297    7.2444   22.8633 C.ar      1 BAM        -0.0220 
+      2 C          10.5340    6.9641   23.8268 C.ar      1 BAM        -0.1500 
+      3 C          11.2799    7.9922   24.4319 C.ar      1 BAM        -0.1500 
+      4 C          11.0379    9.3337   24.0870 C.ar      1 BAM        -0.1500 
+      5 C          10.0479    9.6388   23.1417 C.ar      1 BAM        -0.1500 
+      6 C           9.3048    8.6082   22.5361 C.ar      1 BAM        -0.1500 
+      7 C           8.7783    6.2195   22.2652 C.cat     1 BAM         0.7308 
+      8 N           8.8512    4.9982   22.6388 N.pl3     1 BAM        -1.1924 
+      9 N           7.9735    6.4189   21.2952 N.pl3     1 BAM        -1.1924 
+     10 H          10.7525    6.0035   24.1034 H         1 BAM         0.1500 
+     11 H          11.9991    7.7638   25.1202 H         1 BAM         0.1500 
+     12 H          11.5777   10.0825   24.5265 H         1 BAM         0.1500 
+     13 H           9.8678   10.6139   22.8900 H         1 BAM         0.1500 
+     14 H           8.5908    8.8794   21.8566 H         1 BAM         0.1500 
+     15 H           8.3486    4.3579   22.1770 H         1 BAM         0.6690 
+     16 H           9.4038    4.7367   23.3448 H         1 BAM         0.6690 
+     17 H           7.8579    7.2708   20.9313 H         1 BAM         0.6690 
+     18 H           7.5308    5.6868   20.9098 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_839
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_839
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.8276    3.6645   25.5773 C.ar      1 BAM        -0.0220 
+      2 C           8.6254    5.0722   25.5987 C.ar      1 BAM        -0.1500 
+      3 C           9.2263    5.9119   24.6430 C.ar      1 BAM        -0.1500 
+      4 C          10.0458    5.3674   23.6416 C.ar      1 BAM        -0.1500 
+      5 C          10.2632    3.9814   23.5969 C.ar      1 BAM        -0.1500 
+      6 C           9.6612    3.1411   24.5513 C.ar      1 BAM        -0.1500 
+      7 C           8.2267    2.8221   26.5306 C.cat     1 BAM         0.7308 
+      8 N           7.3416    3.2290   27.3604 N.pl3     1 BAM        -1.1924 
+      9 N           8.5206    1.5807   26.6405 N.pl3     1 BAM        -1.1924 
+     10 H           8.0425    5.5096   26.3181 H         1 BAM         0.1500 
+     11 H           9.0669    6.9219   24.6798 H         1 BAM         0.1500 
+     12 H          10.4810    5.9756   22.9496 H         1 BAM         0.1500 
+     13 H          10.8582    3.5796   22.8687 H         1 BAM         0.1500 
+     14 H           9.8359    2.1351   24.4777 H         1 BAM         0.1500 
+     15 H           6.9688    2.6286   27.9793 H         1 BAM         0.6690 
+     16 H           7.0535    4.1202   27.3583 H         1 BAM         0.6690 
+     17 H           9.1629    1.1881   26.0833 H         1 BAM         0.6690 
+     18 H           8.0931    1.0541   27.2896 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_840
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_840
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.0819    7.0605   23.7719 C.ar      1 BAM        -0.0220 
+      2 C           6.9536    7.8402   24.1476 C.ar      1 BAM        -0.1500 
+      3 C           7.0363    8.8123   25.1620 C.ar      1 BAM        -0.1500 
+      4 C           8.2513    9.0313   25.8296 C.ar      1 BAM        -0.1500 
+      5 C           9.3825    8.2770   25.4813 C.ar      1 BAM        -0.1500 
+      6 C           9.2980    7.3060   24.4663 C.ar      1 BAM        -0.1500 
+      7 C           8.0003    6.0903   22.7585 C.cat     1 BAM         0.7308 
+      8 N           8.9403    5.2622   22.5096 N.pl3     1 BAM        -1.1924 
+      9 N           6.9756    5.9602   22.0048 N.pl3     1 BAM        -1.1924 
+     10 H           6.0465    7.7079   23.6946 H         1 BAM         0.1500 
+     11 H           6.2097    9.3594   25.4149 H         1 BAM         0.1500 
+     12 H           8.3122    9.7367   26.5657 H         1 BAM         0.1500 
+     13 H          10.2699    8.4347   25.9653 H         1 BAM         0.1500 
+     14 H          10.1492    6.7872   24.2383 H         1 BAM         0.1500 
+     15 H           8.8340    4.6383   21.8199 H         1 BAM         0.6690 
+     16 H           9.7301    5.2683   23.0091 H         1 BAM         0.6690 
+     17 H           6.2373    6.5250   22.0951 H         1 BAM         0.6690 
+     18 H           6.9678    5.3001   21.3419 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_844
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_844
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.5597    5.5152   24.8937 C.ar      1 BAM        -0.0220 
+      2 C           9.6419    5.0131   24.1199 C.ar      1 BAM        -0.1500 
+      3 C          10.6779    5.8536   23.6713 C.ar      1 BAM        -0.1500 
+      4 C          10.6606    7.2217   23.9848 C.ar      1 BAM        -0.1500 
+      5 C           9.6073    7.7471   24.7486 C.ar      1 BAM        -0.1500 
+      6 C           8.5718    6.9054   25.1947 C.ar      1 BAM        -0.1500 
+      7 C           7.5246    4.6751   25.3476 C.cat     1 BAM         0.7308 
+      8 N           6.4666    5.1187   25.9116 N.pl3     1 BAM        -1.1924 
+      9 N           7.5580    3.4023   25.2333 N.pl3     1 BAM        -1.1924 
+     10 H           9.6911    4.0250   23.8630 H         1 BAM         0.1500 
+     11 H          11.4449    5.4693   23.1130 H         1 BAM         0.1500 
+     12 H          11.4131    7.8331   23.6586 H         1 BAM         0.1500 
+     13 H           9.5927    8.7439   24.9792 H         1 BAM         0.1500 
+     14 H           7.8296    7.3297   25.7556 H         1 BAM         0.1500 
+     15 H           5.8082    4.5194   26.2024 H         1 BAM         0.6690 
+     16 H           6.3405    6.0338   26.0395 H         1 BAM         0.6690 
+     17 H           8.2876    2.9737   24.8398 H         1 BAM         0.6690 
+     18 H           6.8405    2.8914   25.5533 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_862
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_862
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           7.2738    5.7868   23.8998 C.ar      1 BAM        -0.0220 
+      2 C           6.8253    6.3580   25.1227 C.ar      1 BAM        -0.1500 
+      3 C           5.5519    6.9462   25.2384 C.ar      1 BAM        -0.1500 
+      4 C           4.6893    6.9793   24.1316 C.ar      1 BAM        -0.1500 
+      5 C           5.1024    6.4257   22.9099 C.ar      1 BAM        -0.1500 
+      6 C           6.3767    5.8388   22.7972 C.ar      1 BAM        -0.1500 
+      7 C           8.5484    5.2016   23.7849 C.cat     1 BAM         0.7308 
+      8 N           9.3161    5.0068   24.7888 N.pl3     1 BAM        -1.1924 
+      9 N           9.0385    4.8231   22.6671 N.pl3     1 BAM        -1.1924 
+     10 H           7.4228    6.3623   25.9521 H         1 BAM         0.1500 
+     11 H           5.2526    7.3517   26.1283 H         1 BAM         0.1500 
+     12 H           3.7645    7.4068   24.2157 H         1 BAM         0.1500 
+     13 H           4.4736    6.4463   22.1035 H         1 BAM         0.1500 
+     14 H           6.6316    5.4380   21.8918 H         1 BAM         0.1500 
+     15 H          10.1571    4.6149   24.6669 H         1 BAM         0.6690 
+     16 H           9.0456    5.2475   25.6492 H         1 BAM         0.6690 
+     17 H           8.5557    4.9235   21.8735 H         1 BAM         0.6690 
+     18 H           9.8896    4.4346   22.6346 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_892
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_892
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.7944    4.8559   23.5542 C.ar      1 BAM        -0.0220 
+      2 C           9.0501    4.6018   24.9312 C.ar      1 BAM        -0.1500 
+      3 C           9.7917    3.4797   25.3472 C.ar      1 BAM        -0.1500 
+      4 C          10.3105    2.5883   24.3958 C.ar      1 BAM        -0.1500 
+      5 C          10.1030    2.8297   23.0295 C.ar      1 BAM        -0.1500 
+      6 C           9.3526    3.9447   22.6171 C.ar      1 BAM        -0.1500 
+      7 C           8.0014    5.9409   23.1343 C.cat     1 BAM         0.7308 
+      8 N           7.5510    6.0523   21.9409 N.pl3     1 BAM        -1.1924 
+      9 N           7.6665    6.8911   23.9208 N.pl3     1 BAM        -1.1924 
+     10 H           8.6763    5.2162   25.6564 H         1 BAM         0.1500 
+     11 H           9.9405    3.2996   26.3431 H         1 BAM         0.1500 
+     12 H          10.8303    1.7612   24.6952 H         1 BAM         0.1500 
+     13 H          10.4977    2.1900   22.3356 H         1 BAM         0.1500 
+     14 H           9.2284    4.0797   21.6137 H         1 BAM         0.1500 
+     15 H           7.0091    6.7766   21.7008 H         1 BAM         0.6690 
+     16 H           7.7417    5.3981   21.3011 H         1 BAM         0.6690 
+     17 H           7.9551    6.8929   24.8107 H         1 BAM         0.6690 
+     18 H           7.1371    7.5971   23.6110 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_898
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_898
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.1832    5.4253   23.7744 C.ar      1 BAM        -0.0220 
+      2 C           7.9508    5.5013   25.1755 C.ar      1 BAM        -0.1500 
+      3 C           8.6388    4.6713   26.0805 C.ar      1 BAM        -0.1500 
+      4 C           9.5860    3.7489   25.6087 C.ar      1 BAM        -0.1500 
+      5 C           9.8456    3.6582   24.2318 C.ar      1 BAM        -0.1500 
+      6 C           9.1486    4.4818   23.3284 C.ar      1 BAM        -0.1500 
+      7 C           7.4823    6.2385   22.8647 C.cat     1 BAM         0.7308 
+      8 N           6.7252    7.2043   23.2235 N.pl3     1 BAM        -1.1924 
+      9 N           7.5360    6.0718   21.5985 N.pl3     1 BAM        -1.1924 
+     10 H           7.2670    6.1568   25.5640 H         1 BAM         0.1500 
+     11 H           8.4479    4.7339   27.0836 H         1 BAM         0.1500 
+     12 H          10.0832    3.1438   26.2651 H         1 BAM         0.1500 
+     13 H          10.5360    2.9858   23.8853 H         1 BAM         0.1500 
+     14 H           9.3717    4.3856   22.3347 H         1 BAM         0.1500 
+     15 H           6.2691    7.7005   22.5703 H         1 BAM         0.6690 
+     16 H           6.6122    7.4176   24.1264 H         1 BAM         0.6690 
+     17 H           8.0361    5.3782   21.2250 H         1 BAM         0.6690 
+     18 H           7.0371    6.6273   21.0355 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_931
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_931
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.5951    3.9758   25.0589 C.ar      1 BAM        -0.0220 
+      2 C           8.0099    2.6799   25.0346 C.ar      1 BAM        -0.1500 
+      3 C           8.7004    1.5679   24.5168 C.ar      1 BAM        -0.1500 
+      4 C          10.0003    1.7214   24.0081 C.ar      1 BAM        -0.1500 
+      5 C          10.6050    2.9885   24.0159 C.ar      1 BAM        -0.1500 
+      6 C           9.9115    4.0978   24.5355 C.ar      1 BAM        -0.1500 
+      7 C           7.9052    5.0868   25.5769 C.cat     1 BAM         0.7308 
+      8 N           6.7962    4.9850   26.2050 N.pl3     1 BAM        -1.1924 
+      9 N           8.3355    6.2851   25.4587 N.pl3     1 BAM        -1.1924 
+     10 H           7.0643    2.5239   25.3882 H         1 BAM         0.1500 
+     11 H           8.2559    0.6464   24.5104 H         1 BAM         0.1500 
+     12 H          10.5036    0.9149   23.6311 H         1 BAM         0.1500 
+     13 H          11.5515    3.1039   23.6450 H         1 BAM         0.1500 
+     14 H          10.3933    4.9990   24.5313 H         1 BAM         0.1500 
+     15 H           6.3721    5.7526   26.5323 H         1 BAM         0.6690 
+     16 H           6.4005    4.1510   26.3481 H         1 BAM         0.6690 
+     17 H           9.1343    6.4643   25.0099 H         1 BAM         0.6690 
+     18 H           7.8453    6.9959   25.8196 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_937
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:32 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:32 2018
+
+@<TRIPOS>MOLECULE
+1c5z_937
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.6886    7.4509   23.2388 C.ar      1 BAM        -0.0220 
+      2 C           9.6589    7.3831   24.2765 C.ar      1 BAM        -0.1500 
+      3 C           9.8925    8.4710   25.1384 C.ar      1 BAM        -0.1500 
+      4 C           9.1612    9.6594   24.9849 C.ar      1 BAM        -0.1500 
+      5 C           8.1973    9.7576   23.9691 C.ar      1 BAM        -0.1500 
+      6 C           7.9650    8.6682   23.1089 C.ar      1 BAM        -0.1500 
+      7 C           8.4545    6.3634   22.3787 C.cat     1 BAM         0.7308 
+      8 N           9.1403    5.2856   22.4059 N.pl3     1 BAM        -1.1924 
+      9 N           7.5339    6.3524   21.4925 N.pl3     1 BAM        -1.1924 
+     10 H          10.2114    6.5362   24.4269 H         1 BAM         0.1500 
+     11 H          10.5950    8.3972   25.8783 H         1 BAM         0.1500 
+     12 H           9.3302   10.4504   25.6104 H         1 BAM         0.1500 
+     13 H           7.6645   10.6229   23.8548 H         1 BAM         0.1500 
+     14 H           7.2573    8.7852   22.3801 H         1 BAM         0.1500 
+     15 H           8.9328    4.6006   21.8033 H         1 BAM         0.6690 
+     16 H           9.8438    5.1741   23.0099 H         1 BAM         0.6690 
+     17 H           6.9610    7.0780   21.3738 H         1 BAM         0.6690 
+     18 H           7.4272    5.5985   20.9494 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_953
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_953
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.5432    7.3904   23.3622 C.ar      1 BAM        -0.0220 
+      2 C           7.6041    8.4577   23.4081 C.ar      1 BAM        -0.1500 
+      3 C           7.7466    9.5264   24.3133 C.ar      1 BAM        -0.1500 
+      4 C           8.8360    9.5588   25.1983 C.ar      1 BAM        -0.1500 
+      5 C           9.7790    8.5190   25.1791 C.ar      1 BAM        -0.1500 
+      6 C           9.6332    7.4509   24.2740 C.ar      1 BAM        -0.1500 
+      7 C           8.3993    6.3236   22.4567 C.cat     1 BAM         0.7308 
+      8 N           9.1230    5.2709   22.4909 N.pl3     1 BAM        -1.1924 
+      9 N           7.5289    6.3090   21.5211 N.pl3     1 BAM        -1.1924 
+     10 H           6.7925    8.4702   22.7866 H         1 BAM         0.1500 
+     11 H           7.0568   10.2809   24.3285 H         1 BAM         0.1500 
+     12 H           8.9412   10.3357   25.8556 H         1 BAM         0.1500 
+     13 H          10.5737    8.5412   25.8232 H         1 BAM         0.1500 
+     14 H          10.3477    6.7195   24.2880 H         1 BAM         0.1500 
+     15 H           8.9750    4.5955   21.8590 H         1 BAM         0.6690 
+     16 H           9.7877    5.1619   23.1381 H         1 BAM         0.6690 
+     17 H           6.9444    7.0230   21.3875 H         1 BAM         0.6690 
+     18 H           7.4780    5.5702   20.9492 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_955
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:33 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:33 2018
+
+@<TRIPOS>MOLECULE
+1c5z_955
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           9.7555    7.5224   23.2211 C.ar      1 BAM        -0.0220 
+      2 C          10.9583    6.8241   23.5185 C.ar      1 BAM        -0.1500 
+      3 C          11.9148    7.3583   24.4010 C.ar      1 BAM        -0.1500 
+      4 C          11.6899    8.5991   25.0209 C.ar      1 BAM        -0.1500 
+      5 C          10.5106    9.3112   24.7479 C.ar      1 BAM        -0.1500 
+      6 C           9.5590    8.7802   23.8572 C.ar      1 BAM        -0.1500 
+      7 C           8.8034    6.9954   22.3335 C.cat     1 BAM         0.7308 
+      8 N           7.9128    7.7252   21.7789 N.pl3     1 BAM        -1.1924 
+      9 N           8.7707    5.7548   22.0265 N.pl3     1 BAM        -1.1924 
+     10 H          11.1675    5.9225   23.0808 H         1 BAM         0.1500 
+     11 H          12.7783    6.8454   24.5886 H         1 BAM         0.1500 
+     12 H          12.3848    8.9848   25.6639 H         1 BAM         0.1500 
+     13 H          10.3448   10.2151   25.1998 H         1 BAM         0.1500 
+     14 H           8.7072    9.3230   23.6953 H         1 BAM         0.1500 
+     15 H           7.2826    7.3502   21.1998 H         1 BAM         0.6690 
+     16 H           7.8792    8.6432   21.9502 H         1 BAM         0.6690 
+     17 H           9.3841    5.1613   22.4063 H         1 BAM         0.6690 
+     18 H           8.1367    5.4267   21.4213 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
+#	Name:			1c5z_959
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:55:34 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:55:34 2018
+
+@<TRIPOS>MOLECULE
+1c5z_959
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C           8.4418    4.3667   23.8803 C.ar      1 BAM        -0.0220 
+      2 C           8.4442    5.0115   22.6134 C.ar      1 BAM        -0.1500 
+      3 C           7.3498    5.7784   22.1745 C.ar      1 BAM        -0.1500 
+      4 C           6.2194    5.9280   22.9932 C.ar      1 BAM        -0.1500 
+      5 C           6.1892    5.3059   24.2544 C.ar      1 BAM        -0.1500 
+      6 C           7.2829    4.5389   24.6915 C.ar      1 BAM        -0.1500 
+      7 C           9.5353    3.5868   24.3062 C.cat     1 BAM         0.7308 
+      8 N           9.5057    2.8815   25.3712 N.pl3     1 BAM        -1.1924 
+      9 N          10.6341    3.5039   23.6580 N.pl3     1 BAM        -1.1924 
+     10 H           9.2363    4.9137   21.9769 H         1 BAM         0.1500 
+     11 H           7.3730    6.2186   21.2521 H         1 BAM         0.1500 
+     12 H           5.4222    6.4786   22.6731 H         1 BAM         0.1500 
+     13 H           5.3640    5.4115   24.8534 H         1 BAM         0.1500 
+     14 H           7.2192    4.1066   25.6139 H         1 BAM         0.1500 
+     15 H          10.2469    2.3676   25.6134 H         1 BAM         0.6690 
+     16 H           8.7349    2.8489   25.8991 H         1 BAM         0.6690 
+     17 H          10.7516    3.9500   22.8424 H         1 BAM         0.6690 
+     18 H          11.3326    2.9794   23.9913 H         1 BAM         0.6690 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    1    7 1    
+     4    2    3 ar   
+     5    3    4 ar   
+     6    4    5 ar   
+     7    5    6 ar   
+     8    7    8 ar   
+     9    7    9 ar   
+    10    2   10 1    
+    11    3   11 1    
+    12    4   12 1    
+    13    5   13 1    
+    14    6   14 1    
+    15    8   15 1    
+    16    8   16 1    
+    17    9   17 1    
+    18    9   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 BAM         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 7 CNN+ 10 HC 11 HC 12 HC 13 HC \
+14 HC 15 HN 16 HN 17 HN 18 HN 8 NCN+ 9 NCN+ 
