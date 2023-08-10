@@ -5,6 +5,7 @@ import pandas as pd
 import scipy
 import getopt
 import string
+import math
 from decimal import *
 
 if len(sys.argv) < 2:
@@ -180,6 +181,70 @@ tmplen=len(Top1)
 if os.path.exists('cstemp'):
 	os.remove('cstemp')
 
+count = len(SP2['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp2) - delta),3)
+upper = round(math.tanh(math.atanh(sp2) + delta),3)
+conf_int2 = f"[{lower} ~ {upper}]"
+
+count = len(SP3['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp3) - delta),3)
+upper = round(math.tanh(math.atanh(sp3) + delta),3)
+conf_int3 = f"[{lower} ~ {upper}]"
+
+count = len(SP4['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp4) - delta),3)
+upper = round(math.tanh(math.atanh(sp4) + delta),3)
+conf_int4 = f"[{lower} ~ {upper}]"
+
+count = len(SP5['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp5) - delta),3)
+upper = round(math.tanh(math.atanh(sp5) + delta),3)
+conf_int5 = f"[{lower} ~ {upper}]"
+
+count = len(SP6['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp6) - delta),3)
+upper = round(math.tanh(math.atanh(sp6) + delta),3)
+conf_int6 = f"[{lower} ~ {upper}]"
+
+count = len(SP7['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp7) - delta),3)
+upper = round(math.tanh(math.atanh(sp7) + delta),3)
+conf_int7 = f"[{lower} ~ {upper}]"
+
+count = len(SP8['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp8) - delta),3)
+upper = round(math.tanh(math.atanh(sp8) + delta),3)
+conf_int8 = f"[{lower} ~ {upper}]"
+
+count = len(SP9['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp9) - delta),3)
+upper = round(math.tanh(math.atanh(sp9) + delta),3)
+conf_int9 = f"[{lower} ~ {upper}]"
+
+count = len(SP10['spearman'])
+stderr = 1.0 / math.sqrt((count - 3)/1.06)
+delta = 1.645 * stderr
+lower = round(math.tanh(math.atanh(sp10) - delta),3)
+upper = round(math.tanh(math.atanh(sp10) + delta),3)
+conf_int10 = f"[{lower} ~ {upper}]"
+
+
 #Print the output of docking power evluation
 dockresults['RMSD1']=dockresults['RMSD1'].map(lambda x:('%.2f')%x)
 dockresults['RMSD2']=dockresults['RMSD2'].map(lambda x:('%.2f')%x)
@@ -196,14 +261,23 @@ print("Number of correct binding poses = %d, success rate = %0.1f%%"%(Top2['succ
 print("Among the top3 binding pose ranked by the given scoring function:")
 print("Number of correct binding poses = %d, success rate = %0.1f%%"%(Top3['success'].sum(),top3success))
 print("Spearman correlation coefficient in rmsd range [0-2]: %0.3f"%(dec(sp2,3)))
+print(f"90% confidence interval in rmsd range [0-2]: {conf_int2} ")
 print("Spearman correlation coefficient in rmsd range [0-3]: %0.3f"%(dec(sp3,3)))
+print(f"90% confidence interval in rmsd range [0-3]: {conf_int3} ")
 print("Spearman correlation coefficient in rmsd range [0-4]: %0.3f"%(dec(sp4,3)))
+print(f"90% confidence interval in rmsd range [0-4]: {conf_int4} ")
 print("Spearman correlation coefficient in rmsd range [0-5]: %0.3f"%(dec(sp5,3)))
+print(f"90% confidence interval in rmsd range [0-5]: {conf_int5} ")
 print("Spearman correlation coefficient in rmsd range [0-6]: %0.3f"%(dec(sp6,3)))
+print(f"90% confidence interval in rmsd range [0-6]: {conf_int6} ")
 print("Spearman correlation coefficient in rmsd range [0-7]: %0.3f"%(dec(sp7,3)))
+print(f"90% confidence interval in rmsd range [0-7]: {conf_int7} ")
 print("Spearman correlation coefficient in rmsd range [0-8]: %0.3f"%(dec(sp8,3)))
+print(f"90% confidence interval in rmsd range [0-8]: {conf_int8} ")
 print("Spearman correlation coefficient in rmsd range [0-9]: %0.3f"%(dec(sp9,3)))
+print(f"90% confidence interval in rmsd range [0-9]: {conf_int9} ")
 print("Spearman correlation coefficient in rmsd range [0-10]: %0.3f"%(dec(sp10,3)))
+print(f"90% confidence interval in rmsd range [0-2]: {conf_int10} ")
 print("======================================================================\n")
 print("\nTemplate command for running the bootstrap in R program===============\n")
 print("rm(list=ls());\nrequire(boot);\ndata_all<-read.table(\"%s_Top1.results\",header=TRUE);\ndata<-as.matrix(data_all[,2]);"%(out))

@@ -293,14 +293,23 @@ Number of correct binding poses = 56, success rate = 19.6%
 Among the top3 binding pose ranked by the given scoring function:
 Number of correct binding poses = 75, success rate = 26.3%
 Spearman correlation coefficient in rmsd range [0-2]: -0.563
+90% confidence interval in rmsd range [0-2]: [-0.628 ~ -0.49] 
 Spearman correlation coefficient in rmsd range [0-3]: -0.590
+90% confidence interval in rmsd range [0-3]: [-0.652 ~ -0.52] 
 Spearman correlation coefficient in rmsd range [0-4]: -0.557
+90% confidence interval in rmsd range [0-4]: [-0.623 ~ -0.484] 
 Spearman correlation coefficient in rmsd range [0-5]: -0.516
+90% confidence interval in rmsd range [0-5]: [-0.586 ~ -0.438] 
 Spearman correlation coefficient in rmsd range [0-6]: -0.483
+90% confidence interval in rmsd range [0-6]: [-0.556 ~ -0.402] 
 Spearman correlation coefficient in rmsd range [0-7]: -0.443
+90% confidence interval in rmsd range [0-7]: [-0.52 ~ -0.358] 
 Spearman correlation coefficient in rmsd range [0-8]: -0.415
+90% confidence interval in rmsd range [0-8]: [-0.495 ~ -0.328] 
 Spearman correlation coefficient in rmsd range [0-9]: -0.389
+90% confidence interval in rmsd range [0-9]: [-0.471 ~ -0.3] 
 Spearman correlation coefficient in rmsd range [0-10]: -0.368
+90% confidence interval in rmsd range [0-2]: [-0.452 ~ -0.278] 
 ======================================================================
 
 
