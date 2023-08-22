@@ -1,0 +1,201 @@
+   Target     1     2     3     4     5     6     7     8     9    10    11  \
+1    5c2h  4k77  3pyy  4de3  3kr8  4twp  3wz8  4ih7  4gfm  4hge  2zb1  4j3l   
+2    3uri  3kr8  4gfm  3pyy  4de3  4k77  4hge  3wz8  4crc  3qgy  4twp  4de1   
+3    4rfm  4k77  3pyy  3jya  3wz8  3kr8  4gfm  4de1  4crc  4de3  4hge  3qgy   
+4    4ty7  3wz8  3pyy  4twp  4k77  4ih7  3kr8  4de3  4de1  4crc  4rfm  3jya   
+5    4agq  4de3  3wz8  2yki  3pyy  4twp  3kr8  3jya  2zb1  3gr2  1z9g  4k77   
+6    5dwr  3wz8  3kr8  4gfm  4twp  4k77  4hge  4de3  3gr2  3pyy  4crc  4de1   
+7    4twp  4k77  4de3  3pyy  3kr8  4gfm  4hge  4crc  3jya  3wz8  2yki  4rfm   
+8    3u8n  4k77  2xdl  4crc  3pyy  3gr2  3wz8  3qgy  4rfm  3kr8  2yki  4hge   
+9    3o9i  4crc  4k77  3jya  3wz8  3pyy  4twp  4rfm  4de1  4gfm  2c3i  4de3   
+10   3p5o  3pyy  3wz8  3jya  4k77  4de3  4hge  4de1  3kr8  2yki  4twp  4ih7   
+11   3ejr  4twp  4k77  3wz8  3pyy  3kr8  3jya  4de3  4rfm  4hge  4crc  3qgy   
+12   3ebp  3pyy  4gfm  4k77  3kr8  4de3  4ih7  3wz8  4hge  4crc  2yki  3b5r   
+13   2vvn  4de1  4de3  4twp  3kr8  3pyy  4k77  4rfm  3jya  4w9l  3gr2  4hge   
+14   3arp  3kr8  3wz8  4ih7  4k77  4de3  3pyy  4gfm  4twp  4hge  4rfm  4de1   
+15   3gnw  4k77  4ih7  4crc  4de3  4gfm  3pyy  4hge  4rfm  3wz8  3kr8  3qgy   
+16   1e66  4gfm  4k77  3pyy  4hge  3kr8  4de3  4crc  3wz8  4twp  4de1  4ih7   
+17   3f3e  2yki  3gr2  1z9g  2xdl  4lzs  4jsz  2weg  4w9c  4u4s  3lka  4ddk   
+18   2cet  4gfm  3kr8  4k77  3jya  4hge  3pyy  4crc  3wz8  4twp  4ih7  4rfm   
+19   4gid  4de1  3jya  4crc  4de3  4rfm  3pyy  3kr8  4twp  4k77  3wz8  4hge   
+20   4pcs  4k77  3jya  3wz8  2yki  3pyy  4de1  3kr8  3e92  4hge  1z95  1qf1   
+21   3ge7  4k77  4hge  3jya  3pyy  4de3  4twp  3wz8  3kr8  4ih7  4rfm  3qgy   
+22   3e93  3jya  4de1  3wz8  4gfm  4rfm  4de3  4ih7  3gr2  4k77  4twp  3pyy   
+23   3qqs  3pyy  3wz8  4de3  4k77  4twp  4de1  4crc  4rfm  4w9l  3kr8  3qgy   
+24   2r9w  3pyy  4k77  4twp  3wz8  4de1  2yki  4de3  3gr2  3kr8  4hge  4ih7   
+25   2qbp  3pyy  4de3  4k77  4gfm  3wz8  4hge  4rfm  4twp  3qgy  3gr2  4ih7   
+26   3ag9  4hge  3wz8  4rfm  4twp  4crc  3qgy  2yki  3pyy  4de3  3gr2  4k77   
+27   4tmn  3pyy  4gfm  3kr8  4k77  4ih7  3wz8  3jya  4hge  4twp  4rfm  4de3   
+28   3coy  4rfm  4twp  3pyy  4crc  3gr2  4ih7  4de3  4k77  4de1  4gfm  4j3l   
+29   2fvd  4crc  3pyy  4hge  4de3  4gfm  3kr8  3jya  4k77  3wz8  4twp  2yki   
+30   4ivc  4crc  3kr8  4gfm  4de3  3pyy  4k77  4twp  3wz8  3jya  4de1  4rfm   
+31   4jia  3pyy  4k77  3jya  4crc  3wz8  4de3  4gfm  4rfm  2yki  4hge  4twp   
+32   1nvq  4k77  2c3i  4de3  4gfm  4hge  3kr8  3wz8  3gr2  4twp  4de1  4rfm   
+33   2zcq  4gfm  4k77  3pyy  3kr8  4hge  4de3  3wz8  3jya  4twp  4ih7  4de1   
+34   3utu  3pyy  4gfm  4de3  4k77  4de1  3jya  4crc  3wz8  4hge  3kr8  2yki   
+35   2p4y  4de3  4rfm  4k77  3jvr  4gfm  3pyy  4twp  3kr8  3jya  4de1  4hge   
+36   3myg  4hge  4twp  3wz8  3pyy  4de1  4crc  4k77  4rfm  3qgy  3jya  4gfm   
+37   1sqa  4twp  3wz8  4k77  3gr2  4de3  3pyy  4de1  3kr8  4rfm  4w9l  3e92   
+38   3dd0  3kr8  4gfm  3pyy  4crc  4hge  3wz8  4twp  4ih7  4rfm  3qgy  4de1   
+39   2yki  4gfm  3kr8  4k77  3jya  3pyy  4ih7  4de3  3wz8  4crc  4de1  4twp   
+40   3g0w  3gr2  1z9g  4kzu  4k77  3kr8  3pyy  4de1  4ih7  2zb1  4kzq  2xdl   
+41   2al5  4k77  4de3  3b68  3gr2  4ih7  4lzs  3kr8  3pyy  2weg  3ryj  4kzu   
+42   4de1  3pyy  4k77  3kr8  3wz8  4hge  3jya  4gfm  4crc  2c3i  4ih7  2yki   
+43   3fv1  4k77  3pyy  4gfm  3qgy  3kr8  4hge  4de1  4rfm  4de3  4twp  3e92   
+44   2p15  3pyy  4gfm  3jya  4k77  3kr8  4hge  3wz8  4de3  4ih7  4twp  4de1   
+45   1mq6  3jya  4gfm  3kr8  4k77  4de3  4rfm  3qgy  1z95  3pyy  4hge  3wz8   
+46   4f3c  3jya  4gfm  3pyy  4hge  3kr8  3wz8  4crc  2yki  3jvr  4de3  4ih7   
+47   1o3f  4hge  4twp  3wz8  4gfm  3jya  4k77  4crc  3pyy  3qgy  3kr8  4rfm   
+48   2vw5  3e92  4rfm  4de3  3qgy  3jya  4twp  3pyy  4hge  4de1  3jvr  3wz8   
+49   3kr8  3pyy  4k77  4rfm  3wz8  4crc  4gfm  4de3  3jya  4hge  4de1  4ih7   
+50   2x00  4k77  4rfm  4gfm  3jya  3pyy  3kr8  4de3  4hge  3wz8  4twp  4crc   
+51   3nw9  4k77  4twp  3pyy  4rfm  3kr8  4crc  4w9l  3wz8  3k5v  3jya  2zy1   
+52   3zso  3gr2  4k77  4twp  3pyy  3kr8  3wz8  4hge  4de3  4rfm  4crc  4de1   
+53   2xb8  4k77  4crc  3pyy  3kr8  3wz8  3jya  4de3  4de1  4ih7  3jvr  4twp   
+54   4w9h  3pyy  3kr8  3jya  4k77  4ih7  4gfm  4de3  4hge  3wz8  4crc  4rfm   
+55   3uex  3jya  3wz8  4twp  3qgy  2yki  4rfm  4de1  3pyy  3jvr  3gr2  4hge   
+56   4gr0  4de3  3jya  4k77  4de1  3wz8  4twp  3kr8  4gfm  4hge  3pyy  4rfm   
+57   1u1b  4k77  3pyy  4twp  3wz8  3kr8  4de1  4ih7  4hge  3qgy  3gr2  4de3   
+
+      12    13    14    15    16    17    18    19    20    21    22    23  \
+1   3e92  3jya  4de1  2yki  4rfm  3gr2  3jvr  4lzs  3qgy  3k5v  4kzu  2c3i   
+2   4ih7  4rfm  2zb1  3jya  3gr2  2yki  3e92  4kzu  3p5o  3k5v  4j3l  3b1m   
+3   4twp  3tsk  4ih7  1z9g  3e92  2c3i  3k5v  3gr2  4j3l  3jvr  2zb1  1qf1   
+4   2c3i  3gr2  4gfm  4hge  3e92  3qgy  2yki  2zy1  4j3l  3cj4  2r9w  1z9g   
+5   3jvr  4kzu  4gfm  4hge  4crc  2c3i  4w9l  4rfm  4ih7  4de1  3qgy  2zy1   
+6   2yki  3qgy  4rfm  4ih7  3cj4  3jya  3jvr  3k5v  2c3i  4j3l  2zb1  3p5o   
+7   4de1  4ih7  2c3i  3jvr  3cj4  3qgy  1z9g  3gr2  4j3l  4lzs  1qf1  3e92   
+8   4ih7  3k5v  4lzs  4de1  3cj4  1z9g  2zb1  3e92  4de3  1qf1  4gfm  3p5o   
+9   4hge  3kr8  3p5o  3gr2  4ih7  3qgy  1z9g  3cj4  4w9l  2yki  1qf1  3jvr   
+10  4rfm  3jvr  3cj4  4crc  4gfm  3qgy  1z9g  3gr2  2c3i  3e92  1qf1  2zb1   
+11  4de1  3b5r  2yki  3gr2  2zb1  3e92  1z95  3b68  4gid  4gfm  3p5o  4kzu   
+12  4de1  4twp  3qgy  3b68  3gr2  4j3l  2c3i  4rfm  3e92  2zb1  3b65  3k5v   
+13  3k5v  3qgy  3wz8  2zb1  4crc  1z95  3e92  2yki  4gfm  3cj4  4k18  1z9g   
+14  4crc  3jya  3gr2  3cj4  1z9g  3b65  3e92  3qgy  4j3l  2zb1  4kzq  3b5r   
+15  4twp  4de1  2yki  2c3i  3gr2  3e92  2zb1  4kzu  4lzs  1qf1  3k5v  4j3l   
+16  4rfm  3qgy  3cj4  2yki  3gr2  1z9g  4j3l  3jya  3e92  4w9c  1qf1  2zb1   
+17  3g2z  3gv9  3fcq  4ddh  1owh  3ehy  3dd0  4kzq  3twp  4bkt  3arv  3nx7   
+18  3b68  3qgy  3gr2  4de3  3e92  3k5v  2zb1  4w9c  4j3l  1z9g  2yki  2c3i   
+19  4ih7  3k5v  1z9g  3gr2  3jvr  1z95  3b68  3cj4  3e92  2zb1  4kzu  4gfm   
+20  3b68  4crc  4rfm  3p5o  4twp  4de3  3k5v  2zb1  3gr2  3qgy  1z9g  3cj4   
+21  4crc  3gr2  4gfm  4j3l  1z9g  3jvr  3k5v  4de1  2zb1  4kzu  3cj4  1qf1   
+22  3kr8  4hge  4crc  2yki  4j3l  3qgy  2c3i  3e92  1z9g  4lzs  3cj4  1qf1   
+23  4ih7  3gr2  2zb1  4kzu  3gnw  3e92  4hge  3k5v  3b68  4j3l  4w9h  2yki   
+24  4gfm  3qgy  1z9g  3jya  4crc  3tsk  4rfm  3e92  4j3l  2zb1  3jvr  2c3i   
+25  4j3l  2zb1  4crc  3pww  3e92  3jya  4kzu  3k5v  3kr8  1z95  3p5o  2iwx   
+26  3kr8  4gfm  4de1  4ih7  3p5o  3jya  3cj4  3jvr  2c3i  3k5v  3b5r  3e92   
+27  4de1  3gr2  3qgy  2zb1  4j3l  3cj4  2yki  4crc  3e92  3k5v  1z95  4w9l   
+28  3kr8  3wz8  2zb1  3b68  4lzs  4hge  3e92  4w9l  3k5v  4w9c  4kzq  3jya   
+29  4rfm  4de1  4ih7  3qgy  3gr2  3tsk  2zb1  4j3l  3e92  3p5o  1qf1  3k5v   
+30  4hge  4w9c  3qgy  3gr2  3b68  2yki  3k5v  4w9l  4kzu  2zb1  3e92  2c3i   
+31  3kr8  4de1  2c3i  4ih7  3qgy  3cj4  3jvr  3gr2  1z95  4j3l  4kzu  3tsk   
+32  4crc  3pyy  2yki  3jya  4ih7  3qgy  3cj4  3p5o  4j3l  4kzu  2zb1  3jvr   
+33  4crc  3e92  3b65  4w9c  2zb1  4j3l  1z9g  2c3i  1qf1  3k5v  4rfm  4kzu   
+34  4twp  4ih7  4rfm  3gr2  3cj4  3qgy  3jvr  3b65  2r9w  4j3l  2c3i  1z9g   
+35  4ih7  3gr2  3wz8  2c3i  4crc  3qgy  4gr0  1z9g  4w9c  3b68  4kzq  3k5v   
+36  2yki  3k5v  3tsk  3gr2  3jvr  3kr8  3p5o  4de3  3e92  1qf1  4w9l  1z95   
+37  4gfm  3jya  4ih7  4de2  3jvr  3qgy  2yki  4hge  3k5v  1z9g  4j3l  4w9c   
+38  4de3  2zb1  2yki  3b68  4k77  3e92  4j3l  3k5v  3gr2  3jvr  4kzq  4kzu   
+39  4hge  3b5r  4j3l  3e92  3gr2  3qgy  1qf1  3b68  1z95  4w9c  1z9g  2zb1   
+40  4de3  3jya  4gfm  2c3i  3k5v  4j3l  4de2  4hge  4twp  4u4s  1qf1  4lzs   
+41  4jsz  4u4s  4kzq  4de1  3qgy  3wz8  3jvr  3b5r  4hge  2zy1  1z95  3lka   
+42  4de3  3cj4  3jvr  3qgy  4rfm  4twp  4k18  1z9g  2r9w  4j3l  3k5v  3gr2   
+43  4ih7  2zb1  4kzu  4lzs  3gr2  4j3l  4kzq  1z9g  1z95  3ryj  2zy1  2qbp   
+44  1z9g  3gr2  3k5v  3e92  3jvr  4rfm  2iwx  4lzs  2zb1  2yki  4w9l  3cj4   
+45  1z9g  2r9w  4twp  4ih7  2yki  4de1  4crc  3cj4  3jvr  3b65  3gr2  2zb1   
+46  4rfm  4twp  3qgy  3cj4  1z9g  4de1  4k77  4j3l  2c3i  1qf1  4kzu  3e92   
+47  4de1  4de3  4ih7  3e92  3cj4  1z9g  2c3i  3gr2  2zb1  4j3l  2yki  1qf1   
+48  2yki  4crc  2zb1  3gr2  4gfm  2c3i  4k77  3tsk  3k5v  3p5o  2xbv  3kr8   
+49  4twp  2yki  3gr2  3e92  3qgy  4k18  4kzu  2zb1  4w9c  4j3l  1z95  3k5v   
+50  4ih7  2yki  4de1  3cj4  3e92  2c3i  3gr2  3qgy  1z9g  3b5r  1qf1  4kzu   
+51  2zb1  3b5r  4ih7  1z9g  4j3l  2c3i  2xbv  3gr2  4gfm  4de1  4hge  4kzu   
+52  2yki  3qgy  3jvr  4gfm  4j3l  2c3i  2zb1  4kzu  1z95  3cj4  3e92  1qf1   
+53  4hge  4rfm  3qgy  3gr2  1z9g  4j3l  2yki  2c3i  2iwx  2zb1  3e92  4w9l   
+54  4de1  3jvr  4twp  3qgy  2yki  3gr2  2c3i  4j3l  4lzs  3cj4  1qf1  3e92   
+55  4k77  4crc  4gfm  3k5v  2c3i  3kr8  2r9w  4ih7  4gr0  3p5o  4de3  1qf1   
+56  4kzu  4ih7  4crc  3e92  3qgy  3gr2  3cj4  2zb1  3p5o  4j3l  4w9l  4k18   
+57  4rfm  4k18  2zb1  3jya  3e92  3tsk  3k5v  4crc  4gfm  4kzu  2r9w  1z9g   
+
+      24    25    26    27    28    29  
+1   4crc  2zy1  4k18  4gr0  3e5a  3b65  
+2   2iwx  4gr0  3b65  4lzs  3b5r  3b68  
+3   4kzu  2yki  3cj4  2zy1  3p5o  2r9w  
+4   1qf1  3k5v  4w9l  4lzs  3tsk  3b68  
+5   3cj4  3e92  1qf1  1z95  3p5o  4j3l  
+6   4lzs  3e92  4kzu  1qf1  4eor  2r9w  
+7   2zb1  3k5v  4kzu  3p5o  4w9l  2r9w  
+8   4eor  2r9w  2xbv  4de2  4w9l  4kzq  
+9   3b68  3e92  4j3l  4lzs  3b65  2zb1  
+10  4kzu  4lzs  4j3l  3k5v  2r9w  4gr0  
+11  3k5v  4k18  4kzq  4w9c  4j3l  3b65  
+12  1qf1  3p5o  3jya  4kzu  4w9c  5tmn  
+13  3b65  1qf1  4gr0  4ih7  3jvr  3p5o  
+14  2yki  4w9c  2c3i  4kzu  3p5o  3k5v  
+15  3jvr  3b5r  3b68  1z95  4k18  2xbv  
+16  4kzq  3k5v  1z95  4kzu  3gnw  3b5r  
+17  3wtj  1q8t  3ozt  1uto  3oe4  3udh  
+18  3jvr  4kzu  4gr0  1qf1  1z95  2r9w  
+19  3qgy  4w9l  4j3l  4w9c  2c3i  3p5o  
+20  4gfm  4j3l  4ih7  2c3i  4kzu  4w9c  
+21  3e92  2yki  3p5o  1z95  2zy1  2c3i  
+22  3p5o  2zb1  4w9c  2zy1  3k5v  4kzu  
+23  4lzs  1z95  4w9c  3b65  4k18  3p5o  
+24  1z95  3p5o  3k5v  1qf1  4kzu  2iwx  
+25  3cj4  4de1  2yki  3b68  4w9l  4w9c  
+26  2zb1  1qf1  4kzu  1z9g  2r9w  4gr0  
+27  4eor  4kzu  4w9c  1z9g  2zy1  2iwx  
+28  3b65  3qgy  2c3i  4jsz  4k18  1z95  
+29  4kzu  3jvr  1z9g  2r9w  4tmn  2c3i  
+30  4ih7  3tsk  2xbv  3jvr  4w9h  2zy1  
+31  3e92  1qf1  1z9g  4de2  3k5v  2zb1  
+32  3e92  3k5v  1z9g  2r9w  4gr0  4eor  
+33  2yki  3gr2  3qgy  4w9l  4lzs  2r9w  
+34  2zb1  4w9l  1z95  1qf1  3e92  3k5v  
+35  4w9l  3p5o  4kzu  3e92  2zb1  1z95  
+36  4ih7  2zb1  4j3l  4gr0  2c3i  4w9c  
+37  2c3i  4kzu  2zb1  1qf1  4crc  3cj4  
+38  4gr0  3b5r  2c3i  3b65  4w9l  4lzs  
+39  3k5v  4kzu  3jvr  2r9w  2c3i  4rfm  
+40  4jsz  2weg  3wz8  3cj4  3g2z  3b68  
+41  3fcq  1z9g  3qqs  3g2z  4rfm  3jya  
+42  2zb1  3e92  4kzu  1qf1  2zy1  2iwx  
+43  2weg  4jsz  3cj4  4u4s  4k18  3b65  
+44  3qgy  4j3l  2c3i  1qf1  4de2  3b68  
+45  3e92  2c3i  3k5v  2zy1  4j3l  4kzu  
+46  3p5o  1z95  2r9w  3k5v  3gr2  2zy1  
+47  3jvr  3k5v  4kzu  2r9w  3p5o  2xbv  
+48  4eor  4j3l  4ih7  1g2k  2r9w  3cj4  
+49  3cj4  4lzs  1qf1  3p5o  3b68  1z9g  
+50  4j3l  2r9w  2zb1  3k5v  3p5o  2iwx  
+51  3jvr  1qf1  4gr0  4k18  4de3  2r9w  
+52  3p5o  3b5r  1z9g  4ih7  4gr0  3jya  
+53  4kzu  3k5v  1z95  3b68  4w9c  4gfm  
+54  3p5o  2zb1  4kzu  4w9c  1z9g  3k5v  
+55  3cj4  3tsk  2zb1  3b65  2iwx  4j3l  
+56  4w9h  3k5v  2c3i  4w9c  3b68  2zy1  
+57  4j3l  2yki  3b5r  1z95  4w9c  3ryj  
+
+Summary of the forward screening power: =========================================================
+Average enrichment factor among top 1% = 0.92
+Average enrichment factor among top 5% = 0.77
+Average enrichment factor among top 10% = 0.77
+The best ligand is found among top 1% candidates for  0 cluster(s); success rate = 0.0%
+The best ligand is found among top 5% candidates for  0 cluster(s); success rate = 0.0%
+The best ligand is found among top 10% candidates for  0 cluster(s); success rate = 0.0%
+================================================================================================
+
+Template command for running the bootstrap in R program=========================================
+
+rm(list=ls());
+require(boot);
+data_all<-read.table("GAP-Score_Top1.results",header=TRUE);
+data<-as.matrix(data_all[,2]);
+mymean<-function(x,indices) sum(x[indices])/57;
+data.boot<-boot(aa,mymean,R=10000,stype="i",sim="ordinary");
+sink("GAP-Score_Top1-ci.results");
+a<-boot.ci(data.boot,conf=0.9,type=c("bca"));
+print(a);
+sink();
+
+===============================================================================================
+
