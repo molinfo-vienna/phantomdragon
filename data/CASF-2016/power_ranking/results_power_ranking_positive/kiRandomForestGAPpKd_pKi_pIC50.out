@@ -1,0 +1,83 @@
+   Target Rank1 Rank2 Rank3 Rank4 Rank5
+1    5c2h  3uuo  5c2h  5c28  3ui7  4llx
+2    3uri  2v00  3uri  3prs  3wz8  3pww
+3    4rfm  4rfm  4m0y  4qd6  4m0z  3qgy
+4    4ty7  4crc  4cr9  4ty7  4cra  4x6p
+5    4agq  5aba  5a7b  4agp  4agn  4agq
+6    5dwr  3jya  5dwr  2c3i  4k18  3bgz
+7    4twp  3k5v  3pyy  3mss  4twp  2v7a
+8    3u8n  3u8k  3u8n  3zdg  3wtj  4qac
+9    3o9i  1eby  3o9i  1g2k  2qnq  1a30
+10   3p5o  4lzs  4ogj  4wiv  3u5j  3p5o
+11   3ejr  3ejr  3dx2  3dx1  1ps3  3d4z
+12   3ebp  3g2n  3ebp  4eky  3l7b  3syr
+13   2vvn  2wca  2vvn  2w4x  2xj7  2w66
+14   3arp  3arv  3ary  3aru  3arp  3arq
+15   3gnw  4ih5  3gnw  4ih7  4eo8  3cj4
+16   1e66  1e66  1h23  1h22  1gpn  1gpk
+17   3f3e  3f3a  4mme  3f3d  3f3e  3f3c
+18   2cet  2wbg  2cet  2j78  2cbv  2j7h
+19   4gid  3udh  4djv  3rsx  4gid  2vkm
+20   4pcs  4pcs  2xii  4jfs  4j28  2wvt
+21   3ge7  3gc5  1s38  3ge7  3rr4  1r5y
+22   3e93  3e93  4f9w  2zb1  4dli  3e92
+23   3qqs  3twp  4gkm  4owm  3qqs  3r88
+24   2r9w  3gv9  3gr2  4jxs  2r9w  4kz6
+25   2qbp  2qbq  2hb1  2qbp  2qbr  1bzc
+26   3ag9  1ydr  1q8t  1ydt  1q8u  3ag9
+27   4tmn  3fcq  4tmn  1qf1  1z9g  5tmn
+28   3coy  3coz  3coy  3ivg  4ddh  4ddk
+29   2fvd  1pxn  3pxf  2fvd  2xnb  4eor
+30   4ivc  4ivc  4k77  4e5w  4ivb  4ivd
+31   4jia  4f09  4hge  4e6q  4gfm  4jia
+32   1nvq  3jvs  3jvr  2brb  2br1  1nvq
+33   2zcq  3acw  2zcq  2zy1  4ea2  2zcr
+34   3utu  3utu  1bcu  2zda  3bv9  1oyt
+35   2p4y  3fur  3b1m  2p4y  2yfe  3u9q
+36   3myg  3myg  3e5a  2wtv  3uo4  3up2
+37   1sqa  1c5z  3kgp  1owh  1sqa  1o5b
+38   3dd0  2weg  3dd0  3ryj  3kwa  4jsz
+39   2yki  2yki  2xdl  3rlr  1yc1  3b27
+40   3g0w  3b68  3b65  3b5r  1z95  3g0w
+41   2al5  1syi  2al5  1p1q  4u4s  1p1n
+42   4de1  4de3  4de2  4de1  3g31  3g2z
+43   3fv1  3fv1  3fv2  1vso  4dld  3gbb
+44   2p15  1qkt  2p15  4mgd  2pog  2qe4
+45   1mq6  2xbv  1mq6  1z6e  2y5h  1lpg
+46   4f3c  1y6r  4f3c  1nc1  4f2w  1nc3
+47   1o3f  1o3f  4abg  1k1i  1uto  3gy4
+48   2vw5  2fxs  2iwx  2wer  2vw5  2yge
+49   3kr8  4j21  4kzu  3kr8  4j3l  4kzq
+50   2x00  2ymd  2wn9  2xys  2wnc  2x00
+51   3nw9  3nw9  3oe4  3oe5  3ozt  3ozs
+52   3zso  3zso  3ao4  3zsx  3zt2  4cig
+53   2xb8  3n7a  3n76  3n86  4ciw  2xb8
+54   4w9h  4w9c  4w9l  4w9i  4w9h  4bkt
+55   3uex  3uev  3uew  3nq9  3uex  3ueu
+56   4gr0  3lka  3ehy  3nx7  4gr0  3tsk
+57   1u1b  1u1b  3d6q  1o0h  3dxg  1w4o
+
+Summary of the ranking power: ===========================================
+The Spearman correlation coefficient (SP) = 0.089
+Spearman Scipy = 0.17613832898172327 
+Confidence interval of 90% Spearman Scipy = [0.077 ~ 0.272] 
+The Kendall correlation coefficient (tau) = 0.076
+The Predictive index (PI) = 0.087
+=========================================================================
+
+
+Template command for running the bootstrap in R program==================
+
+rm(list=ls());
+require(boot);
+data_all<-read.table("GAP_Spearman.results",header=TRUE);
+data<-as.matrix(data_all[,2]);
+mymean<-function(x,indices) sum(x[indices])/57;
+data.boot<-boot(aa,mymean,R=10000,stype="i",sim="ordinary");
+sink("GAP_Spearman-ci.results");
+a<-boot.ci(data.boot,conf=0.9,type=c("bca"));
+print(a);
+sink();
+
+=========================================================================
+

@@ -10,7 +10,7 @@ modeltypes = [
     "DecisionTree",
     "RandomForest",
 ]
-additional_information = ["final"]
+additional_information = ["final","GAP"]
 scoretypes = ["delta_G", "Affinity_Data_Value", "pKd_pKi_pIC50"]
 signs = ["positive","negative"]
 
@@ -45,11 +45,11 @@ for sign in signs:
                             if i == tmp + 1:
                                 tmp_line = str(line).split(sep="=")
                                 blub = tmp_line[-1]
-                                SP_list.append(blub)
+                                SP_list.append(float(blub))
                             if i == tmp + 2:
                                 tmp_line = str(line).split(sep="=")
                                 blub = tmp_line[-1]
-                                SPscipy_list.append(blub)
+                                SPscipy_list.append(float(blub))
                             if i == tmp + 3:
                                 tmp_line = str(line).split(sep="=")
                                 blub = tmp_line[-1]

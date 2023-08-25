@@ -12,9 +12,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
 from scipy import stats
 import joblib
-import copy
-import statistics
-
+import xgboost as xgb
 
 def filter_and_sort_features(exp_data, features,identifier="PDB code"):
     """
@@ -120,7 +118,7 @@ def prepare_data(
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
-    if add_information == "final":
+    if add_information == "final" or add_information == "GAP":
         drop = [identifier]
     elif add_information == "basic":
         drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
@@ -208,7 +206,7 @@ class parameterCollector:
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "final" or self.add_information == "poly":
+        if self.add_information == "final" or self.add_information == "GAP":
             drop = [identifier]
         elif self.add_information == "basic":
             drop = [
@@ -269,7 +267,7 @@ class parameterCollector:
         self.scores_train = y_train
         self.scores_test = y_test
 
-    def train_and_save_model(self, savepath="", additional_marker=""):
+    def train_and_save_model(self, savepath="", additional_marker="",hyperparametersearch=False):
         if self.modeltype == "linearRegression":
             reg = linear_model.LinearRegression()
         elif self.modeltype == "Ridge":
@@ -277,55 +275,58 @@ class parameterCollector:
         elif self.modeltype == "Lasso":
             reg = linear_model.LassoCV()
         elif self.modeltype == "ElasticNet":
-            reg = linear_model.ElasticNetCV()
+            reg = linear_model.ElasticNetCV(cv=10, tol=0.00001, n_alphas=1000, eps=0.0001, max_iter=3000)
         elif self.modeltype == "SVR":
             reg = svm.SVR()
         elif self.modeltype == "DecisionTree":
             reg = tree.DecisionTreeRegressor()
         elif self.modeltype == "RandomForest":
             reg = ensemble.RandomForestRegressor()
+        elif self.modeltype == "XGBoost":
+            reg = xgb.XGBRegressor(max_depth=3,n_estimators=1000)
         else:
             raise ValueError("Unexpected string in modeltype")
 
-        if self.modeltype == "SVR":
-            params = {
-                "kernel": ["linear", "poly", "rbf", "sigmoid"],
-                "C": [1, 2.5, 5],
-                "gamma": ["scale", "auto"],
-                "degree": [2, 3, 4],
-                "epsilon": [0.001, 0.01, 0.1, 1, 10, 100],
-            }
-            gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.features_train, self.scores_train)
-            reg.set_params(**gs_reg.best_params_)
-        elif self.modeltype == "DecisionTree":
-            params = {
-                "criterion": [
-                    "squared_error",
-                    "friedman_mse",
-                    "absolute_error",
-                    "poisson",
-                ],
-                "splitter": ["best", "random"],
-                "max_features": ["auto", "sqrt", "log2"],
-            }
-            gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.features_train, self.scores_train)
-            reg.set_params(**gs_reg.best_params_)
-        elif self.modeltype == "RandomForest":
-            params = {
-                "n_estimators": [100, 200, 300],
-                "criterion": [
-                    "squared_error",
-                    "friedman_mse",
-                    "absolute_error",
-                    "poisson",
-                ],
-                "max_features": ["auto", "sqrt", "log2"],
-            }
-            gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.features_train, self.scores_train)
-            reg.set_params(**gs_reg.best_params_)
+        if hyperparametersearch ==True:
+            if self.modeltype == "SVR":
+                params = {
+                    "kernel": ["linear", "poly", "rbf", "sigmoid"],
+                    "C": [1, 2.5, 5],
+                    "gamma": ["scale", "auto"],
+                    "degree": [2, 3, 4],
+                    "epsilon": [0.001, 0.01, 0.1, 1, 10, 100],
+                }
+                gs_reg = GridSearchCV(reg, params)
+                gs_reg.fit(self.features_train, self.scores_train)
+                reg.set_params(**gs_reg.best_params_)
+            elif self.modeltype == "DecisionTree":
+                params = {
+                    "criterion": [
+                        "squared_error",
+                        "friedman_mse",
+                        "absolute_error",
+                        "poisson",
+                    ],
+                    "splitter": ["best", "random"],
+                    "max_features": ["auto", "sqrt", "log2"],
+                }
+                gs_reg = GridSearchCV(reg, params)
+                gs_reg.fit(self.features_train, self.scores_train)
+                reg.set_params(**gs_reg.best_params_)
+            elif self.modeltype == "RandomForest":
+                params = {
+                    "n_estimators": [100, 200, 300],
+                    "criterion": [
+                        "squared_error",
+                        "friedman_mse",
+                        "absolute_error",
+                        "poisson",
+                    ],
+                    "max_features": ["auto", "sqrt", "log2"],
+                }
+                gs_reg = GridSearchCV(reg, params)
+                gs_reg.fit(self.features_train, self.scores_train)
+                reg.set_params(**gs_reg.best_params_)
 
         reg.fit(self.features_train, self.scores_train)
 
@@ -368,7 +369,7 @@ class parameterCollector:
         self.scores_pre = scores_pre
 
         self.mse = mean_squared_error(self.scores_test, self.scores_pre)
-        self.sd = statistics.stdev(self.scores_pre)
+        self.sd = np.std(self.scores_pre)
         self.r = round(stats.pearsonr(self.scores_test, self.scores_pre).statistic, 6)
         conf_int = stats.pearsonr(
             self.scores_test, self.scores_pre
@@ -424,7 +425,7 @@ class parameterCollector:
 
         PDB_codes = self.features_test[identifier]
 
-        if self.add_information == "final":
+        if self.add_information == "final" or self.add_information == "GAP":
             drop = [identifier]
         elif self.add_information == "basic":
             drop = [

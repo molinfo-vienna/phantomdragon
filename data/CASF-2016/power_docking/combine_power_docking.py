@@ -10,7 +10,7 @@ modeltypes = [
     "DecisionTree",
     "RandomForest",
 ]
-additional_information = ["final"]
+additional_information = ["final","GAP"]
 scoretypes = ["delta_G", "Affinity_Data_Value", "pKd_pKi_pIC50"]
 signs = ["positive","negative"]
 
