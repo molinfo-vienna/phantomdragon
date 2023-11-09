@@ -168,4 +168,4 @@ data = {
     "add. information": add_info_list,
 }
 df = pd.DataFrame(data)
-df.to_csv("../results/feature_selection_results2.csv")
+df.to_csv("../results/feature_selection_results.csv")
