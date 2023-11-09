@@ -286,7 +286,7 @@
 285  1u1b   7.80  21.659028
 
 Summary of the scoring power: ===================================
-The regression equation: logKa = -0.17 + 10.17 * Score
+The regression equation: logKa = -0.15 + 9.67 * Score
 Number of favorable sample (N) = 285
 Pearson correlation coefficient (R) = nan
 Confidence interval of 90% Pearson R = [nan ~ nan] 

@@ -6,7 +6,8 @@ from sklearn import svm
 from sklearn import tree
 from sklearn import ensemble
 from sklearn import preprocessing
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
@@ -70,6 +71,13 @@ def prepare_data(
     identifier="PDB code",
     polynomial=False,
 ):
+    
+    if " " in featurepath_train or " " in featurepath_test or " " in experimentpath_train or " " in experimentpath_test:
+        featurepath_train = featurepath_train.replace(" ","_")
+        featurepath_test = featurepath_test.replace(" ","_")
+        experimentpath_train = experimentpath_train.replace(" ","_")
+        experimentpath_test = experimentpath_test.replace(" ","_")
+
     features_train = pd.read_csv(featurepath_train, dtype={identifier: str})
     features_test = pd.read_csv(featurepath_test, dtype={identifier: str})
     experiment_train = pd.read_csv(experimentpath_train, dtype={identifier: str})
@@ -82,6 +90,8 @@ def prepare_data(
     experiment_test = experiment_test.drop("index", axis=1)
     features_train = filter_and_sort_features(experiment_train, features_train)
     features_test = filter_and_sort_features(experiment_test, features_test)
+    experiment_train = filter_and_sort_features(features_train, experiment_train)
+    experiment_test = filter_and_sort_features(features_test,experiment_test)
 
     if features_test[identifier].tolist() == experiment_test[identifier].tolist():
         PDB_codes = features_test[identifier].tolist()
@@ -118,9 +128,7 @@ def prepare_data(
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
-    if add_information == "final" or add_information == "GAP":
-        drop = [identifier]
-    elif add_information == "basic":
+    if add_information == "basic":
         drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     elif add_information == "-w":
         drop = [identifier, " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
@@ -137,7 +145,7 @@ def prepare_data(
     elif add_information == "-w-vdw":
         drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     else:
-        raise ValueError("Unexpected string in add_information")
+        drop = [identifier]
 
     features_train = features_train.drop(drop, axis=1)
     features_test = features_test.drop(drop, axis=1)
@@ -200,15 +208,17 @@ class parameterCollector:
     def load_data(
         self, featurepath, experimentpath, split=0.2, sh=True, identifier="PDB code"
     ):
+        if " " in featurepath or " " in experimentpath:
+            featurepath = featurepath.replace(" ","_")
+            experimentpath = experimentpath.replace(" ","_")
+        
         features = pd.read_csv(featurepath, dtype={identifier: str})
         experiment = pd.read_csv(experimentpath, dtype={identifier: str})
         experiment = experiment.sort_values(identifier)
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "final" or self.add_information == "GAP":
-            drop = [identifier]
-        elif self.add_information == "basic":
+        if self.add_information == "basic":
             drop = [
                 identifier,
                 " HW-HW_SUM",
@@ -246,8 +256,8 @@ class parameterCollector:
                 " VDW_REP",
             ]
         else:
-            raise ValueError("Unexpected string in add_information")
-
+            drop = [identifier]
+        
         features = filter_and_sort_features(experiment, features)
         features = features.drop(drop, axis=1)
         features = features.to_numpy()
@@ -328,17 +338,19 @@ class parameterCollector:
                 gs_reg.fit(self.features_train, self.scores_train)
                 reg.set_params(**gs_reg.best_params_)
 
-        reg.fit(self.features_train, self.scores_train)
+        pipe = Pipeline([('scaler',preprocessing.StandardScaler()),(self.modeltype,reg)])
+
+        pipe.fit(self.features_train, self.scores_train)
 
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/", "div")
 
         joblib.dump(
-            reg,
+            pipe,
             f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}{additional_marker}.sav",
         )
 
-        if "_" in self.scoretype:
+        if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div", "/")
 
     def phantomtest(
@@ -367,7 +379,7 @@ class parameterCollector:
         scores_pre = reg.predict(self.features_test)
 
         self.scores_pre = scores_pre
-
+        self.mae = mean_absolute_error(self.scores_test, self.scores_pre)
         self.mse = mean_squared_error(self.scores_test, self.scores_pre)
         self.sd = np.std(self.scores_pre)
         self.r = round(stats.pearsonr(self.scores_test, self.scores_pre).statistic, 6)
@@ -425,9 +437,7 @@ class parameterCollector:
 
         PDB_codes = self.features_test[identifier]
 
-        if self.add_information == "final" or self.add_information == "GAP":
-            drop = [identifier]
-        elif self.add_information == "basic":
+        if self.add_information == "basic":
             drop = [
                 identifier,
                 " HW-HW_SUM",
@@ -465,7 +475,7 @@ class parameterCollector:
                 " VDW_REP",
             ]
         else:
-            raise ValueError("Unexpected string in add_information")
+            drop = [identifier]
 
         self.features_test = self.features_test.drop(drop, axis=1)
         self.features_test = self.features_test.to_numpy()
@@ -491,6 +501,7 @@ class parameterCollector:
             self.modeltype,
             self.scoretype,
             self.datatype,
+            self.mae,
             self.mse,
             self.sd,
             self.r,

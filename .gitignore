@@ -5,6 +5,8 @@ data/CASF-2016/power_screening/GAP_descriptors/*
 data/CASF-2016/power_screening/GAP_Scores/*
 data/CASF-2016/power_screening/examples/*
 data/CASF-2016/decoys_screening/*
+data/slim/*
 plots/*
 scripts/tmp.py
 models/*
+scripts/*.out
