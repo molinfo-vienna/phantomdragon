@@ -26,7 +26,7 @@ for k in datatypes:
         X = scaler.transform(features_num)
         y = experiment
 
-        for i in range(5,101,5):
+        for i in range(5,171,5):
             selector = SelectKBest(f_regression, k=i)
             selector.fit(X,y)
             selection = [identifier]
@@ -46,7 +46,7 @@ for k in datatypes:
             if "_" in score:
                 score = score.replace("_"," ")
 
-        for i in range(5,101,5):
+        for i in range(5,171,5):
             selector = SelectKBest(r_regression, k=i)
             selector.fit(X,y)
             selection = [identifier]
@@ -66,7 +66,7 @@ for k in datatypes:
             if "_" in score:
                 score = score.replace("_"," ")
 
-        for i in range(5,101,5):
+        for i in range(5,171,5):
             selector = SelectKBest(mutual_info_regression, k=i)
             selector.fit(X,y)
             selection = [identifier]
@@ -103,7 +103,7 @@ for k in datatypes:
         X = scaler.transform(features_num)
         y = experiment
 
-        for i in range(5,101,5):
+        for i in range(5,176,5):
             selector = SelectKBest(f_regression, k=i)
             selector.fit(X,y)
             selection = [identifier]
@@ -123,7 +123,7 @@ for k in datatypes:
             if "_" in score:
                 score = score.replace("_"," ")
 
-        for i in range(5,101,5):
+        for i in range(5,176,5):
             selector = SelectKBest(r_regression, k=i)
             selector.fit(X,y)
             selection = [identifier]
@@ -143,7 +143,7 @@ for k in datatypes:
             if "_" in score:
                 score = score.replace("_"," ")
 
-        for i in range(5,101,5):
+        for i in range(5,176,5):
             selector = SelectKBest(mutual_info_regression, k=i)
             selector.fit(X,y)
             selection = [identifier]

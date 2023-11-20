@@ -7,7 +7,7 @@ from sklearn import tree
 from sklearn import ensemble
 from sklearn import preprocessing
 from sklearn.pipeline import Pipeline
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
@@ -379,7 +379,7 @@ class parameterCollector:
         scores_pre = reg.predict(self.features_test)
 
         self.scores_pre = scores_pre
-
+        self.mae = mean_absolute_error(self.scores_test, self.scores_pre)
         self.mse = mean_squared_error(self.scores_test, self.scores_pre)
         self.sd = np.std(self.scores_pre)
         self.r = round(stats.pearsonr(self.scores_test, self.scores_pre).statistic, 6)
@@ -501,6 +501,7 @@ class parameterCollector:
             self.modeltype,
             self.scoretype,
             self.datatype,
+            self.mae,
             self.mse,
             self.sd,
             self.r,
