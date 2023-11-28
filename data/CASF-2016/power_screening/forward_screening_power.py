@@ -165,31 +165,31 @@ elif str(fav) == 'negative':
 		dfsorted=testdf.sort_values('score',ascending=True)
 		for m in range(1,t10+1):
 			forwardf.loc[tmp][m]=''.join(dfsorted[m-1:m].index.tolist())
-			forwardf.loc[tmp]['Target']=i
-			tmp+=1
-			Topligand=cc.loc[i]['L1']
-			tartemp=cc.loc[i]
-			Allactivelig=list(tartemp.dropna())
-			NTBtotal=len(Allactivelig)
-			dic={'1':t1,'5':t5,'10':t10}
-			for name,j in list(dic.items()):
-				lst=list(dfsorted[0:j].index)
-				varname='Top'+str(name)
-				top=locals()[varname]
-				if Topligand in lst:
-					top.loc[i]['success']=1
+		forwardf.loc[tmp]['Target']=i
+		tmp+=1
+		Topligand=cc.loc[i]['L1']
+		tartemp=cc.loc[i]
+		Allactivelig=list(tartemp.dropna())
+		NTBtotal=len(Allactivelig)
+		dic={'1':t1,'5':t5,'10':t10}
+		for name,j in list(dic.items()):
+			lst=list(dfsorted[0:j].index)
+			varname='Top'+str(name)
+			top=locals()[varname]
+			if Topligand in lst:
+				top.loc[i]['success']=1
+			else:
+				top.loc[i]['success']=0
+			varname2='EF'+str(name)
+			ef=locals()[varname2]
+			ntb=0
+			for lig in Allactivelig:
+				if lig in lst:
+					ntb=ntb+1
 				else:
-					top.loc[i]['success']=0
-				varname2='EF'+str(name)
-				ef=locals()[varname2]
-				ntb=0
-				for lig in Allactivelig:
-					if lig in lst:
-						ntb=ntb+1
-					else:
-						continue
-				efvalue=float(ntb)/(float(NTBtotal)*int(name)*0.01)
-				ef.loc[i]['enrichment']=efvalue
+					continue
+			efvalue=float(ntb)/(float(NTBtotal)*int(name)*0.01)
+			ef.loc[i]['enrichment']=efvalue
 
 #                sp.drop(sp.index[[i]],inplace=True)
 else:

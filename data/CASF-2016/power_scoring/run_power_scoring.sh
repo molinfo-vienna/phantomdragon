@@ -2,7 +2,7 @@
 
 datatypes="all ki kd"
 modeltypes="linearRegression Ridge Lasso ElasticNet SVR DecisionTree RandomForest"
-additional_information="final"
+additional_information="final GAP"
 scoretypes="delta_G Affinity_Data_Value pKd_pKi_pIC50"
 
 mkdir results_power_scoring

@@ -6,15 +6,14 @@ from sklearn import svm
 from sklearn import tree
 from sklearn import ensemble
 from sklearn import preprocessing
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils import shuffle
 from scipy import stats
 import joblib
-import copy
-import statistics
-
+import xgboost as xgb
 
 def filter_and_sort_features(exp_data, features,identifier="PDB code"):
     """
@@ -72,6 +71,13 @@ def prepare_data(
     identifier="PDB code",
     polynomial=False,
 ):
+    
+    if " " in featurepath_train or " " in featurepath_test or " " in experimentpath_train or " " in experimentpath_test:
+        featurepath_train = featurepath_train.replace(" ","_")
+        featurepath_test = featurepath_test.replace(" ","_")
+        experimentpath_train = experimentpath_train.replace(" ","_")
+        experimentpath_test = experimentpath_test.replace(" ","_")
+
     features_train = pd.read_csv(featurepath_train, dtype={identifier: str})
     features_test = pd.read_csv(featurepath_test, dtype={identifier: str})
     experiment_train = pd.read_csv(experimentpath_train, dtype={identifier: str})
@@ -84,6 +90,8 @@ def prepare_data(
     experiment_test = experiment_test.drop("index", axis=1)
     features_train = filter_and_sort_features(experiment_train, features_train)
     features_test = filter_and_sort_features(experiment_test, features_test)
+    experiment_train = filter_and_sort_features(features_train, experiment_train)
+    experiment_test = filter_and_sort_features(features_test,experiment_test)
 
     if features_test[identifier].tolist() == experiment_test[identifier].tolist():
         PDB_codes = features_test[identifier].tolist()
@@ -120,9 +128,7 @@ def prepare_data(
     scores_test = np.array(experiment_test[scoretype])
     scores_train = np.array(experiment_train[scoretype])
 
-    if add_information == "final":
-        drop = [identifier]
-    elif add_information == "basic":
+    if add_information == "basic":
         drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     elif add_information == "-w":
         drop = [identifier, " H-H_SUM", " H-H_MAX", " ES", " VDW_ATT", " VDW_REP"]
@@ -139,7 +145,7 @@ def prepare_data(
     elif add_information == "-w-vdw":
         drop = [identifier, " HW-HW_SUM", " HW-HW_MAX", " ES", " VDW_ATT", " VDW_REP"]
     else:
-        raise ValueError("Unexpected string in add_information")
+        drop = [identifier]
 
     features_train = features_train.drop(drop, axis=1)
     features_test = features_test.drop(drop, axis=1)
@@ -156,8 +162,6 @@ def prepare_data(
         features_train, scores_train = shuffle(features_train, scores_train)
         features_test, scores_test = shuffle(features_test, scores_test)
 
-    features_train = scaler.transform(features_train)
-    features_test = scaler.transform(features_test)
 
     return features_train, features_test, scores_train, scores_test
 
@@ -202,15 +206,17 @@ class parameterCollector:
     def load_data(
         self, featurepath, experimentpath, split=0.2, sh=True, identifier="PDB code"
     ):
+        if " " in featurepath or " " in experimentpath:
+            featurepath = featurepath.replace(" ","_")
+            experimentpath = experimentpath.replace(" ","_")
+        
         features = pd.read_csv(featurepath, dtype={identifier: str})
         experiment = pd.read_csv(experimentpath, dtype={identifier: str})
         experiment = experiment.sort_values(identifier)
         experiment = experiment.reset_index(drop=True)
         scores = np.array(experiment[self.scoretype])
 
-        if self.add_information == "final" or self.add_information == "poly":
-            drop = [identifier]
-        elif self.add_information == "basic":
+        if self.add_information == "basic":
             drop = [
                 identifier,
                 " HW-HW_SUM",
@@ -248,8 +254,8 @@ class parameterCollector:
                 " VDW_REP",
             ]
         else:
-            raise ValueError("Unexpected string in add_information")
-
+            drop = [identifier]
+        
         features = filter_and_sort_features(experiment, features)
         features = features.drop(drop, axis=1)
         features = features.to_numpy()
@@ -269,7 +275,7 @@ class parameterCollector:
         self.scores_train = y_train
         self.scores_test = y_test
 
-    def train_and_save_model(self, savepath="", additional_marker=""):
+    def train_and_save_model(self, savepath="", additional_marker="",hyperparametersearch=False):
         if self.modeltype == "linearRegression":
             reg = linear_model.LinearRegression()
         elif self.modeltype == "Ridge":
@@ -277,67 +283,72 @@ class parameterCollector:
         elif self.modeltype == "Lasso":
             reg = linear_model.LassoCV()
         elif self.modeltype == "ElasticNet":
-            reg = linear_model.ElasticNetCV()
+            reg = linear_model.ElasticNetCV(cv=10, tol=0.00001, n_alphas=1000, eps=0.0001, max_iter=3000)
         elif self.modeltype == "SVR":
             reg = svm.SVR()
         elif self.modeltype == "DecisionTree":
             reg = tree.DecisionTreeRegressor()
         elif self.modeltype == "RandomForest":
             reg = ensemble.RandomForestRegressor()
+        elif self.modeltype == "XGBoost":
+            reg = xgb.XGBRegressor(max_depth=3,n_estimators=1000)
         else:
             raise ValueError("Unexpected string in modeltype")
 
-        if self.modeltype == "SVR":
-            params = {
-                "kernel": ["linear", "poly", "rbf", "sigmoid"],
-                "C": [1, 2.5, 5],
-                "gamma": ["scale", "auto"],
-                "degree": [2, 3, 4],
-                "epsilon": [0.001, 0.01, 0.1, 1, 10, 100],
-            }
-            gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.features_train, self.scores_train)
-            reg.set_params(**gs_reg.best_params_)
-        elif self.modeltype == "DecisionTree":
-            params = {
-                "criterion": [
-                    "squared_error",
-                    "friedman_mse",
-                    "absolute_error",
-                    "poisson",
-                ],
-                "splitter": ["best", "random"],
-                "max_features": ["auto", "sqrt", "log2"],
-            }
-            gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.features_train, self.scores_train)
-            reg.set_params(**gs_reg.best_params_)
-        elif self.modeltype == "RandomForest":
-            params = {
-                "n_estimators": [100, 200, 300],
-                "criterion": [
-                    "squared_error",
-                    "friedman_mse",
-                    "absolute_error",
-                    "poisson",
-                ],
-                "max_features": ["auto", "sqrt", "log2"],
-            }
-            gs_reg = GridSearchCV(reg, params)
-            gs_reg.fit(self.features_train, self.scores_train)
-            reg.set_params(**gs_reg.best_params_)
+        if hyperparametersearch ==True:
+            if self.modeltype == "SVR":
+                params = {
+                    "kernel": ["linear", "poly", "rbf", "sigmoid"],
+                    "C": [1, 2.5, 5],
+                    "gamma": ["scale", "auto"],
+                    "degree": [2, 3, 4],
+                    "epsilon": [0.001, 0.01, 0.1, 1, 10, 100],
+                }
+                gs_reg = GridSearchCV(reg, params)
+                gs_reg.fit(self.features_train, self.scores_train)
+                reg.set_params(**gs_reg.best_params_)
+            elif self.modeltype == "DecisionTree":
+                params = {
+                    "criterion": [
+                        "squared_error",
+                        "friedman_mse",
+                        "absolute_error",
+                        "poisson",
+                    ],
+                    "splitter": ["best", "random"],
+                    "max_features": ["auto", "sqrt", "log2"],
+                }
+                gs_reg = GridSearchCV(reg, params)
+                gs_reg.fit(self.features_train, self.scores_train)
+                reg.set_params(**gs_reg.best_params_)
+            elif self.modeltype == "RandomForest":
+                params = {
+                    "n_estimators": [100, 200, 300],
+                    "criterion": [
+                        "squared_error",
+                        "friedman_mse",
+                        "absolute_error",
+                        "poisson",
+                    ],
+                    "max_features": ["auto", "sqrt", "log2"],
+                }
+                gs_reg = GridSearchCV(reg, params)
+                gs_reg.fit(self.features_train, self.scores_train)
+                reg.set_params(**gs_reg.best_params_)
 
-        reg.fit(self.features_train, self.scores_train)
+        pipe = Pipeline([('scaler',preprocessing.StandardScaler()),(self.modeltype,reg)])
+
+        pipe.fit(self.features_train, self.scores_train)
 
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/", "div")
 
         joblib.dump(
-            reg,
+            pipe,
             f"{savepath}{self.modeltype}_{self.scoretype}_{self.datatype}_{self.add_information}{additional_marker}.sav",
         )
 
-        if "_" in self.scoretype:
+        if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div", "/")
 
     def phantomtest(
@@ -347,7 +358,9 @@ class parameterCollector:
         loadpath="",
         confidence_level=0.9,
         additional_marker="",
+        return_values=False,
     ):
+        
         if testing_features != 0:
             self.features_test = testing_features
         if testing_scores != 0:
@@ -362,13 +375,13 @@ class parameterCollector:
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div", "/")
-
+       
         scores_pre = reg.predict(self.features_test)
 
         self.scores_pre = scores_pre
-
+        self.mae = mean_absolute_error(self.scores_test, self.scores_pre)
         self.mse = mean_squared_error(self.scores_test, self.scores_pre)
-        self.sd = statistics.stdev(self.scores_pre)
+        self.sd = np.std(self.scores_pre)
         self.r = round(stats.pearsonr(self.scores_test, self.scores_pre).statistic, 6)
         conf_int = stats.pearsonr(
             self.scores_test, self.scores_pre
@@ -377,6 +390,9 @@ class parameterCollector:
         conf_int_high = round(conf_int.high, 3)
         self.conf_int = f"[{conf_int_low} ~ {conf_int_high}]"
         self.r_2 = round(r2_score(self.scores_test, self.scores_pre), 6)
+        
+        if return_values == True:
+            return self.scores_pre
 
     def plot_phantomtest(self, savepath):
         k, d = np.polyfit(list(self.scores_test), list(self.scores_pre), deg=1)
@@ -418,15 +434,13 @@ class parameterCollector:
 
         plt.close(fig)
 
-    def phantomscore(self, features_test, loadpath, identifier="PDB code"):
+    def phantomscore(self, features_test, loadpath, identifier="PDB code",):
         if isinstance(features_test, str):
             self.features_test = pd.read_csv(features_test, dtype={identifier: str})
-
+        
         PDB_codes = self.features_test[identifier]
 
-        if self.add_information == "final":
-            drop = [identifier]
-        elif self.add_information == "basic":
+        if self.add_information == "basic":
             drop = [
                 identifier,
                 " HW-HW_SUM",
@@ -464,11 +478,11 @@ class parameterCollector:
                 " VDW_REP",
             ]
         else:
-            raise ValueError("Unexpected string in add_information")
-
+            drop = [identifier]
+            
         self.features_test = self.features_test.drop(drop, axis=1)
         self.features_test = self.features_test.to_numpy()
-
+        
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/", "div")
 
@@ -478,7 +492,7 @@ class parameterCollector:
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div", "/")
-
+            
         scores_pre = reg.predict(self.features_test)
         self.scores_pre = scores_pre
 
@@ -490,6 +504,7 @@ class parameterCollector:
             self.modeltype,
             self.scoretype,
             self.datatype,
+            self.mae,
             self.mse,
             self.sd,
             self.r,
