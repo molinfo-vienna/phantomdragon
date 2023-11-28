@@ -162,8 +162,6 @@ def prepare_data(
         features_train, scores_train = shuffle(features_train, scores_train)
         features_test, scores_test = shuffle(features_test, scores_test)
 
-    features_train = scaler.transform(features_train)
-    features_test = scaler.transform(features_test)
 
     return features_train, features_test, scores_train, scores_test
 
@@ -360,7 +358,9 @@ class parameterCollector:
         loadpath="",
         confidence_level=0.9,
         additional_marker="",
+        return_values=False,
     ):
+        
         if testing_features != 0:
             self.features_test = testing_features
         if testing_scores != 0:
@@ -375,7 +375,7 @@ class parameterCollector:
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div", "/")
-
+       
         scores_pre = reg.predict(self.features_test)
 
         self.scores_pre = scores_pre
@@ -390,6 +390,9 @@ class parameterCollector:
         conf_int_high = round(conf_int.high, 3)
         self.conf_int = f"[{conf_int_low} ~ {conf_int_high}]"
         self.r_2 = round(r2_score(self.scores_test, self.scores_pre), 6)
+        
+        if return_values == True:
+            return self.scores_pre
 
     def plot_phantomtest(self, savepath):
         k, d = np.polyfit(list(self.scores_test), list(self.scores_pre), deg=1)
@@ -431,10 +434,10 @@ class parameterCollector:
 
         plt.close(fig)
 
-    def phantomscore(self, features_test, loadpath, identifier="PDB code"):
+    def phantomscore(self, features_test, loadpath, identifier="PDB code",):
         if isinstance(features_test, str):
             self.features_test = pd.read_csv(features_test, dtype={identifier: str})
-
+        
         PDB_codes = self.features_test[identifier]
 
         if self.add_information == "basic":
@@ -476,10 +479,10 @@ class parameterCollector:
             ]
         else:
             drop = [identifier]
-
+            
         self.features_test = self.features_test.drop(drop, axis=1)
         self.features_test = self.features_test.to_numpy()
-
+        
         if "/" in self.scoretype:
             self.scoretype = self.scoretype.replace("/", "div")
 
@@ -489,7 +492,7 @@ class parameterCollector:
 
         if "div" in self.scoretype:
             self.scoretype = self.scoretype.replace("div", "/")
-
+            
         scores_pre = reg.predict(self.features_test)
         self.scores_pre = scores_pre
 

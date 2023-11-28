@@ -1,0 +1,4 @@
+,Modeltype,Scoretype,Datatype,Mean absolute error (mae),Mean squared error (mse),Standard Diviation (SD),Pearson correlation coefficient (r),90% Confidence interval,Coefficient of determination (r²),add. information,Time
+0,Lasso,pKd pKi pIC50,ki,1.3253258263268854,2.6798411395230577,1.161132483278991,0.6776826,[0.615 ~ 0.722],0.4311443,final RFECV RandomForest,0.003302931785583496
+1,Lasso,pKd pKi pIC50,ki,1.3127603846127083,2.580898647115764,1.1618611702625732,0.693627,[0.64 ~ 0.742],0.4521466,GAP RFECV Ridge,0.003204536437988281
+2,Lasso,pKd pKi pIC50,ki,1.3352083777632922,2.7381179581273836,1.1667673929392097,0.6582930000000001,[0.599 ~ 0.71],0.418774,slim RFECV ElasticNet,0.0030337810516357423
