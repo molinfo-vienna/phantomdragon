@@ -14,6 +14,7 @@ from sklearn.utils import shuffle
 from scipy import stats
 import joblib
 import xgboost as xgb
+import warnings
 
 def filter_and_sort_features(exp_data, features,identifier="PDB code"):
     """
@@ -69,6 +70,7 @@ def prepare_data(
     add_information,
     sh=True,
     identifier="PDB code",
+    experiment_identifier="Affinity Data Type",
     polynomial=False,
 ):
     
@@ -77,11 +79,13 @@ def prepare_data(
         featurepath_test = featurepath_test.replace(" ","_")
         experimentpath_train = experimentpath_train.replace(" ","_")
         experimentpath_test = experimentpath_test.replace(" ","_")
-
-    features_train = pd.read_csv(featurepath_train, dtype={identifier: str})
-    features_test = pd.read_csv(featurepath_test, dtype={identifier: str})
-    experiment_train = pd.read_csv(experimentpath_train, dtype={identifier: str})
-    experiment_test = pd.read_csv(experimentpath_test, dtype={identifier: str})
+    #Ignoring warnings of converters and dtype. Converters override dtype. This is desired behavior
+    with warnings.catch_warnings():
+        warnings.simplefilter(action='ignore', category=pd.errors.ParserWarning)
+        features_train = pd.read_csv(featurepath_train, dtype='float64',converters={identifier: str,})
+        features_test = pd.read_csv(featurepath_test, dtype='float64',converters={identifier: str})
+        experiment_train = pd.read_csv(experimentpath_train, dtype='float64',converters={identifier: str, experiment_identifier: str})
+        experiment_test = pd.read_csv(experimentpath_test, dtype='float64',converters={identifier: str, experiment_identifier: str})
     experiment_train = experiment_train.sort_values(identifier)
     experiment_train = experiment_train.reset_index()
     experiment_train = experiment_train.drop("index", axis=1)
@@ -389,6 +393,7 @@ class parameterCollector:
         conf_int_low = round(conf_int.low, 3)
         conf_int_high = round(conf_int.high, 3)
         self.conf_int = f"[{conf_int_low} ~ {conf_int_high}]"
+        self.spearman_r = round(stats.spearmanr(self.scores_test,self.scores_pre).correlation,6)
         self.r_2 = round(r2_score(self.scores_test, self.scores_pre), 6)
         
         if return_values == True:
@@ -499,16 +504,31 @@ class parameterCollector:
         (PDBs, scores) = PDB_codes, self.scores_pre
         return (PDBs, scores)
 
-    def get_stats(self):
-        return (
-            self.modeltype,
-            self.scoretype,
-            self.datatype,
-            self.mae,
-            self.mse,
-            self.sd,
-            self.r,
-            self.conf_int,
-            self.r_2,
-            self.add_information,
-        )
+    def get_stats(self,spearman=False):
+        if spearman == False:
+            return (
+                self.modeltype,
+                self.scoretype,
+                self.datatype,
+                self.mae,
+                self.mse,
+                self.sd,
+                self.r,
+                self.conf_int,
+                self.r_2,
+                self.add_information,
+            )
+        else:
+            return (
+                self.modeltype,
+                self.scoretype,
+                self.datatype,
+                self.mae,
+                self.mse,
+                self.sd,
+                self.r,
+                self.conf_int,
+                self.r_2,
+                self.spearman_r,
+                self.add_information,
+            )

@@ -1,0 +1,6 @@
+Unnamed: 0,PDB code,Affinity Data Type,Affinity Data Value,pKd pKi pIC50,delta G,1/K
+135,4ddk,Kd,5130000.0,2.29,2135.46,0.0
+136,4ddh,Kd,480000.0,3.32,3092.72,0.0
+137,3ivg,Kd,50000.0,4.3,3759.35,2e-05
+138,3coz,Kd,2700.0,5.57,4426.31,0.00037
+139,3coy,Kd,960.0,6.02,4626.55,0.00104
