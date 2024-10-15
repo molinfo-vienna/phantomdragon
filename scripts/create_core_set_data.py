@@ -40,7 +40,7 @@ for line in lines:
         
         pKi_pKd_IC50_list.append(test[3])
 
-        Delta_G = round(8.314*310*math.log(float(test[3])),2)
+        Delta_G = round(0.001987*298*math.log(float(Affinity_Data_Value)/1000000000),2)
         Delta_G_list.append(Delta_G)
 
         K_reciprocal = round(1/float(Affinity_Data_Value),5)

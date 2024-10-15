@@ -16,6 +16,12 @@ import joblib
 import xgboost as xgb
 import warnings
 
+def rsquared(x, y):
+    """ Return R^2 where x and y are array-like."""
+
+    slope, intercept, r_value, p_value, std_err = stats.linregress(x, y)
+    return r_value**2        
+
 def filter_and_sort_features(exp_data, features,identifier="PDB code"):
     """
     Parameters
@@ -394,19 +400,19 @@ class parameterCollector:
         conf_int_high = round(conf_int.high, 3)
         self.conf_int = f"[{conf_int_low} ~ {conf_int_high}]"
         self.spearman_r = round(stats.spearmanr(self.scores_test,self.scores_pre).correlation,6)
-        self.r_2 = round(r2_score(self.scores_test, self.scores_pre), 6)
-        
+        #self.r_2 = round(r2_score(self.scores_test, self.scores_pre),6)
+        self.r_2 = round(rsquared(self.scores_test, self.scores_pre),6)
+
         if return_values == True:
             return self.scores_pre
 
-    def plot_phantomtest(self, savepath):
-        k, d = np.polyfit(list(self.scores_test), list(self.scores_pre), deg=1)
-        fig, ax = plt.subplots()
-        ax.plot(list(self.scores_test), list(self.scores_pre), "o")
-        plt.axline(
-            xy1=(0, d), slope=k, label=f"r\u00b2 = {self.r_2}", color="black", ls="--"
-        )
-        plt.title(f"{self.scoretype}, {self.modeltype}")
+    def plot_phantomtest(self, savepath,name=None):
+        res = stats.linregress(self.scores_test, self.scores_pre)
+        plt.plot(self.scores_test, self.scores_pre, 'o',alpha=0.2)
+
+        plt.plot(self.scores_test, res.intercept + res.slope*self.scores_test, 'k', label=f"r\u00b2 = {self.r_2}")
+
+        # plt.title(f"{self.scoretype}, {self.modeltype}, {self.add_information}, {self.datatype}")  
         plt.legend()
         plt.xlabel("y_real")
         plt.ylabel("y_predicted")
@@ -422,9 +428,14 @@ class parameterCollector:
             self.modeltype = self.modeltype.replace(" ", "_")
             self.add_information = self.add_information.replace(" ", "_")
 
-        plt.savefig(
+        if name != None:
+            plt.savefig(
+                f"{savepath}{name}.png"
+            )
+        else:
+            plt.savefig(
             f"{savepath}{self.datatype}_{self.scoretype}_{self.modeltype}_{self.add_information}.png"
-        )
+            )
 
         if (
             "_" in self.scoretype
@@ -437,7 +448,7 @@ class parameterCollector:
             self.modeltype = self.modeltype.replace("_", " ")
             self.add_information = self.add_information.replace("_", " ")
 
-        plt.close(fig)
+        plt.close()
 
     def phantomscore(self, features_test, loadpath, identifier="PDB code",):
         if isinstance(features_test, str):

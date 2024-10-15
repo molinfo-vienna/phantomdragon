@@ -21,8 +21,8 @@ for k in datatypes:
     for modeltype in modeltypes:
         for score in scoretypes:
 
-            blub = ph.parameterCollector(add_information="GAP",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"GAP/data/ref_set_grail_descr.csv","GAP/data/core_set_grail_descr.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","GAP")
+            blub = ph.parameterCollector(add_information="X-GRADE",modeltype=modeltype,scoretype=score)
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"GAP/data/ref_set_grail_descr.csv","GAP/data/core_set_grail_descr.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","X-GRADE")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -41,7 +41,7 @@ for k in datatypes:
             coef_list.append(r_2)
             spear_list.append(spearman_r)
             add_info_list.append(add_info)
-            print(k,modeltype,score,"done (GAP)")
+            print(k,modeltype,score,"done (X-GRADE)")
             print("Training Set size",len(x_train))
             print("Testing Set size",len(x_test))
 
@@ -49,8 +49,8 @@ for k in datatypes:
     for modeltype in modeltypes:
         for score in scoretypes:
 
-            blub = ph.parameterCollector(add_information="slim",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"../../GAP/data/ref_set_descrs.csv","../../GAP/data/core_set_descrs.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","slim")
+            blub = ph.parameterCollector(add_information="GRADE",modeltype=modeltype,scoretype=score)
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"../../GAP/data/ref_set_descrs.csv","../../GAP/data/core_set_descrs.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","GRADE")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -69,7 +69,7 @@ for k in datatypes:
             coef_list.append(r_2)
             spear_list.append(spearman_r)
             add_info_list.append(add_info)
-            print(k,modeltype,score,"done (slim)")
+            print(k,modeltype,score,"done (GRADE)")
             print("Training Set size",len(x_train))
             print("Testing Set size",len(x_test))
 
@@ -94,8 +94,8 @@ for k in datatypes:
     for modeltype in modeltypes:
         for score in scoretypes:
 
-            blub = ph.parameterCollector(add_information="GAP",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_independent_scores_GAP.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_independent_scores_GAP.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","GAP_independent")
+            blub = ph.parameterCollector(add_information="X-GRADE",modeltype=modeltype,scoretype=score)
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_independent_scores_GAP.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_independent_scores_GAP.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","X-GRADE_independent")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -114,7 +114,7 @@ for k in datatypes:
             coef_list.append(r_2)
             spear_list.append(spearman_r)
             add_info_list.append(add_info)
-            print(k,modeltype,score,"done (GAP)")
+            print(k,modeltype,score,"done (X-GRADE)")
             print("Training Set size",len(x_train))
             print("Testing Set size",len(x_test))
 
@@ -122,8 +122,8 @@ for k in datatypes:
     for modeltype in modeltypes:
         for score in scoretypes:
 
-            blub = ph.parameterCollector(add_information="slim",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_independent_scores_slim.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_independent_scores_slim.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","slim_independent")
+            blub = ph.parameterCollector(add_information="GRADE",modeltype=modeltype,scoretype=score)
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_independent_scores_slim.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_independent_scores_slim.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","GRADE_independent")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -142,7 +142,7 @@ for k in datatypes:
             coef_list.append(r_2)
             spear_list.append(spearman_r)
             add_info_list.append(add_info)
-            print(k,modeltype,score,"done (slim)")
+            print(k,modeltype,score,"done (GRADE)")
             print("Training Set size",len(x_train))
             print("Testing Set size",len(x_test))
 
@@ -167,8 +167,8 @@ for k in datatypes:
     for modeltype in modeltypes:
         for score in scoretypes:
 
-            blub = ph.parameterCollector(add_information="GAP",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_dependent_scores_GAP.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_dependent_scores_GAP.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","GAP_dependent")
+            blub = ph.parameterCollector(add_information="X-GRADE",modeltype=modeltype,scoretype=score)
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_dependent_scores_GAP.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_dependent_scores_GAP.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","X-GRADE_dependent")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -187,7 +187,7 @@ for k in datatypes:
             coef_list.append(r_2)
             spear_list.append(spearman_r)
             add_info_list.append(add_info)
-            print(k,modeltype,score,"done (GAP)")
+            print(k,modeltype,score,"done (X-GRADE)")
             print("Training Set size",len(x_train))
             print("Testing Set size",len(x_test))
 
@@ -196,7 +196,7 @@ for k in datatypes:
         for score in scoretypes:
 
             blub = ph.parameterCollector(add_information="slim",modeltype=modeltype,scoretype=score)
-            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_dependent_scores_slim.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_dependent_scores_slim.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","slim_dependent")
+            x_train,x_test,y_train,y_test = ph.prepare_data(score,"/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_refined_set_dependent_scores_slim.csv","/data/shared/projects/pharmacophore_hot_spot_analysis/phantomdragon/data/GRAIL-scores/PDBbind_core_set_dependent_scores_slim.csv",f"../data/PDBbind_refined_set_{k}.csv",f"../data/PDBbind_core_set_all.csv","GRADE_dependent")
             blub.set_trainingdata(x_train,y_train)
             blub.set_testingdata(x_test,y_test)
             blub.set_datatype(f"{k}")
@@ -215,7 +215,7 @@ for k in datatypes:
             coef_list.append(r_2)
             spear_list.append(spearman_r)
             add_info_list.append(add_info)
-            print(k,modeltype,score,"done (slim)")
+            print(k,modeltype,score,"done (GRADE)")
             print("Training Set size",len(x_train))
             print("Testing Set size",len(x_test))
 

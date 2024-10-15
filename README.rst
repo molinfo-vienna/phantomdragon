@@ -2,7 +2,6 @@
 PHANTOMDRAGON
 =============
 
-
 .. image:: https://img.shields.io/pypi/v/phantomdragon.svg
         :target: https://pypi.python.org/pypi/phantomdragon
 
@@ -13,7 +12,8 @@ PHANTOMDRAGON
         :target: https://phantomdragon.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
-
+.. image:: phantomdragon_logo.png
+        :alt: PhantomDragon Logo
 
 
 PHarmacophore bAsed scoriNg funcTiOn iMplementations using DRug interAction Grail scOre calculatioNs

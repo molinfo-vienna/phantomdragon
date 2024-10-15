@@ -262,7 +262,7 @@ timelist =[]
 #             print("Training Set size",len(x_train))
 #             print("Testing Set size",len(x_test))
 
-datatypes = ["all","ki"]
+datatypes = ["all","ki","kd"]
 modeltypes = ["linearRegression","Ridge","Lasso","ElasticNet","SVR","DecisionTree","RandomForest","XGBoost"]
 scoretypes = ["pKd pKi pIC50"]
 descriptor = ["GAP","slim"]
