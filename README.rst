@@ -18,6 +18,8 @@ PHANTOMDRAGON
 
 PHarmacophore bAsed scoriNg funcTiOn iMplementations using DRug interAction Grail scOre calculatioNs
 
+This was used as a backend for the Publication "GRADE and X-GRADE: Unveiling Novel Protein–Ligand Interaction Fingerprints Based on GRAIL Scores" (https://pubs.acs.org/doi/10.1021/acs.jcim.4c01902) and the most recent Version can be found in the GRADE GitHub Repo (https://github.com/molinfo-vienna/GRADE).
+
 
 * Free software: MIT license
 * Documentation: https://phantomdragon.readthedocs.io.
